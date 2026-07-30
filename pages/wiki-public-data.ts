@@ -1,7 +1,58 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-07-29T15:20:14+08:00",
+  "updatedAt": "2026-07-30T17:40:23+08:00",
   "items": [
+    {
+      "id": "ff9f599bcc4a",
+      "title": "一文带你掌握 LLM、Token、Context、Prompt、RAG、MCP、Skill、Agent 等 AI 核心概念",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/mrlUwWk158urYwE4mlETyw",
+      "author": "Shepherd",
+      "published_at": "",
+      "captured_at": "2026-07-30T17:40:23+08:00",
+      "completeness": "full",
+      "topics": [
+        "企业AI",
+        "AI基础概念",
+        "Agent",
+        "知识工程"
+      ],
+      "people": [
+        "Shepherd"
+      ],
+      "concepts": [
+        "LLM",
+        "Token",
+        "Context",
+        "Prompt",
+        "RAG",
+        "MCP",
+        "Skill",
+        "Agent",
+        "ReAct"
+      ],
+      "summary": "文章用一条由底层模型到执行系统的链路，系统解释现代 AI 应用的八个核心概念：LLM 是概率预测与推理引擎，Token 决定计算、成本和容量，Context 是动态组装的临时工作区，Prompt 负责表达任务与约束，RAG 补充外部知识，MCP 标准化工具接入，Skill 沉淀稳定流程，Agent 则把规划、记忆和工具组织成多步执行闭环。作者强调，真实 AI 应用的关键不是单独追求最强模型，而是理解每一层的边界，并把模型、知识、工具和流程组合成可控、可追踪的协同系统。",
+      "keyPoints": [
+        "LLM 本质上通过连续预测下一个 Token 生成内容，在系统中承担理解、规划、归纳和生成，但不天然具备实时知识、外部访问或执行动作的能力。（第2节：LLM）",
+        "Token 不只是分词细节，还直接影响模型调用成本、处理延迟和上下文容量；Prompt、历史消息和检索文档都需要围绕 Token 预算进行管理。（第3节：Token）",
+        "Context 是每次请求动态组装的临时工作区，应围绕当前任务选择系统规则、历史、检索结果和工具结果，而不是无差别塞入全部信息。（第4节：Context）",
+        "Prompt 是任务说明书，通常包含角色、任务、上下文、输出格式、约束和可选示例；它能提高可控性，但不能替代知识补充、结果校验和工具执行。（第5节：Prompt）",
+        "RAG 通过“先检索、再生成”让模型使用最新或私有资料，但最终质量取决于文档质量、切片策略、召回准确性和上下文预算。（第6节：RAG）",
+        "MCP 解决 AI 客户端与外部工具之间的标准化连接问题，把 M×N 的定制集成降低为 M+N；它改善的是基础设施复用，不会直接提高模型智力。（第7节：MCP）",
+        "Skill 是 SOP、模板、脚本和参考资料的可复用能力包，适合沉淀相对稳定的流程；变化频繁的知识更适合由 RAG 管理。（第8节：Skill）",
+        "Agent 将 LLM、规划、记忆和工具组成执行闭环，通过思考、行动、观察和修正持续推进目标；真实工程中需要步数限制、成本控制、权限隔离和人工审核点。（第9节：Agent）",
+        "在完整应用中，Prompt 表达目标，Context 承载任务状态，LLM 规划，RAG 补知识，MCP 接工具，Skill 提供稳定规范，Agent 负责多步推进和交付。（第10节：协同）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "Kimi K3 开放模型权重与技术报告",
+        "销售签单，客户提需求，实施开始干：狗屁不通",
+        "GPT-5.6来了，而许多人还停留在石器时代"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "09986f306f14",
       "title": "Kimi K3 开放模型权重与技术报告",
@@ -176,7 +227,15 @@ export const publicWikiData = {
     "topics": [
       {
         "name": "企业AI",
-        "count": 3
+        "count": 4
+      },
+      {
+        "name": "知识工程",
+        "count": 2
+      },
+      {
+        "name": "Agent",
+        "count": 2
       },
       {
         "name": "产品管理",
@@ -215,19 +274,15 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "知识工程",
-        "count": 1
-      },
-      {
-        "name": "Agent",
-        "count": 1
-      },
-      {
         "name": "AI采用",
         "count": 1
       },
       {
         "name": "AI工具",
+        "count": 1
+      },
+      {
+        "name": "AI基础概念",
         "count": 1
       },
       {
@@ -255,9 +310,17 @@ export const publicWikiData = {
       {
         "name": "Moonshot AI",
         "count": 1
+      },
+      {
+        "name": "Shepherd",
+        "count": 1
       }
     ],
     "concepts": [
+      {
+        "name": "RAG",
+        "count": 2
+      },
       {
         "name": "产品发现",
         "count": 1
@@ -319,11 +382,27 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "Agent",
+        "count": 1
+      },
+      {
         "name": "AI替代焦虑",
         "count": 1
       },
       {
+        "name": "Context",
+        "count": 1
+      },
+      {
         "name": "Kimi K3",
+        "count": 1
+      },
+      {
+        "name": "LLM",
+        "count": 1
+      },
+      {
+        "name": "MCP",
         "count": 1
       },
       {
@@ -335,7 +414,19 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "RAG",
+        "name": "Prompt",
+        "count": 1
+      },
+      {
+        "name": "ReAct",
+        "count": 1
+      },
+      {
+        "name": "Skill",
+        "count": 1
+      },
+      {
+        "name": "Token",
         "count": 1
       },
       {
@@ -346,7 +437,7 @@ export const publicWikiData = {
     "platforms": [
       {
         "name": "wechat-article",
-        "count": 2
+        "count": 3
       },
       {
         "name": "x",
