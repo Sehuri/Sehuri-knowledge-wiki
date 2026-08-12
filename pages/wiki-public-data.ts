@@ -1,7 +1,107 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-07-30T17:40:23+08:00",
+  "updatedAt": "2026-08-12T16:09:53+08:00",
   "items": [
+    {
+      "id": "9422d67248c7",
+      "title": "腾讯WorkBuddy火了，字节和阿里急了",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/gaVBTxXuytOrTPD8VnvDtw",
+      "author": "IC实验室",
+      "published_at": "",
+      "captured_at": "2026-08-12T16:09:53+08:00",
+      "completeness": "full",
+      "topics": [
+        "企业AI",
+        "Agent",
+        "办公智能体",
+        "AI商业化",
+        "互联网大厂"
+      ],
+      "people": [
+        "IC实验室"
+      ],
+      "concepts": [
+        "WorkBuddy",
+        "Chat",
+        "Agent",
+        "上下文",
+        "工具调用",
+        "生产力工具",
+        "多模型",
+        "组织能力",
+        "Obsidian"
+      ],
+      "summary": "文章认为 AI 产品正在从以对话和答案为中心的 Chat 阶段，进入以任务执行和结果交付为中心的 Agent 阶段。Chat 产品切换成本低、算力成本高且价值难量化；Agent 则能围绕目标读取上下文、制定计划、调用工具并交付产物，使用户购买的从“回答”变成可计算的生产力。办公 Agent 的竞争因此不再只是模型能力竞赛，而是模型、工具、数据、权限、协作生态和组织整合能力的综合较量。WorkBuddy 的阶段性领先被归因于腾讯较早把编程 Agent 架构迁移到办公场景、支持多模型，并能利用微信、企微、文档和知识库生态；字节与阿里则通过整合飞书、豆包、钉钉、云和模型资源应战。",
+      "keyPoints": [
+        "Chat 阶段的基本交互是用户提问、模型回答；即使答案更准确，真正订票、整理文件、制作报告等执行工作仍由用户完成。（第01节：Chat 阶段）",
+        "作者用“是否能理解目标、制定计划、调用工具并最终交付结果”作为判断产品是否属于 Agent 的简化标准。（第02节：Agent 的判断标准）",
+        "Agent 改变了人机分工：从“AI 给建议、人执行”变为“人确定目标、AI 执行、人验收”，但错误理解、接口失败和关键判断仍需要人工介入。（第02节：人机分工）",
+        "Chat 产品的答案价值难计算、用户切换成本低且调用持续消耗算力；Agent 能交付可衡量结果，因此更容易形成个人和企业付费。（第01—02节：商业化差异）",
+        "编程 Agent 最早验证商业价值，因为任务结果更容易判断；其“文件夹—工作区—产物”的界面与工作流随后成为办公 Agent 的参考范式。（第02节：编程 Agent）",
+        "大量办公任务包含重复、标准化步骤；当模型达到基本能力线后，能否找到资料、操作软件、接入企业流程并交付产物，比单纯模型排名更重要。（第02节：办公任务）",
+        "WorkBuddy 从腾讯云开发的代码助手架构转向办公场景，并采用多模型形态；作者认为其优势更多来自产品身体和腾讯生态，而非只依赖混元模型。（第03节：WorkBuddy）",
+        "Agent 时代的竞争基本单位从单一模型变为模型、工具、数据、权限和交付链路，因而也是大厂组织协同与生态整合能力的竞争。（第04节：大厂竞争）",
+        "面向个人实践，文章建议先实际使用一种办公 Agent，把可复用成果沉淀到 Obsidian 等知识库，并直接让 AI 根据自己的工作目标规划学习与使用方式。（第05节：三个建议）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "一文带你掌握 LLM、Token、Context、Prompt、RAG、MCP、Skill、Agent 等 AI 核心概念",
+        "用AI辅助写出高质量PRD的正确打开方式",
+        "Kimi K3 开放模型权重与技术报告",
+        "GPT-5.6来了，而许多人还停留在石器时代"
+      ],
+      "extractionNotes": ""
+    },
+    {
+      "id": "3ffe65024eaf",
+      "title": "用AI辅助写出高质量PRD的正确打开方式",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/Js6EKbzzBuY0v7oednRxNg",
+      "author": "人人都是产品经理",
+      "published_at": "",
+      "captured_at": "2026-08-12T16:04:09+08:00",
+      "completeness": "full",
+      "topics": [
+        "产品管理",
+        "需求管理",
+        "AI产品经理",
+        "Agent",
+        "AI项目交付"
+      ],
+      "people": [],
+      "concepts": [
+        "PRD",
+        "产品定型",
+        "JTBD",
+        "Skill",
+        "Agent",
+        "模块化写作",
+        "Shaped Brief",
+        "人机协作"
+      ],
+      "summary": "文章提出一套由 Agent 和两个 Skills 辅助完成高质量 PRD 的两阶段流程：先通过多轮提问，把零散想法拆成产品定型、JTBD、范围、页面流程、待确认问题和最终 brief；再依据产品类型规划 PRD 模块，按模块逐段生成、记录追加日志并由产品经理持续审阅。核心原则是围绕大模型注意力与长输出限制采用小步、聚焦、可反馈的协作方式；AI 可以替代大量动笔工作，但不能替代产品经理对需求、范围和质量的判断。成熟经验应封装为 Skill 和模板，使 Agent 能稳定复用方法论。",
+      "keyPoints": [
+        "高质量 PRD 的前提不是直接生成长文，而是先完成产品定型，让产品经理对用户任务、范围、页面流程和未决问题形成可描述、可评审的清晰认识。（先完成需求定型）",
+        "定型阶段将信息拆分为基础产品描述、JTBD、范围、页面与流程、开放问题和最终 brief，并通过约 3—5 轮补充与修订逐步收敛。（需求定型工作空间）",
+        "把任务拆成多个文档和单一模块，是为了适应大模型长输出容易退化、注意力有限的特性，让每次工作保持聚焦。（为何拆成不同文档）",
+        "产品定型稿不仅为 PRD 奠定基础，也比超长 PRD 更适合直接交给 Codex、Cursor 等开发 Agent 作为实现上下文。（把定型文档直接丢给 Codex）",
+        "PRD 阶段应先选择模块计划，再强制按模块写作并更新追加日志，以形成生成、审阅、确认、继续生成的循环。（第二阶段：写 PRD）",
+        "产品经理可以少动笔，但必须逐段审阅、补充信息和作出判断；可随时反馈的 Agent 是协作工具，而不是自主替代产品经理。（总结一下核心）",
+        "AI 无法弥补产品经理缺失的 PRD 基本功；已有的产品经验、判断标准和模板可以封装成 Skills，让 Agent 稳定复用。（Skill 与模板）",
+        "作者案例用两个 Skills 和 Agent 在不到一小时内形成约 1.7 万字 PRD，但更重要的产出是结构化的需求判断与持续参与过程，而非字数本身。（案例结果）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "销售签单，客户提需求，实施开始干：狗屁不通",
+        "一文带你掌握 LLM、Token、Context、Prompt、RAG、MCP、Skill、Agent 等 AI 核心概念"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "ff9f599bcc4a",
       "title": "一文带你掌握 LLM、Token、Context、Prompt、RAG、MCP、Skill、Agent 等 AI 核心概念",
@@ -227,18 +327,30 @@ export const publicWikiData = {
     "topics": [
       {
         "name": "企业AI",
+        "count": 5
+      },
+      {
+        "name": "Agent",
         "count": 4
+      },
+      {
+        "name": "产品管理",
+        "count": 2
+      },
+      {
+        "name": "需求管理",
+        "count": 2
       },
       {
         "name": "知识工程",
         "count": 2
       },
       {
-        "name": "Agent",
+        "name": "AI项目交付",
         "count": 2
       },
       {
-        "name": "产品管理",
+        "name": "办公智能体",
         "count": 1
       },
       {
@@ -247,6 +359,10 @@ export const publicWikiData = {
       },
       {
         "name": "洱海",
+        "count": 1
+      },
+      {
+        "name": "互联网大厂",
         "count": 1
       },
       {
@@ -262,10 +378,6 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "需求管理",
-        "count": 1
-      },
-      {
         "name": "玉龙雪山",
         "count": 1
       },
@@ -275,6 +387,10 @@ export const publicWikiData = {
       },
       {
         "name": "AI采用",
+        "count": 1
+      },
+      {
+        "name": "AI产品经理",
         "count": 1
       },
       {
@@ -290,7 +406,7 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "AI项目交付",
+        "name": "AI商业化",
         "count": 1
       },
       {
@@ -308,6 +424,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "IC实验室",
+        "count": 1
+      },
+      {
         "name": "Moonshot AI",
         "count": 1
       },
@@ -318,8 +438,20 @@ export const publicWikiData = {
     ],
     "concepts": [
       {
+        "name": "Agent",
+        "count": 3
+      },
+      {
         "name": "RAG",
         "count": 2
+      },
+      {
+        "name": "Skill",
+        "count": 2
+      },
+      {
+        "name": "产品定型",
+        "count": 1
       },
       {
         "name": "产品发现",
@@ -327,6 +459,14 @@ export const publicWikiData = {
       },
       {
         "name": "产品化",
+        "count": 1
+      },
+      {
+        "name": "多模型",
+        "count": 1
+      },
+      {
+        "name": "工具调用",
         "count": 1
       },
       {
@@ -354,7 +494,23 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "模块化写作",
+        "count": 1
+      },
+      {
         "name": "能力边界",
+        "count": 1
+      },
+      {
+        "name": "人机协作",
+        "count": 1
+      },
+      {
+        "name": "上下文",
+        "count": 1
+      },
+      {
+        "name": "生产力工具",
         "count": 1
       },
       {
@@ -382,7 +538,7 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "Agent",
+        "name": "组织能力",
         "count": 1
       },
       {
@@ -390,7 +546,15 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "Chat",
+        "count": 1
+      },
+      {
         "name": "Context",
+        "count": 1
+      },
+      {
+        "name": "JTBD",
         "count": 1
       },
       {
@@ -414,6 +578,14 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "Obsidian",
+        "count": 1
+      },
+      {
+        "name": "PRD",
+        "count": 1
+      },
+      {
         "name": "Prompt",
         "count": 1
       },
@@ -422,11 +594,15 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "Skill",
+        "name": "Shaped Brief",
         "count": 1
       },
       {
         "name": "Token",
+        "count": 1
+      },
+      {
+        "name": "WorkBuddy",
         "count": 1
       },
       {
@@ -437,7 +613,7 @@ export const publicWikiData = {
     "platforms": [
       {
         "name": "wechat-article",
-        "count": 3
+        "count": 5
       },
       {
         "name": "x",
