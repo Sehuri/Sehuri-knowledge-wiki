@@ -1,7 +1,62 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-08-12T16:09:53+08:00",
+  "updatedAt": "2026-08-13T13:59:25+08:00",
   "items": [
+    {
+      "id": "42b243694975",
+      "title": "Harness 是什么？它和 Agent 有什么不同？",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/--fIFuoUGjYnoBAQNUgjVw",
+      "author": "Sophia",
+      "published_at": "",
+      "captured_at": "2026-08-13T13:59:25+08:00",
+      "completeness": "full",
+      "topics": [
+        "Agent",
+        "上下文工程",
+        "AI系统设计",
+        "知识工程",
+        "自我改进"
+      ],
+      "people": [
+        "Sophia",
+        "Lilian Weng"
+      ],
+      "concepts": [
+        "Harness",
+        "Loop Engineering",
+        "文件系统记忆",
+        "子智能体",
+        "ACE",
+        "MCE",
+        "Skill",
+        "ADAS",
+        "AFlow",
+        "RSI"
+      ],
+      "summary": "文章把 Harness 理解为围绕基础模型搭建、用代码规定 AI 如何规划、调用工具、管理上下文与记忆、评估结果和失败重试的执行系统。相较于通常由规划、记忆、工具和执行构成的 Agent，作者认为 Harness 更强调持续到目标达成的闭环、以文件系统承载长期状态、对子智能体和后台任务的显式管理，以及依据反馈改进系统的能力。文章进一步区分两类局部优化：ACE、MCE 面向上下文与 Skill 的动态演化，ADAS、AFlow 面向工作流搜索；只有当 AI 能直接修改并评估 Harness 自身的代码逻辑时，才进入作者所说的递归式自我改进。",
+      "keyPoints": [
+        "Harness 是包围基础模型的代码系统，负责规定任务规划、工具调用、上下文与记忆管理、结果评估和错误重试方式。（第一节：什么是 Harness）",
+        "文章用循环工程、文件系统持久记忆和自我改善系统三层能力区分 Harness 与一般 Agent，但这一边界属于作者采用的解释框架，并非唯一行业定义。（Harness 与 Agent 的区别）",
+        "闭环工作流按照计划、执行、观察或测试、改进、再次执行循环，直到目标达成或终止条件触发。（模式一：工作流自动化）",
+        "长周期任务不应把日志、代码差异、错误轨迹和历史记录全部塞进 Prompt；写入文件系统可以突破上下文容量限制并支持中断恢复。（模式二：文件系统作为持久记忆）",
+        "复杂任务可以交给多个子智能体并行探索，主智能体通过可检查的进程管理器启动、观察、取消任务并合并结果，同时把状态持久化。（模式三：子智能体与后台任务）",
+        "ACE 用生成器、反思器和策展器分离执行、经验提取与知识合并，并通过增量更新及 Grow-and-Refine 管理动态上下文。（Harness 的上下文优化：ACE）",
+        "MCE 将上下文内容与管理机制分离，用 Skill 封装静态资料和动态搜索、筛选、格式化操作，并以双层循环共同优化 Skill 与上下文。（Harness 的上下文优化：MCE）",
+        "ADAS 把智能体设计视为代码生成和评估问题，AFlow 则把工作流表示为图并用蒙特卡洛树搜索迭代优化。（Harness 的工作流优化）",
+        "上下文优化和工作流优化都只改变 Harness 的局部；作者认为真正的 RSI 需要 AI 直接修改、测试和选择 Harness 程序自身的代码。（两个方向的共同主线）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "一文带你掌握 LLM、Token、Context、Prompt、RAG、MCP、Skill、Agent 等 AI 核心概念",
+        "腾讯WorkBuddy火了，字节和阿里急了",
+        "用AI辅助写出高质量PRD的正确打开方式",
+        "Kimi K3 开放模型权重与技术报告"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "9422d67248c7",
       "title": "腾讯WorkBuddy火了，字节和阿里急了",
@@ -331,7 +386,11 @@ export const publicWikiData = {
       },
       {
         "name": "Agent",
-        "count": 4
+        "count": 5
+      },
+      {
+        "name": "知识工程",
+        "count": 3
       },
       {
         "name": "产品管理",
@@ -339,10 +398,6 @@ export const publicWikiData = {
       },
       {
         "name": "需求管理",
-        "count": 2
-      },
-      {
-        "name": "知识工程",
         "count": 2
       },
       {
@@ -378,11 +433,19 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "上下文工程",
+        "count": 1
+      },
+      {
         "name": "玉龙雪山",
         "count": 1
       },
       {
         "name": "云南旅游",
+        "count": 1
+      },
+      {
+        "name": "自我改进",
         "count": 1
       },
       {
@@ -410,6 +473,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "AI系统设计",
+        "count": 1
+      },
+      {
         "name": "GPT-5.6",
         "count": 1
       }
@@ -428,11 +495,19 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "Lilian Weng",
+        "count": 1
+      },
+      {
         "name": "Moonshot AI",
         "count": 1
       },
       {
         "name": "Shepherd",
+        "count": 1
+      },
+      {
+        "name": "Sophia",
         "count": 1
       }
     ],
@@ -442,11 +517,11 @@ export const publicWikiData = {
         "count": 3
       },
       {
-        "name": "RAG",
-        "count": 2
+        "name": "Skill",
+        "count": 3
       },
       {
-        "name": "Skill",
+        "name": "RAG",
         "count": 2
       },
       {
@@ -518,6 +593,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "文件系统记忆",
+        "count": 1
+      },
+      {
         "name": "行程规划",
         "count": 1
       },
@@ -538,7 +617,23 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "子智能体",
+        "count": 1
+      },
+      {
         "name": "组织能力",
+        "count": 1
+      },
+      {
+        "name": "ACE",
+        "count": 1
+      },
+      {
+        "name": "ADAS",
+        "count": 1
+      },
+      {
+        "name": "AFlow",
         "count": 1
       },
       {
@@ -554,6 +649,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "Harness",
+        "count": 1
+      },
+      {
         "name": "JTBD",
         "count": 1
       },
@@ -563,6 +662,14 @@ export const publicWikiData = {
       },
       {
         "name": "LLM",
+        "count": 1
+      },
+      {
+        "name": "Loop Engineering",
+        "count": 1
+      },
+      {
+        "name": "MCE",
         "count": 1
       },
       {
@@ -594,6 +701,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "RSI",
+        "count": 1
+      },
+      {
         "name": "Shaped Brief",
         "count": 1
       },
@@ -613,7 +724,7 @@ export const publicWikiData = {
     "platforms": [
       {
         "name": "wechat-article",
-        "count": 5
+        "count": 6
       },
       {
         "name": "x",
