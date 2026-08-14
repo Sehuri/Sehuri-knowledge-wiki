@@ -1,7 +1,60 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-08-13T16:22:44+08:00",
+  "updatedAt": "2026-08-14T09:23:19+08:00",
   "items": [
+    {
+      "id": "bb22df850571",
+      "title": "突发 | DeepSeek V4 Pro 上线，逼近 Fable 5",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/PG4Z83m7hIhSB0nErJHRSA",
+      "author": "APPSO（发现明日产品的）",
+      "published_at": "",
+      "captured_at": "2026-08-14T09:23:19+08:00",
+      "completeness": "partial",
+      "topics": [
+        "AI模型",
+        "Agent",
+        "AI基础设施",
+        "AI商业化"
+      ],
+      "people": [
+        "APPSO",
+        "DeepSeek"
+      ],
+      "concepts": [
+        "DeepSeek V4 Pro",
+        "DeepSeek V4 Flash",
+        "长上下文",
+        "Tool Calls",
+        "Responses API",
+        "Anthropic API",
+        "FIM补全",
+        "Token定价",
+        "并发限制",
+        "思考模式"
+      ],
+      "summary": "文章介绍 DeepSeek V4 Pro 正式版本及其 API 定位：模型提供 1M 上下文、最高 384K Token 输出，默认启用思考模式，并支持 JSON Output、Tool Calls、Responses API、Anthropic API、对话前缀续写和非思考模式下的 FIM 补全。当前 Pro 的缓存命中输入、缓存未命中输入和输出价格分别为每百万 Token 0.025 元、3 元和 6 元，后两项约为 Flash 的 3 倍；基础并发限制则为 500，低于 Flash 的 2500。作者据此把 Flash 归为低成本、高并发调用选项，把 Pro 归为面向长代码库、大文档和多步骤 Agent/Coding 任务的高规格服务。文章标题中的跑分比较依赖未提取到的图片，不能据现有文字确认。",
+      "keyPoints": [
+        "文章称 deepseek-v4-pro 对应的版本更新为 DeepSeek-V4-Pro-0813；当前官方价格页展示 deepseek-v4-pro，但公开检索到的页面未明确呈现该 0813 版本后缀。（正文第 1—2 段）",
+        "V4 Pro 支持 1M 上下文和最高 384K Token 输出，同时支持非思考与思考模式，默认启用思考模式；这些规格与 DeepSeek 官方模型与价格页一致。（正文第 3—4 段）",
+        "文章认为超长上下文和大输出容量适合长代码库、大规模文档处理及连续多步骤 Agent 任务；这是作者基于规格给出的使用场景判断。（正文第 4 段）",
+        "API 能力包括 JSON Output、Tool Calls、Responses API、Anthropic API、Beta 对话前缀续写和 FIM 补全，其中 FIM 仅限非思考模式；接入兼容 OpenAI 与 Anthropic 格式。（正文第 5—7 段）",
+        "文章记录的 Pro 单价为每百万 Token：缓存命中输入 0.025 元、缓存未命中输入 3 元、输出 6 元；Flash 对应为 0.02 元、1 元和 2 元。该价格与核验时的 DeepSeek 官方人民币价格页一致。（正文第 8—10 段）",
+        "Pro 的基础并发限制为 500，Flash 为 2500；作者据此把 Flash 定位为高频、大规模调用，把 Pro 定位为更高规格任务。官方限速页说明账号可通过工单申请扩容，因此 500/2500 并非不可调整的绝对上限。（正文第 11—12 段）",
+        "文章把 V4 产品线概括为两档：Flash 强调低成本和高并发，Pro 强调更高规格，并继续面向 Agent 与 Coding 场景扩展。（正文结尾）",
+        "标题声称模型跑分‘逼近 Fable 5’，但正文只出现‘跑分图如下’，当前提取未获得图表内容，因此无法可靠总结比较对象、指标或差距。（标题与正文跑分图位置）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "Kimi K3 开放模型权重与技术报告",
+        "Harness 是什么？它和 Agent 有什么不同？",
+        "一文带你掌握 LLM、Token、Context、Prompt、RAG、MCP、Skill、Agent 等 AI 核心概念",
+        "腾讯WorkBuddy火了，字节和阿里急了"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "502a782fc0a9",
       "title": "【Zlibrary推荐】侦探小说排行榜！",
@@ -433,11 +486,11 @@ export const publicWikiData = {
   "facets": {
     "topics": [
       {
-        "name": "企业AI",
-        "count": 5
+        "name": "Agent",
+        "count": 6
       },
       {
-        "name": "Agent",
+        "name": "企业AI",
         "count": 5
       },
       {
@@ -450,6 +503,14 @@ export const publicWikiData = {
       },
       {
         "name": "需求管理",
+        "count": 2
+      },
+      {
+        "name": "AI模型",
+        "count": 2
+      },
+      {
+        "name": "AI商业化",
         "count": 2
       },
       {
@@ -533,11 +594,7 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "AI模型",
-        "count": 1
-      },
-      {
-        "name": "AI商业化",
+        "name": "AI基础设施",
         "count": 1
       },
       {
@@ -575,6 +632,14 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "APPSO",
+        "count": 1
+      },
+      {
+        "name": "DeepSeek",
+        "count": 1
+      },
+      {
         "name": "IC实验室",
         "count": 1
       },
@@ -609,6 +674,10 @@ export const publicWikiData = {
         "count": 3
       },
       {
+        "name": "长上下文",
+        "count": 2
+      },
+      {
         "name": "RAG",
         "count": 2
       },
@@ -618,6 +687,10 @@ export const publicWikiData = {
       },
       {
         "name": "本格推理",
+        "count": 1
+      },
+      {
+        "name": "并发限制",
         "count": 1
       },
       {
@@ -709,6 +782,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "思考模式",
+        "count": 1
+      },
+      {
         "name": "推理基础设施",
         "count": 1
       },
@@ -734,10 +811,6 @@ export const publicWikiData = {
       },
       {
         "name": "原生多模态",
-        "count": 1
-      },
-      {
-        "name": "长上下文",
         "count": 1
       },
       {
@@ -769,11 +842,27 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "Anthropic API",
+        "count": 1
+      },
+      {
         "name": "Chat",
         "count": 1
       },
       {
         "name": "Context",
+        "count": 1
+      },
+      {
+        "name": "DeepSeek V4 Flash",
+        "count": 1
+      },
+      {
+        "name": "DeepSeek V4 Pro",
+        "count": 1
+      },
+      {
+        "name": "FIM补全",
         "count": 1
       },
       {
@@ -829,6 +918,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "Responses API",
+        "count": 1
+      },
+      {
         "name": "RSI",
         "count": 1
       },
@@ -838,6 +931,14 @@ export const publicWikiData = {
       },
       {
         "name": "Token",
+        "count": 1
+      },
+      {
+        "name": "Token定价",
+        "count": 1
+      },
+      {
+        "name": "Tool Calls",
         "count": 1
       },
       {
@@ -852,7 +953,7 @@ export const publicWikiData = {
     "platforms": [
       {
         "name": "wechat-article",
-        "count": 7
+        "count": 8
       },
       {
         "name": "x",
