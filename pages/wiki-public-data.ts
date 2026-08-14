@@ -1,7 +1,68 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-08-14T09:23:19+08:00",
+  "updatedAt": "2026-08-14T13:58:37+08:00",
   "items": [
+    {
+      "id": "dc6a6a0636dc",
+      "title": "深度体验DeepSeek Harness，我原谅它涨价了",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/j5lAcwv2xiUSoWNlrKLwQQ",
+      "author": "Jay（量子位）",
+      "published_at": "",
+      "captured_at": "2026-08-14T13:58:37+08:00",
+      "completeness": "full",
+      "topics": [
+        "Agent",
+        "AI系统设计",
+        "开源软件",
+        "自我改进",
+        "开发者工具"
+      ],
+      "people": [
+        "Jay",
+        "量子位",
+        "DeepSeek"
+      ],
+      "concepts": [
+        "DeepSeek Harness",
+        "Cordis",
+        "插件架构",
+        "Agent预设",
+        "Trajectory",
+        "Code Mode",
+        "Skill",
+        "子智能体",
+        "上下文压缩",
+        "长程任务",
+        "缓存命中率",
+        "插件生态"
+      ],
+      "summary": "文章基于近半个月内测，把 DeepSeek Harness（DSH）描述为面向开发者、可高度定制的开源 Agent 运行时。产品层面，它提供 Web UI、工作目录与 Agent 预设、任务轨迹回放、Skills、目标与计划、子代理及 Token/缓存统计，并允许接入其他模型；作者认为其交互成熟度仍落后于 Codex，但在若干个人 Demo 中表现出更愿意持续执行和返工的长程任务倾向。架构层面，DSH 以 Cordis 为插件底座，把模型、工具、策略、存储和上下文管理拆成可替换组件；作者据此将其类比为“Agent 时代的安卓”，并推测社区插件的产生、筛选和回流可能形成一种可参与的系统自进化路径。不过，作者也承认这一价值目前更偏向极客和开发者，普通用户要等高质量插件生态成熟后才可能明显受益。",
+      "keyPoints": [
+        "DeepSeek Harness 已公开源代码；作者把它视为一套为 DIY 和自进化设计的 Agent Harness，模型、工具、策略、存储与上下文管理均可作为可插拔组件。（开篇）",
+        "官方提供两种启动方式：通过 Node.js 环境执行 npx @deepseek-ai/dsh web，或克隆 deepseek-ai/deepseek-harness 仓库从源码安装；当前主要通过浏览器 Web UI 使用。（DSH‘最不绕弯子’说明书）",
+        "文章列出标准、PTC、极简、创造四类预设：分别覆盖完整编码 Agent、TypeScript Code Mode SDK、最小工具基准环境，以及运行时检查与插件实验；同时支持自定义预设。（Agent 预设部分）",
+        "Trajectory 轨迹功能展示原始事件级记录，可用于回放 Agent 的工具链行为、定位失败环节和观察成本；它与经过润色的聊天视图承担不同职责。（轨迹功能部分）",
+        "仓库内置面向开发的 Skills，文章举例包括 PR 审查、代码简化、文档标准与全仓库文字规范，体现 Harness 对可复用工作方法的封装。（内置 Skill 部分）",
+        "作者体验中，DSH 会在需求不明确时主动提问并提供选项，也支持上下文压缩、目标、计划、Skills 和任务清单；但 UI 细节、右侧工作区、浏览器和文件预览等方面仍不如 Codex 完整。（交互体验部分）",
+        "作者以相同 DeepSeek V4 Flash 和推理强度对比 DSH 与 Codex，主观认为 DSH 在部分复杂 Demo 中运行更久、返工更多、交付更完整；这些是少量个人案例，不构成受控基准测试。（一手实测）",
+        "Cordis 被作者比作乐高底板：Agent 运行时由独立插件组合，开发者可以替换现有组件或新增插件；官方仓库也明确以‘Everything is a Plugin’概括架构。（Agent时代的安卓）",
+        "文章把 DSH 与作者所理解的 Codex 架构作对比：前者强调运行时核心的开放组合，后者更像一体化核心加外部扩展。该对比属于作者的架构解读，并非双方官方给出的统一分类。（Cordis 与 Codex 对比）",
+        "作者设想模型可在 Cordis 协议下创建和安装插件，再由大规模用户生态筛选优秀插件并回流主线，形成面向系统的自进化；但也明确承认当前对普通用户帮助有限，价值依赖未来插件生态。（剑指自进化）",
+        "DeepSeek 官方仓库标注项目仍处于 developer preview，并警告未来会有破坏兼容性的变化，因此文章描述的功能和安装方式可能快速迭代。（AI 独立核验：官方 README）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "Harness 是什么？它和 Agent 有什么不同？",
+        "突发 ",
+        "一文带你掌握 LLM、Token、Context、Prompt、RAG、MCP、Skill、Agent 等 AI 核心概念",
+        "腾讯WorkBuddy火了，字节和阿里急了",
+        "Kimi K3 开放模型权重与技术报告"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "bb22df850571",
       "title": "突发 | DeepSeek V4 Pro 上线，逼近 Fable 5",
@@ -487,7 +548,7 @@ export const publicWikiData = {
     "topics": [
       {
         "name": "Agent",
-        "count": 6
+        "count": 7
       },
       {
         "name": "企业AI",
@@ -506,11 +567,19 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "自我改进",
+        "count": 2
+      },
+      {
         "name": "AI模型",
         "count": 2
       },
       {
         "name": "AI商业化",
+        "count": 2
+      },
+      {
+        "name": "AI系统设计",
         "count": 2
       },
       {
@@ -534,7 +603,15 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "开发者工具",
+        "count": 1
+      },
+      {
         "name": "开源模型",
+        "count": 1
+      },
+      {
+        "name": "开源软件",
         "count": 1
       },
       {
@@ -574,10 +651,6 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "自我改进",
-        "count": 1
-      },
-      {
         "name": "AI采用",
         "count": 1
       },
@@ -598,15 +671,15 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "AI系统设计",
-        "count": 1
-      },
-      {
         "name": "GPT-5.6",
         "count": 1
       }
     ],
     "people": [
+      {
+        "name": "DeepSeek",
+        "count": 2
+      },
       {
         "name": "JackShrINe",
         "count": 2
@@ -632,15 +705,19 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "量子位",
+        "count": 1
+      },
+      {
         "name": "APPSO",
         "count": 1
       },
       {
-        "name": "DeepSeek",
+        "name": "IC实验室",
         "count": 1
       },
       {
-        "name": "IC实验室",
+        "name": "Jay",
         "count": 1
       },
       {
@@ -666,15 +743,19 @@ export const publicWikiData = {
     ],
     "concepts": [
       {
+        "name": "Skill",
+        "count": 4
+      },
+      {
         "name": "Agent",
         "count": 3
       },
       {
-        "name": "Skill",
-        "count": 3
+        "name": "长上下文",
+        "count": 2
       },
       {
-        "name": "长上下文",
+        "name": "子智能体",
         "count": 2
       },
       {
@@ -695,6 +776,14 @@ export const publicWikiData = {
       },
       {
         "name": "不可靠叙述者",
+        "count": 1
+      },
+      {
+        "name": "插件架构",
+        "count": 1
+      },
+      {
+        "name": "插件生态",
         "count": 1
       },
       {
@@ -742,6 +831,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "缓存命中率",
+        "count": 1
+      },
+      {
         "name": "技术泡沫",
         "count": 1
       },
@@ -775,6 +868,10 @@ export const publicWikiData = {
       },
       {
         "name": "上下文",
+        "count": 1
+      },
+      {
+        "name": "上下文压缩",
         "count": 1
       },
       {
@@ -814,11 +911,11 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "知识治理",
+        "name": "长程任务",
         "count": 1
       },
       {
-        "name": "子智能体",
+        "name": "知识治理",
         "count": 1
       },
       {
@@ -838,6 +935,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "Agent预设",
+        "count": 1
+      },
+      {
         "name": "AI替代焦虑",
         "count": 1
       },
@@ -850,7 +951,19 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "Code Mode",
+        "count": 1
+      },
+      {
         "name": "Context",
+        "count": 1
+      },
+      {
+        "name": "Cordis",
+        "count": 1
+      },
+      {
+        "name": "DeepSeek Harness",
         "count": 1
       },
       {
@@ -942,6 +1055,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "Trajectory",
+        "count": 1
+      },
+      {
         "name": "WorkBuddy",
         "count": 1
       },
@@ -953,7 +1070,7 @@ export const publicWikiData = {
     "platforms": [
       {
         "name": "wechat-article",
-        "count": 8
+        "count": 9
       },
       {
         "name": "x",
