@@ -1,7 +1,54 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-08-17T11:38:15+08:00",
+  "updatedAt": "2026-08-17T14:55:43+08:00",
   "items": [
+    {
+      "id": "267c901fb944",
+      "title": "你知道商场把1楼改成LG，能多挣几百万吗？",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/LeCDiD7GQYslcJz29Te75A",
+      "author": "我的情绪孤岛",
+      "published_at": "",
+      "captured_at": "2026-08-17T14:55:43+08:00",
+      "completeness": "full",
+      "topics": [
+        "商业地产",
+        "消费行为",
+        "空间设计",
+        "品牌营销",
+        "城市商业"
+      ],
+      "people": [
+        "我的情绪孤岛"
+      ],
+      "concepts": [
+        "LG楼层",
+        "地下空间",
+        "楼层命名",
+        "商业动线",
+        "业态组合",
+        "土地价款",
+        "租金溢价",
+        "停留时间",
+        "冲动消费"
+      ],
+      "summary": "文章从商场里 G、LG、UG、B1 等楼层名称造成的方向困惑切入，追溯英国 Ground Floor/First Floor 的传统及其在香港山地商业建筑中的适应性，继而主张这套命名在内地商场被转化为品牌塑造和经营工具。作者用三笔账解释其商业逻辑：地下空间可能享有较低的土地价款；把地下商业层包装为 LG 有助于改善招商印象和租金预期；复杂动线与业态分层可以延长顾客停留时间、增加偶发消费。需要注意的是，文章把空间命名与土地成本、税基直接挂钩的说法夸大了因果关系：官方规则依据规划批准的地下范围、竖向高程、层数和用途认定地下空间，不能仅靠把 B1 改叫 LG 改变法律属性。",
+      "keyPoints": [
+        "文章认为 G、LG、UG 等命名最初既与英国楼层传统有关，也适应香港坡地建筑存在多个地面入口的现实。（前半部分：楼层命名的历史与香港地形）",
+        "港资商业项目进入内地后，这套命名也被赋予高端、国际化的品牌感知；作者将字母命名视为一种空间包装。（中段：港资商场与命名的高级感）",
+        "第一笔账是地下空间的土地成本。文中引用的青岛规则基本属实：负一层按地表同用途地价三分之一、负二层按六分之一测算，负三层及以下不收土地价款。（第一笔账：土地和税；青岛市官方文件核验）",
+        "但文章进一步声称楼层命名决定空间是否算地下、是否缴纳相关费用，缺乏官方依据。青岛规则要求以主管部门批准的范围、竖向高程、层数、用途和建筑面积为准，而不是商场面向顾客使用的楼层标签。（第一笔账：土地和税；青岛市官方文件核验）",
+        "第二笔账是招商与租金：作者认为 LG 比 B1 更能减弱地下室印象、吸引品牌进驻，并借品牌背书提高其他商户的租金接受度。文中的具体租金案例未给出可追溯来源。（第二笔账：招商和租金）",
+        "商场通常按楼层配置业态：高曝光层放奢侈品，连接地铁的地下层放超市餐饮，较低租金的高楼层放亲子等高停留时长业态，以协调租金、人流和停留时间。（第二笔账：业态与楼层安排）",
+        "第三笔账是消费者时间：文章把复杂楼层与动线设计解释为延长顾客停留、增加沿途接触和冲动消费机会的转化机制。（第三笔账：你的时间）",
+        "标题中的‘多挣几百万’是作者对节省土地成本、提高租金和增加消费的合并叙事，并非基于一座具体商场完整财务数据得出的可验证测算。（结尾：三笔账汇总）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [],
+      "extractionNotes": ""
+    },
     {
       "id": "0488f81ffc4b",
       "title": "Codex正式开放1M上下文！解除GPT-5.6 Sol封印，三行配置搞定",
@@ -879,6 +926,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "城市商业",
+        "count": 1
+      },
+      {
         "name": "大理",
         "count": 1
       },
@@ -903,6 +954,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "空间设计",
+        "count": 1
+      },
+      {
         "name": "拉丁美洲文学",
         "count": 1
       },
@@ -919,6 +974,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "品牌营销",
+        "count": 1
+      },
+      {
         "name": "人物传记",
         "count": 1
       },
@@ -927,7 +986,15 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "商业地产",
+        "count": 1
+      },
+      {
         "name": "推理小说",
+        "count": 1
+      },
+      {
+        "name": "消费行为",
         "count": 1
       },
       {
@@ -1022,6 +1089,10 @@ export const publicWikiData = {
       },
       {
         "name": "让-保罗·萨特",
+        "count": 1
+      },
+      {
+        "name": "我的情绪孤岛",
         "count": 1
       },
       {
@@ -1167,6 +1238,14 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "冲动消费",
+        "count": 1
+      },
+      {
+        "name": "地下空间",
+        "count": 1
+      },
+      {
         "name": "多模型",
         "count": 1
       },
@@ -1251,6 +1330,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "楼层命名",
+        "count": 1
+      },
+      {
         "name": "旅行摄影",
         "count": 1
       },
@@ -1276,6 +1359,10 @@ export const publicWikiData = {
       },
       {
         "name": "人机协作",
+        "count": 1
+      },
+      {
+        "name": "商业动线",
         "count": 1
       },
       {
@@ -1323,6 +1410,14 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "停留时间",
+        "count": 1
+      },
+      {
+        "name": "土地价款",
+        "count": 1
+      },
+      {
         "name": "推理基础设施",
         "count": 1
       },
@@ -1359,6 +1454,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "业态组合",
+        "count": 1
+      },
+      {
         "name": "遗忘",
         "count": 1
       },
@@ -1388,6 +1487,10 @@ export const publicWikiData = {
       },
       {
         "name": "自我保护",
+        "count": 1
+      },
+      {
+        "name": "租金溢价",
         "count": 1
       },
       {
@@ -1468,6 +1571,10 @@ export const publicWikiData = {
       },
       {
         "name": "Kimi K3",
+        "count": 1
+      },
+      {
+        "name": "LG楼层",
         "count": 1
       },
       {
@@ -1554,7 +1661,7 @@ export const publicWikiData = {
     "platforms": [
       {
         "name": "wechat-article",
-        "count": 11
+        "count": 12
       },
       {
         "name": "web",
