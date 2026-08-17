@@ -1,7 +1,230 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-08-17T14:55:43+08:00",
+  "updatedAt": "2026-08-17T19:18:29+08:00",
   "items": [
+    {
+      "id": "14c9e2e50b31",
+      "title": "《飘》的价值观：真正的爱是尊重，而不是改造",
+      "platform": "web",
+      "content_type": "article",
+      "source_url": "https://zhihu.com/question/20312178/answer/2637268734",
+      "author": "匿名用户",
+      "published_at": "2022-08-21T08:58:00+08:00",
+      "captured_at": "2026-08-17T19:18:29+08:00",
+      "completeness": "full",
+      "topics": [
+        "文学",
+        "人物分析",
+        "女性成长",
+        "亲密关系",
+        "阅读"
+      ],
+      "people": [
+        "玛格丽特·米切尔"
+      ],
+      "concepts": [
+        "《飘》",
+        "斯嘉丽",
+        "瑞德",
+        "梅兰妮",
+        "尊重",
+        "改造",
+        "女性主体性"
+      ],
+      "summary": "答主用斯嘉丽、瑞德和梅兰妮之间的关系概括《飘》的一种价值观：理解一个人并不等于真正爱她，爱更应表现为尊重和支持，而不是把对方改造成自己期望的样子。瑞德和梅兰妮都了解斯嘉丽，但答主认为瑞德倾向于改造她，梅兰妮则始终支持她，因此梅兰妮才是作品中真正爱斯嘉丽的人。两位女性的关系还被答主理解为一种精神成长启示：人在女性身份之外，也要锻炼独立、完整的人的灵魂。",
+      "keyPoints": [
+        "核心判断是爱应以尊重对方为基础，而不是以理解之名改造对方。（回答第1段）",
+        "瑞德与梅兰妮都理解斯嘉丽，但答主以是否持续支持她区分两者的爱。（回答第2段）",
+        "梅兰妮与斯嘉丽的关系被提升为女性主体性和人格成长的启示。（回答第3段）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "《舞舞舞》中的雪——敏感、自我保护与回归社会",
+        "《舞舞舞》表达了什么？——在持续失去中继续跳舞"
+      ],
+      "extractionNotes": ""
+    },
+    {
+      "id": "cda10eb39b6c",
+      "title": "拉丁美洲文学入门书单：从经典名家到实验小说",
+      "platform": "web",
+      "content_type": "article",
+      "source_url": "https://zhihu.com/question/56054726/answer/2533971105",
+      "author": "应物兄",
+      "published_at": "",
+      "captured_at": "2026-08-17T19:18:29+08:00",
+      "completeness": "partial",
+      "topics": [
+        "文学",
+        "拉丁美洲文学",
+        "阅读推荐",
+        "类型文学"
+      ],
+      "people": [
+        "应物兄",
+        "马里奥·巴尔加斯·略萨",
+        "加夫列尔·加西亚·马尔克斯",
+        "豪尔赫·路易斯·博尔赫斯",
+        "胡安·鲁尔福"
+      ],
+      "concepts": [
+        "魔幻现实主义",
+        "文学爆炸",
+        "新巴洛克",
+        "后现代主义",
+        "意识流",
+        "元叙事",
+        "《百年孤独》",
+        "《佩德罗·巴拉莫》"
+      ],
+      "summary": "答主以个人评分整理拉丁美洲文学书单。五星部分集中于略萨、马尔克斯、富恩特斯、胡安·鲁尔福、阿斯图里亚斯、阿连德、博尔赫斯、普伊格、贝内德蒂、卡彭铁尔、科塔萨尔、多诺索和奥内蒂等作家；四星部分进一步加入波拉尼奥、皮格利亚、阿尔特、巴斯托斯、李斯佩克朵和萨瓦托。推荐维度不仅是故事好读程度，也关注独裁与政治、家族历史、魔幻现实、新巴洛克、意识流、元叙事、文字游戏和后现代结构。对初学者而言，可先从《百年孤独》《佩德罗·巴拉莫》《城市与狗》《蜘蛛女之吻》《遥远的星辰》等代表作进入，再尝试《最明净的地区》《三只忧伤的老虎》《污秽的夜鸟》等高密度实验文本。",
+      "keyPoints": [
+        "五星核心包括略萨的《酒吧长谈》《城市与狗》，马尔克斯的《百年孤独》，鲁尔福的《佩德罗·巴拉莫》等。（五星书单前半）",
+        "答主尤其重视作品的形式创新，如多视角、书信体、意识流、元叙事、文字游戏和时空交错。（五星书单评语）",
+        "四星部分补充波拉尼奥《遥远的星辰》《荒野侦探》、李斯佩克朵《星辰时刻》、萨瓦托《隧道》等。（四星书单）",
+        "书单同时覆盖魔幻现实、政治独裁、革命历史、心理小说与后现代实验等多条拉美文学路径。（书单整体归纳）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "《百年孤独》伟大在哪？——魔幻现实、历史轮回与孤独",
+        "祝你和加缪一样，拥有一个不可战胜的夏天"
+      ],
+      "extractionNotes": ""
+    },
+    {
+      "id": "1cb81ce0ecb3",
+      "title": "村上春树作品中出现的书籍：《且听风吟》篇",
+      "platform": "web",
+      "content_type": "article",
+      "source_url": "https://zhihu.com/question/26225494/answer/147159550",
+      "author": "晏君",
+      "published_at": "2017-02-18T20:57:00+08:00",
+      "captured_at": "2026-08-17T19:18:29+08:00",
+      "completeness": "partial",
+      "topics": [
+        "文学",
+        "日本文学",
+        "阅读推荐",
+        "书单"
+      ],
+      "people": [
+        "晏君",
+        "村上春树",
+        "列夫·托尔斯泰",
+        "罗曼·罗兰"
+      ],
+      "concepts": [
+        "《且听风吟》",
+        "文学互文",
+        "作品书目",
+        "村上春树书单"
+      ],
+      "summary": "答主计划从村上春树作品中逐页整理被提及的书籍，当前只完成《且听风吟》部分。列出的作品包括田纳西·威廉斯《热铁皮屋顶上的猫》、罗杰·瓦迪姆《较之贫瘠的真实我更爱华丽的虚伪》、米什莱《女巫》、卡赞扎基斯《基督最后的诱惑》、罗曼·罗兰《约翰·克利斯朵夫》、托尔斯泰《战争与和平》，以及署名哈特菲尔德的《绕虹一周半》《佛兰德的狗》《火星的井》。这不是完整的“村上春树推荐书单”，而是对小说内互文书目的初步摘录。",
+      "keyPoints": [
+        "回答采用从村上作品中逐页寻找书名的方式，而不是整理村上正式推荐或评论过的全部书籍。（开头说明）",
+        "目前仅列出《且听风吟》中出现的九部作品。（小说类：《且听风吟》中出现的书）",
+        "答主明确写明‘未完待续’，所以该回答不能视为完整书单。（回答结尾）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "《舞舞舞》表达了什么？——在持续失去中继续跳舞",
+        "《舞舞舞》中的雪——敏感、自我保护与回归社会"
+      ],
+      "extractionNotes": ""
+    },
+    {
+      "id": "2d0129604e98",
+      "title": "埃勒里·奎因小说阅读顺序：四个创作时期与入门路线",
+      "platform": "web",
+      "content_type": "article",
+      "source_url": "https://zhihu.com/question/310487897/answer/1010769442",
+      "author": "幻镜止水",
+      "published_at": "",
+      "captured_at": "2026-08-17T19:18:29+08:00",
+      "completeness": "full",
+      "topics": [
+        "侦探文学",
+        "推理小说",
+        "阅读推荐",
+        "类型文学"
+      ],
+      "people": [
+        "幻镜止水",
+        "埃勒里·奎因",
+        "爱德华·霍克"
+      ],
+      "concepts": [
+        "国名系列",
+        "悲剧系列",
+        "莱特镇",
+        "古典解谜",
+        "逻辑推理",
+        "代笔作品",
+        "译本选择",
+        "阅读顺序"
+      ],
+      "summary": "答主按四个创作时期组织埃勒里·奎因的阅读顺序。第一时期以悲剧系列和国名系列为核心，适合从高评价的古典逻辑推理入门；第二时期由《半途之屋》开启转型，经好莱坞系列和《上帝之灯》展现更强的情节与风格变化；第三时期从《灾难之城》开始，把悲剧、人性、莱特镇和心证推理推到前台，答主特别提醒《十日惊奇》《九尾怪猫》《恶之源》不宜连续阅读；第四时期包含较多代笔和异色作品，可看《然后在第八天》《恐怖的研究》，并以《脸对脸》《生命中最后的女人》等晚期作品收束。回答还细致提醒不同译本的漏译、译名差异和作品间的小彩蛋，属于兼顾出版版本与阅读体验的粉丝路线图。",
+      "keyPoints": [
+        "第一时期优先读悲剧系列和国名系列；国名系列可从《希腊棺材之谜》切入，再按作品时间顺序阅读。（第一时期）",
+        "第二时期以《半途之屋》为转型起点，好莱坞三部曲按《恶魔的报酬》《红桃4》《龙牙》阅读更连贯。（第二时期）",
+        "第三时期从《灾难之城》开始，更重悲剧故事、人物与社会底色；《十日惊奇》《九尾怪猫》《恶之源》之间建议插入其他作品调剂。（第三时期）",
+        "第四时期代笔作品较多，《然后在第八天》属于风格特殊的名作，《脸对脸》与《生命中最后的女人》有文本彩蛋，适合连读。（第四时期）",
+        "回答特别比较化工版、新星版、百世文库等版本的翻译与漏译问题，说明阅读顺序也受版本质量影响。（第二时期及各作品版本说明）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [],
+      "extractionNotes": ""
+    },
+    {
+      "id": "f9c538691401",
+      "title": "8个适合探索与视觉创作的趣味网站",
+      "platform": "web",
+      "content_type": "article",
+      "source_url": "https://zhihu.com/question/380741546/answer/1187085411",
+      "author": "利兄",
+      "published_at": "",
+      "captured_at": "2026-08-17T19:18:29+08:00",
+      "completeness": "full",
+      "topics": [
+        "网站推荐",
+        "生产力工具",
+        "视觉设计",
+        "PPT",
+        "数字创作"
+      ],
+      "people": [
+        "利兄"
+      ],
+      "concepts": [
+        "全历史",
+        "How-Old.net",
+        "alteredqualia",
+        "Weavesilk",
+        "WordArt",
+        "Smartmockups",
+        "Mosh",
+        "Stars-Emmision",
+        "文字云",
+        "样机",
+        "故障艺术"
+      ],
+      "summary": "答主推荐 8 个适合浏览、互动或视觉创作的网站：全历史用时间轴呈现各国历史，并可查询人物关系路径；How-Old.net 用人脸识别估计照片中的年龄与性别；alteredqualia 汇集可交互的网页 3D 实验；Weavesilk 用鼠标生成对称光线绘画；WordArt 制作文字云；Smartmockups 把图片嵌入设备或场景样机；Mosh 生成像素化、抖动和坏电视等故障效果；Stars-Emmision 生成放射线条。回答尤其关注这些工具在 PPT 视觉素材和展示设计中的用途。由于回答发布时间较早且未显示日期，网站当前是否仍可访问、功能和隐私政策是否变化，需要使用前另行确认。",
+      "keyPoints": [
+        "全历史侧重时间轴、历史事件、人物及人物关系路径，适合探索式学习。（推荐1：全历史）",
+        "How-Old.net 提供照片年龄与性别估计，涉及人脸图片上传，使用时应先确认当前隐私政策。（推荐2：How-Old.net）",
+        "alteredqualia 和 Weavesilk 提供网页 3D、粒子或光线互动，可作为视觉灵感与素材来源。（推荐3—4）",
+        "WordArt、Smartmockups、Mosh 和 Stars-Emmision 分别用于文字云、样机、故障艺术和放射线条生成。（推荐5—8）",
+        "答主的主要使用情境是 PPT 设计和视觉表达，而不只是消遣浏览。（各网站点评与结尾）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [],
+      "extractionNotes": ""
+    },
     {
       "id": "267c901fb944",
       "title": "你知道商场把1楼改成LG，能多挣几百万吗？",
@@ -850,19 +1073,31 @@ export const publicWikiData = {
         "count": 8
       },
       {
+        "name": "文学",
+        "count": 7
+      },
+      {
         "name": "企业AI",
         "count": 5
       },
       {
-        "name": "文学",
+        "name": "阅读",
         "count": 4
       },
       {
-        "name": "生命哲学",
+        "name": "阅读推荐",
+        "count": 4
+      },
+      {
+        "name": "类型文学",
         "count": 3
       },
       {
-        "name": "阅读",
+        "name": "日本文学",
+        "count": 3
+      },
+      {
+        "name": "生命哲学",
         "count": 3
       },
       {
@@ -874,7 +1109,11 @@ export const publicWikiData = {
         "count": 2
       },
       {
-        "name": "日本文学",
+        "name": "拉丁美洲文学",
+        "count": 2
+      },
+      {
+        "name": "人物分析",
         "count": 2
       },
       {
@@ -882,7 +1121,15 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "推理小说",
+        "count": 2
+      },
+      {
         "name": "需求管理",
+        "count": 2
+      },
+      {
+        "name": "侦探文学",
         "count": 2
       },
       {
@@ -958,14 +1205,6 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "拉丁美洲文学",
-        "count": 1
-      },
-      {
-        "name": "类型文学",
-        "count": 1
-      },
-      {
         "name": "丽江",
         "count": 1
       },
@@ -974,7 +1213,15 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "女性成长",
+        "count": 1
+      },
+      {
         "name": "品牌营销",
+        "count": 1
+      },
+      {
+        "name": "亲密关系",
         "count": 1
       },
       {
@@ -982,15 +1229,27 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "人物分析",
-        "count": 1
-      },
-      {
         "name": "商业地产",
         "count": 1
       },
       {
-        "name": "推理小说",
+        "name": "生产力工具",
+        "count": 1
+      },
+      {
+        "name": "视觉设计",
+        "count": 1
+      },
+      {
+        "name": "书单",
+        "count": 1
+      },
+      {
+        "name": "数字创作",
+        "count": 1
+      },
+      {
+        "name": "网站推荐",
         "count": 1
       },
       {
@@ -1002,15 +1261,7 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "阅读推荐",
-        "count": 1
-      },
-      {
         "name": "云南旅游",
-        "count": 1
-      },
-      {
-        "name": "侦探文学",
         "count": 1
       },
       {
@@ -1024,11 +1275,19 @@ export const publicWikiData = {
       {
         "name": "AI基础概念",
         "count": 1
+      },
+      {
+        "name": "PPT",
+        "count": 1
       }
     ],
     "people": [
       {
         "name": "村上春树",
+        "count": 3
+      },
+      {
+        "name": "加夫列尔·加西亚·马尔克斯",
         "count": 2
       },
       {
@@ -1056,6 +1315,14 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "埃勒里·奎因",
+        "count": 1
+      },
+      {
+        "name": "爱德华·霍克",
+        "count": 1
+      },
+      {
         "name": "菠菜",
         "count": 1
       },
@@ -1072,7 +1339,15 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "加夫列尔·加西亚·马尔克斯",
+        "name": "豪尔赫·路易斯·博尔赫斯",
+        "count": 1
+      },
+      {
+        "name": "胡安·鲁尔福",
+        "count": 1
+      },
+      {
+        "name": "幻镜止水",
         "count": 1
       },
       {
@@ -1081,6 +1356,26 @@ export const publicWikiData = {
       },
       {
         "name": "李子",
+        "count": 1
+      },
+      {
+        "name": "利兄",
+        "count": 1
+      },
+      {
+        "name": "列夫·托尔斯泰",
+        "count": 1
+      },
+      {
+        "name": "罗曼·罗兰",
+        "count": 1
+      },
+      {
+        "name": "马里奥·巴尔加斯·略萨",
+        "count": 1
+      },
+      {
+        "name": "玛格丽特·米切尔",
         "count": 1
       },
       {
@@ -1093,6 +1388,14 @@ export const publicWikiData = {
       },
       {
         "name": "我的情绪孤岛",
+        "count": 1
+      },
+      {
+        "name": "晏君",
+        "count": 1
+      },
+      {
+        "name": "应物兄",
         "count": 1
       },
       {
@@ -1154,11 +1457,23 @@ export const publicWikiData = {
         "count": 3
       },
       {
+        "name": "《百年孤独》",
+        "count": 2
+      },
+      {
         "name": "《舞舞舞》",
         "count": 2
       },
       {
         "name": "孤独",
+        "count": 2
+      },
+      {
+        "name": "古典解谜",
+        "count": 2
+      },
+      {
+        "name": "魔幻现实主义",
         "count": 2
       },
       {
@@ -1174,10 +1489,6 @@ export const publicWikiData = {
         "count": 2
       },
       {
-        "name": "《百年孤独》",
-        "count": 1
-      },
-      {
         "name": "《第一个人》",
         "count": 1
       },
@@ -1186,11 +1497,27 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "《佩德罗·巴拉莫》",
+        "count": 1
+      },
+      {
+        "name": "《飘》",
+        "count": 1
+      },
+      {
+        "name": "《且听风吟》",
+        "count": 1
+      },
+      {
         "name": "《鼠疫》",
         "count": 1
       },
       {
         "name": "《西西弗神话》",
+        "count": 1
+      },
+      {
+        "name": "悲剧系列",
         "count": 1
       },
       {
@@ -1242,6 +1569,14 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "村上春树书单",
+        "count": 1
+      },
+      {
+        "name": "代笔作品",
+        "count": 1
+      },
+      {
         "name": "地下空间",
         "count": 1
       },
@@ -1262,6 +1597,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "改造",
+        "count": 1
+      },
+      {
         "name": "工具调用",
         "count": 1
       },
@@ -1270,15 +1609,23 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "古典解谜",
-        "count": 1
-      },
-      {
         "name": "古镇旅行",
         "count": 1
       },
       {
         "name": "故乡记忆",
+        "count": 1
+      },
+      {
+        "name": "故障艺术",
+        "count": 1
+      },
+      {
+        "name": "国名系列",
+        "count": 1
+      },
+      {
+        "name": "后现代主义",
         "count": 1
       },
       {
@@ -1318,6 +1665,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "莱特镇",
+        "count": 1
+      },
+      {
         "name": "冷硬派",
         "count": 1
       },
@@ -1338,7 +1689,15 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "逻辑推理",
+        "count": 1
+      },
+      {
         "name": "马孔多",
+        "count": 1
+      },
+      {
+        "name": "梅兰妮",
         "count": 1
       },
       {
@@ -1350,15 +1709,23 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "魔幻现实主义",
-        "count": 1
-      },
-      {
         "name": "能力边界",
         "count": 1
       },
       {
+        "name": "女性主体性",
+        "count": 1
+      },
+      {
+        "name": "全历史",
+        "count": 1
+      },
+      {
         "name": "人机协作",
+        "count": 1
+      },
+      {
+        "name": "瑞德",
         "count": 1
       },
       {
@@ -1406,6 +1773,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "斯嘉丽",
+        "count": 1
+      },
+      {
         "name": "宿命",
         "count": 1
       },
@@ -1426,11 +1797,27 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "文学爆炸",
+        "count": 1
+      },
+      {
+        "name": "文学互文",
+        "count": 1
+      },
+      {
+        "name": "文字云",
+        "count": 1
+      },
+      {
         "name": "心理边界",
         "count": 1
       },
       {
         "name": "心理惊悚",
+        "count": 1
+      },
+      {
+        "name": "新巴洛克",
         "count": 1
       },
       {
@@ -1454,6 +1841,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "样机",
+        "count": 1
+      },
+      {
         "name": "业态组合",
         "count": 1
       },
@@ -1462,11 +1853,27 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "译本选择",
+        "count": 1
+      },
+      {
+        "name": "意识流",
+        "count": 1
+      },
+      {
         "name": "与孤独共处",
         "count": 1
       },
       {
+        "name": "元叙事",
+        "count": 1
+      },
+      {
         "name": "原生多模态",
+        "count": 1
+      },
+      {
+        "name": "阅读顺序",
         "count": 1
       },
       {
@@ -1498,6 +1905,14 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "尊重",
+        "count": 1
+      },
+      {
+        "name": "作品书目",
+        "count": 1
+      },
+      {
         "name": "ACE",
         "count": 1
       },
@@ -1515,6 +1930,10 @@ export const publicWikiData = {
       },
       {
         "name": "AI替代焦虑",
+        "count": 1
+      },
+      {
+        "name": "alteredqualia",
         "count": 1
       },
       {
@@ -1566,6 +1985,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "How-Old.net",
+        "count": 1
+      },
+      {
         "name": "JTBD",
         "count": 1
       },
@@ -1606,6 +2029,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "Mosh",
+        "count": 1
+      },
+      {
         "name": "MVP",
         "count": 1
       },
@@ -1638,6 +2065,14 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "Smartmockups",
+        "count": 1
+      },
+      {
+        "name": "Stars-Emmision",
+        "count": 1
+      },
+      {
         "name": "Token",
         "count": 1
       },
@@ -1647,6 +2082,14 @@ export const publicWikiData = {
       },
       {
         "name": "Trajectory",
+        "count": 1
+      },
+      {
+        "name": "Weavesilk",
+        "count": 1
+      },
+      {
+        "name": "WordArt",
         "count": 1
       },
       {
@@ -1665,7 +2108,7 @@ export const publicWikiData = {
       },
       {
         "name": "web",
-        "count": 3
+        "count": 8
       },
       {
         "name": "x",
