@@ -1,7 +1,61 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-08-14T17:44:39+08:00",
+  "updatedAt": "2026-08-17T11:38:15+08:00",
   "items": [
+    {
+      "id": "0488f81ffc4b",
+      "title": "Codex正式开放1M上下文！解除GPT-5.6 Sol封印，三行配置搞定",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/rcZoiUU66V66V8iEurCRtg",
+      "author": "鱼羊（量子位）",
+      "published_at": "",
+      "captured_at": "2026-08-17T11:38:15+08:00",
+      "completeness": "full",
+      "topics": [
+        "GPT-5.6",
+        "AI工具",
+        "上下文工程",
+        "Agent",
+        "AI基础设施"
+      ],
+      "people": [
+        "鱼羊",
+        "量子位",
+        "OpenAI"
+      ],
+      "concepts": [
+        "GPT-5.6 Sol",
+        "Codex",
+        "长上下文",
+        "自动压缩",
+        "model_context_window",
+        "model_auto_compact_token_limit",
+        "Token定价",
+        "上下文利用率"
+      ],
+      "summary": "文章介绍如何通过 Codex 的 config.toml 为 GPT-5.6 Sol 显式设置 100 万 Token 上下文窗口，并把自动压缩阈值设为 90 万 Token；也可在启动命令中按会话覆盖。核心价值不是无条件追求更长上下文，而是在大型代码库、长文档和长程 Agent 任务中减少过早压缩造成的信息损失，同时接受更高的延迟与费用。经官方资料核对，GPT-5.6 Sol 的模型上限为 105 万 Token，上述 100 万是文章建议的配置值；超过 27.2 万输入 Token 的请求采用更高费率。文章末尾关于 Astra/GPT-6 的内容属于媒体预告，尚不能当作官方确认信息。",
+      "keyPoints": [
+        "文章给出的核心配置是 model = \"gpt-5.6-sol\"、model_context_window = 1000000、model_auto_compact_token_limit = 900000；应放在 config.toml 顶层、各节标题之前，并在重启或新会话后生效。（正文：三行配置与配置位置）",
+        "也可以在启动 Codex 时使用 -m 与 -c 参数，仅对当前会话覆盖模型、上下文窗口和自动压缩阈值。（正文：命令行临时配置）",
+        "长上下文更适合大型代码库、长文档和多步骤 Agent 工作流，但窗口容量不等于模型能同等有效地利用窗口内每一处信息。（正文：适用场景与上下文利用率）",
+        "自动压缩会在历史接近阈值时整理会话状态，避免每轮都携带全部原始轨迹；这体现了长程 Agent 中容量、有效记忆与成本之间的取舍。（正文：自动压缩机制）",
+        "官方模型页标注 GPT-5.6 Sol 的上下文上限为 1,050,000 Token；文章设置的 1,000,000 Token 是配置值，而不是模型上限的精确数字。（官方 GPT-5.6 Sol 模型页核验）",
+        "文章称长上下文会让 Token 消耗直接翻倍并不严谨；官方规则是输入超过 272K Token 的请求按 2 倍输入、1.5 倍输出费率计价，缓存输入价格仍按原价。（官方 GPT-5.6 Sol 模型页核验）",
+        "文中 MRCR v2 跑分与 Astra/GPT-6 预告未在本次查阅的官方资料中获得独立确认，因此保留为来源方陈述和媒体传闻。（正文：性能数据与未来模型预告）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "GPT-5.6来了，而许多人还停留在石器时代",
+        "一文带你掌握 LLM、Token、Context、Prompt、RAG、MCP、Skill、Agent 等 AI 核心概念",
+        "Harness 是什么？它和 Agent 有什么不同？",
+        "深度体验DeepSeek Harness，我原谅它涨价了",
+        "Kimi K3 开放模型权重与技术报告",
+        "突发 "
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "52b808754341",
       "title": "《舞舞舞》表达了什么？——在持续失去中继续跳舞",
@@ -746,7 +800,7 @@ export const publicWikiData = {
     "topics": [
       {
         "name": "Agent",
-        "count": 7
+        "count": 8
       },
       {
         "name": "企业AI",
@@ -777,11 +831,23 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "上下文工程",
+        "count": 2
+      },
+      {
         "name": "需求管理",
         "count": 2
       },
       {
         "name": "自我改进",
+        "count": 2
+      },
+      {
+        "name": "AI工具",
+        "count": 2
+      },
+      {
+        "name": "AI基础设施",
         "count": 2
       },
       {
@@ -798,6 +864,10 @@ export const publicWikiData = {
       },
       {
         "name": "AI项目交付",
+        "count": 2
+      },
+      {
+        "name": "GPT-5.6",
         "count": 2
       },
       {
@@ -857,10 +927,6 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "上下文工程",
-        "count": 1
-      },
-      {
         "name": "推理小说",
         "count": 1
       },
@@ -889,25 +955,17 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "AI工具",
-        "count": 1
-      },
-      {
         "name": "AI基础概念",
-        "count": 1
-      },
-      {
-        "name": "AI基础设施",
-        "count": 1
-      },
-      {
-        "name": "GPT-5.6",
         "count": 1
       }
     ],
     "people": [
       {
         "name": "村上春树",
+        "count": 2
+      },
+      {
+        "name": "量子位",
         "count": 2
       },
       {
@@ -959,15 +1017,15 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "量子位",
-        "count": 1
-      },
-      {
         "name": "玛丽亚·卡萨雷斯",
         "count": 1
       },
       {
         "name": "让-保罗·萨特",
+        "count": 1
+      },
+      {
+        "name": "鱼羊",
         "count": 1
       },
       {
@@ -995,6 +1053,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "OpenAI",
+        "count": 1
+      },
+      {
         "name": "Shepherd",
         "count": 1
       },
@@ -1013,6 +1075,10 @@ export const publicWikiData = {
         "count": 4
       },
       {
+        "name": "长上下文",
+        "count": 3
+      },
+      {
         "name": "Agent",
         "count": 3
       },
@@ -1025,15 +1091,15 @@ export const publicWikiData = {
         "count": 2
       },
       {
-        "name": "长上下文",
-        "count": 2
-      },
-      {
         "name": "子智能体",
         "count": 2
       },
       {
         "name": "RAG",
+        "count": 2
+      },
+      {
+        "name": "Token定价",
         "count": 2
       },
       {
@@ -1217,6 +1283,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "上下文利用率",
+        "count": 1
+      },
+      {
         "name": "上下文压缩",
         "count": 1
       },
@@ -1309,6 +1379,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "自动压缩",
+        "count": 1
+      },
+      {
         "name": "自洽",
         "count": 1
       },
@@ -1353,6 +1427,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "Codex",
+        "count": 1
+      },
+      {
         "name": "Context",
         "count": 1
       },
@@ -1374,6 +1452,10 @@ export const publicWikiData = {
       },
       {
         "name": "FIM补全",
+        "count": 1
+      },
+      {
+        "name": "GPT-5.6 Sol",
         "count": 1
       },
       {
@@ -1402,6 +1484,14 @@ export const publicWikiData = {
       },
       {
         "name": "MCP",
+        "count": 1
+      },
+      {
+        "name": "model_auto_compact_token_limit",
+        "count": 1
+      },
+      {
+        "name": "model_context_window",
         "count": 1
       },
       {
@@ -1445,10 +1535,6 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "Token定价",
-        "count": 1
-      },
-      {
         "name": "Tool Calls",
         "count": 1
       },
@@ -1468,7 +1554,7 @@ export const publicWikiData = {
     "platforms": [
       {
         "name": "wechat-article",
-        "count": 10
+        "count": 11
       },
       {
         "name": "web",
