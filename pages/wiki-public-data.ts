@@ -1,7 +1,64 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-08-17T19:18:29+08:00",
+  "updatedAt": "2026-08-26T17:20:47+08:00",
   "items": [
+    {
+      "id": "6b1f192237d2",
+      "title": "Agent Harness 大战：Pi 最强，Claude Code 最快，DeepSeek 最省钱！",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/vwgbNCTYbYk8H5dcOb0u4w",
+      "author": "木易的AI频道",
+      "published_at": "",
+      "captured_at": "2026-08-26T17:20:47+08:00",
+      "completeness": "full",
+      "topics": [
+        "Agent",
+        "上下文工程",
+        "AI系统设计",
+        "开发者工具",
+        "AI评测"
+      ],
+      "people": [
+        "木易",
+        "Mario Zechner"
+      ],
+      "concepts": [
+        "Agent Harness",
+        "Pi Agent",
+        "Claude Code",
+        "OpenCode",
+        "Hermes Agent",
+        "DeepSeek Harness",
+        "系统提示词",
+        "工具调用",
+        "上下文管理",
+        "缓存命中",
+        "成本/成功任务",
+        "Harness评测"
+      ],
+      "summary": "文章转述 Composio 对五个编程 Agent Harness 的横向测试：在相同 DeepSeek-V4-Pro 模型、相同多应用工具集和 30 个任务的条件下，Pi 通过 21 题，DeepSeek Harness 通过 20 题，Claude Code 与 OpenCode 各通过 19 题，Hermes 通过 18 题。不同指标的冠军并不相同：Pi 的通过率最高，Claude Code 平均完成速度最快，DeepSeek Harness 按成功任务计算的成本最低。文章由此强调，Agent 的实际表现不只由底层模型决定，系统提示词长度、工具暴露方式、上下文管理、重试与验证策略、任务循环和缓存都会显著改变结果。Pi 以极简内置工具和可扩展 TypeScript 换取较低提示开销，Claude Code 用更长的系统提示换取明确的工具调用路径，DeepSeek Harness 则以插件化和多模型支持降低成本。结论应理解为特定模型、任务集和配置下的横评，而不是所有场景的永久排名。",
+      "keyPoints": [
+        "文章描述的 30 任务横评使用同一个 DeepSeek-V4-Pro 模型、最大推理强度、Gmail/Google Sheets/GitHub/Slack 等多应用集成，以及每题 900 秒上限。（开头：Composio 横评设置）",
+        "按文章转述的结果，Pi 通过 21/30，DeepSeek Harness 20/30，Claude Code 和 OpenCode 各 19/30，Hermes 18/30。（第一名与排名）",
+        "成本与速度不是同一个排序：文章给出的平均每个成功任务成本为 DeepSeek Harness 0.028 美元、Pi 0.031 美元、OpenCode 0.032 美元、Hermes 0.037 美元、Claude Code 0.074 美元；Claude Code 平均 181.8 秒最快，Pi 平均 362.9 秒最慢。（成本与速度比较）",
+        "30 个任务中有 15 个所有 Harness 都能通过、7 个所有 Harness 都失败，剩余 8 个任务的结果由 Harness 选择明显影响，说明工具框架本身是重要变量。（Harness 对结果的影响）",
+        "文章把系统提示词和工具设计视为关键差异：Claude Code 提示词接近 10000 tokens，Pi 不到 200 tokens；Pi 只内置读写编辑执行四类工具，其余能力交给 TypeScript 扩展。（提示词与工具设计）",
+        "Pi 的极简设计减少固定开销，但复杂任务可能需要现场用 Bash 组合工具；Claude Code 以更长提示换取更明确的工具路径，体现‘Token 换时间’与‘时间换 Token’的取舍。（Pi 与 Claude Code 的设计取舍）",
+        "DeepSeek Harness 被介绍为插件化、支持多模型的 Agent 运行时；文章称其在测试中成本最低且通过率第二，但项目 Star 数、版本状态等时效信息仅保留为来源方陈述。（DeepSeek Harness 部分）",
+        "文章结论是 Harness 之争才刚开始：评测应固定模型、任务、工具和判定方式，避免把某一配置下的结果误读为普遍能力排名。（结尾）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "Harness 是什么？它和 Agent 有什么不同？",
+        "深度体验DeepSeek Harness，我原谅它涨价了",
+        "突发 ",
+        "一文带你掌握 LLM、Token、Context、Prompt、RAG、MCP、Skill、Agent 等 AI 核心概念",
+        "Codex正式开放1M上下文！解除GPT-5.6 Sol封印，三行配置搞定"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "14c9e2e50b31",
       "title": "《飘》的价值观：真正的爱是尊重，而不是改造",
@@ -1070,7 +1127,7 @@ export const publicWikiData = {
     "topics": [
       {
         "name": "Agent",
-        "count": 8
+        "count": 9
       },
       {
         "name": "文学",
@@ -1097,6 +1154,10 @@ export const publicWikiData = {
         "count": 3
       },
       {
+        "name": "上下文工程",
+        "count": 3
+      },
+      {
         "name": "生命哲学",
         "count": 3
       },
@@ -1105,7 +1166,15 @@ export const publicWikiData = {
         "count": 3
       },
       {
+        "name": "AI系统设计",
+        "count": 3
+      },
+      {
         "name": "产品管理",
+        "count": 2
+      },
+      {
+        "name": "开发者工具",
         "count": 2
       },
       {
@@ -1114,10 +1183,6 @@ export const publicWikiData = {
       },
       {
         "name": "人物分析",
-        "count": 2
-      },
-      {
-        "name": "上下文工程",
         "count": 2
       },
       {
@@ -1153,10 +1218,6 @@ export const publicWikiData = {
         "count": 2
       },
       {
-        "name": "AI系统设计",
-        "count": 2
-      },
-      {
         "name": "AI项目交付",
         "count": 2
       },
@@ -1186,10 +1247,6 @@ export const publicWikiData = {
       },
       {
         "name": "互联网大厂",
-        "count": 1
-      },
-      {
-        "name": "开发者工具",
         "count": 1
       },
       {
@@ -1274,6 +1331,10 @@ export const publicWikiData = {
       },
       {
         "name": "AI基础概念",
+        "count": 1
+      },
+      {
+        "name": "AI评测",
         "count": 1
       },
       {
@@ -1383,6 +1444,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "木易",
+        "count": 1
+      },
+      {
         "name": "让-保罗·萨特",
         "count": 1
       },
@@ -1420,6 +1485,10 @@ export const publicWikiData = {
       },
       {
         "name": "Lilian Weng",
+        "count": 1
+      },
+      {
+        "name": "Mario Zechner",
         "count": 1
       },
       {
@@ -1465,6 +1534,10 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "工具调用",
+        "count": 2
+      },
+      {
         "name": "孤独",
         "count": 2
       },
@@ -1478,6 +1551,10 @@ export const publicWikiData = {
       },
       {
         "name": "子智能体",
+        "count": 2
+      },
+      {
+        "name": "DeepSeek Harness",
         "count": 2
       },
       {
@@ -1561,6 +1638,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "成本/成功任务",
+        "count": 1
+      },
+      {
         "name": "成长",
         "count": 1
       },
@@ -1601,10 +1682,6 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "工具调用",
-        "count": 1
-      },
-      {
         "name": "工具实践",
         "count": 1
       },
@@ -1630,6 +1707,10 @@ export const publicWikiData = {
       },
       {
         "name": "环洱海骑行",
+        "count": 1
+      },
+      {
+        "name": "缓存命中",
         "count": 1
       },
       {
@@ -1737,6 +1818,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "上下文管理",
+        "count": 1
+      },
+      {
         "name": "上下文利用率",
         "count": 1
       },
@@ -1806,6 +1891,10 @@ export const publicWikiData = {
       },
       {
         "name": "文字云",
+        "count": 1
+      },
+      {
+        "name": "系统提示词",
         "count": 1
       },
       {
@@ -1925,6 +2014,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "Agent Harness",
+        "count": 1
+      },
+      {
         "name": "Agent预设",
         "count": 1
       },
@@ -1945,6 +2038,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "Claude Code",
+        "count": 1
+      },
+      {
         "name": "Code Mode",
         "count": 1
       },
@@ -1958,10 +2055,6 @@ export const publicWikiData = {
       },
       {
         "name": "Cordis",
-        "count": 1
-      },
-      {
-        "name": "DeepSeek Harness",
         "count": 1
       },
       {
@@ -1982,6 +2075,14 @@ export const publicWikiData = {
       },
       {
         "name": "Harness",
+        "count": 1
+      },
+      {
+        "name": "Harness评测",
+        "count": 1
+      },
+      {
+        "name": "Hermes Agent",
         "count": 1
       },
       {
@@ -2038,6 +2139,14 @@ export const publicWikiData = {
       },
       {
         "name": "Obsidian",
+        "count": 1
+      },
+      {
+        "name": "OpenCode",
+        "count": 1
+      },
+      {
+        "name": "Pi Agent",
         "count": 1
       },
       {
@@ -2104,7 +2213,7 @@ export const publicWikiData = {
     "platforms": [
       {
         "name": "wechat-article",
-        "count": 12
+        "count": 13
       },
       {
         "name": "web",
