@@ -1,7 +1,119 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-08-26T17:20:47+08:00",
+  "updatedAt": "2026-08-27T11:23:55+08:00",
   "items": [
+    {
+      "id": "9bfbdabcbccd",
+      "title": "本体论（Ontology）视角下的知识图谱实战拆解",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/dZ2bjVY8qebZGMChEk5SIg",
+      "author": "叶小钗",
+      "published_at": "",
+      "captured_at": "2026-08-27T11:23:55+08:00",
+      "completeness": "full",
+      "topics": [
+        "知识工程",
+        "本体论",
+        "知识图谱",
+        "RAG",
+        "Agent",
+        "AI系统设计"
+      ],
+      "people": [
+        "叶小钗"
+      ],
+      "concepts": [
+        "Ontology",
+        "知识图谱",
+        "RAG",
+        "实体",
+        "关系",
+        "属性",
+        "语义层",
+        "事实层",
+        "实体链接",
+        "关系抽取",
+        "推理边界",
+        "可审计性"
+      ],
+      "summary": "文章试图把本体论和知识图谱讲得更具体，并解释为什么它们在大模型时代重新受到关注。作者回顾传统知识图谱的高成本：实体链接、关系抽取、本体设计和图谱更新依赖大量规则、标注与领域专家，语义稍有变化就容易失效。大模型降低了语义理解、实体抽取和初版构建的成本，但自身仍是概率模型，缺乏企业私有业务语义，可能产生幻觉，因此需要本体和知识图谱把猜测约束为可解释的关系链。文章把知识库演进概括为语义理解、长上下文直塞、基础 RAG、生产级检索补足和知识图谱几个阶段，并指出普通 RAG 的切块割裂、相似度不等于业务关联、缺乏稳定身份、难答全局问题和无法判断业务状态等短板。随后通过糖尿病等示例区分知识图谱的实体/关系/属性数据层与本体的类型、层级、关系语义、约束和推理边界：症状出现不能直接推出确诊，通用治疗关系也不能直接转化为对每个患者的用药建议。核心结论是，大模型让知识获取和构建变便宜，本体与图谱让知识使用更安全、更可审计。",
+      "keyPoints": [
+        "传统本体和知识图谱难以普及的原因是成本高：实体链接、关系抽取、本体设计及持续更新都依赖大量规则、标注和专家投入。（开头：大模型之前的成本问题）",
+        "大模型擅长语义泛化和初版抽取，能降低本体与图谱构建成本，但不能因此消除幻觉或企业私有知识缺失。（大模型、本体和图谱）",
+        "文章把知识库发展分为语义理解、长上下文、基础 RAG、生产级 RAG 补足和知识图谱阶段。（知识库的发展）",
+        "作者列出的基础 RAG 短板包括切块割裂关系、相似度不等于业务关联、没有稳定身份、答不了全局问题和判断不了业务状态。（阶段三：基础 RAG）",
+        "知识图谱主要用实体、关系和属性表达业务事实；本体进一步定义类型层级、关系含义、适用范围、约束和哪些推理成立。（知识图谱与本体论）",
+        "文章用医疗示意说明推理边界：出现症状不能直接反向推出确诊，‘可能并发’不能当作已发生事实，治疗关系也不能自动变成对所有患者的用药指令。（本体：约束与边界）",
+        "知识图谱是事实数据层，本体是语义与约束层，应用系统再基于二者完成检索、判断和执行。（知识图谱和本体论的关系）",
+        "文章的最终判断是：大模型降低知识获取和构建成本，本体与图谱提高知识使用的安全性、确定性与可审计性。（结尾：安全是最大的奢侈）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "本体论又火了，他能优化我的 Agent 效果么？",
+        "一文带你掌握 LLM、Token、Context、Prompt、RAG、MCP、Skill、Agent 等 AI 核心概念",
+        "Harness 是什么？它和 Agent 有什么不同？",
+        "深度体验DeepSeek Harness，我原谅它涨价了"
+      ],
+      "extractionNotes": ""
+    },
+    {
+      "id": "90e5e262322b",
+      "title": "本体论又火了，他能优化我的 Agent 效果么？",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/4-7HLAk-y7YWl1qnzjEMwg",
+      "author": "望宸",
+      "published_at": "",
+      "captured_at": "2026-08-27T11:23:54+08:00",
+      "completeness": "full",
+      "topics": [
+        "知识工程",
+        "本体论",
+        "知识图谱",
+        "AIOps",
+        "Agent",
+        "上下文工程"
+      ],
+      "people": [
+        "望宸"
+      ],
+      "concepts": [
+        "Ontology",
+        "UModel",
+        "STAROps",
+        "AIOps",
+        "实体建模",
+        "知识图谱",
+        "根因分析",
+        "语义约束",
+        "多模数据融合",
+        "EntitySet",
+        "TelemetryDataSet",
+        "DataLink"
+      ],
+      "summary": "文章从哲学意义上的 Ontology 出发，把本体论解释为对领域中实体、属性、关系及其变化建立统一且无歧义的认知地图，并将其应用到企业 AIOps。作者认为，通用大模型虽然掌握运维常识，却不了解某家企业的私有拓扑、指标语义和故障因果链；指标、日志、链路与事件又分散在异构系统中，单靠个人 Skill 难以覆盖跨团队的复杂系统。本体论的作用是把运维从‘我有哪些数据’转向‘系统中有哪些实体、实体如何关联、数据属于谁’，让 Agent 能沿拓扑做关联分析、根因定位和影响面评估。文章随后介绍阿里云 UModel：以 EntitySet、TelemetryDataSet、Storage、Explorer 及多类 Link 构成图模型，统一实体、观测数据、存储和可视化之间的语义；再由 STAROps 在其上结合大模型进行自然语言查数、故障诊断和主动运维。核心结论是：模型负责理解、规划和推理，本体/UModel 负责提供结构化上下文、语义约束与可审计的推理路径。",
+      "keyPoints": [
+        "本体论的核心是回答领域中有什么实体、如何分类、彼此有什么关系，以及这些关系如何随环境变化。（01 本体论：从哲学定义到机器认知）",
+        "在运维领域，实体包括服务、Pod、数据库、网络、CPU、GPU 和内存，属性包括指标、日志、链路和事件，关系包括调用、部署、依赖、包含和运行。（01 运维本体示例）",
+        "AIOps 的两大难题是通用模型与企业私有架构之间的语义鸿沟，以及指标、日志、链路、事件等异构数据之间的语义割裂。（02 运维领域，本体论解决什么问题）",
+        "个人 Skill 能帮助完成查数、告警分析等单点任务，但无法自动补齐企业私有拓扑，也难以在跨团队场景中提供稳定、可审计的因果链。（03 基础模型加个人技能，足够吗）",
+        "UModel 将可观测体系从面向数据转向面向对象：以实体为中心聚合其日志、指标、链路、事件和上下游关系。（04 UModel：从面向数据到面向对象）",
+        "UModel 采用图模型，将实体集合、观测数据集合、存储和可视化抽象连接起来，并用 EntitySetLink、DataLink、StorageLink、ExplorerLink 表达不同层次的关系。（04 UModel：以图为中心的建模体系）",
+        "统一查询和多模数据融合可以把事件、拓扑、日志和指标放进同一条分析链，降低在 PromQL、SQL、SPL、Cypher 等语法之间切换的成本。（04 UModel：统一查询语言与多模数据融合）",
+        "STAROps 的分工是：UModel 提供上下文感知和语义理解基础设施，大模型负责自然语言意图理解、自主规划和推理。（05 STAROps：基于 UModel 构建的智能运维）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "本体论（Ontology）视角下的知识图谱实战拆解",
+        "Harness 是什么？它和 Agent 有什么不同？",
+        "深度体验DeepSeek Harness，我原谅它涨价了",
+        "一文带你掌握 LLM、Token、Context、Prompt、RAG、MCP、Skill、Agent 等 AI 核心概念"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "6b1f192237d2",
       "title": "Agent Harness 大战：Pi 最强，Claude Code 最快，DeepSeek 最省钱！",
@@ -1127,7 +1239,7 @@ export const publicWikiData = {
     "topics": [
       {
         "name": "Agent",
-        "count": 9
+        "count": 11
       },
       {
         "name": "文学",
@@ -1138,11 +1250,23 @@ export const publicWikiData = {
         "count": 5
       },
       {
+        "name": "知识工程",
+        "count": 5
+      },
+      {
+        "name": "上下文工程",
+        "count": 4
+      },
+      {
         "name": "阅读",
         "count": 4
       },
       {
         "name": "阅读推荐",
+        "count": 4
+      },
+      {
+        "name": "AI系统设计",
         "count": 4
       },
       {
@@ -1154,20 +1278,12 @@ export const publicWikiData = {
         "count": 3
       },
       {
-        "name": "上下文工程",
-        "count": 3
-      },
-      {
         "name": "生命哲学",
         "count": 3
       },
       {
-        "name": "知识工程",
-        "count": 3
-      },
-      {
-        "name": "AI系统设计",
-        "count": 3
+        "name": "本体论",
+        "count": 2
       },
       {
         "name": "产品管理",
@@ -1195,6 +1311,10 @@ export const publicWikiData = {
       },
       {
         "name": "侦探文学",
+        "count": 2
+      },
+      {
+        "name": "知识图谱",
         "count": 2
       },
       {
@@ -1338,7 +1458,15 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "AIOps",
+        "count": 1
+      },
+      {
         "name": "PPT",
+        "count": 1
+      },
+      {
+        "name": "RAG",
         "count": 1
       }
     ],
@@ -1452,11 +1580,19 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "望宸",
+        "count": 1
+      },
+      {
         "name": "我的情绪孤岛",
         "count": 1
       },
       {
         "name": "晏君",
+        "count": 1
+      },
+      {
+        "name": "叶小钗",
         "count": 1
       },
       {
@@ -1526,6 +1662,10 @@ export const publicWikiData = {
         "count": 3
       },
       {
+        "name": "RAG",
+        "count": 3
+      },
+      {
         "name": "《百年孤独》",
         "count": 2
       },
@@ -1550,6 +1690,10 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "知识图谱",
+        "count": 2
+      },
+      {
         "name": "子智能体",
         "count": 2
       },
@@ -1558,7 +1702,7 @@ export const publicWikiData = {
         "count": 2
       },
       {
-        "name": "RAG",
+        "name": "Ontology",
         "count": 2
       },
       {
@@ -1662,6 +1806,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "多模数据融合",
+        "count": 1
+      },
+      {
         "name": "多模型",
         "count": 1
       },
@@ -1682,6 +1830,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "根因分析",
+        "count": 1
+      },
+      {
         "name": "工具实践",
         "count": 1
       },
@@ -1695,6 +1847,14 @@ export const publicWikiData = {
       },
       {
         "name": "故障艺术",
+        "count": 1
+      },
+      {
+        "name": "关系",
+        "count": 1
+      },
+      {
+        "name": "关系抽取",
         "count": 1
       },
       {
@@ -1743,6 +1903,10 @@ export const publicWikiData = {
       },
       {
         "name": "开放权重",
+        "count": 1
+      },
+      {
+        "name": "可审计性",
         "count": 1
       },
       {
@@ -1854,6 +2018,26 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "实体",
+        "count": 1
+      },
+      {
+        "name": "实体建模",
+        "count": 1
+      },
+      {
+        "name": "实体链接",
+        "count": 1
+      },
+      {
+        "name": "事实层",
+        "count": 1
+      },
+      {
+        "name": "属性",
+        "count": 1
+      },
+      {
         "name": "思考模式",
         "count": 1
       },
@@ -1871,6 +2055,10 @@ export const publicWikiData = {
       },
       {
         "name": "土地价款",
+        "count": 1
+      },
+      {
+        "name": "推理边界",
         "count": 1
       },
       {
@@ -1954,6 +2142,14 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "语义层",
+        "count": 1
+      },
+      {
+        "name": "语义约束",
+        "count": 1
+      },
+      {
         "name": "元叙事",
         "count": 1
       },
@@ -2026,6 +2222,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "AIOps",
+        "count": 1
+      },
+      {
         "name": "alteredqualia",
         "count": 1
       },
@@ -2058,11 +2258,19 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "DataLink",
+        "count": 1
+      },
+      {
         "name": "DeepSeek V4 Flash",
         "count": 1
       },
       {
         "name": "DeepSeek V4 Pro",
+        "count": 1
+      },
+      {
+        "name": "EntitySet",
         "count": 1
       },
       {
@@ -2178,7 +2386,15 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "STAROps",
+        "count": 1
+      },
+      {
         "name": "Stars-Emmision",
+        "count": 1
+      },
+      {
+        "name": "TelemetryDataSet",
         "count": 1
       },
       {
@@ -2191,6 +2407,10 @@ export const publicWikiData = {
       },
       {
         "name": "Trajectory",
+        "count": 1
+      },
+      {
+        "name": "UModel",
         "count": 1
       },
       {
@@ -2213,7 +2433,7 @@ export const publicWikiData = {
     "platforms": [
       {
         "name": "wechat-article",
-        "count": 13
+        "count": 15
       },
       {
         "name": "web",
