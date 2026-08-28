@@ -1,7 +1,59 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-08-27T11:23:55+08:00",
+  "updatedAt": "2026-08-28T13:43:19+08:00",
   "items": [
+    {
+      "id": "afbc0dc19812",
+      "title": "本体论 or 知识图谱，傻傻分不清楚？",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/0TW1j6srLVKKpV8yGOLQ6Q",
+      "author": "ServiPedia智服汇",
+      "published_at": "",
+      "captured_at": "2026-08-28T13:42:20+08:00",
+      "completeness": "full",
+      "topics": [
+        "知识工程",
+        "本体论",
+        "知识图谱",
+        "语义推理",
+        "AI系统设计",
+        "Agent"
+      ],
+      "people": [
+        "ServiPedia智服汇"
+      ],
+      "concepts": [
+        "Ontology",
+        "TBox",
+        "ABox",
+        "知识图谱",
+        "实体",
+        "关系",
+        "属性",
+        "公理",
+        "开放世界假设",
+        "封闭世界假设",
+        "语义推理",
+        "一致性校验",
+        "OWL",
+        "RDFS",
+        "Protégé",
+        "SPARQL",
+        "Cypher",
+        "Neo4j",
+        "NebulaGraph",
+        "GraphRAG",
+        "Agent",
+        "可审计性"
+      ],
+      "summary": "文章用 TBox 与 ABox 解释本体论和知识图谱的关系：本体是概念、关系、属性、公理与约束组成的术语层，知识图谱则在此基础上加入具体实体和事实。作者强调，本体不只是数据库 Schema、ER 图或图数据库标签，而是能够表达形式化语义、开放世界假设、逻辑约束并支持自动推理的一套规则体系；知识图谱负责保存事实，推理机则可据本体发现类型、关系和一致性问题。文章进一步指出，大模型降低了知识抽取和初版构建的成本，却不能替代本体提供的业务语义、边界约束和可审计推理，因此在 RAG、GraphRAG 和 Agent 场景中，本体是让模型输出更可控、更贴合业务规则的语义底座。",
+      "keyPoints": [],
+      "structure": "",
+      "thoughts": "",
+      "related": [],
+      "extractionNotes": ""
+    },
     {
       "id": "9bfbdabcbccd",
       "title": "本体论（Ontology）视角下的知识图谱实战拆解",
@@ -1239,18 +1291,22 @@ export const publicWikiData = {
     "topics": [
       {
         "name": "Agent",
-        "count": 11
+        "count": 12
       },
       {
         "name": "文学",
         "count": 7
       },
       {
+        "name": "知识工程",
+        "count": 6
+      },
+      {
         "name": "企业AI",
         "count": 5
       },
       {
-        "name": "知识工程",
+        "name": "AI系统设计",
         "count": 5
       },
       {
@@ -1266,8 +1322,8 @@ export const publicWikiData = {
         "count": 4
       },
       {
-        "name": "AI系统设计",
-        "count": 4
+        "name": "本体论",
+        "count": 3
       },
       {
         "name": "类型文学",
@@ -1282,8 +1338,8 @@ export const publicWikiData = {
         "count": 3
       },
       {
-        "name": "本体论",
-        "count": 2
+        "name": "知识图谱",
+        "count": 3
       },
       {
         "name": "产品管理",
@@ -1311,10 +1367,6 @@ export const publicWikiData = {
       },
       {
         "name": "侦探文学",
-        "count": 2
-      },
-      {
-        "name": "知识图谱",
         "count": 2
       },
       {
@@ -1431,6 +1483,10 @@ export const publicWikiData = {
       },
       {
         "name": "消费行为",
+        "count": 1
+      },
+      {
+        "name": "语义推理",
         "count": 1
       },
       {
@@ -1636,6 +1692,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "ServiPedia智服汇",
+        "count": 1
+      },
+      {
         "name": "Shepherd",
         "count": 1
       },
@@ -1650,6 +1710,10 @@ export const publicWikiData = {
     ],
     "concepts": [
       {
+        "name": "Agent",
+        "count": 4
+      },
+      {
         "name": "Skill",
         "count": 4
       },
@@ -1658,7 +1722,11 @@ export const publicWikiData = {
         "count": 3
       },
       {
-        "name": "Agent",
+        "name": "知识图谱",
+        "count": 3
+      },
+      {
+        "name": "Ontology",
         "count": 3
       },
       {
@@ -1686,11 +1754,23 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "关系",
+        "count": 2
+      },
+      {
+        "name": "可审计性",
+        "count": 2
+      },
+      {
         "name": "魔幻现实主义",
         "count": 2
       },
       {
-        "name": "知识图谱",
+        "name": "实体",
+        "count": 2
+      },
+      {
+        "name": "属性",
         "count": 2
       },
       {
@@ -1699,10 +1779,6 @@ export const publicWikiData = {
       },
       {
         "name": "DeepSeek Harness",
-        "count": 2
-      },
-      {
-        "name": "Ontology",
         "count": 2
       },
       {
@@ -1826,6 +1902,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "封闭世界假设",
+        "count": 1
+      },
+      {
         "name": "改造",
         "count": 1
       },
@@ -1838,6 +1918,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "公理",
+        "count": 1
+      },
+      {
         "name": "古镇旅行",
         "count": 1
       },
@@ -1847,10 +1931,6 @@ export const publicWikiData = {
       },
       {
         "name": "故障艺术",
-        "count": 1
-      },
-      {
-        "name": "关系",
         "count": 1
       },
       {
@@ -1906,7 +1986,7 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "可审计性",
+        "name": "开放世界假设",
         "count": 1
       },
       {
@@ -2018,10 +2098,6 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "实体",
-        "count": 1
-      },
-      {
         "name": "实体建模",
         "count": 1
       },
@@ -2031,10 +2107,6 @@ export const publicWikiData = {
       },
       {
         "name": "事实层",
-        "count": 1
-      },
-      {
-        "name": "属性",
         "count": 1
       },
       {
@@ -2126,6 +2198,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "一致性校验",
+        "count": 1
+      },
+      {
         "name": "遗忘",
         "count": 1
       },
@@ -2143,6 +2219,10 @@ export const publicWikiData = {
       },
       {
         "name": "语义层",
+        "count": 1
+      },
+      {
+        "name": "语义推理",
         "count": 1
       },
       {
@@ -2195,6 +2275,10 @@ export const publicWikiData = {
       },
       {
         "name": "作品书目",
+        "count": 1
+      },
+      {
+        "name": "ABox",
         "count": 1
       },
       {
@@ -2258,6 +2342,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "Cypher",
+        "count": 1
+      },
+      {
         "name": "DataLink",
         "count": 1
       },
@@ -2279,6 +2367,10 @@ export const publicWikiData = {
       },
       {
         "name": "GPT-5.6 Sol",
+        "count": 1
+      },
+      {
+        "name": "GraphRAG",
         "count": 1
       },
       {
@@ -2346,11 +2438,23 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "NebulaGraph",
+        "count": 1
+      },
+      {
+        "name": "Neo4j",
+        "count": 1
+      },
+      {
         "name": "Obsidian",
         "count": 1
       },
       {
         "name": "OpenCode",
+        "count": 1
+      },
+      {
+        "name": "OWL",
         "count": 1
       },
       {
@@ -2363,6 +2467,14 @@ export const publicWikiData = {
       },
       {
         "name": "Prompt",
+        "count": 1
+      },
+      {
+        "name": "Protégé",
+        "count": 1
+      },
+      {
+        "name": "RDFS",
         "count": 1
       },
       {
@@ -2386,11 +2498,19 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "SPARQL",
+        "count": 1
+      },
+      {
         "name": "STAROps",
         "count": 1
       },
       {
         "name": "Stars-Emmision",
+        "count": 1
+      },
+      {
+        "name": "TBox",
         "count": 1
       },
       {
@@ -2433,7 +2553,7 @@ export const publicWikiData = {
     "platforms": [
       {
         "name": "wechat-article",
-        "count": 15
+        "count": 16
       },
       {
         "name": "web",
