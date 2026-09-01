@@ -1,7 +1,70 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-08-28T13:43:19+08:00",
+  "updatedAt": "2026-09-01T10:36:52+08:00",
   "items": [
+    {
+      "id": "83c1facd7f17",
+      "title": "铁饭碗里的新机器",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/4dToD-ktfe5tv5VvWAw9oA",
+      "author": "JackShrINe",
+      "published_at": "",
+      "captured_at": "2026-09-01T10:35:57+08:00",
+      "completeness": "full",
+      "topics": [
+        "企业AI",
+        "AI采用",
+        "AI工具",
+        "工程能力",
+        "技术变革",
+        "人机协作"
+      ],
+      "people": [
+        "JackShrINe"
+      ],
+      "concepts": [
+        "AI采用",
+        "Claude Code",
+        "AI安全",
+        "数据分级",
+        "权限控制",
+        "数据脱敏",
+        "审计",
+        "私有部署",
+        "企业AI规范",
+        "人机交互数据",
+        "组织知识",
+        "AI辅助编程",
+        "学习反馈周期",
+        "生成成本",
+        "判断能力",
+        "工程能力",
+        "技术保守主义",
+        "工具演进",
+        "持续学习"
+      ],
+      "summary": "文章从一次芯片公司面试谈起，讨论企业面对 AI 时的安全顾虑、技术保守主义与个人能力变化。作者承认代码和商业数据外发确实需要权限控制、分级、脱敏、审计、私有部署及供应商合规等工程措施，但认为把‘不相信’或一刀切禁止使用当作全部安全方案，会把工程问题变成立场问题。文章赞赏在合规前提下积累真实工作中的人机交互数据，因为这些数据包含任务、上下文、目标、反馈、纠错和最终采用情况，可能沉淀为组织知识。作者结合自己用 AI 完成可上线开发的经历，认为 AI 最重要的变化不是替人写代码，而是压缩陌生技术的学习与反馈周期；生成成本下降后，判断、架构、需求理解、安全意识和对结果负责的能力反而更重要。文章最后把拒绝 AI 的技术保守主义与历史上的工具抵触相比较，主张把 AI 当作工具、老师、同事、审查员和思维镜子，同时保留怀疑与判断。",
+      "keyPoints": [
+        "企业代码和核心数据的安全风险是真问题，但应通过权限控制、数据分级、脱敏、审计、私有部署、企业协议、供应商合规和仓库隔离等工程措施处理。（面试中的 AI 话题：安全担忧与工程手段）",
+        "作者把只重复‘我不相信’、拒绝让协议和技术证据进入讨论的做法，批评为从安全工程滑向以不信任为核心的立场或信仰。（这不是安全工程了，这是信仰）",
+        "在合规、脱敏和权限受控的前提下，真实工作中的人机交互包含任务、上下文、目标、反馈、采用与纠错，比脱离任务环境的零散数据更可能沉淀为组织知识。（真实工作中的 AI 交互数据）",
+        "AI 辅助编程最显著的影响不是单纯生成代码，而是把查资料、搭环境、排错和追问解释等原本离散的步骤压缩成连续对话，从而缩短学习反馈周期。（AI 编程与学习反馈周期）",
+        "生成成本下降并不等于判断价值消失；架构设计、需求理解、系统设计、安全意识、验证代码和对事故负责的能力会更重要。（AI 降低的是生成成本）",
+        "文章认为把 AI 与真正的技术能力对立起来是错误的，评估重点应从‘是否亲手敲代码’转向‘能否把事情做对、理解原因、定位问题并承担责任’。（工程不是书法比赛）",
+        "作者将拒绝新工具解释为技术保守主义和地位防卫，提出更现实的问题是：持续学习并会使用 AI 的人是否会逐渐取代拒绝 AI 的人。（旧知识、工具进步与地位）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "GPT-5.6来了，而许多人还停留在石器时代",
+        "一文带你掌握 LLM、Token、Context、Prompt、RAG、MCP、Skill、Agent 等 AI 核心概念",
+        "Agent Harness 大战：Pi 最强，Claude Code 最快，DeepSeek 最省钱！",
+        "用AI辅助写出高质量PRD的正确打开方式",
+        "腾讯WorkBuddy火了，字节和阿里急了"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "afbc0dc19812",
       "title": "本体论 or 知识图谱，傻傻分不清楚？",
@@ -1298,12 +1361,12 @@ export const publicWikiData = {
         "count": 7
       },
       {
-        "name": "知识工程",
+        "name": "企业AI",
         "count": 6
       },
       {
-        "name": "企业AI",
-        "count": 5
+        "name": "知识工程",
+        "count": 6
       },
       {
         "name": "AI系统设计",
@@ -1342,6 +1405,10 @@ export const publicWikiData = {
         "count": 3
       },
       {
+        "name": "AI工具",
+        "count": 3
+      },
+      {
         "name": "产品管理",
         "count": 2
       },
@@ -1374,7 +1441,7 @@ export const publicWikiData = {
         "count": 2
       },
       {
-        "name": "AI工具",
+        "name": "AI采用",
         "count": 2
       },
       {
@@ -1418,7 +1485,15 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "工程能力",
+        "count": 1
+      },
+      {
         "name": "互联网大厂",
+        "count": 1
+      },
+      {
+        "name": "技术变革",
         "count": 1
       },
       {
@@ -1451,6 +1526,10 @@ export const publicWikiData = {
       },
       {
         "name": "亲密关系",
+        "count": 1
+      },
+      {
+        "name": "人机协作",
         "count": 1
       },
       {
@@ -1498,10 +1577,6 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "AI采用",
-        "count": 1
-      },
-      {
         "name": "AI产品经理",
         "count": 1
       },
@@ -1532,6 +1607,10 @@ export const publicWikiData = {
         "count": 3
       },
       {
+        "name": "JackShrINe",
+        "count": 3
+      },
+      {
         "name": "加夫列尔·加西亚·马尔克斯",
         "count": 2
       },
@@ -1541,10 +1620,6 @@ export const publicWikiData = {
       },
       {
         "name": "DeepSeek",
-        "count": 2
-      },
-      {
-        "name": "JackShrINe",
         "count": 2
       },
       {
@@ -1778,6 +1853,10 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "Claude Code",
+        "count": 2
+      },
+      {
         "name": "DeepSeek Harness",
         "count": 2
       },
@@ -1866,6 +1945,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "持续学习",
+        "count": 1
+      },
+      {
         "name": "冲动消费",
         "count": 1
       },
@@ -1914,7 +1997,15 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "工程能力",
+        "count": 1
+      },
+      {
         "name": "工具实践",
+        "count": 1
+      },
+      {
+        "name": "工具演进",
         "count": 1
       },
       {
@@ -1959,6 +2050,10 @@ export const publicWikiData = {
       },
       {
         "name": "荒诞",
+        "count": 1
+      },
+      {
+        "name": "技术保守主义",
         "count": 1
       },
       {
@@ -2042,7 +2137,23 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "判断能力",
+        "count": 1
+      },
+      {
+        "name": "企业AI规范",
+        "count": 1
+      },
+      {
         "name": "全历史",
+        "count": 1
+      },
+      {
+        "name": "权限控制",
+        "count": 1
+      },
+      {
+        "name": "人机交互数据",
         "count": 1
       },
       {
@@ -2082,7 +2193,15 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "审计",
+        "count": 1
+      },
+      {
         "name": "生产力工具",
+        "count": 1
+      },
+      {
+        "name": "生成成本",
         "count": 1
       },
       {
@@ -2107,6 +2226,18 @@ export const publicWikiData = {
       },
       {
         "name": "事实层",
+        "count": 1
+      },
+      {
+        "name": "数据分级",
+        "count": 1
+      },
+      {
+        "name": "数据脱敏",
+        "count": 1
+      },
+      {
+        "name": "私有部署",
         "count": 1
       },
       {
@@ -2179,6 +2310,10 @@ export const publicWikiData = {
       },
       {
         "name": "虚无",
+        "count": 1
+      },
+      {
+        "name": "学习反馈周期",
         "count": 1
       },
       {
@@ -2270,6 +2405,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "组织知识",
+        "count": 1
+      },
+      {
         "name": "尊重",
         "count": 1
       },
@@ -2302,6 +2441,18 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "AI安全",
+        "count": 1
+      },
+      {
+        "name": "AI采用",
+        "count": 1
+      },
+      {
+        "name": "AI辅助编程",
+        "count": 1
+      },
+      {
         "name": "AI替代焦虑",
         "count": 1
       },
@@ -2319,10 +2470,6 @@ export const publicWikiData = {
       },
       {
         "name": "Chat",
-        "count": 1
-      },
-      {
-        "name": "Claude Code",
         "count": 1
       },
       {
@@ -2553,7 +2700,7 @@ export const publicWikiData = {
     "platforms": [
       {
         "name": "wechat-article",
-        "count": 16
+        "count": 17
       },
       {
         "name": "web",
