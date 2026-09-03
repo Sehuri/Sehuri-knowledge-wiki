@@ -1,7 +1,78 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-09-01T10:36:52+08:00",
+  "updatedAt": "2026-09-03T17:23:11+08:00",
   "items": [
+    {
+      "id": "024849c66fee",
+      "title": "外国名著的文笔与译者：风格差异不能简单归咎翻译",
+      "platform": "web",
+      "content_type": "article",
+      "source_url": "https://zhihu.com/question/645599901/answer/74157168008",
+      "author": "庵溪",
+      "published_at": "",
+      "captured_at": "2026-09-03T17:13:54+08:00",
+      "completeness": "full",
+      "topics": [
+        "文学",
+        "翻译",
+        "文体分析",
+        "文学批评",
+        "比较文学",
+        "阅读"
+      ],
+      "people": [
+        "庵溪",
+        "福楼拜",
+        "普鲁斯特",
+        "陀思妥耶夫斯基",
+        "契诃夫",
+        "鲁迅",
+        "老舍",
+        "周克希",
+        "汝龙"
+      ],
+      "concepts": [
+        "文笔",
+        "翻译",
+        "译者再创作",
+        "叙事",
+        "文体",
+        "风格辨识度",
+        "口语化语言",
+        "诗化语言",
+        "镜头感",
+        "意象",
+        "隐喻",
+        "文学比较",
+        "原著与译本",
+        "《包法利夫人》",
+        "《追寻逝去的时光》",
+        "《罪与罚》",
+        "《一个文官的死》",
+        "《小约翰》",
+        "《死魂灵》",
+        "《骆驼祥子》"
+      ],
+      "summary": "答主庵溪反驳‘外国名著没有文笔，所谓文笔只是译者水平’这一笼统判断，认为应通过同一译者翻译不同作家的作品来比较，区分原作者的风格与译者的语言表现。答主以福楼拜、普鲁斯特、陀思妥耶夫斯基、契诃夫等作品的片段说明：人物心境、叙事视角、句法节奏、意象组织和作家的独特气质会形成可辨识的文体，这些差异不可能仅靠译者改几个中文字就被抹平。回答还用老舍《骆驼祥子》及其英文译写的对比说明，译者的水平确实会改变读者感受到的节奏、镜头感和口语/诗化质地，翻译也可能成为成功或失败的再创作。最终结论是，语言逻辑、语音、措辞和文化典故的差异既催生翻译，也限制翻译；阅读译作时不应只盯着表层修辞，而应借助叙事去接近作品整体经验，同时承认译者既不能完全替代原作者，也可能在转换中改善或损失部分效果。",
+      "keyPoints": [
+        "判断外国文学是否有文笔，不能只看单一译本；比较同一译者翻译不同作家的作品，有助于区分作者风格与译者表达。（回答开头：比较同一译者的不同作品）",
+        "福楼拜与普鲁斯特对相似情绪的处理不同：前者更多借环境和动作衬托，后者通过联想、意象和隐喻铺陈内心，这种风格差异并非译者随意改写造成。（周克希译作对比段落）",
+        "陀思妥耶夫斯基和契诃夫即使被评价为文字不事雕琢，仍有强烈到可辨识的语言气质；方言化词语或分段方式不足以把作者风格归因给译者。（汝龙译作对比段落）",
+        "通过《小约翰》和《死魂灵》的译文比较，答主认为真正的文笔差异还在于作者选择的生活经验、心境、叙事对象和表达需求，而不只是近义词选择。（不同译者/作品的文笔猜测）",
+        "以老舍《骆驼祥子》的中文原文与英文译写为例，译者的处理会改变口语节奏、诗化语言、空间镜头和层次感，因此翻译是具有再创作性质的转换。（回答后半段：老舍《骆驼祥子》示例）",
+        "答主承认译者水平会直观影响读者观感，但译者不必然高于原著；翻译可能创作得更好，也可能更差。（结尾：翻译是对原著的再创作）",
+        "语言逻辑、语音、措辞和文化典故的差异既是翻译的起点也是边界；阅读译作时若只执着于表层修辞，可能忽略叙事所承载的整体经验。（结尾：叙事与翻译的边界）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "埃勒里·奎因小说阅读顺序：四个创作时期与入门路线",
+        "拉丁美洲文学入门书单：从经典名家到实验小说",
+        "村上春树作品中出现的书籍：《且听风吟》篇",
+        "《百年孤独》伟大在哪？——魔幻现实、历史轮回与孤独"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "83c1facd7f17",
       "title": "铁饭碗里的新机器",
@@ -1358,7 +1429,7 @@ export const publicWikiData = {
       },
       {
         "name": "文学",
-        "count": 7
+        "count": 8
       },
       {
         "name": "企业AI",
@@ -1369,15 +1440,15 @@ export const publicWikiData = {
         "count": 6
       },
       {
+        "name": "阅读",
+        "count": 5
+      },
+      {
         "name": "AI系统设计",
         "count": 5
       },
       {
         "name": "上下文工程",
-        "count": 4
-      },
-      {
-        "name": "阅读",
         "count": 4
       },
       {
@@ -1469,6 +1540,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "比较文学",
+        "count": 1
+      },
+      {
         "name": "成长",
         "count": 1
       },
@@ -1482,6 +1557,10 @@ export const publicWikiData = {
       },
       {
         "name": "洱海",
+        "count": 1
+      },
+      {
+        "name": "翻译",
         "count": 1
       },
       {
@@ -1558,6 +1637,14 @@ export const publicWikiData = {
       },
       {
         "name": "网站推荐",
+        "count": 1
+      },
+      {
+        "name": "文体分析",
+        "count": 1
+      },
+      {
+        "name": "文学批评",
         "count": 1
       },
       {
@@ -1643,6 +1730,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "庵溪",
+        "count": 1
+      },
+      {
         "name": "菠菜",
         "count": 1
       },
@@ -1659,6 +1750,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "福楼拜",
+        "count": 1
+      },
+      {
         "name": "豪尔赫·路易斯·博尔赫斯",
         "count": 1
       },
@@ -1668,6 +1763,10 @@ export const publicWikiData = {
       },
       {
         "name": "幻镜止水",
+        "count": 1
+      },
+      {
+        "name": "老舍",
         "count": 1
       },
       {
@@ -1684,6 +1783,10 @@ export const publicWikiData = {
       },
       {
         "name": "列夫·托尔斯泰",
+        "count": 1
+      },
+      {
+        "name": "鲁迅",
         "count": 1
       },
       {
@@ -1707,7 +1810,23 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "普鲁斯特",
+        "count": 1
+      },
+      {
+        "name": "契诃夫",
+        "count": 1
+      },
+      {
         "name": "让-保罗·萨特",
+        "count": 1
+      },
+      {
+        "name": "汝龙",
+        "count": 1
+      },
+      {
+        "name": "陀思妥耶夫斯基",
         "count": 1
       },
       {
@@ -1736,6 +1855,10 @@ export const publicWikiData = {
       },
       {
         "name": "张最后",
+        "count": 1
+      },
+      {
+        "name": "周克希",
         "count": 1
       },
       {
@@ -1865,11 +1988,19 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "《包法利夫人》",
+        "count": 1
+      },
+      {
         "name": "《第一个人》",
         "count": 1
       },
       {
         "name": "《局外人》",
+        "count": 1
+      },
+      {
+        "name": "《骆驼祥子》",
         "count": 1
       },
       {
@@ -1889,7 +2020,27 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "《死魂灵》",
+        "count": 1
+      },
+      {
         "name": "《西西弗神话》",
+        "count": 1
+      },
+      {
+        "name": "《小约翰》",
+        "count": 1
+      },
+      {
+        "name": "《一个文官的死》",
+        "count": 1
+      },
+      {
+        "name": "《追寻逝去的时光》",
+        "count": 1
+      },
+      {
+        "name": "《罪与罚》",
         "count": 1
       },
       {
@@ -1977,7 +2128,15 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "翻译",
+        "count": 1
+      },
+      {
         "name": "反抗",
+        "count": 1
+      },
+      {
+        "name": "风格辨识度",
         "count": 1
       },
       {
@@ -2077,11 +2236,19 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "镜头感",
+        "count": 1
+      },
+      {
         "name": "开放权重",
         "count": 1
       },
       {
         "name": "开放世界假设",
+        "count": 1
+      },
+      {
+        "name": "口语化语言",
         "count": 1
       },
       {
@@ -2217,6 +2384,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "诗化语言",
+        "count": 1
+      },
+      {
         "name": "实体建模",
         "count": 1
       },
@@ -2269,11 +2440,23 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "文笔",
+        "count": 1
+      },
+      {
         "name": "文件系统记忆",
         "count": 1
       },
       {
+        "name": "文体",
+        "count": 1
+      },
+      {
         "name": "文学爆炸",
+        "count": 1
+      },
+      {
+        "name": "文学比较",
         "count": 1
       },
       {
@@ -2313,6 +2496,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "叙事",
+        "count": 1
+      },
+      {
         "name": "学习反馈周期",
         "count": 1
       },
@@ -2345,7 +2532,19 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "译者再创作",
+        "count": 1
+      },
+      {
         "name": "意识流",
+        "count": 1
+      },
+      {
+        "name": "意象",
+        "count": 1
+      },
+      {
+        "name": "隐喻",
         "count": 1
       },
       {
@@ -2370,6 +2569,10 @@ export const publicWikiData = {
       },
       {
         "name": "原生多模态",
+        "count": 1
+      },
+      {
+        "name": "原著与译本",
         "count": 1
       },
       {
@@ -2704,7 +2907,7 @@ export const publicWikiData = {
       },
       {
         "name": "web",
-        "count": 8
+        "count": 9
       },
       {
         "name": "x",
