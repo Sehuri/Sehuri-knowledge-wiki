@@ -1,7 +1,80 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-09-03T17:23:11+08:00",
+  "updatedAt": "2026-09-04T15:58:04+08:00",
   "items": [
+    {
+      "id": "b2373f0bd944",
+      "title": "刚刚，GPT-6正式发布！OpenAI：欢迎来到AGI时代",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/ICv0Dra1PFr7sxAGqO_MVA",
+      "author": "关注前沿科技",
+      "published_at": "",
+      "captured_at": "2026-09-04T15:55:21+08:00",
+      "completeness": "full",
+      "topics": [
+        "AI模型",
+        "GPT-6",
+        "Agent",
+        "Computer Use",
+        "AI安全",
+        "上下文工程",
+        "AI基础设施"
+      ],
+      "people": [
+        "关注前沿科技",
+        "量子位编辑部",
+        "OpenAI",
+        "Greg Brockman"
+      ],
+      "concepts": [
+        "GPT-6 Astra",
+        "GPT-6 Astra Pro",
+        "Computer Use",
+        "Browser Use",
+        "Codex",
+        "Responses API Harness",
+        "跨上下文记忆",
+        "工作笔记",
+        "ARC-AGI-3",
+        "FrontierMath Tier 4",
+        "ExploitBench",
+        "ExploitGym",
+        "Terminal-Bench 4.0",
+        "DeepSWE",
+        "Agents' Last Exam",
+        "AutomationBench",
+        "OSWorld 2.0",
+        "网络安全",
+        "零日漏洞",
+        "任务总成本",
+        "API定价",
+        "AGI"
+      ],
+      "summary": "文章报道 OpenAI 发布 GPT-6 Astra 与 Astra Pro，并把这次升级概括为从‘回答问题’进一步转向‘直接完成工作’。Astra 的重点能力覆盖 Computer Use、Browser Use、软件工程、专业办公、科学和网络安全：模型可以进入终端与专业软件执行多步骤任务，制作文档、表格、演示文稿、网站、游戏或工程产物，并根据结果继续检查和修改。文章列举多项接近饱和或显著提升的评测，包括 ARC-AGI-3、FrontierMath、ExploitBench、OSWorld、AutomationBench、Terminal-Bench 和 DeepSWE，但其中部分成绩依赖 Responses API Harness、工具和特定测试设置，不能简单视为裸模型能力。文章还强调 Codex 的长程任务改进：Astra 可以跨上下文窗口保存工作笔记，并搜索以前的消息和工具输出，在不影响当前工作的情况下异步补问信息。商业层面，官方 API 标准价格为每百万输入 Token 10 美元、输出 Token 50 美元，并逐步向 Plus、Pro、Business、Enterprise、API、Azure 和 AWS Bedrock 开放。文章最后引用 Greg Brockman 对‘进入 AGI 时代’的个人判断，但这应视为发布叙事和观点，而不是已获共识的技术结论。",
+      "keyPoints": [
+        "GPT-6 Astra 的核心产品方向，是把生成文字或代码扩展为直接操作电脑、浏览器、终端及专业软件，并交付可使用的完整产物。（基准测试接近‘饱和’与 Computer Use 定位）",
+        "多项关键跑分得到官方发布页支持：ARC-AGI-3 为 99.9%、FrontierMath Tier 4 v2 为 97.6%、ExploitBench 为 100%，但 ARC-AGI-3 使用了 Responses API Harness。（基准测试与 Harness 说明）",
+        "在真实电脑任务中，官方称 Astra 的 OSWorld 2.0 得分为 72.6%，平均任务耗时约 40 分钟，相比 GPT-5.6 Sol 的约 75 分钟缩短约 47%。（OSWorld 2.0 与任务耗时）",
+        "文章把成本判断从单次 Token 价格转向完成整项任务的总成本：更贵的调用若能减少步骤、失败和返工，整体可能更经济。（从每百万 Token 价格到单任务成本）",
+        "Astra 将代码生成与 Computer Use 结合，可以进入开发工具执行、测试、发现问题并继续修改；官方 Terminal-Bench 4.0 为 57.9%，DeepSWE v1.1 为 74.1%。（编程 Coding 与专业软件操作）",
+        "网络安全能力提升同时带来更高风险：官方确认 ExploitBench 满分、发现两个此前未知的零日漏洞，并配套更严格的拒绝、监控和边界控制。（网络安全与越界行为测试）",
+        "Codex 的长程任务机制得到增强：Astra 可以跨上下文窗口保留笔记并搜索较早的消息和工具输出，减少反复压缩导致的细节丢失。（在 Codex 里把长任务接着做下去）",
+        "官方标准 API 价格为每百万输入 Token 10 美元、输出 Token 50 美元；模型将逐步开放给付费 ChatGPT 用户、API、Azure 与 AWS Bedrock。（价格与开放范围）",
+        "‘进入 AGI 时代’是文章引用的发布会观点；AGI 的定义和是否已经实现仍有争议，不应由单组基准成绩直接推出。（这就算 AGI 了吗？）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "Codex正式开放1M上下文！解除GPT-5.6 Sol封印，三行配置搞定",
+        "Agent Harness 大战：Pi 最强，Claude Code 最快，DeepSeek 最省钱！",
+        "Harness 是什么？它和 Agent 有什么不同？",
+        "深度体验DeepSeek Harness，我原谅它涨价了",
+        "腾讯WorkBuddy火了，字节和阿里急了",
+        "一文带你掌握 LLM、Token、Context、Prompt、RAG、MCP、Skill、Agent 等 AI 核心概念"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "024849c66fee",
       "title": "外国名著的文笔与译者：风格差异不能简单归咎翻译",
@@ -1425,7 +1498,7 @@ export const publicWikiData = {
     "topics": [
       {
         "name": "Agent",
-        "count": 12
+        "count": 13
       },
       {
         "name": "文学",
@@ -1440,16 +1513,16 @@ export const publicWikiData = {
         "count": 6
       },
       {
+        "name": "上下文工程",
+        "count": 5
+      },
+      {
         "name": "阅读",
         "count": 5
       },
       {
         "name": "AI系统设计",
         "count": 5
-      },
-      {
-        "name": "上下文工程",
-        "count": 4
       },
       {
         "name": "阅读推荐",
@@ -1477,6 +1550,14 @@ export const publicWikiData = {
       },
       {
         "name": "AI工具",
+        "count": 3
+      },
+      {
+        "name": "AI基础设施",
+        "count": 3
+      },
+      {
+        "name": "AI模型",
         "count": 3
       },
       {
@@ -1513,14 +1594,6 @@ export const publicWikiData = {
       },
       {
         "name": "AI采用",
-        "count": 2
-      },
-      {
-        "name": "AI基础设施",
-        "count": 2
-      },
-      {
-        "name": "AI模型",
         "count": 2
       },
       {
@@ -1664,6 +1737,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "AI安全",
+        "count": 1
+      },
+      {
         "name": "AI产品经理",
         "count": 1
       },
@@ -1677,6 +1754,14 @@ export const publicWikiData = {
       },
       {
         "name": "AIOps",
+        "count": 1
+      },
+      {
+        "name": "Computer Use",
+        "count": 1
+      },
+      {
+        "name": "GPT-6",
         "count": 1
       },
       {
@@ -1707,6 +1792,10 @@ export const publicWikiData = {
       },
       {
         "name": "DeepSeek",
+        "count": 2
+      },
+      {
+        "name": "OpenAI",
         "count": 2
       },
       {
@@ -1754,6 +1843,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "关注前沿科技",
+        "count": 1
+      },
+      {
         "name": "豪尔赫·路易斯·博尔赫斯",
         "count": 1
       },
@@ -1779,6 +1872,10 @@ export const publicWikiData = {
       },
       {
         "name": "利兄",
+        "count": 1
+      },
+      {
+        "name": "量子位编辑部",
         "count": 1
       },
       {
@@ -1866,6 +1963,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "Greg Brockman",
+        "count": 1
+      },
+      {
         "name": "IC实验室",
         "count": 1
       },
@@ -1883,10 +1984,6 @@ export const publicWikiData = {
       },
       {
         "name": "Moonshot AI",
-        "count": 1
-      },
-      {
-        "name": "OpenAI",
         "count": 1
       },
       {
@@ -1977,6 +2074,10 @@ export const publicWikiData = {
       },
       {
         "name": "Claude Code",
+        "count": 2
+      },
+      {
+        "name": "Codex",
         "count": 2
       },
       {
@@ -2168,6 +2269,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "工作笔记",
+        "count": 1
+      },
+      {
         "name": "公理",
         "count": 1
       },
@@ -2252,6 +2357,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "跨上下文记忆",
+        "count": 1
+      },
+      {
         "name": "莱特镇",
         "count": 1
       },
@@ -2265,6 +2374,10 @@ export const publicWikiData = {
       },
       {
         "name": "历史轮回",
+        "count": 1
+      },
+      {
+        "name": "零日漏洞",
         "count": 1
       },
       {
@@ -2325,6 +2438,10 @@ export const publicWikiData = {
       },
       {
         "name": "人机协作",
+        "count": 1
+      },
+      {
+        "name": "任务总成本",
         "count": 1
       },
       {
@@ -2437,6 +2554,10 @@ export const publicWikiData = {
       },
       {
         "name": "推理基础设施",
+        "count": 1
+      },
+      {
+        "name": "网络安全",
         "count": 1
       },
       {
@@ -2644,6 +2765,14 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "Agents' Last Exam",
+        "count": 1
+      },
+      {
+        "name": "AGI",
+        "count": 1
+      },
+      {
         "name": "AI安全",
         "count": 1
       },
@@ -2672,6 +2801,22 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "API定价",
+        "count": 1
+      },
+      {
+        "name": "ARC-AGI-3",
+        "count": 1
+      },
+      {
+        "name": "AutomationBench",
+        "count": 1
+      },
+      {
+        "name": "Browser Use",
+        "count": 1
+      },
+      {
         "name": "Chat",
         "count": 1
       },
@@ -2680,7 +2825,7 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "Codex",
+        "name": "Computer Use",
         "count": 1
       },
       {
@@ -2708,7 +2853,19 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "DeepSWE",
+        "count": 1
+      },
+      {
         "name": "EntitySet",
+        "count": 1
+      },
+      {
+        "name": "ExploitBench",
+        "count": 1
+      },
+      {
+        "name": "ExploitGym",
         "count": 1
       },
       {
@@ -2716,7 +2873,19 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "FrontierMath Tier 4",
+        "count": 1
+      },
+      {
         "name": "GPT-5.6 Sol",
+        "count": 1
+      },
+      {
+        "name": "GPT-6 Astra",
+        "count": 1
+      },
+      {
+        "name": "GPT-6 Astra Pro",
         "count": 1
       },
       {
@@ -2804,6 +2973,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "OSWorld 2.0",
+        "count": 1
+      },
+      {
         "name": "OWL",
         "count": 1
       },
@@ -2836,6 +3009,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "Responses API Harness",
+        "count": 1
+      },
+      {
         "name": "RSI",
         "count": 1
       },
@@ -2865,6 +3042,10 @@ export const publicWikiData = {
       },
       {
         "name": "TelemetryDataSet",
+        "count": 1
+      },
+      {
+        "name": "Terminal-Bench 4.0",
         "count": 1
       },
       {
@@ -2903,7 +3084,7 @@ export const publicWikiData = {
     "platforms": [
       {
         "name": "wechat-article",
-        "count": 17
+        "count": 18
       },
       {
         "name": "web",
