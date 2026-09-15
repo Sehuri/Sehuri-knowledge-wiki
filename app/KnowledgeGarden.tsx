@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState, type CSSProperties } from "react";
+import ProductManagerWiki from "./ProductManagerWiki";
 
 type WikiItem = {
   id: string;
@@ -47,25 +48,48 @@ const platformNames: Record<string, string> = {
 
 function formatDate(value: string) {
   if (!value) return "日期未知";
-  return new Intl.DateTimeFormat("zh-CN", {
-    year: "numeric",
-    month: "short",
-    day: "numeric",
-  }).format(new Date(value));
+  const parts = value.match(/^(\d{4})-(\d{2})-(\d{2})/);
+  if (!parts) return "日期未知";
+  return `${parts[1]}年${Number(parts[2])}月${Number(parts[3])}日`;
 }
 
 function platformLabel(value: string) {
   return platformNames[value] ?? value;
 }
 
-export default function KnowledgeGarden({ data }: { data: WikiData }) {
+type ProductWikiData = Parameters<typeof ProductManagerWiki>[0]["data"];
+
+export default function KnowledgeGarden({
+  data,
+  productData,
+}: {
+  data: WikiData;
+  productData: ProductWikiData;
+}) {
   const [query, setQuery] = useState("");
   const [platform, setPlatform] = useState("全部");
   const [activeTopic, setActiveTopic] = useState("");
   const [selectedId, setSelectedId] = useState<string | null>(
     data.items[0]?.id ?? null,
   );
-  const [view, setView] = useState<"library" | "atlas">("library");
+  const [view, setView] = useState<"library" | "product" | "atlas">("library");
+
+  const productSignals = [
+    "产品管理",
+    "需求管理",
+    "AI产品经理",
+    "AI项目交付",
+    "产品化",
+    "商业地产",
+    "品牌营销",
+  ];
+  const linkedProductKnowledge = data.items.filter((item) =>
+    item.topics.some((topic) => productSignals.includes(topic)),
+  );
+  const latestUpdatedAt =
+    new Date(data.updatedAt).getTime() >= new Date(productData.updated_at).getTime()
+      ? data.updatedAt
+      : productData.updated_at;
 
   const filtered = useMemo(() => {
     const needle = query.trim().toLowerCase();
@@ -113,6 +137,13 @@ export default function KnowledgeGarden({ data }: { data: WikiData }) {
             <b>{data.items.length}</b>
           </button>
           <button
+            className={view === "product" ? "nav-item active product-nav" : "nav-item product-nav"}
+            onClick={() => setView("product")}
+          >
+            <span>◈</span> 产品经理 Wiki
+            <b>{productData.items.length}</b>
+          </button>
+          <button
             className={view === "atlas" ? "nav-item active" : "nav-item"}
             onClick={() => setView("atlas")}
           >
@@ -120,7 +151,7 @@ export default function KnowledgeGarden({ data }: { data: WikiData }) {
           </button>
         </nav>
 
-        <div className="side-section">
+        {view === "library" && <div className="side-section">
           <p className="eyebrow">内容来源</p>
           <button
             className={platform === "全部" ? "filter-row selected" : "filter-row"}
@@ -137,13 +168,25 @@ export default function KnowledgeGarden({ data }: { data: WikiData }) {
               <span>{platformLabel(item.name)}</span><b>{item.count}</b>
             </button>
           ))}
-        </div>
+        </div>}
+
+        {view === "product" && (
+          <div className="side-section pm-side-guide">
+            <p className="eyebrow">产品经理知识地图</p>
+            {productData.collections.map((item) => (
+              <div key={item.id}>
+                <span>{item.name}</span>
+                <b>{productData.items.filter((entry) => entry.collection === item.id).length}</b>
+              </div>
+            ))}
+          </div>
+        )}
 
         <div className="side-footer">
           <span className="sync-dot" />
           <div>
             <strong>本地 Wiki 已同步</strong>
-            <span>{formatDate(data.updatedAt)} 更新</span>
+            <span>{formatDate(latestUpdatedAt)} 更新</span>
           </div>
         </div>
       </aside>
@@ -152,14 +195,20 @@ export default function KnowledgeGarden({ data }: { data: WikiData }) {
         <header className="topbar">
           <div>
             <p className="eyebrow">PERSONAL KNOWLEDGE SYSTEM</p>
-            <h1>{view === "library" ? "把零散信息，长成知识。" : "看见知识之间的联系。"}</h1>
+            <h1>
+              {view === "library"
+                ? "把零散信息，长成知识。"
+                : view === "product"
+                  ? "把产品判断，沉淀成体系。"
+                  : "看见知识之间的联系。"}
+            </h1>
           </div>
           <label className="search-box">
             <span aria-hidden="true">⌕</span>
             <input
               value={query}
               onChange={(event) => setQuery(event.target.value)}
-              placeholder="搜索标题、主题、人物或概念"
+              placeholder={view === "product" ? "搜索产品、技术或市场知识" : "搜索标题、主题、人物或概念"}
               aria-label="搜索知识库"
             />
             <kbd>⌘ K</kbd>
@@ -318,6 +367,19 @@ export default function KnowledgeGarden({ data }: { data: WikiData }) {
               </aside>
             </section>
           </>
+        ) : view === "product" ? (
+          <ProductManagerWiki
+            data={productData}
+            query={query}
+            linkedKnowledge={linkedProductKnowledge}
+            onOpenKnowledge={(id) => {
+              setSelectedId(id);
+              setQuery("");
+              setPlatform("全部");
+              setActiveTopic("");
+              setView("library");
+            }}
+          />
         ) : (
           <section className="atlas">
             <div className="atlas-copy">

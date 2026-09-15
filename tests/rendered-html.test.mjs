@@ -29,8 +29,9 @@ test("server-renders the personal knowledge portal", async () => {
   assert.match(response.headers.get("content-type") ?? "", /^text\/html\b/i);
 
   const html = await response.text();
-  assert.match(html, /<title>Personal Knowledge Wiki<\/title>/i);
+  assert.match(html, /<title>Knowledge Wiki · 产品经理 Wiki<\/title>/i);
   assert.match(html, /把零散信息，长成知识。/);
+  assert.match(html, /产品经理 Wiki/);
   assert.match(html, /GPT-5\.6来了，而许多人还停留在石器时代/);
   assert.match(html, /关系图谱/);
   assert.match(html, /本地 Wiki 已同步/);
@@ -38,16 +39,19 @@ test("server-renders the personal knowledge portal", async () => {
 });
 
 test("keeps generated Wiki data and sync scripts wired", async () => {
-  const [data, packageJson, viteConfig] = await Promise.all([
+  const [data, productData, packageJson, viteConfig] = await Promise.all([
     readFile(new URL("../app/wiki-data.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/product-manager-wiki-data.ts", import.meta.url), "utf8"),
     readFile(new URL("../package.json", import.meta.url), "utf8"),
     readFile(new URL("../vite.config.ts", import.meta.url), "utf8"),
   ]);
 
   assert.match(data, /Generated from the local Markdown Wiki/);
   assert.match(data, /"items": \[/);
-  assert.match(packageJson, /"sync": "node scripts\/sync-wiki\.mjs"/);
-  assert.match(packageJson, /"prebuild": "node scripts\/sync-wiki\.mjs"/);
+  assert.match(productData, /Nginx：流量进入系统的第一站/);
+  assert.match(productData, /Redis：快数据、临时状态与缓存边界/);
+  assert.match(packageJson, /scripts\/sync-product-manager-wiki\.mjs/);
+  assert.match(packageJson, /"prebuild": "npm run sync"/);
   assert.doesNotMatch(packageJson, /react-loading-skeleton/);
   assert.match(viteConfig, /personal-knowledge-wiki-sync/);
   assert.match(viteConfig, /server\.watcher\.add/);
