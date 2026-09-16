@@ -1,7 +1,63 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-09-04T15:58:04+08:00",
+  "updatedAt": "2026-09-16T15:52:52+08:00",
   "items": [
+    {
+      "id": "cc24e5004635",
+      "title": "满城皆师",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/I9nrh39zJLgK4nJlxV21Nw",
+      "author": "水岸",
+      "published_at": "",
+      "captured_at": "2026-09-16T15:45:58+08:00",
+      "completeness": "full",
+      "topics": [
+        "职场文化",
+        "职场沟通",
+        "组织权力",
+        "客户关系",
+        "语言",
+        "需求管理"
+      ],
+      "people": [
+        "水岸",
+        "韩愈"
+      ],
+      "concepts": [
+        "老师",
+        "称谓泛化",
+        "语言贬值",
+        "预付尊敬",
+        "甲方权力",
+        "知识权威",
+        "职位权威",
+        "客户沟通",
+        "需求变更",
+        "话语权",
+        "职场礼貌",
+        "角色准确性",
+        "权力与知识"
+      ],
+      "summary": "文章以反讽方式批评职场中对客户、领导、同事普遍使用‘老师’称呼的习惯。作者认为，问题并不在于礼貌，而在于称呼把职位、付款方身份或审批权偷偷转换成了知识权威：当客户说出外行话、错误需求或前后矛盾的意见时，项目成员仍要记录、解释并寻找所谓‘真实意图’，于是权力关系被包装成了受教关系。文章进一步指出，‘老师’是一种安全而模糊的预付尊敬，既承认对方职位，又暗示其见识值得学习；长期滥用会使词语失去准确含义，也削弱真正教育者所对应的分量。作者主张称呼应与实际关系和角色相称：同事叫名字，熟人按关系称呼，有职务便按职务称呼；是否称为老师，应取决于对方是否真正值得请教，而不是其是否坐在甲方或权力位置上。",
+      "keyPoints": [
+        "文章观察到‘老师’已经从学校场景扩展到公司、会议室和客户群，成为一种泛化的职场敬称。（开头：公司、会议室与客户群中的‘老师’）",
+        "作者真正批评的不是不懂，而是当事人不知道自己不懂，同时周围人因其客户或决策者身份而把错误意见当成需要研究的指令。（客户不懂与‘理解老师的真实意图’）",
+        "付款、审批权和甲方身份并不会自动产生专业知识；把客户一律称作老师，会把交易或组织权力误装成知识权威。（客户、经理、总监与知识资格）",
+        "‘老师’之所以流行，是因为它同时表达职位尊重、见识认可和愿意受教，比‘某总’或‘某哥’更安全、更模糊。（准确称呼为何危险）",
+        "称呼泛化会让职场关系变得滑稽：执行者负责解释、返工和收拾残局，需求提出者却借助敬称保持权威位置。（办公室如同一所大私塾）",
+        "作者把语言贬值视为核心后果：当专家、大师和老师被过度使用，这些词会逐渐失去区分能力和原有分量。（尊敬被预支与语言慢慢烂掉）",
+        "文章主张按实际关系准确称呼，并把尊敬与请教建立在真实能力和互动经验上，而不是提前授予。（结尾：称呼应与关系相称）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "销售签单，客户提需求，实施开始干：狗屁不通",
+        "用AI辅助写出高质量PRD的正确打开方式",
+        "铁饭碗里的新机器"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "b2373f0bd944",
       "title": "刚刚，GPT-6正式发布！OpenAI：欢迎来到AGI时代",
@@ -1545,6 +1601,10 @@ export const publicWikiData = {
         "count": 3
       },
       {
+        "name": "需求管理",
+        "count": 3
+      },
+      {
         "name": "知识图谱",
         "count": 3
       },
@@ -1578,10 +1638,6 @@ export const publicWikiData = {
       },
       {
         "name": "推理小说",
-        "count": 2
-      },
-      {
-        "name": "需求管理",
         "count": 2
       },
       {
@@ -1657,6 +1713,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "客户关系",
+        "count": 1
+      },
+      {
         "name": "空间设计",
         "count": 1
       },
@@ -1725,6 +1785,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "语言",
+        "count": 1
+      },
+      {
         "name": "语义推理",
         "count": 1
       },
@@ -1734,6 +1798,18 @@ export const publicWikiData = {
       },
       {
         "name": "云南旅游",
+        "count": 1
+      },
+      {
+        "name": "职场沟通",
+        "count": 1
+      },
+      {
+        "name": "职场文化",
+        "count": 1
+      },
+      {
+        "name": "组织权力",
         "count": 1
       },
       {
@@ -1847,6 +1923,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "韩愈",
+        "count": 1
+      },
+      {
         "name": "豪尔赫·路易斯·博尔赫斯",
         "count": 1
       },
@@ -1920,6 +2000,10 @@ export const publicWikiData = {
       },
       {
         "name": "汝龙",
+        "count": 1
+      },
+      {
+        "name": "水岸",
         "count": 1
       },
       {
@@ -2189,6 +2273,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "称谓泛化",
+        "count": 1
+      },
+      {
         "name": "成本/成功任务",
         "count": 1
       },
@@ -2301,6 +2389,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "话语权",
+        "count": 1
+      },
+      {
         "name": "环洱海骑行",
         "count": 1
       },
@@ -2329,7 +2421,15 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "甲方权力",
+        "count": 1
+      },
+      {
         "name": "价值认同",
+        "count": 1
+      },
+      {
+        "name": "角色准确性",
         "count": 1
       },
       {
@@ -2353,6 +2453,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "客户沟通",
+        "count": 1
+      },
+      {
         "name": "口语化语言",
         "count": 1
       },
@@ -2362,6 +2466,10 @@ export const publicWikiData = {
       },
       {
         "name": "莱特镇",
+        "count": 1
+      },
+      {
+        "name": "老师",
         "count": 1
       },
       {
@@ -2426,6 +2534,10 @@ export const publicWikiData = {
       },
       {
         "name": "全历史",
+        "count": 1
+      },
+      {
+        "name": "权力与知识",
         "count": 1
       },
       {
@@ -2617,6 +2729,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "需求变更",
+        "count": 1
+      },
+      {
         "name": "叙事",
         "count": 1
       },
@@ -2673,6 +2789,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "语言贬值",
+        "count": 1
+      },
+      {
         "name": "语义层",
         "count": 1
       },
@@ -2682,6 +2802,10 @@ export const publicWikiData = {
       },
       {
         "name": "语义约束",
+        "count": 1
+      },
+      {
+        "name": "预付尊敬",
         "count": 1
       },
       {
@@ -2705,7 +2829,19 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "知识权威",
+        "count": 1
+      },
+      {
         "name": "知识治理",
+        "count": 1
+      },
+      {
+        "name": "职场礼貌",
+        "count": 1
+      },
+      {
+        "name": "职位权威",
         "count": 1
       },
       {
@@ -3084,7 +3220,7 @@ export const publicWikiData = {
     "platforms": [
       {
         "name": "wechat-article",
-        "count": 18
+        "count": 19
       },
       {
         "name": "web",
