@@ -1,7 +1,70 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-09-16T15:52:52+08:00",
+  "updatedAt": "2026-09-18T09:02:22+08:00",
   "items": [
+    {
+      "id": "e5ab9cf3879f",
+      "title": "这个只会做选择题的Jev，却是今年我看到的最特别的大模型。",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/Nj7Y3DXibE28up0SvhJ67Q",
+      "author": "数字生命卡兹克",
+      "published_at": "",
+      "captured_at": "2026-09-18T09:00:55+08:00",
+      "completeness": "full",
+      "topics": [
+        "AI模型",
+        "Agent",
+        "AI系统设计",
+        "AI基础设施",
+        "AI评测"
+      ],
+      "people": [
+        "数字生命卡兹克",
+        "Diogo Almeida",
+        "Daniel Kahneman",
+        "William Stanley Jevons"
+      ],
+      "concepts": [
+        "Jev",
+        "TypeSafe AI",
+        "System One Model",
+        "高频决策",
+        "通用分类器",
+        "决策模型",
+        "置信度校准",
+        "RLCD",
+        "RLHF",
+        "RLVR",
+        "系统1",
+        "系统2",
+        "并行判断",
+        "模型路由",
+        "人工复核",
+        "杰文斯悖论",
+        "智能调用成本"
+      ],
+      "summary": "文章介绍 TypeSafe AI 推出的 Jev：一种不以对话或文本生成为目标、专门执行高频分类与决策的模型。作者认为，许多自动化系统真正需要的不是长篇回答，而是可直接执行的“是或否、A或B、继续或停止”，因此 Jev 通过削减文本生成，把重点放在低延迟、低成本、并行判断与置信度校准上。其核心训练思路被称为 RLCD（面向校准决策的强化学习），目标不仅是判断正确，还要使模型给出的概率具有实际意义，从而按置信度自动执行、交给更强模型复核或转交人工。文章用内容过滤、游戏控制、浏览器操作、交易及新闻预筛等案例说明其用途，并把 Jev 视为面向“系统1”快思考的专用智能组件，可与擅长复杂推理的模型分层协作。最后，作者借杰文斯悖论提出判断：当一次有语义理解能力的决策变得足够便宜，智能调用总量可能反而大幅增长，Jev 因而可能成为 Agent 系统中的重要基础模块。",
+      "keyPoints": [
+        "Jev 被定位为通用分类与决策模型，不负责聊天、写代码或生成长文本，而是面向大量可归结为离散选项的高频判断任务。（开头：Jev 只做高频决策）",
+        "文章用 X 内容过滤插件举例：模型逐条判断帖子是否属于用户不想看的类别，再由程序据此折叠内容；作者称该案例的平均判断时间约为 380 毫秒。（浏览器插件案例）",
+        "作者认为，机器消费的模型输出往往只需要能执行的决策，而不需要自然语言解释，因此专用决策模型可以避免逐 Token 生成带来的延迟与成本。（代码真正需要什么答案）",
+        "TypeSafe AI 将 Jev 称为 System One Model，对应《思考，快与慢》中的系统1快思考；它与强调多步推理的系统2式大模型形成互补。（System One Model）",
+        "RLCD 的核心是校准决策：模型不仅输出判断，还要让置信度接近真实正确概率，以支持高置信度自动执行、中等置信度交由更强模型复核、低置信度转人工的分层流程。（RLCD 与置信度校准）",
+        "Jev 支持对同一输入并行提出多个分类问题，例如同时判断新闻主题、广告属性、融资属性、分类和推荐价值，区别于传统语言模型逐 Token 生成。（并行判断与超级 if）",
+        "作者在内容预筛、事件聚类和多问题并行判断任务中进行横向测试，并认为 Jev 在准确率、速度和成本之间表现均衡；这些结果受测试集、网络延迟和对照模型配置影响。（AIHOT 实测）",
+        "文章借杰文斯悖论推测：单次智能判断越便宜，能够嵌入的场景越多，最终智能调用的总量可能上升而非下降。（杰文斯悖论与智能消费）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "一文带你掌握 LLM、Token、Context、Prompt、RAG、MCP、Skill、Agent 等 AI 核心概念",
+        "Agent Harness 大战：Pi 最强，Claude Code 最快，DeepSeek 最省钱！",
+        "腾讯WorkBuddy火了，字节和阿里急了",
+        "Kimi K3 开放模型权重与技术报告"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "cc24e5004635",
       "title": "满城皆师",
@@ -1554,7 +1617,7 @@ export const publicWikiData = {
     "topics": [
       {
         "name": "Agent",
-        "count": 13
+        "count": 14
       },
       {
         "name": "文学",
@@ -1569,6 +1632,10 @@ export const publicWikiData = {
         "count": 6
       },
       {
+        "name": "AI系统设计",
+        "count": 6
+      },
+      {
         "name": "上下文工程",
         "count": 5
       },
@@ -1577,11 +1644,15 @@ export const publicWikiData = {
         "count": 5
       },
       {
-        "name": "AI系统设计",
-        "count": 5
+        "name": "阅读推荐",
+        "count": 4
       },
       {
-        "name": "阅读推荐",
+        "name": "AI基础设施",
+        "count": 4
+      },
+      {
+        "name": "AI模型",
         "count": 4
       },
       {
@@ -1610,14 +1681,6 @@ export const publicWikiData = {
       },
       {
         "name": "AI工具",
-        "count": 3
-      },
-      {
-        "name": "AI基础设施",
-        "count": 3
-      },
-      {
-        "name": "AI模型",
         "count": 3
       },
       {
@@ -1650,6 +1713,10 @@ export const publicWikiData = {
       },
       {
         "name": "AI采用",
+        "count": 2
+      },
+      {
+        "name": "AI评测",
         "count": 2
       },
       {
@@ -1822,10 +1889,6 @@ export const publicWikiData = {
       },
       {
         "name": "AI基础概念",
-        "count": 1
-      },
-      {
-        "name": "AI评测",
         "count": 1
       },
       {
@@ -2003,6 +2066,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "数字生命卡兹克",
+        "count": 1
+      },
+      {
         "name": "水岸",
         "count": 1
       },
@@ -2047,6 +2114,14 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "Daniel Kahneman",
+        "count": 1
+      },
+      {
+        "name": "Diogo Almeida",
+        "count": 1
+      },
+      {
         "name": "Greg Brockman",
         "count": 1
       },
@@ -2080,6 +2155,10 @@ export const publicWikiData = {
       },
       {
         "name": "Sophia",
+        "count": 1
+      },
+      {
+        "name": "William Stanley Jevons",
         "count": 1
       },
       {
@@ -2245,6 +2324,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "并行判断",
+        "count": 1
+      },
+      {
         "name": "不可靠叙述者",
         "count": 1
       },
@@ -2341,6 +2424,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "高频决策",
+        "count": 1
+      },
+      {
         "name": "根因分析",
         "count": 1
       },
@@ -2433,6 +2520,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "杰文斯悖论",
+        "count": 1
+      },
+      {
         "name": "精准舞步",
         "count": 1
       },
@@ -2442,6 +2533,10 @@ export const publicWikiData = {
       },
       {
         "name": "镜头感",
+        "count": 1
+      },
+      {
+        "name": "决策模型",
         "count": 1
       },
       {
@@ -2517,6 +2612,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "模型路由",
+        "count": 1
+      },
+      {
         "name": "能力边界",
         "count": 1
       },
@@ -2542,6 +2641,10 @@ export const publicWikiData = {
       },
       {
         "name": "权限控制",
+        "count": 1
+      },
+      {
+        "name": "人工复核",
         "count": 1
       },
       {
@@ -2657,6 +2760,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "通用分类器",
+        "count": 1
+      },
+      {
         "name": "土地价款",
         "count": 1
       },
@@ -2698,6 +2805,14 @@ export const publicWikiData = {
       },
       {
         "name": "文字云",
+        "count": 1
+      },
+      {
+        "name": "系统1",
+        "count": 1
+      },
+      {
+        "name": "系统2",
         "count": 1
       },
       {
@@ -2842,6 +2957,14 @@ export const publicWikiData = {
       },
       {
         "name": "职位权威",
+        "count": 1
+      },
+      {
+        "name": "智能调用成本",
+        "count": 1
+      },
+      {
+        "name": "置信度校准",
         "count": 1
       },
       {
@@ -3045,6 +3168,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "Jev",
+        "count": 1
+      },
+      {
         "name": "JTBD",
         "count": 1
       },
@@ -3149,6 +3276,18 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "RLCD",
+        "count": 1
+      },
+      {
+        "name": "RLHF",
+        "count": 1
+      },
+      {
+        "name": "RLVR",
+        "count": 1
+      },
+      {
         "name": "RSI",
         "count": 1
       },
@@ -3170,6 +3309,10 @@ export const publicWikiData = {
       },
       {
         "name": "Stars-Emmision",
+        "count": 1
+      },
+      {
+        "name": "System One Model",
         "count": 1
       },
       {
@@ -3197,6 +3340,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "TypeSafe AI",
+        "count": 1
+      },
+      {
         "name": "UModel",
         "count": 1
       },
@@ -3220,7 +3367,7 @@ export const publicWikiData = {
     "platforms": [
       {
         "name": "wechat-article",
-        "count": 19
+        "count": 20
       },
       {
         "name": "web",
