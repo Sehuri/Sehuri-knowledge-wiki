@@ -1,7 +1,67 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-09-18T09:02:22+08:00",
+  "updatedAt": "2026-09-19T15:14:41+08:00",
   "items": [
+    {
+      "id": "179ac7a40e05",
+      "title": "万字长文｜GitHub 从入门到精通",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/1FickGzrNjIc5UE-pOU_IA",
+      "author": "Miles",
+      "published_at": "",
+      "captured_at": "2026-09-19T15:13:30+08:00",
+      "completeness": "full",
+      "topics": [
+        "开发者工具",
+        "软件工程",
+        "开源软件",
+        "人机协作",
+        "AI工具"
+      ],
+      "people": [
+        "Miles"
+      ],
+      "concepts": [
+        "Git",
+        "GitHub",
+        "版本控制",
+        "工作区",
+        "暂存区",
+        "Commit",
+        "分支",
+        "合并冲突",
+        "Pull Request",
+        "Fork",
+        "GitHub Actions",
+        "README",
+        "开源许可证",
+        "代码审查",
+        "差异审查",
+        "敏感信息",
+        "AI编程验收"
+      ],
+      "summary": "Miles 用一个网页练习项目串起 Git 与 GitHub 的完整入门流程：先区分工作区、暂存区、本地提交和远程仓库，再按“确认目录—检查差异—测试—选择文件提交—推送后回查”管理每次变更；对不确定修改使用分支，通过合并或 PR 进入主线，遇到冲突、认证失败或非快进拒绝时先读状态和历史而不强制覆盖。文章还解释 README、许可证、Fork 与常见撤销手段，并强调在 AI 帮忙改代码后，人仍要负责界定范围、审核 diff、运行验证与检查敏感信息，把 Git 当作可追溯的项目验收系统。",
+      "keyPoints": [
+        "Git 是本地版本管理工具，GitHub 是远程托管和协作平台；保存、git add、git commit、git push 分别作用于不同层，推送后仍需到网页回查。（一、Git 和 GitHub，到底谁管什么）",
+        "初始化仓库前先用 pwd 和 ls 确认当前目录；作者特别提醒不要在桌面、Documents 或用户主目录误执行 git init 与 git add .。（三、别急着 init，先确认终端到底在哪）",
+        "首次提交应成为可比较的起点；提交前用 status、diff、diff --cached 和实际运行或页面测试审查改动，.gitignore 不能抹去已进入历史的密钥。（五、第一次提交；六、第二次提交）",
+        "风险较高的试验放在分支，合并冲突是 Git 无法替人选择同一位置的不同改动；解决后要测试，也可以暂时中止合并。（七、分支；八、冲突）",
+        "本地连接 GitHub 后区分 clone、fetch、pull 和 push；遇到远程分叉先取回并检查差异，不以强制推送掩盖冲突。（九、把本地仓库送到 GitHub；十一、四个方向）",
+        "Issue 用于跟踪问题，Pull Request 是待审查的合并提案；Fork、clone 与 branch 分别对应远端副本、本地副本和仓库内部开发线。（十、仓库页面；十二、GitHub 协作）",
+        "公开可读不等于可任意商用或再分发，使用第三方开源代码需查看 LICENSE；无许可证时不能默认取得开源授权。（十三、README 和 LICENSE）",
+        "撤销操作取决于改动所在层级；对已共享的历史优先考虑产生反向提交的 revert，而 restore、reset --hard 和 force push 可能丢失或覆盖工作。（十四、改错以后；十五、常见报错）",
+        "AI 可以执行修改和命令，但人仍应限定改动范围、审查状态与差异、运行测试、检查密钥，并决定是否提交和推送。（十六、AI 时代，Git 更像一个验收系统）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "铁饭碗里的新机器",
+        "Agent Harness 大战：Pi 最强，Claude Code 最快，DeepSeek 最省钱！",
+        "深度体验DeepSeek Harness，我原谅它涨价了"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "e5ab9cf3879f",
       "title": "这个只会做选择题的Jev，却是今年我看到的最特别的大模型。",
@@ -1648,6 +1708,10 @@ export const publicWikiData = {
         "count": 4
       },
       {
+        "name": "AI工具",
+        "count": 4
+      },
+      {
         "name": "AI基础设施",
         "count": 4
       },
@@ -1657,6 +1721,10 @@ export const publicWikiData = {
       },
       {
         "name": "本体论",
+        "count": 3
+      },
+      {
+        "name": "开发者工具",
         "count": 3
       },
       {
@@ -1680,19 +1748,19 @@ export const publicWikiData = {
         "count": 3
       },
       {
-        "name": "AI工具",
-        "count": 3
-      },
-      {
         "name": "产品管理",
         "count": 2
       },
       {
-        "name": "开发者工具",
+        "name": "开源软件",
         "count": 2
       },
       {
         "name": "拉丁美洲文学",
+        "count": 2
+      },
+      {
+        "name": "人机协作",
         "count": 2
       },
       {
@@ -1776,10 +1844,6 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "开源软件",
-        "count": 1
-      },
-      {
         "name": "客户关系",
         "count": 1
       },
@@ -1808,11 +1872,11 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "人机协作",
+        "name": "人物传记",
         "count": 1
       },
       {
-        "name": "人物传记",
+        "name": "软件工程",
         "count": 1
       },
       {
@@ -2142,6 +2206,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "Miles",
+        "count": 1
+      },
+      {
         "name": "Moonshot AI",
         "count": 1
       },
@@ -2308,6 +2376,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "版本控制",
+        "count": 1
+      },
+      {
         "name": "悲剧系列",
         "count": 1
       },
@@ -2341,6 +2413,10 @@ export const publicWikiData = {
       },
       {
         "name": "插件生态",
+        "count": 1
+      },
+      {
+        "name": "差异审查",
         "count": 1
       },
       {
@@ -2384,6 +2460,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "代码审查",
+        "count": 1
+      },
+      {
         "name": "地下空间",
         "count": 1
       },
@@ -2405,6 +2485,10 @@ export const publicWikiData = {
       },
       {
         "name": "反抗",
+        "count": 1
+      },
+      {
+        "name": "分支",
         "count": 1
       },
       {
@@ -2448,6 +2532,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "工作区",
+        "count": 1
+      },
+      {
         "name": "公理",
         "count": 1
       },
@@ -2469,6 +2557,10 @@ export const publicWikiData = {
       },
       {
         "name": "国名系列",
+        "count": 1
+      },
+      {
+        "name": "合并冲突",
         "count": 1
       },
       {
@@ -2548,6 +2640,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "开源许可证",
+        "count": 1
+      },
+      {
         "name": "客户沟通",
         "count": 1
       },
@@ -2605,6 +2701,10 @@ export const publicWikiData = {
       },
       {
         "name": "敏感",
+        "count": 1
+      },
+      {
+        "name": "敏感信息",
         "count": 1
       },
       {
@@ -2940,6 +3040,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "暂存区",
+        "count": 1
+      },
+      {
         "name": "长程任务",
         "count": 1
       },
@@ -3036,6 +3140,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "AI编程验收",
+        "count": 1
+      },
+      {
         "name": "AI采用",
         "count": 1
       },
@@ -3081,6 +3189,10 @@ export const publicWikiData = {
       },
       {
         "name": "Code Mode",
+        "count": 1
+      },
+      {
+        "name": "Commit",
         "count": 1
       },
       {
@@ -3132,7 +3244,23 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "Fork",
+        "count": 1
+      },
+      {
         "name": "FrontierMath Tier 4",
+        "count": 1
+      },
+      {
+        "name": "Git",
+        "count": 1
+      },
+      {
+        "name": "GitHub",
+        "count": 1
+      },
+      {
+        "name": "GitHub Actions",
         "count": 1
       },
       {
@@ -3260,11 +3388,19 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "Pull Request",
+        "count": 1
+      },
+      {
         "name": "RDFS",
         "count": 1
       },
       {
         "name": "ReAct",
+        "count": 1
+      },
+      {
+        "name": "README",
         "count": 1
       },
       {
@@ -3367,7 +3503,7 @@ export const publicWikiData = {
     "platforms": [
       {
         "name": "wechat-article",
-        "count": 20
+        "count": 21
       },
       {
         "name": "web",
