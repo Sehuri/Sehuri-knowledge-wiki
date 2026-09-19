@@ -1,7 +1,61 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-09-19T15:20:35+08:00",
+  "updatedAt": "2026-09-19T15:25:18+08:00",
   "items": [
+    {
+      "id": "67710776cbaf",
+      "title": "出过国的top1大家推荐哪里呀？（可见评论整理）",
+      "platform": "xiaohongshu",
+      "content_type": "post",
+      "source_url": "https://xiaohongshu.com/discovery/item/6a91d904000000002a031aa3",
+      "author": "洋娃娃和小熊跳舞",
+      "published_at": "",
+      "captured_at": "2026-09-19T15:24:40+08:00",
+      "completeness": "partial",
+      "topics": [
+        "旅行攻略",
+        "目的地选择",
+        "出境旅行",
+        "海岛度假",
+        "自然风光"
+      ],
+      "people": [
+        "洋娃娃和小熊跳舞"
+      ],
+      "concepts": [
+        "评论区观点",
+        "旅行季节",
+        "旅行预算",
+        "低能量旅行",
+        "新西兰",
+        "美国",
+        "日本",
+        "加拿大",
+        "挪威",
+        "突尼斯",
+        "普吉岛",
+        "皇帝岛",
+        "巴厘岛",
+        "冰岛"
+      ],
+      "summary": "笔记作者询问，在行程可灵活安排、预算充足、时间约八天且偏低能量的条件下，出过国的人最推荐哪里。未登录页面可见的少量评论没有形成统一第一名：有评论把新西兰视为自然风景的首选，也有人推荐美国、日本、加拿大秋季、挪威特罗姆瑟极光季、悉尼、法罗群岛／格陵兰／冰岛，以及普吉岛或皇帝岛等海岛目的地。互动中出现明确分歧：有人认为美国好玩但贵，转而喜欢突尼斯；有人觉得皇帝岛比普吉更好看；也有人反对把巴厘岛评得过高。笔记作者在回复中追问美国具体城市，并认同季节会影响目的地体验。以上只是页面公开显示的局部讨论，不能据此推断 710 条评论的热门排名。",
+      "keyPoints": [
+        "笔记提问的实际约束是八天、预算充足、行程随意且旅行者自认低能量，评论中的推荐未必都对这些约束进行过筛选。（笔记正文）",
+        "一位评论者将新西兰列为个人所见自然风景第一，并说明比较对象包括欧洲、北美、非洲、东南亚和日本；另有回复表示赞同。（评论：小红薯_3494 及回复）",
+        "美国获得推荐，但也有评论指出花费较高，并提出突尼斯作为个人偏好的替代；另一评论把美国排第一、日本第二。笔记作者追问美国具体城市。（评论：nonomomo、樱桃的滋味及作者回复）",
+        "有评论按季节组合推荐加拿大的秋天，以及新西兰、荷兰、希腊的夏天；作者回复认为到访时节很重要。（评论：川南及作者回复）",
+        "可见评论还提到挪威特罗姆瑟的极光季、悉尼，以及法罗群岛、格陵兰岛和冰岛等偏自然景观目的地。（评论：Rebecca、天天想吃放纵餐、小红薯6798F159）",
+        "海岛建议包括普吉岛、皇帝岛和巴厘岛，但回复中存在比较与反对意见：有人偏好皇帝岛，也有人认为巴厘岛只是便宜、未必特别出色。（评论：豆浆油条、蒲公英、鹿が渡る、GT_one）",
+        "评论区页面标有 710 条，但当前未登录可见样本很小；不能把这些观察解释为完整评论区的统计结果。（评论区计数及登录提示）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "赴国外旅行，您认为最好的三个国家是哪三个？——zfz0126 的旅行资源评级",
+        "云南旅游攻略（大理+丽江）"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "c3d78468a339",
       "title": "赴国外旅行，您认为最好的三个国家是哪三个？——zfz0126 的旅行资源评级",
@@ -1783,6 +1837,10 @@ export const publicWikiData = {
         "count": 3
       },
       {
+        "name": "旅行攻略",
+        "count": 3
+      },
+      {
         "name": "日本文学",
         "count": 3
       },
@@ -1803,6 +1861,10 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "出境旅行",
+        "count": 2
+      },
+      {
         "name": "开源软件",
         "count": 2
       },
@@ -1811,7 +1873,7 @@ export const publicWikiData = {
         "count": 2
       },
       {
-        "name": "旅行攻略",
+        "name": "目的地选择",
         "count": 2
       },
       {
@@ -1871,10 +1933,6 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "出境旅行",
-        "count": 1
-      },
-      {
         "name": "大理",
         "count": 1
       },
@@ -1888,6 +1946,10 @@ export const publicWikiData = {
       },
       {
         "name": "工程能力",
+        "count": 1
+      },
+      {
+        "name": "海岛度假",
         "count": 1
       },
       {
@@ -1916,10 +1978,6 @@ export const publicWikiData = {
       },
       {
         "name": "旅行安全",
-        "count": 1
-      },
-      {
-        "name": "目的地选择",
         "count": 1
       },
       {
@@ -2004,6 +2062,10 @@ export const publicWikiData = {
       },
       {
         "name": "中国旅游",
+        "count": 1
+      },
+      {
+        "name": "自然风光",
         "count": 1
       },
       {
@@ -2221,6 +2283,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "洋娃娃和小熊跳舞",
+        "count": 1
+      },
+      {
         "name": "叶小钗",
         "count": 1
       },
@@ -2359,6 +2425,10 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "美国",
+        "count": 2
+      },
+      {
         "name": "魔幻现实主义",
         "count": 2
       },
@@ -2447,6 +2517,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "巴厘岛",
+        "count": 1
+      },
+      {
         "name": "版本控制",
         "count": 1
       },
@@ -2460,6 +2534,10 @@ export const publicWikiData = {
       },
       {
         "name": "本格推理",
+        "count": 1
+      },
+      {
+        "name": "冰岛",
         "count": 1
       },
       {
@@ -2540,6 +2618,10 @@ export const publicWikiData = {
       },
       {
         "name": "地下空间",
+        "count": 1
+      },
+      {
+        "name": "低能量旅行",
         "count": 1
       },
       {
@@ -2671,11 +2753,19 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "皇帝岛",
+        "count": 1
+      },
+      {
         "name": "技术保守主义",
         "count": 1
       },
       {
         "name": "技术泡沫",
+        "count": 1
+      },
+      {
+        "name": "加拿大",
         "count": 1
       },
       {
@@ -2771,11 +2861,19 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "旅行季节",
+        "count": 1
+      },
+      {
         "name": "旅行摄影",
         "count": 1
       },
       {
         "name": "旅行体验",
+        "count": 1
+      },
+      {
+        "name": "旅行预算",
         "count": 1
       },
       {
@@ -2796,10 +2894,6 @@ export const publicWikiData = {
       },
       {
         "name": "梅兰妮",
-        "count": 1
-      },
-      {
-        "name": "美国",
         "count": 1
       },
       {
@@ -2831,7 +2925,19 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "挪威",
+        "count": 1
+      },
+      {
         "name": "判断能力",
+        "count": 1
+      },
+      {
+        "name": "评论区观点",
+        "count": 1
+      },
+      {
+        "name": "普吉岛",
         "count": 1
       },
       {
@@ -2864,6 +2970,10 @@ export const publicWikiData = {
       },
       {
         "name": "任务总成本",
+        "count": 1
+      },
+      {
+        "name": "日本",
         "count": 1
       },
       {
@@ -2971,6 +3081,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "突尼斯",
+        "count": 1
+      },
+      {
         "name": "土地价款",
         "count": 1
       },
@@ -3044,6 +3158,10 @@ export const publicWikiData = {
       },
       {
         "name": "新本格",
+        "count": 1
+      },
+      {
+        "name": "新西兰",
         "count": 1
       },
       {
@@ -3629,11 +3747,11 @@ export const publicWikiData = {
         "count": 10
       },
       {
-        "name": "x",
-        "count": 1
+        "name": "xiaohongshu",
+        "count": 2
       },
       {
-        "name": "xiaohongshu",
+        "name": "x",
         "count": 1
       }
     ]
