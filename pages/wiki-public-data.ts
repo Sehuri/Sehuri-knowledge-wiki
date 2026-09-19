@@ -1,7 +1,58 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-09-19T15:14:41+08:00",
+  "updatedAt": "2026-09-19T15:20:35+08:00",
   "items": [
+    {
+      "id": "c3d78468a339",
+      "title": "赴国外旅行，您认为最好的三个国家是哪三个？——zfz0126 的旅行资源评级",
+      "platform": "web",
+      "content_type": "article",
+      "source_url": "https://zhihu.com/question/1910617434295087138/answer/2036135317443498402",
+      "author": "zfz0126",
+      "published_at": "",
+      "captured_at": "2026-09-19T15:19:57+08:00",
+      "completeness": "partial",
+      "topics": [
+        "旅行攻略",
+        "目的地选择",
+        "出境旅行",
+        "旅行安全",
+        "中国旅游"
+      ],
+      "people": [
+        "zfz0126"
+      ],
+      "concepts": [
+        "旅游资源",
+        "旅行体验",
+        "目的地评级",
+        "错峰旅行",
+        "海岛度假",
+        "文化遗产",
+        "自然风光",
+        "旅行风险",
+        "防盗防骗",
+        "美国",
+        "意大利",
+        "马尔代夫"
+      ],
+      "summary": "答主 zfz0126 只评价自己去过的目的地，按旅游资源将美国、意大利和马尔代夫列为 S 级：美国胜在地域与玩法多样，意大利胜在人文、风景与饮食，马尔代夫的优势是海岛与奢华度假的避世感；加拿大、法国、挪威、西班牙、瑞士等被列为 A+。答主还把中国列为 S+，并解释评分衡量的是历史文化与自然资源，而非拥挤、景区管理、服务等实际旅行体验；他建议错峰、控制每日外出时间并选择舒适的住宿来改善体验。回答后半部分给出基于个人经历的旅行安全分级和防盗、防骗建议。这份清单适合作为主观目的地灵感，不应视为客观排名或实时安全指南。",
+      "keyPoints": [
+        "答主明确限定评价范围为自己去过的国家，也承认部分国家只是走马观花，不能代表全面深度体验。（回答开头）",
+        "S 级的三个海外目的地是美国、意大利、马尔代夫，理由分别偏向风土与活动多样性、人文及自然风光、海岛与高品质度假体验。（美国、意大利、马尔代夫评级）",
+        "加拿大、法国、挪威、西班牙、瑞士获 A+；评价侧重北美自然景观、博物馆与文化、峡湾、建筑与海岛、阿尔卑斯山景色等不同优势。（A+ 目的地段落）",
+        "答主将中国单独列为 S+，后来澄清其评判对象是旅游资源而非旅行体验，承认节假日拥挤、景区管理和古城小吃街同质化等体验问题。（中国 S+ 与补充回应）",
+        "作者个人改善国内旅行体验的方法是避开节假日，在当季风景较好的地区住三到四晚品质较好的酒店，每天缩短外出时间。（中国旅行方式补充）",
+        "补充部分把欧洲部分国家列为更需提防扒窃的 D0，把柬埔寨和土耳其列为需警惕搭讪或旅游骗局的 D1，并给出财物收纳与选择正规服务的建议；这些只是答主个人分级。（D0—D3 安全性补充）",
+        "答主不评价自己没去过的国家；其文中“今年”“明年”等旅行计划缺少可靠发布日期，不能据此推算具体年份。（未去过的国家与旅行计划补充）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "云南旅游攻略（大理+丽江）"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "179ac7a40e05",
       "title": "万字长文｜GitHub 从入门到精通",
@@ -1760,6 +1811,10 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "旅行攻略",
+        "count": 2
+      },
+      {
         "name": "人机协作",
         "count": 2
       },
@@ -1816,6 +1871,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "出境旅行",
+        "count": 1
+      },
+      {
         "name": "大理",
         "count": 1
       },
@@ -1856,7 +1915,11 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "旅行攻略",
+        "name": "旅行安全",
+        "count": 1
+      },
+      {
+        "name": "目的地选择",
         "count": 1
       },
       {
@@ -1937,6 +2000,10 @@ export const publicWikiData = {
       },
       {
         "name": "职场文化",
+        "count": 1
+      },
+      {
+        "name": "中国旅游",
         "count": 1
       },
       {
@@ -2230,6 +2297,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "zfz0126",
+        "count": 1
+      },
+      {
         "name": "ZLibrary",
         "count": 1
       }
@@ -2456,6 +2527,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "错峰旅行",
+        "count": 1
+      },
+      {
         "name": "代笔作品",
         "count": 1
       },
@@ -2485,6 +2560,10 @@ export const publicWikiData = {
       },
       {
         "name": "反抗",
+        "count": 1
+      },
+      {
+        "name": "防盗防骗",
         "count": 1
       },
       {
@@ -2557,6 +2636,10 @@ export const publicWikiData = {
       },
       {
         "name": "国名系列",
+        "count": 1
+      },
+      {
+        "name": "海岛度假",
         "count": 1
       },
       {
@@ -2684,11 +2767,27 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "旅行风险",
+        "count": 1
+      },
+      {
         "name": "旅行摄影",
         "count": 1
       },
       {
+        "name": "旅行体验",
+        "count": 1
+      },
+      {
+        "name": "旅游资源",
+        "count": 1
+      },
+      {
         "name": "逻辑推理",
+        "count": 1
+      },
+      {
+        "name": "马尔代夫",
         "count": 1
       },
       {
@@ -2697,6 +2796,10 @@ export const publicWikiData = {
       },
       {
         "name": "梅兰妮",
+        "count": 1
+      },
+      {
+        "name": "美国",
         "count": 1
       },
       {
@@ -2713,6 +2816,10 @@ export const publicWikiData = {
       },
       {
         "name": "模型路由",
+        "count": 1
+      },
+      {
+        "name": "目的地评级",
         "count": 1
       },
       {
@@ -2884,6 +2991,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "文化遗产",
+        "count": 1
+      },
+      {
         "name": "文件系统记忆",
         "count": 1
       },
@@ -2988,6 +3099,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "意大利",
+        "count": 1
+      },
+      {
         "name": "意识流",
         "count": 1
       },
@@ -3077,6 +3192,10 @@ export const publicWikiData = {
       },
       {
         "name": "自洽",
+        "count": 1
+      },
+      {
+        "name": "自然风光",
         "count": 1
       },
       {
@@ -3507,7 +3626,7 @@ export const publicWikiData = {
       },
       {
         "name": "web",
-        "count": 9
+        "count": 10
       },
       {
         "name": "x",
