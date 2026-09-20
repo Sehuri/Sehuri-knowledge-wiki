@@ -1,7 +1,7 @@
 // Generated from product-manager/_meta/index.json. Do not edit manually.
 export const productManagerWikiData = {
   "version": 1,
-  "updated_at": "2026-09-15T00:00:00+08:00",
+  "updated_at": "2026-09-20T00:00:00+08:00",
   "collections": [
     {
       "id": "product",
@@ -24,14 +24,26 @@ export const productManagerWikiData = {
       "description": "工作现场的判断、复盘与方法沉淀。"
     }
   ],
+  "technical_domains": [
+    {
+      "id": "frontend",
+      "name": "前端知识",
+      "description": "浏览器里的页面、交互、状态与体验。"
+    },
+    {
+      "id": "backend",
+      "name": "后端知识",
+      "description": "请求入口、接口治理、业务与数据。"
+    }
+  ],
   "ingestion": {
     "link": "发送公众号或其他公开链接：提取正文后保留来源、完整度与关键观点，再关联到对应主题。",
     "thought": "发送技术、市场或产品相关的知识与思考：原意单独保存，AI 只负责结构化、补充标签与建立关联。"
   },
   "journey": [
     {
-      "label": "用户请求",
-      "note": "页面、App 或第三方系统发起访问"
+      "label": "浏览器 / 前端",
+      "note": "呈现页面、响应操作并发起请求"
     },
     {
       "label": "Nginx",
@@ -52,10 +64,70 @@ export const productManagerWikiData = {
   ],
   "items": [
     {
+      "id": "pm-tech-frontend-basics",
+      "title": "前端：页面、交互与用户可见的状态",
+      "short_title": "前端基础",
+      "collection": "technology",
+      "technical_domain": "frontend",
+      "level": "基础",
+      "updated_at": "2026-09-20",
+      "reading_minutes": 9,
+      "tags": [
+        "前端",
+        "浏览器",
+        "页面渲染",
+        "交互状态",
+        "性能"
+      ],
+      "summary": "前端把页面内容、样式、交互逻辑与后端返回的数据组织成用户看得见、用得了的体验。产品经理需要区分页面首次加载、接口等待和交互反馈，也要为成功、加载中、空数据、失败与权限不足设计状态，而不只画出一个理想页面。",
+      "mental_model": "用户眼前的操作台：展示信息、接收操作、反馈过程，再通过接口与后端交换数据。",
+      "key_points": [
+        "HTML 描述内容结构，CSS 负责布局与样式，JavaScript 处理交互；浏览器将资源组合并渲染成页面。",
+        "前端可以先在本地更新显示，也可能等待接口返回；界面上的即时反馈不等于后端操作已经成功。",
+        "一次操作通常有初始、加载中、成功、空结果、失败等状态；每种状态都需要可理解的文案与可继续的动作。",
+        "页面性能既包括资源加载与渲染，也包括点击后的响应速度；慢体验不一定只由后端接口造成。",
+        "不同屏幕、输入方式和网络条件会改变体验，需求不能只按一张桌面端静态稿验收。"
+      ],
+      "decision_questions": [
+        "首次打开页面时，哪些信息必须先出现？加载中如何反馈？",
+        "提交后是先显示处理中，还是允许乐观更新？若最终失败怎样回退？",
+        "接口返回空数据、无权限、超时和错误时，页面分别显示什么、用户能做什么？",
+        "手机与桌面布局、键盘操作和弱网使用是否有不同要求？",
+        "哪些信息可以在前端暂存，哪些必须以服务端结果为准？"
+      ],
+      "common_traps": [
+        "把静态设计稿当成完整需求，漏掉加载、空态、错误与权限态。",
+        "认为按钮变成“成功”就代表业务已落库，忽略接口失败和回滚。",
+        "把所有卡顿归因于后端，忽视资源体积、渲染和浏览器主线程。",
+        "让前端单独决定敏感权限；最终授权仍须由服务端验证。"
+      ],
+      "related_ids": [
+        "pm-tech-gateway",
+        "pm-tech-nginx",
+        "pm-tech-database"
+      ],
+      "path": "technology/frontend-basics.md",
+      "sources": [
+        {
+          "name": "MDN：浏览器如何加载网站",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_browsers_load_websites"
+        },
+        {
+          "name": "MDN：Web 性能",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/Performance"
+        },
+        {
+          "name": "MDN：客户端与服务端概览",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Client-Server_overview"
+        }
+      ]
+    },
+    {
       "id": "pm-tech-nginx",
       "title": "Nginx：流量进入系统的第一站",
       "short_title": "Nginx",
       "collection": "technology",
+      "technical_domain": "backend",
       "level": "基础",
       "updated_at": "2026-09-15",
       "reading_minutes": 8,
@@ -89,6 +161,7 @@ export const productManagerWikiData = {
         "开启缓存却没有定义失效、权限隔离和更新策略。"
       ],
       "related_ids": [
+        "pm-tech-frontend-basics",
         "pm-tech-gateway",
         "pm-tech-redis"
       ],
@@ -109,6 +182,7 @@ export const productManagerWikiData = {
       "title": "Gateway：接口世界的统一入口",
       "short_title": "Gateway",
       "collection": "technology",
+      "technical_domain": "backend",
       "level": "基础",
       "updated_at": "2026-09-15",
       "reading_minutes": 9,
@@ -142,6 +216,7 @@ export const productManagerWikiData = {
         "认为统一入口天然更安全，却没有最小权限、证书、审计和攻击面治理。"
       ],
       "related_ids": [
+        "pm-tech-frontend-basics",
         "pm-tech-nginx",
         "pm-tech-database",
         "pm-tech-redis"
@@ -159,6 +234,7 @@ export const productManagerWikiData = {
       "title": "数据库：业务事实如何被保存",
       "short_title": "数据库",
       "collection": "technology",
+      "technical_domain": "backend",
       "level": "基础",
       "updated_at": "2026-09-15",
       "reading_minutes": 12,
@@ -212,6 +288,7 @@ export const productManagerWikiData = {
       "title": "Redis：快数据、临时状态与缓存边界",
       "short_title": "Redis",
       "collection": "technology",
+      "technical_domain": "backend",
       "level": "基础",
       "updated_at": "2026-09-15",
       "reading_minutes": 11,

@@ -50,6 +50,9 @@ test("keeps generated Wiki data and sync scripts wired", async () => {
   assert.match(data, /"items": \[/);
   assert.match(productData, /Nginx：流量进入系统的第一站/);
   assert.match(productData, /Redis：快数据、临时状态与缓存边界/);
+  assert.match(productData, /前端：页面、交互与用户可见的状态/);
+  assert.match(productData, /"technical_domain": "frontend"/);
+  assert.match(productData, /"technical_domain": "backend"/);
   assert.match(packageJson, /scripts\/sync-product-manager-wiki\.mjs/);
   assert.match(packageJson, /"prebuild": "npm run sync"/);
   assert.doesNotMatch(packageJson, /react-loading-skeleton/);

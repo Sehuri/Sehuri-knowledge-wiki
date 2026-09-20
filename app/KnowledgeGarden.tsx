@@ -179,6 +179,13 @@ export default function KnowledgeGarden({
                 <b>{productData.items.filter((entry) => entry.collection === item.id).length}</b>
               </div>
             ))}
+            <p className="eyebrow pm-side-subheading">技术知识分区</p>
+            {productData.technical_domains.map((item) => (
+              <div key={item.id}>
+                <span>{item.name}</span>
+                <b>{productData.items.filter((entry) => entry.technical_domain === item.id).length}</b>
+              </div>
+            ))}
           </div>
         )}
 

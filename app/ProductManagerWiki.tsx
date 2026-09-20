@@ -7,6 +7,7 @@ type ProductWikiItem = {
   title: string;
   short_title: string;
   collection: string;
+  technical_domain?: "frontend" | "backend";
   level: string;
   updated_at: string;
   reading_minutes: number;
@@ -25,6 +26,11 @@ type ProductWikiData = {
   updated_at: string;
   collections: readonly {
     id: string;
+    name: string;
+    description: string;
+  }[];
+  technical_domains: readonly {
+    id: "frontend" | "backend";
     name: string;
     description: string;
   }[];
@@ -55,12 +61,14 @@ export default function ProductManagerWiki({
   onOpenKnowledge: (id: string) => void;
 }) {
   const [collection, setCollection] = useState("all");
+  const [technicalDomain, setTechnicalDomain] = useState<"all" | "frontend" | "backend">("all");
   const [selectedId, setSelectedId] = useState(data.items[0]?.id ?? "");
 
   const filtered = useMemo(() => {
     const needle = query.trim().toLowerCase();
     return data.items.filter((item) => {
       const inCollection = collection === "all" || item.collection === collection;
+      const inTechnicalDomain = technicalDomain === "all" || item.technical_domain === technicalDomain;
       const haystack = [
         item.title,
         item.summary,
@@ -69,9 +77,9 @@ export default function ProductManagerWiki({
         ...item.key_points,
         ...item.decision_questions,
       ].join(" ").toLowerCase();
-      return inCollection && (!needle || haystack.includes(needle));
+      return inCollection && inTechnicalDomain && (!needle || haystack.includes(needle));
     });
-  }, [collection, data.items, query]);
+  }, [collection, technicalDomain, data.items, query]);
 
   useEffect(() => {
     if (filtered.length && !filtered.some((item) => item.id === selectedId)) {
@@ -79,9 +87,11 @@ export default function ProductManagerWiki({
     }
   }, [filtered, selectedId]);
 
-  const selected = data.items.find((item) => item.id === selectedId) ?? filtered[0] ?? null;
+  const selected = filtered.find((item) => item.id === selectedId) ?? filtered[0] ?? null;
   const collectionName = (id: string) =>
     data.collections.find((item) => item.id === id)?.name ?? id;
+  const technicalDomainName = (id?: string) =>
+    data.technical_domains.find((item) => item.id === id)?.name ?? "";
 
   return (
     <div className="pm-wiki">
@@ -105,6 +115,38 @@ export default function ProductManagerWiki({
         </div>
       </section>
 
+      <section className="pm-domain-section" aria-label="前后端知识分区">
+        <div className="pm-domain-heading">
+          <div>
+            <p className="eyebrow">TECHNOLOGY MAP</p>
+            <h2>前端与后端，分别在做什么</h2>
+          </div>
+          <p>按技术职责阅读；跨前后端的主题仍通过「继续阅读」保持关联。</p>
+        </div>
+        <div className="pm-domain-cards">
+          {data.technical_domains.map((domain) => {
+            const count = data.items.filter((item) => item.technical_domain === domain.id).length;
+            return (
+              <button
+                key={domain.id}
+                type="button"
+                className={technicalDomain === domain.id ? "pm-domain-card active" : "pm-domain-card"}
+                aria-pressed={technicalDomain === domain.id}
+                onClick={() => {
+                  setCollection("technology");
+                  setTechnicalDomain(technicalDomain === domain.id ? "all" : domain.id);
+                }}
+              >
+                <span>{domain.id === "frontend" ? "01 / FRONTEND" : "02 / BACKEND"}</span>
+                <strong>{domain.name}</strong>
+                <p>{domain.description}</p>
+                <b>{count} 篇知识</b>
+              </button>
+            );
+          })}
+        </div>
+      </section>
+
       <section className="system-journey" aria-labelledby="journey-title">
         <div className="journey-heading">
           <p className="eyebrow">REQUEST JOURNEY</p>
@@ -124,7 +166,7 @@ export default function ProductManagerWiki({
       <section className="pm-collections" aria-label="产品经理知识分类">
         <button
           className={collection === "all" ? "active" : ""}
-          onClick={() => setCollection("all")}
+          onClick={() => { setCollection("all"); setTechnicalDomain("all"); }}
         >
           <span>全部专题</span>
           <b>{data.items.length}</b>
@@ -135,7 +177,7 @@ export default function ProductManagerWiki({
             <button
               key={item.id}
               className={collection === item.id ? "active" : ""}
-              onClick={() => setCollection(item.id)}
+              onClick={() => { setCollection(item.id); setTechnicalDomain("all"); }}
             >
               <span>{item.name}</span>
               <b>{count}</b>
@@ -150,7 +192,7 @@ export default function ProductManagerWiki({
           <div className="section-heading">
             <div>
               <p className="eyebrow">TECHNICAL LITERACY</p>
-              <h2>{collection === "all" ? "产品经理的技术底图" : collectionName(collection)}</h2>
+              <h2>{technicalDomain === "all" ? (collection === "all" ? "产品经理的技术底图" : collectionName(collection)) : technicalDomainName(technicalDomain)}</h2>
             </div>
             <span>{filtered.length} 个专题</span>
           </div>
@@ -167,6 +209,7 @@ export default function ProductManagerWiki({
                   <div>
                     <div className="pm-card-meta">
                       <span>{collectionName(item.collection)}</span>
+                      {item.technical_domain && <span>{technicalDomainName(item.technical_domain)}</span>}
                       <span>{item.reading_minutes} 分钟</span>
                       <span>{item.level}</span>
                     </div>
@@ -192,6 +235,7 @@ export default function ProductManagerWiki({
             <>
               <div className="pm-detail-meta">
                 <span>{collectionName(selected.collection)}</span>
+                {selected.technical_domain && <><span>·</span><span>{technicalDomainName(selected.technical_domain)}</span></>}
                 <span>·</span>
                 <span>{selected.reading_minutes} 分钟</span>
                 <span>·</span>
@@ -233,7 +277,11 @@ export default function ProductManagerWiki({
                 {selected.related_ids.map((id) => {
                   const related = data.items.find((item) => item.id === id);
                   return related ? (
-                    <button key={id} onClick={() => setSelectedId(id)}>
+                    <button key={id} onClick={() => {
+                      setCollection(related.collection);
+                      setTechnicalDomain("all");
+                      setSelectedId(id);
+                    }}>
                       <span>{related.short_title}</span><b>↗</b>
                     </button>
                   ) : null;

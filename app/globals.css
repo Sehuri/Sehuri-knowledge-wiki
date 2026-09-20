@@ -809,6 +809,70 @@ kbd {
     rgba(255, 255, 255, 0.82);
 }
 
+.pm-domain-section {
+  display: grid;
+  gap: 15px;
+}
+
+.pm-domain-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.pm-domain-heading h2 {
+  margin: 5px 0 0;
+  color: var(--pm-navy);
+  font-family: Georgia, "Songti SC", serif;
+  font-size: clamp(23px, 2.3vw, 30px);
+}
+
+.pm-domain-heading > p {
+  max-width: 360px;
+  margin: 0;
+  color: #63718b;
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.pm-domain-cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.pm-domain-card {
+  display: grid;
+  gap: 6px;
+  min-height: 142px;
+  padding: 19px 22px;
+  border: 1px solid #cfdbee;
+  border-radius: 16px;
+  background: #fff;
+  color: var(--pm-navy);
+  cursor: pointer;
+  text-align: left;
+  transition: 160ms ease;
+}
+
+.pm-domain-card:first-child { background: linear-gradient(130deg, #f1fcfb, #fff 72%); }
+.pm-domain-card:last-child { background: linear-gradient(130deg, #edf3ff, #fff 72%); }
+.pm-domain-card:hover,
+.pm-domain-card.active {
+  border-color: var(--pm-blue);
+  box-shadow: 0 11px 24px rgba(20, 38, 79, 0.08);
+  transform: translateY(-2px);
+}
+
+.pm-domain-card.active { box-shadow: inset 3px 0 var(--pm-blue), 0 11px 24px rgba(20, 38, 79, 0.08); }
+.pm-domain-card > span { color: #627ba8; font-size: 12px; font-weight: 800; letter-spacing: 0.09em; }
+.pm-domain-card strong { font-size: 21px; }
+.pm-domain-card p { margin: 0; color: #617089; font-size: 15px; line-height: 1.5; }
+.pm-domain-card b { color: var(--pm-blue); font-size: 13px; }
+
+.pm-side-subheading { margin-top: 22px; }
+
 .pm-intro-copy h2,
 .system-journey h2,
 .pm-detail h2,
@@ -1368,6 +1432,8 @@ kbd {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
+  .pm-domain-heading { align-items: start; flex-direction: column; }
+
   .pm-linked-grid {
     grid-template-columns: 1fr 1fr;
   }
@@ -1457,6 +1523,7 @@ kbd {
 
   .pm-ingestion,
   .pm-collections,
+  .pm-domain-cards,
   .pm-linked-grid {
     grid-template-columns: 1fr;
   }
