@@ -1,7 +1,173 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-09-19T15:29:49+08:00",
+  "updatedAt": "2026-09-20T09:49:00+08:00",
   "items": [
+    {
+      "id": "39e4634f1ad1",
+      "title": "出境目的地主观评级——知乎用户的九地旅行体验",
+      "platform": "web",
+      "content_type": "article",
+      "source_url": "https://zhihu.com/question/1910617434295087138/answer/2041261417337246202",
+      "author": "知乎用户",
+      "published_at": "2026-05-22",
+      "captured_at": "2026-09-20T09:49:00+08:00",
+      "completeness": "full",
+      "topics": [
+        "旅行攻略",
+        "目的地选择",
+        "出境旅行",
+        "旅行安全"
+      ],
+      "people": [],
+      "concepts": [
+        "目的地评级",
+        "旅行体验",
+        "慢旅行",
+        "意大利",
+        "法国",
+        "瑞士",
+        "泰国",
+        "希腊"
+      ],
+      "summary": "答主认为难以选出通用前三，转而按自身体验比较意大利、法国、英国、台湾省、葡萄牙、泰国、西班牙、瑞士和希腊：更欣赏南法氛围、瑞士山景与台湾慢生活，也重视意大利人文；结尾建议不要赶行程、不要跟团、不要显露奢侈品。",
+      "keyPoints": [
+        "答主认为意大利强在人文遗产和饮食，但担心热门城市的拥挤与偷抢；法国更欣赏南法而非巴黎。（意大利、法国段）",
+        "瑞士被其评价为风景、徒步、整洁和治安俱佳，主要缺点是贵；台湾省则以慢生活和环岛体验见长。（瑞士、台湾省段）",
+        "泰国的近、便宜和按摩适合短假；英国更适合威士忌、足球、哈利波特或莎士比亚爱好者，希腊建议慎选岛屿、避免疲惫的跳岛游。（泰国、英国、希腊段）",
+        "答主明确说旅行评价因人而异，最后给出的个人经验是避免特种兵、跟团和显露奢侈品。（结尾）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "赴国外旅行，您认为最好的三个国家是哪三个？——zfz0126 的旅行资源评级",
+        "出过国的top1大家推荐哪里呀？（可见评论整理）",
+        "两个人去美国旅游要花多少钱？——三人美西自驾案例",
+        "旅游是不是要趁年轻玩才有意思？——Jensen W 的旅行叙事"
+      ],
+      "extractionNotes": ""
+    },
+    {
+      "id": "f5c3f891babf",
+      "title": "两个人去美国旅游要花多少钱？——三人美西自驾案例",
+      "platform": "web",
+      "content_type": "article",
+      "source_url": "https://zhihu.com/question/665093847/answer/1969745031926617870",
+      "author": "丸子",
+      "published_at": "2025-11-06",
+      "captured_at": "2026-09-20T09:47:16+08:00",
+      "completeness": "partial",
+      "topics": [
+        "旅行攻略",
+        "出境旅行",
+        "旅行预算",
+        "美国旅游"
+      ],
+      "people": [
+        "丸子"
+      ],
+      "concepts": [
+        "美西自驾",
+        "国家公园",
+        "旅行费用",
+        "行程强度",
+        "黄石公园",
+        "大峡谷"
+      ],
+      "summary": "答主分享一家三口 2025 年暑假九天美西国家公园自驾：修订费用表合计约人民币 4.84 万元；行程覆盖黄石、大提顿、拱门、羚羊谷和大峡谷，自驾约 3870 公里。她承认节奏很赶、饮食较随意，首次赴美者更适合少安排几个公园；后续还修正了餐饮与租车费用解释及部分旅行常识。",
+      "keyPoints": [
+        "更新后的表格合计人民币 48,449.19 元，其中机票约 20,903.52 元、租车 6,323 元、酒店约 8,737.53 元；这是三人的历史支出，不可直接推算两人或今天的价格。（开头费用表与“更新一下表格”图片（修订版））",
+        "九天路线由洛杉矶、盐湖城进入黄石和大提顿，再去拱门、羚羊谷、大峡谷、拉斯维加斯，总自驾 2413 英里，约 3870 公里。（第 1—9 天行程及“总体行程略赶”段）",
+        "答主称自己的餐饮开支偏低是因为国家公园行程中吃饭随意，且原租车统计漏记了预订时支付的约 2100 元。（11-10 更新：吃饭、租车解释）",
+        "作者不建议首次去美国的人照搬紧凑的多园路线，建议城市游加一两个国家公园。（“总体行程略赶”段）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "赴国外旅行，您认为最好的三个国家是哪三个？——zfz0126 的旅行资源评级",
+        "出境目的地主观评级——知乎用户的九地旅行体验",
+        "旅游是不是要趁年轻玩才有意思？——Jensen W 的旅行叙事"
+      ],
+      "extractionNotes": ""
+    },
+    {
+      "id": "38003eca8fe8",
+      "title": "旅游是不是要趁年轻玩才有意思？——Jensen W 的旅行叙事",
+      "platform": "web",
+      "content_type": "article",
+      "source_url": "https://zhihu.com/question/1933533927240340096/answer/2052358001751864730",
+      "author": "Jensen W",
+      "published_at": "2026-06-22",
+      "captured_at": "2026-09-20T09:47:16+08:00",
+      "completeness": "full",
+      "topics": [
+        "旅行攻略",
+        "出境旅行",
+        "旅行体验"
+      ],
+      "people": [
+        "Jensen W"
+      ],
+      "concepts": [
+        "年轻与旅行",
+        "慢旅行",
+        "旅行节奏",
+        "瑞士",
+        "英国",
+        "法国",
+        "旅行体力"
+      ],
+      "summary": "答主用 23 岁赴瑞士、随后沙特出差和英国毕业旅行，以及后来再访英国、法国和瑞士的经历回应“旅行是否要趁年轻”：年轻时体力让高强度行程成为可能，但最难忘的并不总是打卡景点，而是途中偶遇、等待风景和与地方生活相遇的瞬间；年龄增长后可调整节奏、靠锻炼延续旅行能力。",
+      "keyPoints": [
+        "作者起初以为要到 30 岁才有条件出国，但读研期间的瑞士同传机会和工作中的沙特行程改变了旅行时间线。（开头：瑞士与沙特经历）",
+        "第一次英国毕业旅行路线密集，脚上起泡仍持续行走；作者因此强烈感到年轻的体力优势，也开始担忧将来走不动。（第一次英国毕业旅行及体力反思）",
+        "再次去英国时，湖区、高地和爱丁堡既有赶路也有慢行；作者提出遇到雨不必一味躲避，可以去适合雨天的地方。（再访英国段）",
+        "后续法瑞旅行叙事中，马特洪峰日出、伯尔尼日落和巴黎夜景都需要等待；作者认为日常生活细节也可能比壮阔景点更留在记忆里。（法瑞之旅后半）",
+        "整篇并未论证“只有年轻时旅行才有意思”，更像是珍惜当下体力，同时通过改变节奏或锻炼保留未来出行可能性的个人经验。（通读全文；AI 整理判断）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "赴国外旅行，您认为最好的三个国家是哪三个？——zfz0126 的旅行资源评级",
+        "出境目的地主观评级——知乎用户的九地旅行体验",
+        "两个人去美国旅游要花多少钱？——三人美西自驾案例"
+      ],
+      "extractionNotes": ""
+    },
+    {
+      "id": "53371a79abcb",
+      "title": "诺贝尔文学奖作家分档与代表作——鞭临天下的主观清单",
+      "platform": "web",
+      "content_type": "article",
+      "source_url": "https://zhihu.com/question/1928360458366226575/answer/2083004236485476775",
+      "author": "鞭临天下",
+      "published_at": "2026-09-15",
+      "captured_at": "2026-09-20T09:47:15+08:00",
+      "completeness": "full",
+      "topics": [
+        "文学阅读",
+        "阅读清单"
+      ],
+      "people": [
+        "鞭临天下"
+      ],
+      "concepts": [
+        "诺贝尔文学奖",
+        "文学经典",
+        "文学评价",
+        "代表作"
+      ],
+      "summary": "答主没有给出严格的诺贝尔文学奖前十名，而是按个人评价把获奖作家分为五档、附代表作品，并额外列出托尔斯泰、卡夫卡、普鲁斯特、乔伊斯等未获奖却被其视为重要的作家；这是一份带有鲜明主观判断的延伸阅读清单。",
+      "keyPoints": [
+        "最高的“宗师级”列入托马斯·曼、黑塞、纪德、艾略特、福克纳、加缪、拒领的萨特、贝克特和马尔克斯，并为多数人列代表作。（Ⅰ档｜宗师级）",
+        "“巨擘级”和“大家级”扩大到小说、诗歌、戏剧等体裁，意在提供广泛的诺奖作家与作品索引，而不是按票数或年份的客观排名。（Ⅱ档—Ⅲ档）",
+        "末尾按相当于前几档的方式补入托尔斯泰、卡夫卡、普鲁斯特、乔伊斯、博尔赫斯、伍尔夫等未获诺奖作家，强调奖项不能涵盖所有文学巨匠。（诺奖错过的文学巨星）",
+        "榜单未解释清楚分档标准，因此更适合用来找阅读线索，不适合当成权威文学史排序。（通读五档及补充名单；AI 整理判断）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [],
+      "extractionNotes": ""
+    },
     {
       "id": "67710776cbaf",
       "title": "出过国的top1大家推荐哪里呀？（可见评论整理）",
@@ -1794,6 +1960,10 @@ export const publicWikiData = {
         "count": 8
       },
       {
+        "name": "旅行攻略",
+        "count": 6
+      },
+      {
         "name": "企业AI",
         "count": 6
       },
@@ -1804,6 +1974,10 @@ export const publicWikiData = {
       {
         "name": "AI系统设计",
         "count": 6
+      },
+      {
+        "name": "出境旅行",
+        "count": 5
       },
       {
         "name": "上下文工程",
@@ -1842,7 +2016,7 @@ export const publicWikiData = {
         "count": 3
       },
       {
-        "name": "旅行攻略",
+        "name": "目的地选择",
         "count": 3
       },
       {
@@ -1866,10 +2040,6 @@ export const publicWikiData = {
         "count": 2
       },
       {
-        "name": "出境旅行",
-        "count": 2
-      },
-      {
         "name": "开源软件",
         "count": 2
       },
@@ -1878,7 +2048,7 @@ export const publicWikiData = {
         "count": 2
       },
       {
-        "name": "目的地选择",
+        "name": "旅行安全",
         "count": 2
       },
       {
@@ -1982,7 +2152,15 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "旅行安全",
+        "name": "旅行体验",
+        "count": 1
+      },
+      {
+        "name": "旅行预算",
+        "count": 1
+      },
+      {
+        "name": "美国旅游",
         "count": 1
       },
       {
@@ -2038,6 +2216,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "文学阅读",
+        "count": 1
+      },
+      {
         "name": "消费行为",
         "count": 1
       },
@@ -2051,6 +2233,10 @@ export const publicWikiData = {
       },
       {
         "name": "玉龙雪山",
+        "count": 1
+      },
+      {
+        "name": "阅读清单",
         "count": 1
       },
       {
@@ -2157,6 +2343,10 @@ export const publicWikiData = {
       },
       {
         "name": "庵溪",
+        "count": 1
+      },
+      {
+        "name": "鞭临天下",
         "count": 1
       },
       {
@@ -2276,6 +2466,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "丸子",
+        "count": 1
+      },
+      {
         "name": "望宸",
         "count": 1
       },
@@ -2336,6 +2530,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "Jensen W",
+        "count": 1
+      },
+      {
         "name": "Lilian Weng",
         "count": 1
       },
@@ -2386,6 +2584,10 @@ export const publicWikiData = {
         "count": 4
       },
       {
+        "name": "瑞士",
+        "count": 3
+      },
+      {
         "name": "长上下文",
         "count": 3
       },
@@ -2410,6 +2612,10 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "法国",
+        "count": 2
+      },
+      {
         "name": "工具调用",
         "count": 2
       },
@@ -2430,6 +2636,14 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "旅行体验",
+        "count": 2
+      },
+      {
+        "name": "慢旅行",
+        "count": 2
+      },
+      {
         "name": "美国",
         "count": 2
       },
@@ -2438,11 +2652,19 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "目的地评级",
+        "count": 2
+      },
+      {
         "name": "实体",
         "count": 2
       },
       {
         "name": "属性",
+        "count": 2
+      },
+      {
+        "name": "意大利",
         "count": 2
       },
       {
@@ -2618,7 +2840,15 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "大峡谷",
+        "count": 1
+      },
+      {
         "name": "代笔作品",
+        "count": 1
+      },
+      {
+        "name": "代表作",
         "count": 1
       },
       {
@@ -2730,6 +2960,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "国家公园",
+        "count": 1
+      },
+      {
         "name": "国名系列",
         "count": 1
       },
@@ -2767,6 +3001,10 @@ export const publicWikiData = {
       },
       {
         "name": "皇帝岛",
+        "count": 1
+      },
+      {
+        "name": "黄石公园",
         "count": 1
       },
       {
@@ -2870,6 +3108,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "旅行费用",
+        "count": 1
+      },
+      {
         "name": "旅行风险",
         "count": 1
       },
@@ -2878,11 +3120,15 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "旅行节奏",
+        "count": 1
+      },
+      {
         "name": "旅行摄影",
         "count": 1
       },
       {
-        "name": "旅行体验",
+        "name": "旅行体力",
         "count": 1
       },
       {
@@ -2910,6 +3156,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "美西自驾",
+        "count": 1
+      },
+      {
         "name": "敏感",
         "count": 1
       },
@@ -2930,11 +3180,11 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "目的地评级",
+        "name": "能力边界",
         "count": 1
       },
       {
-        "name": "能力边界",
+        "name": "年轻与旅行",
         "count": 1
       },
       {
@@ -2943,6 +3193,10 @@ export const publicWikiData = {
       },
       {
         "name": "挪威",
+        "count": 1
+      },
+      {
+        "name": "诺贝尔文学奖",
         "count": 1
       },
       {
@@ -2995,10 +3249,6 @@ export const publicWikiData = {
       },
       {
         "name": "瑞德",
-        "count": 1
-      },
-      {
-        "name": "瑞士",
         "count": 1
       },
       {
@@ -3094,6 +3344,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "泰国",
+        "count": 1
+      },
+      {
         "name": "停留时间",
         "count": 1
       },
@@ -3150,7 +3404,19 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "文学经典",
+        "count": 1
+      },
+      {
+        "name": "文学评价",
+        "count": 1
+      },
+      {
         "name": "文字云",
+        "count": 1
+      },
+      {
+        "name": "希腊",
         "count": 1
       },
       {
@@ -3187,6 +3453,10 @@ export const publicWikiData = {
       },
       {
         "name": "行程规划",
+        "count": 1
+      },
+      {
+        "name": "行程强度",
         "count": 1
       },
       {
@@ -3238,10 +3508,6 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "意大利",
-        "count": 1
-      },
-      {
         "name": "意识流",
         "count": 1
       },
@@ -3251,6 +3517,10 @@ export const publicWikiData = {
       },
       {
         "name": "隐喻",
+        "count": 1
+      },
+      {
+        "name": "英国",
         "count": 1
       },
       {
@@ -3765,7 +4035,7 @@ export const publicWikiData = {
       },
       {
         "name": "web",
-        "count": 10
+        "count": 14
       },
       {
         "name": "xiaohongshu",
