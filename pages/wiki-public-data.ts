@@ -1,7 +1,46 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-09-20T21:52:40+08:00",
+  "updatedAt": "2026-09-20T21:58:59+08:00",
   "items": [
+    {
+      "id": "42c80dd3e0b0",
+      "title": "办申根英国签证，银行卡余额保持多少最合适：抖音博主关于签证流水与余额的建议",
+      "platform": "douyin",
+      "content_type": "video",
+      "source_url": "https://www.douyin.com/video/7684213304994123017",
+      "author": "AS visa签证-楠",
+      "published_at": "2026-09-11",
+      "captured_at": "2026-09-20T21:58:59+08:00",
+      "completeness": "partial",
+      "topics": [
+        "出境旅行",
+        "旅行攻略",
+        "签证准备"
+      ],
+      "people": [
+        "AS visa签证-楠"
+      ],
+      "concepts": [
+        "申根签证",
+        "英国签证",
+        "银行流水"
+      ],
+      "summary": "抖音短视频，作者「AS visa签证-楠」，2026-09-11 发布，时长约 2 分 09 秒。主题是申请申根、英国、新西兰、澳大利亚等发达国家签证时银行卡流水该如何准备。根据抖音页面自动生成的章节要点，博主的主张为：办理发达国家签证需要提供银行卡流水，建议避免使用支付宝和微信流水；银行卡入账金额要与收入相匹配，流水入账应高于收入；流水余额建议至少 5 万元并保持稳定、避免购买理财；流水需要提前养约半年，这样有助于提高签证通过率。请注意本条内容整理自平台 AI 生成的章节要点，未取得视频口播原文。",
+      "keyPoints": [
+        "视频主题为申请申根、英国、新西兰、澳大利亚等发达国家签证时银行卡流水的重要性与准备方式。（章节要点总述）",
+        "引言部分交代议题背景。（00:00 引言）",
+        "申请发达国家签证需要提供银行卡流水，建议避免使用支付宝和微信流水。（00:25 银行卡流水的重要性）",
+        "银行卡入账需要与收入相匹配，流水入账应高于收入。（00:42 银行卡入账）",
+        "流水余额建议至少 5 万元，并且要保持稳定，避免用于购买理财。（00:59 流水余额）",
+        "养流水需要提前约半年时间，有助于提高签证成功率。（01:52 养流水的建议）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "对中国免签的国家有哪些，这些国家值得去吗：Gateau 的免签落地签清单与逐国点评"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "3a044b6bbf35",
       "title": "长时间高强度用脑的人，该怎么把清晰的脑子养回来：脑雾自述与补剂推广文",
@@ -2096,11 +2135,11 @@ export const publicWikiData = {
       },
       {
         "name": "旅行攻略",
-        "count": 7
+        "count": 8
       },
       {
         "name": "出境旅行",
-        "count": 6
+        "count": 7
       },
       {
         "name": "企业AI",
@@ -2312,6 +2351,10 @@ export const publicWikiData = {
       },
       {
         "name": "品牌营销",
+        "count": 1
+      },
+      {
+        "name": "签证准备",
         "count": 1
       },
       {
@@ -2657,6 +2700,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "AS visa签证-楠",
+        "count": 1
+      },
+      {
         "name": "Daniel Kahneman",
         "count": 1
       },
@@ -2808,6 +2855,10 @@ export const publicWikiData = {
       },
       {
         "name": "目的地评级",
+        "count": 2
+      },
+      {
+        "name": "申根签证",
         "count": 2
       },
       {
@@ -3463,10 +3514,6 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "申根签证",
-        "count": 1
-      },
-      {
         "name": "身体经验",
         "count": 1
       },
@@ -3707,11 +3754,19 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "银行流水",
+        "count": 1
+      },
+      {
         "name": "隐喻",
         "count": 1
       },
       {
         "name": "英国",
+        "count": 1
+      },
+      {
+        "name": "英国签证",
         "count": 1
       },
       {
@@ -4243,6 +4298,10 @@ export const publicWikiData = {
       {
         "name": "xiaohongshu",
         "count": 2
+      },
+      {
+        "name": "douyin",
+        "count": 1
       },
       {
         "name": "x",
