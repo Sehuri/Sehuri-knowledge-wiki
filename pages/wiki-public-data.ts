@@ -1,7 +1,47 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-09-20T21:58:59+08:00",
+  "updatedAt": "2026-09-20T22:04:16+08:00",
   "items": [
+    {
+      "id": "025765d6faac",
+      "title": "我是如何一边打工一边环游世界：抖音博主关于假期与中转机票的分享",
+      "platform": "douyin",
+      "content_type": "video",
+      "source_url": "https://www.douyin.com/video/7671240232520019129",
+      "author": "申子辰",
+      "published_at": "2026-08-07",
+      "captured_at": "2026-09-20T22:04:16+08:00",
+      "completeness": "partial",
+      "topics": [
+        "出境旅行",
+        "旅行攻略",
+        "目的地选择"
+      ],
+      "people": [
+        "申子辰"
+      ],
+      "concepts": [
+        "廉价机票",
+        "中转停留",
+        "假期规划"
+      ],
+      "summary": "抖音短视频，作者「申子辰」，2026-08-07 发布，时长约 1 分 57 秒。博主讲述如何在上班的同时利用假期环游世界。根据抖音页面自动生成的章节要点：一年主要有四次出行机会，分别是春节、五一、年假和国庆；博主展示了自己已预订的今年到明年的机票，目的地包括土耳其、肯尼亚和瑞士；在目的地选择上提到要处理好转机停留的安排（利用 24—48 小时的中转），以提高出行的效率；视频结尾预告下期将分享如何选到便宜机票，包括使用的 APP 与操作方法。请注意本条内容整理自平台 AI 生成的章节要点，未取得视频口播原文。",
+      "keyPoints": [
+        "视频主题为如何在打工的同时利用假期环游世界，并预告下期讲如何选到便宜机票。（章节要点总述）",
+        "明确自己的假期：一年有四次环游世界的机会，分别是春节、五一、年假和国庆。（00:06 明确自己的假期）",
+        "机票战绩展示：博主称已预订今年到明年的机票，包括土耳其、肯尼亚和瑞士。（00:35 机票战绩展示）",
+        "旅行目的地选择：章节要点称应避免将常见中转国作为旅行目的地，改为选择 24—48 小时的中转，以高效完成旅行。（00:47 旅行目的地选择）",
+        "结语：下期视频将分享如何选到便宜机票，包括使用的 APP 和操作方法。（01:54 结语）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "旅游是不是要趁年轻玩才有意思？——Jensen W 的旅行叙事",
+        "赴国外旅行，您认为最好的三个国家是哪三个？——zfz0126 的旅行资源评级",
+        "两个人去美国旅游要花多少钱？——三人美西自驾案例"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "42c80dd3e0b0",
       "title": "办申根英国签证，银行卡余额保持多少最合适：抖音博主关于签证流水与余额的建议",
@@ -2130,16 +2170,16 @@ export const publicWikiData = {
         "count": 14
       },
       {
+        "name": "旅行攻略",
+        "count": 9
+      },
+      {
         "name": "文学",
         "count": 9
       },
       {
-        "name": "旅行攻略",
-        "count": 8
-      },
-      {
         "name": "出境旅行",
-        "count": 7
+        "count": 8
       },
       {
         "name": "企业AI",
@@ -2152,6 +2192,10 @@ export const publicWikiData = {
       {
         "name": "AI系统设计",
         "count": 6
+      },
+      {
+        "name": "目的地选择",
+        "count": 5
       },
       {
         "name": "上下文工程",
@@ -2168,10 +2212,6 @@ export const publicWikiData = {
       {
         "name": "AI基础设施",
         "count": 5
-      },
-      {
-        "name": "目的地选择",
-        "count": 4
       },
       {
         "name": "AI工具",
@@ -2641,6 +2681,10 @@ export const publicWikiData = {
       },
       {
         "name": "汝龙",
+        "count": 1
+      },
+      {
+        "name": "申子辰",
         "count": 1
       },
       {
@@ -3238,6 +3282,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "假期规划",
+        "count": 1
+      },
+      {
         "name": "价值认同",
         "count": 1
       },
@@ -3311,6 +3359,10 @@ export const publicWikiData = {
       },
       {
         "name": "历史轮回",
+        "count": 1
+      },
+      {
+        "name": "廉价机票",
         "count": 1
       },
       {
@@ -3842,6 +3894,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "中转停留",
+        "count": 1
+      },
+      {
         "name": "自动压缩",
         "count": 1
       },
@@ -4296,12 +4352,12 @@ export const publicWikiData = {
         "count": 17
       },
       {
-        "name": "xiaohongshu",
+        "name": "douyin",
         "count": 2
       },
       {
-        "name": "douyin",
-        "count": 1
+        "name": "xiaohongshu",
+        "count": 2
       },
       {
         "name": "x",
