@@ -1,7 +1,54 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-09-20T10:03:39+08:00",
+  "updatedAt": "2026-09-20T20:29:02+08:00",
   "items": [
+    {
+      "id": "62d710bed37b",
+      "title": "能从底层解释一下计算机的原理吗：从晶体管到 GPU 的算力链路",
+      "platform": "web",
+      "content_type": "article",
+      "source_url": "https://zhihu.com/question/666025968/answer/2010309393024038714",
+      "author": "Soulflare",
+      "published_at": "2026-02-26",
+      "captured_at": "2026-09-20T20:29:02+08:00",
+      "completeness": "full",
+      "topics": [
+        "计算机体系结构",
+        "AI基础设施"
+      ],
+      "people": [
+        "Soulflare"
+      ],
+      "concepts": [
+        "晶体管",
+        "逻辑门",
+        "冯诺依曼架构",
+        "GPU",
+        "HBM"
+      ],
+      "summary": "知乎回答，作者 Soulflare（算法工程师）。从半导体物理起步逐层搭出计算机：晶体管的高低电压 → 与/或/非逻辑门 → 半加器/全加器与算术逻辑单元 → 触发器与寄存器 → DRAM 与动态刷新 → 晶振节拍加控制单元的取指执行循环 → 编译器把高级语言翻成机器指令；随后转向 AI 时代，解释为什么矩阵乘法逼出了 GPU、显存带宽形成冯诺依曼瓶颈、以及把内存与计算封装到一起的 HBM 由此而来，并穿插《编码》《CSAPP》《计算机体系结构：量化研究方法》等教材推荐。核心主张是计算机没有任何魔法，全部抽象都是「电的开与关」逐层推出来的结果。",
+      "keyPoints": [
+        "计算机的物理起点只有高电压与低电压，定义为逻辑 1 和 0，所有原理都建立在这两个状态之上。（开篇第 1—4 段）",
+        "晶体管是可被电压控制通断的微小结构，现代 CPU 内有几百亿个；串联得与门、并联得或门、反相连接得非门。（第 5—9 段）",
+        "异或门判定本位、与门判定进位，组合出半加器；多个半加器级联成全加器，即多位加法电路——算术逻辑单元本质就是硬连线的逻辑门网。（第 10—13 段）",
+        "触发器用反馈回路把输出接回输入，从而锁住电压状态记住 1 位；64 个触发器排成一行就是寄存器，因紧邻运算电路所以极快但造价高。（第 15—18 段）",
+        "DRAM 用电容存电荷，结构简单容量大，但电容漏电必须每隔极短时间刷新，所以断电即丢失。（第 20—22 段）",
+        "晶振产生固定频率节拍（如 4.0 GHz 即每秒 40 亿次高低电压切换），程序计数器存地址，控制单元译码后驱动运算电路执行，再把结果写回寄存器，计数器加一进入下一轮。（第 24—31 段）",
+        "Python、Java 等代码最终被编译器翻译成针对特定 CPU 架构的机器指令，也就是纯粹的 0 和 1。（第 32 段）",
+        "CPU 有大量面积用于分支预测、缓存与控制单元，真正做纯数字计算的算术逻辑单元占比不大，因此不适合大模型的矩阵乘法。（第 36—38 段）",
+        "GPU 设计思路与 CPU 相反：砍掉复杂控制与缓存，塞满最简单的算术单元，成千上万个核心在同一节拍并行计算，对大模型的海量矩阵运算效率是 CPU 的成百上千倍。（第 41—43 段）",
+        "AI 芯片的瓶颈是显存带宽（冯诺依曼瓶颈）——算得快但数据喂不饱；解法是把内存与计算核心封装在同一基板上，并用硅中介层打导电孔互连，即高带宽内存 HBM。（第 45—48 段）",
+        "收束视角：高低电压 → 逻辑门 → 算术单元 → 寄存器 → 晶振与控制 → 指令集 → 汇编 → C/Python，抽象是一层层长出来的，底层物理规律才是长期不变的能力。（第 50—54 段）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "一文带你掌握 LLM、Token、Context、Prompt、RAG、MCP、Skill、Agent 等 AI 核心概念",
+        "刚刚，GPT-6正式发布！OpenAI：欢迎来到AGI时代",
+        "铁饭碗里的新机器"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "53371a79abcb",
       "title": "诺贝尔文学奖作家分档与代表作——鞭临天下的主观清单",
@@ -1996,11 +2043,11 @@ export const publicWikiData = {
         "count": 5
       },
       {
-        "name": "AI工具",
-        "count": 4
+        "name": "AI基础设施",
+        "count": 5
       },
       {
-        "name": "AI基础设施",
+        "name": "AI工具",
         "count": 4
       },
       {
@@ -2133,6 +2180,10 @@ export const publicWikiData = {
       },
       {
         "name": "互联网大厂",
+        "count": 1
+      },
+      {
+        "name": "计算机体系结构",
         "count": 1
       },
       {
@@ -2558,6 +2609,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "Soulflare",
+        "count": 1
+      },
+      {
         "name": "William Stanley Jevons",
         "count": 1
       },
@@ -2904,6 +2959,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "冯诺依曼架构",
+        "count": 1
+      },
+      {
         "name": "改造",
         "count": 1
       },
@@ -3036,6 +3095,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "晶体管",
+        "count": 1
+      },
+      {
         "name": "精准舞步",
         "count": 1
       },
@@ -3133,6 +3196,10 @@ export const publicWikiData = {
       },
       {
         "name": "旅游资源",
+        "count": 1
+      },
+      {
+        "name": "逻辑门",
         "count": 1
       },
       {
@@ -3800,6 +3867,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "GPU",
+        "count": 1
+      },
+      {
         "name": "GraphRAG",
         "count": 1
       },
@@ -3809,6 +3880,10 @@ export const publicWikiData = {
       },
       {
         "name": "Harness评测",
+        "count": 1
+      },
+      {
+        "name": "HBM",
         "count": 1
       },
       {
@@ -4031,7 +4106,7 @@ export const publicWikiData = {
       },
       {
         "name": "web",
-        "count": 14
+        "count": 15
       },
       {
         "name": "xiaohongshu",
