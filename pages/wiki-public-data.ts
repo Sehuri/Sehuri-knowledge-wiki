@@ -1,7 +1,47 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-09-20T22:04:16+08:00",
+  "updatedAt": "2026-09-21T08:58:48+08:00",
   "items": [
+    {
+      "id": "e859968a970c",
+      "title": "为什么我们不被允许有gap year？——三吉吖523 关于世俗成功框架与主体性的回答",
+      "platform": "web",
+      "content_type": "article",
+      "source_url": "https://zhihu.com/question/593093174/answer/1892007677128853436",
+      "author": "三吉吖523",
+      "published_at": "2025-04-05",
+      "captured_at": "2026-09-21T08:58:48+08:00",
+      "completeness": "full",
+      "topics": [
+        "职场文化",
+        "生命哲学",
+        "人生选择"
+      ],
+      "people": [
+        "三吉吖523"
+      ],
+      "concepts": [
+        "gap year",
+        "主体性",
+        "世俗成功框架"
+      ],
+      "summary": "知乎回答，作者「三吉吖523」。作者的主张是：一旦真的 gap 过一次，社会长期灌输的安稳叙事与「人不上班就会万劫不复」的说法就会不攻自破——会发现漫无边际的自由其实是另一种牢笼，上班依旧面目可憎，但最担心的「弹尽粮绝、流落街头」并不会发生。真正困住人的是思维：从「只有升职加薪、有车有房才算活得好」的世俗成功框架里跳出来之后，人生会多出很多活法，不舒服的时候躺平也算一种胜利。作者认为之后仍然会回去上班，但不再恐惧，快乐与圆满不必等到攒够 F U money；这样的人会把自身感受置于首位，认为身体、能量、渴望与金钱同等重要，而这种主体性正让职场惯用的画大饼与 PUA 失效。",
+      "keyPoints": [
+        "一旦真的 gap 过，社会长期灌输的安稳叙事以及「人不上班就会万劫不复」的说法便会不攻自破。（第 1 段）",
+        "作者认为漫无边际的自由其实是另一种牢笼，上班依旧面目可憎；同时最担心的「弹尽粮绝、流落街头」的惨状并不会发生。（第 1 段）",
+        "真正的牢笼是思维：从「只有升职加薪、有车有房才能自证价值」的世俗成功框架跳出来后，人生会多出很多活法，不舒服时躺平也是一种胜利。（第 2 段）",
+        "人生的旷野无需苦苦追寻，完成意念转变的那一刻它便已经展开。（第 2 段）",
+        "作者判断自己仍会回去上班，但不再恐惧；快乐与圆满不必等攒够 F U money 才能实现，想做的事也不必在宏大目标前搁浅。（第 3 段）",
+        "这样的人会把自身感受置于首位，明确宣示身体、能量、渴望与金钱同等重要；这种主体性让画大饼与 PUA 都不再管用。（第 4 段）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "满城皆师",
+        "我是如何一边打工一边环游世界：抖音博主关于假期与中转机票的分享"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "025765d6faac",
       "title": "我是如何一边打工一边环游世界：抖音博主关于假期与中转机票的分享",
@@ -2214,6 +2254,10 @@ export const publicWikiData = {
         "count": 5
       },
       {
+        "name": "生命哲学",
+        "count": 4
+      },
+      {
         "name": "AI工具",
         "count": 4
       },
@@ -2239,10 +2283,6 @@ export const publicWikiData = {
       },
       {
         "name": "日本文学",
-        "count": 3
-      },
-      {
-        "name": "生命哲学",
         "count": 3
       },
       {
@@ -2279,6 +2319,10 @@ export const publicWikiData = {
       },
       {
         "name": "侦探文学",
+        "count": 2
+      },
+      {
+        "name": "职场文化",
         "count": 2
       },
       {
@@ -2402,6 +2446,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "人生选择",
+        "count": 1
+      },
+      {
         "name": "人物传记",
         "count": 1
       },
@@ -2471,10 +2519,6 @@ export const publicWikiData = {
       },
       {
         "name": "职场沟通",
-        "count": 1
-      },
-      {
-        "name": "职场文化",
         "count": 1
       },
       {
@@ -2681,6 +2725,10 @@ export const publicWikiData = {
       },
       {
         "name": "汝龙",
+        "count": 1
+      },
+      {
+        "name": "三吉吖523",
         "count": 1
       },
       {
@@ -3606,6 +3654,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "世俗成功框架",
+        "count": 1
+      },
+      {
         "name": "事实层",
         "count": 1
       },
@@ -3898,6 +3950,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "主体性",
+        "count": 1
+      },
+      {
         "name": "自动压缩",
         "count": 1
       },
@@ -4083,6 +4139,10 @@ export const publicWikiData = {
       },
       {
         "name": "FrontierMath Tier 4",
+        "count": 1
+      },
+      {
+        "name": "gap year",
         "count": 1
       },
       {
@@ -4349,7 +4409,7 @@ export const publicWikiData = {
       },
       {
         "name": "web",
-        "count": 17
+        "count": 18
       },
       {
         "name": "douyin",
