@@ -1,7 +1,53 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-09-21T13:17:00+08:00",
+  "updatedAt": "2026-09-21T13:48:01+08:00",
   "items": [
+    {
+      "id": "65dc7f4dab53",
+      "title": "在 Codex 中用这 4 个 SKill，让你拍的照片变高级。",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/BR7ceCGZqKDKXpH6HCo6lg",
+      "author": "逛逛（逛逛GitHub）",
+      "published_at": "2026-08-10",
+      "captured_at": "2026-09-21T13:48:01+08:00",
+      "completeness": "full",
+      "topics": [
+        "AI工具",
+        "视觉设计",
+        "数字创作"
+      ],
+      "people": [
+        "逛逛（逛逛GitHub）"
+      ],
+      "concepts": [
+        "Codex",
+        "Skill",
+        "zine海报",
+        "抽象编辑排版",
+        "纸感插画"
+      ],
+      "summary": "微信公众号「逛逛GitHub」的文章，署名作者「逛逛」。介绍 4 个可在 Codex 里直接使用的开源 Skill，用来把随手拍的照片做成更高级的视觉成品：① gc-minimal-zine-poster 生成极简风格的竖版 zine 海报，默认 3:5 构图，用旧纸背景、大面积留白、单一主体与一个高饱和色重心，支持输入主题、句子、物件和照片，仓库有 4000 多 Star；② photo-abstract-editorial 保留原图并叠加杂志版式，从原图的空间关系、构图节奏与色彩里提炼出象牙白底的极简抽象面板，再配一个原创英文标题，项目接近 2000 Star；③ 同一仓库里的两个 Skill——scene-distillation-zine-v1-3 分析照片的主体、空间关系、色彩和情绪后绘制纸感插画海报，scenes-gathered-zine-v1-3 适合本身有现场感的照片，会把真实照片、源自照片的抽象插画、高饱和色与手撕纸边缘组织到同一张海报中，仓库约 1400 Star。文章给出三个仓库的开源地址，并给出关注公众号的引导。",
+      "keyPoints": [
+        "文章介绍 4 个可在 Codex 中使用的开源 Skill，用途是把拍的照片处理成更高级的视觉成品。（开篇）",
+        "gc-minimal-zine-poster 生成极简风格的竖版 zine 海报：默认 3:5 竖构图，使用旧纸背景、大面积留白、一个小主体和一个高饱和色彩重心；支持输入主题、句子、物件和照片。（01 生成极简风格的海报）",
+        "该 Skill 会把纸张纹理和印刷颗粒保留在生成的海报画面里，适合处理旅行记录封面、文章头图和短句海报；开源项目会返回图片、生成提示词和生成方案，方便后续调整。（01 生成极简风格的海报）",
+        "photo-abstract-editorial 可在保留原图的同时添加杂志版式：把上传照片放在作品上方或主区域、真实内容保持不变，下半部分从照片现有的空间关系、构图节奏和色彩里提炼出象牙白底的极简抽象面板，最后配一个原创英文标题。（02 保留原图的抽象编辑排版）",
+        "该 Skill 适合作品用于城市、旅行和展览照片，也可用于作品集封面或社媒长图；文中称项目当时有接近 2000 的 Star。（02 保留原图的抽象编辑排版）",
+        "第 03 节实际上介绍了两个 Skill：scene-distillation-zine-v1-3 会分析照片的主体、空间关系、色彩和情绪，然后绘制新的纸感插画海报。（03 把照片重构为纸感插画）",
+        "scenes-gathered-zine-v1-3 适合照片本身很有现场感、希望保留人物、海岸线、街道或建筑关系的情况，会把真实照片、源自照片的抽象插画、高饱和色和手撕纸边缘组织到同一张海报中，复杂细节简化为较大的形状以留出纸面空白。（03 把照片重构为纸感插画）",
+        "第 03 节的两个 Skill 适合情绪海报、诗歌配图和专辑概念图，文中称其所在仓库当时有 1400 个 Star，并提示描述清楚想保留的感受和主题会让生成画面更聚焦。（03 把照片重构为纸感插画）",
+        "文中给出的三个开源地址分别为 github.com/LiamGvchi/gc-minimal-zine-poster、github.com/"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "8个适合探索与视觉创作的趣味网站",
+        "Codex正式开放1M上下文！解除GPT-5.6 Sol封印，三行配置搞定",
+        "万字长文｜GitHub 从入门到精通"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "a656ac7bbe4e",
       "title": "最火哑巴模型Jev加上微信，直接治好了我的低情商",
@@ -2315,15 +2361,15 @@ export const publicWikiData = {
         "count": 5
       },
       {
+        "name": "AI工具",
+        "count": 5
+      },
+      {
         "name": "AI模型",
         "count": 5
       },
       {
         "name": "生命哲学",
-        "count": 4
-      },
-      {
-        "name": "AI工具",
         "count": 4
       },
       {
@@ -2372,6 +2418,14 @@ export const publicWikiData = {
       },
       {
         "name": "人物分析",
+        "count": 2
+      },
+      {
+        "name": "视觉设计",
+        "count": 2
+      },
+      {
+        "name": "数字创作",
         "count": 2
       },
       {
@@ -2527,15 +2581,7 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "视觉设计",
-        "count": 1
-      },
-      {
         "name": "书单",
-        "count": 1
-      },
-      {
-        "name": "数字创作",
         "count": 1
       },
       {
@@ -2718,6 +2764,10 @@ export const publicWikiData = {
       },
       {
         "name": "关注前沿科技",
+        "count": 1
+      },
+      {
+        "name": "逛逛（逛逛GitHub）",
         "count": 1
       },
       {
@@ -2935,11 +2985,11 @@ export const publicWikiData = {
     ],
     "concepts": [
       {
-        "name": "Agent",
-        "count": 4
+        "name": "Skill",
+        "count": 5
       },
       {
-        "name": "Skill",
+        "name": "Agent",
         "count": 4
       },
       {
@@ -2952,6 +3002,10 @@ export const publicWikiData = {
       },
       {
         "name": "知识图谱",
+        "count": 3
+      },
+      {
+        "name": "Codex",
         "count": 3
       },
       {
@@ -3060,10 +3114,6 @@ export const publicWikiData = {
       },
       {
         "name": "Claude Code",
-        "count": 2
-      },
-      {
-        "name": "Codex",
         "count": 2
       },
       {
@@ -3228,6 +3278,10 @@ export const publicWikiData = {
       },
       {
         "name": "冲动消费",
+        "count": 1
+      },
+      {
+        "name": "抽象编辑排版",
         "count": 1
       },
       {
@@ -4023,6 +4077,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "纸感插画",
+        "count": 1
+      },
+      {
         "name": "智能调用成本",
         "count": 1
       },
@@ -4465,12 +4523,16 @@ export const publicWikiData = {
       {
         "name": "Workflow",
         "count": 1
+      },
+      {
+        "name": "zine海报",
+        "count": 1
       }
     ],
     "platforms": [
       {
         "name": "wechat-article",
-        "count": 21
+        "count": 22
       },
       {
         "name": "web",
