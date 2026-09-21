@@ -1,7 +1,7 @@
 // Generated from product-manager/_meta/index.json. Do not edit manually.
 export const productManagerWikiData = {
   "version": 1,
-  "updated_at": "2026-09-20T00:00:00+08:00",
+  "updated_at": "2026-09-21T00:00:00+08:00",
   "collections": [
     {
       "id": "product",
@@ -64,6 +64,56 @@ export const productManagerWikiData = {
   ],
   "items": [
     {
+      "id": "pm-product-foundations",
+      "title": "产品经理入门：从问题发现到结果验证",
+      "short_title": "产品闭环",
+      "collection": "product",
+      "level": "入门",
+      "updated_at": "2026-09-21",
+      "reading_minutes": 12,
+      "tags": [
+        "产品管理",
+        "产品闭环",
+        "需求判断",
+        "结果验证",
+        "AI 产品经理"
+      ],
+      "summary": "产品经理的核心不是画原型或传递需求，而是完成从发现问题、判断价值、设计方案、推动落地到验证结果的闭环。面对 AI 和更快的交付工具，产品经理更需要在用户价值、业务价值、技术可行性与长期风险之间做取舍，并提前设计成功标准和失败兜底。",
+      "mental_model": "产品闭环的负责人：先确认问题值得解决，再用最小方案验证结果，并根据证据继续取舍。",
+      "key_points": [
+        "产品工作从模糊想法开始，先弄清谁在什么场景遇到什么问题、现有做法的成本和问题是否值得投入。",
+        "完整闭环包括发现问题、判断价值、设计方案、推动落地、验证结果和继续取舍；文档只是协作载体。",
+        "方案同时受用户价值、业务价值、技术可行性和长期风险约束，产品经理要把冲突与取舍说清楚。",
+        "AI 产品经理不必训练模型，但应能讨论准确率、数据、延迟、成本、权限、失败兜底和上线监控。",
+        "入门练习应按闭环推进：观察真实问题、学习产品表达、拆解边界清晰的产品，再完成一次真实用户测试与迭代。"
+      ],
+      "decision_questions": [
+        "这是一个被验证过的用户问题，还是一句尚未澄清的功能想法？",
+        "用户价值、业务价值、技术可行性和长期风险分别是什么？冲突时如何取舍？",
+        "最小可验证方案是什么，哪些功能可以明确延期？",
+        "用什么行为、指标或用户反馈判断方案有效？验证周期多长？",
+        "失败、误判、延迟、权限或成本超出预期时，产品如何降级和兜底？"
+      ],
+      "common_traps": [
+        "从 Axure、Figma 或高保真页面开始，却没有先验证问题和场景。",
+        "把业务方说出的方案直接当作需求，没有继续追问目标、成本和替代方式。",
+        "PRD 交付后就认为工作结束，没有跟踪使用、结果和后续迭代。",
+        "追逐 AI 热点或漂亮 Demo，却没有确认新能力能否进入真实工作流程。"
+      ],
+      "related_ids": [
+        "pm-tech-frontend-basics",
+        "pm-tech-gateway",
+        "pm-tech-database"
+      ],
+      "path": "product/product-manager-foundations.md",
+      "sources": [
+        {
+          "name": "Yiyan：从入门到精通，一篇文章带你入门产品经理！（2026 年最新版）",
+          "url": "https://mp.weixin.qq.com/s/YC0aF9KJNT2E8AnoShZUHg"
+        }
+      ]
+    },
+    {
       "id": "pm-tech-frontend-basics",
       "title": "前端：页面、交互与用户可见的状态",
       "short_title": "前端基础",
@@ -102,6 +152,7 @@ export const productManagerWikiData = {
         "让前端单独决定敏感权限；最终授权仍须由服务端验证。"
       ],
       "related_ids": [
+        "pm-product-foundations",
         "pm-tech-gateway",
         "pm-tech-nginx",
         "pm-tech-database"
@@ -216,6 +267,7 @@ export const productManagerWikiData = {
         "认为统一入口天然更安全，却没有最小权限、证书、审计和攻击面治理。"
       ],
       "related_ids": [
+        "pm-product-foundations",
         "pm-tech-frontend-basics",
         "pm-tech-nginx",
         "pm-tech-database",
@@ -268,6 +320,7 @@ export const productManagerWikiData = {
         "只设计新增，不设计修改、撤销、删除、审计与数据迁移。"
       ],
       "related_ids": [
+        "pm-product-foundations",
         "pm-tech-gateway",
         "pm-tech-redis"
       ],

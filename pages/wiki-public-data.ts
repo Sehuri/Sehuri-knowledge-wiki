@@ -1,7 +1,141 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-09-21T13:48:01+08:00",
+  "updatedAt": "2026-09-21T15:27:34+08:00",
   "items": [
+    {
+      "id": "19bf203b9910",
+      "title": "从入门到精通，一篇文章带你入门产品经理！（2026 年最新版）",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/YC0aF9KJNT2E8AnoShZUHg",
+      "author": "Yiyan",
+      "published_at": "",
+      "captured_at": "2026-09-21T15:27:34+08:00",
+      "completeness": "full",
+      "topics": [
+        "产品管理",
+        "需求管理",
+        "AI产品经理",
+        "产品入门",
+        "用户研究"
+      ],
+      "people": [
+        "Yiyan"
+      ],
+      "concepts": [
+        "产品闭环",
+        "用户价值",
+        "业务价值",
+        "技术可行性",
+        "长期风险",
+        "结果验证",
+        "MVP",
+        "PRD",
+        "用户流程图",
+        "信息架构",
+        "低保真原型"
+      ],
+      "summary": "文章面向准备求职及希望进入 AI 产品领域的新人，主张产品经理入门不应从堆叠 Axure、Figma 等工具开始，而应完成一次从问题发现、价值判断、方案设计、推动落地到结果验证的完整闭环。产品经理的核心工作是做取舍，在用户价值、业务价值、技术可行性和长期风险之间判断做不做、先做什么及做到什么程度。文章进一步提出，2026 年的产品经理需要从交付功能转向对结果负责，从会用工具转向能与技术协作，从关注表面体验转向连接用户、技术和商业，并在设计方案的同时设计验证方式。给新人的学习路线依次是观察真实问题、学习基本产品表达、拆解边界清晰的产品，再完成一个经过真实用户测试与迭代的小项目。",
+      "keyPoints": [
+        "产品经理负责的是发现问题、判断价值、设计方案、推动落地、验证结果和继续取舍的完整链路，最关键的工作是判断。（第一节：产品经理到底在做什么）",
+        "方案需要同时考虑用户价值、业务价值、技术可行性和长期风险，不能只站在单一角色的立场上。（第一节：产品经理每天都在平衡几种价值）",
+        "AI 产品经理需要理解模型能力与边界，并能追问准确率、失败兜底、数据、延迟、成本、权限和上线监控。（第二节：从会用工具转向会与技术协作）",
+        "产品方案不仅要描述页面和功能，还要提前说明如何验证是否有效，以及模型或流程出错时用户能否发现和修正。（第二节：从设计答案转向设计验证方式）",
+        "零基础学习应按产品闭环推进：观察问题、清楚表达、拆解产品、完成小而完整的真实项目。（第三节：零基础学习路线）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "用AI辅助写出高质量PRD的正确打开方式",
+        "销售签单，客户提需求，实施开始干：狗屁不通"
+      ],
+      "extractionNotes": ""
+    },
+    {
+      "id": "257a19691916",
+      "title": "Joooook/12306-mcp：基于 MCP 的 12306 车票查询服务",
+      "platform": "web",
+      "content_type": "article",
+      "source_url": "https://github.com/Joooook/12306-mcp",
+      "author": "Joooook",
+      "published_at": "",
+      "captured_at": "2026-09-21T14:32:55+08:00",
+      "completeness": "full",
+      "topics": [
+        "铁路出行",
+        "旅行工具",
+        "开源软件",
+        "AI工具"
+      ],
+      "people": [
+        "Joooook"
+      ],
+      "concepts": [
+        "12306",
+        "MCP",
+        "车票查询",
+        "中转查询",
+        "经停查询"
+      ],
+      "summary": "一个基于 Model Context Protocol（MCP）的开源 12306 车票查询服务器，使大模型能够通过工具接口查询和筛选铁路车票信息。当前 README 列出的能力包括直达车票查询、列车筛选、经停站查询和中转查询，可通过 npx 以 stdio 或 HTTP 模式运行，也支持 Docker 部署。项目要求 Node.js 18 或更高版本，调试所用的 MCP Inspector 另有更高版本要求。仓库声明项目主要用于学习。",
+      "keyPoints": [
+        "提供 12306 购票信息查询、列车过滤、经停查询和中转查询。（README / Features）",
+        "可使用 npx -y 12306-mcp 启动 stdio 服务，或指定端口以 HTTP 模式运行。（README / Quick Start）",
+        "支持 Docker 的 stdio 与 HTTP 部署方式。（README / Docker）",
+        "运行环境要求 Node.js 18+；使用 MCP Inspector 2.0.0 调试时要求 Node.js 22.19.0+。（README / Runtime requirements）",
+        "仓库使用 MIT 许可证，并明确说明项目用于学习。（README / Murmurs 与仓库元数据）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "Joooook/12306-skill：基于 Python 的 12306 查询 Skill",
+        "一文带你掌握 LLM、Token、Context、Prompt、RAG、MCP、Skill、Agent 等 AI 核心概念"
+      ],
+      "extractionNotes": ""
+    },
+    {
+      "id": "017b9ed4d12b",
+      "title": "Joooook/12306-skill：基于 Python 的 12306 查询 Skill",
+      "platform": "web",
+      "content_type": "article",
+      "source_url": "https://github.com/Joooook/12306-skill",
+      "author": "Joooook",
+      "published_at": "",
+      "captured_at": "2026-09-21T14:32:54+08:00",
+      "completeness": "full",
+      "topics": [
+        "铁路出行",
+        "旅行工具",
+        "开源软件",
+        "AI技能"
+      ],
+      "people": [
+        "Joooook"
+      ],
+      "concepts": [
+        "12306",
+        "Skill",
+        "余票查询",
+        "车站编码",
+        "中转查询",
+        "经停查询"
+      ],
+      "summary": "一个基于 Python 的开源 12306 查询 Skill，可在对话中调用。它支持查询城市包含的车站及编码、城市代表站编码、站名编码与站点详情，并能查询直达余票、中转余票和指定车次的经停信息。直达查询支持筛选、排序和限制返回数量，中转查询可以指定中转站。项目要求 Python 3.10+ 和 requests，日期使用 YYYY-MM-DD 格式且不能早于 Asia/Shanghai 时区下的当天。",
+      "keyPoints": [
+        "支持城市与站点编码、站点详情、直达余票、中转余票和车次经停信息查询。（README / Features）",
+        "直达查询支持筛选、排序和限制数量，中转查询支持指定中转站。（README / Features）",
+        "运行环境要求 Python 3.10+，依赖 requests。（README / Requirements）",
+        "日期参数必须采用 YYYY-MM-DD，且不得早于按 Asia/Shanghai 计算的当天。（README / Notes）",
+        "站点和查询路径缓存默认保存一天，建议通过车种与返回数量筛选减少输出。（README / Notes）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "Joooook/12306-mcp：基于 MCP 的 12306 车票查询服务",
+        "一文带你掌握 LLM、Token、Context、Prompt、RAG、MCP、Skill、Agent 等 AI 核心概念"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "65dc7f4dab53",
       "title": "在 Codex 中用这 4 个 SKill，让你拍的照片变高级。",
@@ -2341,6 +2475,10 @@ export const publicWikiData = {
         "count": 6
       },
       {
+        "name": "AI工具",
+        "count": 6
+      },
+      {
         "name": "AI基础设施",
         "count": 6
       },
@@ -2361,19 +2499,27 @@ export const publicWikiData = {
         "count": 5
       },
       {
-        "name": "AI工具",
+        "name": "AI模型",
         "count": 5
       },
       {
-        "name": "AI模型",
-        "count": 5
+        "name": "开源软件",
+        "count": 4
       },
       {
         "name": "生命哲学",
         "count": 4
       },
       {
+        "name": "需求管理",
+        "count": 4
+      },
+      {
         "name": "本体论",
+        "count": 3
+      },
+      {
+        "name": "产品管理",
         "count": 3
       },
       {
@@ -2393,23 +2539,15 @@ export const publicWikiData = {
         "count": 3
       },
       {
-        "name": "需求管理",
-        "count": 3
-      },
-      {
         "name": "知识图谱",
         "count": 3
       },
       {
-        "name": "产品管理",
-        "count": 2
-      },
-      {
-        "name": "开源软件",
-        "count": 2
-      },
-      {
         "name": "拉丁美洲文学",
+        "count": 2
+      },
+      {
+        "name": "旅行工具",
         "count": 2
       },
       {
@@ -2426,6 +2564,10 @@ export const publicWikiData = {
       },
       {
         "name": "数字创作",
+        "count": 2
+      },
+      {
+        "name": "铁路出行",
         "count": 2
       },
       {
@@ -2446,6 +2588,10 @@ export const publicWikiData = {
       },
       {
         "name": "AI采用",
+        "count": 2
+      },
+      {
+        "name": "AI产品经理",
         "count": 2
       },
       {
@@ -2470,6 +2616,10 @@ export const publicWikiData = {
       },
       {
         "name": "比较文学",
+        "count": 1
+      },
+      {
+        "name": "产品入门",
         "count": 1
       },
       {
@@ -2605,6 +2755,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "用户研究",
+        "count": 1
+      },
+      {
         "name": "用脑健康",
         "count": 1
       },
@@ -2645,11 +2799,11 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "AI产品经理",
+        "name": "AI基础概念",
         "count": 1
       },
       {
-        "name": "AI基础概念",
+        "name": "AI技能",
         "count": 1
       },
       {
@@ -2700,6 +2854,10 @@ export const publicWikiData = {
       },
       {
         "name": "Diogo Almeida",
+        "count": 2
+      },
+      {
+        "name": "Joooook",
         "count": 2
       },
       {
@@ -2975,6 +3133,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "Yiyan",
+        "count": 1
+      },
+      {
         "name": "zfz0126",
         "count": 1
       },
@@ -2986,7 +3148,7 @@ export const publicWikiData = {
     "concepts": [
       {
         "name": "Skill",
-        "count": 5
+        "count": 6
       },
       {
         "name": "Agent",
@@ -3025,6 +3187,10 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "12306",
+        "count": 2
+      },
+      {
         "name": "法国",
         "count": 2
       },
@@ -3046,6 +3212,10 @@ export const publicWikiData = {
       },
       {
         "name": "杰文斯悖论",
+        "count": 2
+      },
+      {
+        "name": "经停查询",
         "count": 2
       },
       {
@@ -3109,6 +3279,10 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "中转查询",
+        "count": 2
+      },
+      {
         "name": "子智能体",
         "count": 2
       },
@@ -3122,6 +3296,18 @@ export const publicWikiData = {
       },
       {
         "name": "Jev",
+        "count": 2
+      },
+      {
+        "name": "MCP",
+        "count": 2
+      },
+      {
+        "name": "MVP",
+        "count": 2
+      },
+      {
+        "name": "PRD",
         "count": 2
       },
       {
@@ -3249,6 +3435,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "产品闭环",
+        "count": 1
+      },
+      {
         "name": "产品定型",
         "count": 1
       },
@@ -3258,6 +3448,14 @@ export const publicWikiData = {
       },
       {
         "name": "产品化",
+        "count": 1
+      },
+      {
+        "name": "车票查询",
+        "count": 1
+      },
+      {
+        "name": "车站编码",
         "count": 1
       },
       {
@@ -3314,6 +3512,10 @@ export const publicWikiData = {
       },
       {
         "name": "地下空间",
+        "count": 1
+      },
+      {
+        "name": "低保真原型",
         "count": 1
       },
       {
@@ -3473,6 +3675,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "技术可行性",
+        "count": 1
+      },
+      {
         "name": "技术泡沫",
         "count": 1
       },
@@ -3498,6 +3704,10 @@ export const publicWikiData = {
       },
       {
         "name": "角色准确性",
+        "count": 1
+      },
+      {
+        "name": "结果验证",
         "count": 1
       },
       {
@@ -3933,6 +4143,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "信息架构",
+        "count": 1
+      },
+      {
         "name": "行程规划",
         "count": 1
       },
@@ -3973,6 +4187,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "业务价值",
+        "count": 1
+      },
+      {
         "name": "一致性校验",
         "count": 1
       },
@@ -4010,6 +4228,18 @@ export const publicWikiData = {
       },
       {
         "name": "英国签证",
+        "count": 1
+      },
+      {
+        "name": "用户价值",
+        "count": 1
+      },
+      {
+        "name": "用户流程图",
+        "count": 1
+      },
+      {
+        "name": "余票查询",
         "count": 1
       },
       {
@@ -4058,6 +4288,10 @@ export const publicWikiData = {
       },
       {
         "name": "长程任务",
+        "count": 1
+      },
+      {
+        "name": "长期风险",
         "count": 1
       },
       {
@@ -4361,10 +4595,6 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "MCP",
-        "count": 1
-      },
-      {
         "name": "model_auto_compact_token_limit",
         "count": 1
       },
@@ -4378,10 +4608,6 @@ export const publicWikiData = {
       },
       {
         "name": "Mosh",
-        "count": 1
-      },
-      {
-        "name": "MVP",
         "count": 1
       },
       {
@@ -4410,10 +4636,6 @@ export const publicWikiData = {
       },
       {
         "name": "Pi Agent",
-        "count": 1
-      },
-      {
-        "name": "PRD",
         "count": 1
       },
       {
@@ -4532,11 +4754,11 @@ export const publicWikiData = {
     "platforms": [
       {
         "name": "wechat-article",
-        "count": 22
+        "count": 23
       },
       {
         "name": "web",
-        "count": 18
+        "count": 20
       },
       {
         "name": "douyin",

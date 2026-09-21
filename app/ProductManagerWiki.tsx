@@ -289,7 +289,7 @@ export default function ProductManagerWiki({
               </div>
 
               <div className="pm-sources">
-                <p className="eyebrow">权威来源</p>
+                <p className="eyebrow">来源与延伸阅读</p>
                 {selected.sources.map((source) => (
                   <a key={source.url} href={source.url} target="_blank" rel="noreferrer">
                     {source.name}<span>↗</span>
