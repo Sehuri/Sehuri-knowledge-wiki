@@ -1,7 +1,68 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-09-21T08:58:48+08:00",
+  "updatedAt": "2026-09-21T13:17:00+08:00",
   "items": [
+    {
+      "id": "a656ac7bbe4e",
+      "title": "最火哑巴模型Jev加上微信，直接治好了我的低情商",
+      "platform": "news",
+      "content_type": "article",
+      "source_url": "https://www.tmtpost.com/8146961.html",
+      "author": "字母AI",
+      "published_at": "2026-09-21",
+      "captured_at": "2026-09-21T13:17:00+08:00",
+      "completeness": "full",
+      "topics": [
+        "AI模型",
+        "Agent",
+        "AI系统设计",
+        "AI基础设施"
+      ],
+      "people": [
+        "字母AI",
+        "Diogo Almeida",
+        "Daniel Kahneman",
+        "William Stanley Jevons"
+      ],
+      "concepts": [
+        "Jev",
+        "TypeSafe AI",
+        "System One Model",
+        "系统1",
+        "系统2",
+        "置信度校准",
+        "RLCD",
+        "杰文斯悖论",
+        "模型路由",
+        "人工复核"
+      ],
+      "summary": "钛媒体文章，作者「字母AI」。讲的是旧金山公司 TypeSafe AI 于 2026 年 9 月 16 日发布、创始人 Diogo Almeida 主导的「哑巴模型」Jev 为什么爆火，以及社区主要把它用作微信插件。文章说明：Jev 只做判断、不生成文字，自称「系统一模型」，只答 Choice（最多 255 个选项里选一个）、Score（2–10 级打分）、Noul（0–1 的是/否概率）三类题，可并行、响应在 70–500 毫秒，文中给出的价格是输入每百万 token 0.042 美元、输出免费，并称其幻觉率为 0%（指不会给出选项外的答案，但仍可能选错选项）；名字取自杰文斯悖论，训练方法为追求概率诚实的 RLCD。文章认为它适合微信群这类高频、低成本、怕出错的判断场景，并用校准过的置信度把「自动回复 / 转人工」变成一道阈值；同时指出它的局限——中文（CJK）准确率偏低、不具备推理能力，真实复杂网页上表现不佳。作者的核心判断是「Jev 取代大模型」是伪命题，正确用法是大模型定规则、Jev 在生产环境高频低价执行，并猜想判断层会像数据库、缓存一样成为默认基础设施。",
+      "keyPoints": [
+        "Jev 爆火的反常之处在于它不会生成任何文字，只做判断；社区讨论最集中的是它的落地场景——微信。（开篇）",
+        "TypeSafe AI 于 2026 年 9 月 16 日发布 Jev，为旧金山公司，创始人是 GPT-4 论文共同作者、前 OpenAI 研究人员迪奥戈·阿尔梅达（Diogo Almeida），公司隐身研发两年，获 DCVC 领投的 4000 万美元种子轮。（Jev 到底是个什么东西）",
+        "Jev 自称「系统一模型」（System One Model），名字来自卡尼曼《思考，快与慢》；其主张是这几年行业都在造「系统二」，而软件里真正需要的判断大多属于「系统一」。（Jev 到底是个什么东西）",
+        "与 ChatGPT、Claude 的区别被概括为「Jev 只会答选择题，其他模型会写作文」：给它一段状态加若干事先定好类型的问题，一次性返回全部答案，每个答案附概率与置信度。（Jev 到底是个什么东西）",
+        "只支持三种题型：Choice（最多 255 个选项中选一个）、Score（2 到 10 级打分）、Noul（0 到 1 的是/否概率）；三类题可混在同一请求中并行计算，官方称问一个与问四个的延迟几乎一样。（Jev 到底是个什么东西）",
+        "文中给出的官方数字：端到端响应 70 到 500 毫秒，输入每百万 token 收 0.042 美元、输出免费；上线 Vercel AI Gateway 后 24 小时内被接近 13% 的 Vercel 付费团队采用，是该平台采用速度最快的新模型。（Jev 到底是个什么东西）",
+        "所谓幻觉率 0% 指的是它不会给出选项之外的答案、不会拼错字段，但它完全可以选错一个选项；这一点 TypeSafe 的 CEO 也承认过。（Jev 到底是个什么东西）",
+        "名字源自杰文斯悖论（效率提高、单位成本下降反而使总消耗上升）；训练方法叫 RLCD（Reinforcement Learning for Calibrated Decisions），对比 RLHF 追求「人类爱看」、RLVR 追求「程序能验证对错」，RLCD 追求「概率要诚实」。（Jev 到底是个什么东西）",
+        "微信场景里的典型判断被列举为：这条消息要不要回、要不要 @ 对方、是不是广告、要不要把人踢出群、要不要转人工、是不是想退款、有没有违规——都是「从有限选项里挑一个」且要在几百毫秒内出结果。（Jev 成了微信的插件）",
+        "文章给出不用大模型做这些判断的三个原因：慢（大模型回一条要 3 到 30 秒，而微信群消息是滚动的）、贵（几十万条消息成本累积），以及自由生成的大模型随时可能说出不该说的话，轻则社死、重则触发风控封号，而 Jev 从结构上就「说不出格」。（Jev 成了微信的插件）",
+        "关键结构是用校准过的置信度把「自动回复 / 转人工」变成一道阈值：把握高就自动过，把握低就转给人或转给更贵的大模型；并把原先的「关键词匹配」升级为「语义判断」，依据是用户意图而不是关键词。（Jev 成了微信的插件）",
+        "安装方式很轻：对 Codex 说一句「npx skills add typesafe-ai/skills」，或在 Claude Code 里加插件市场，也可通过 OpenRouter 调用；社区已有 wechat-jev-hud 这类用截屏 + OCR + 叠加层做实时判断的实现。（Jev 成了微信的插件）",
+        "作者认为绝大多数生产调用不需要模型「说话」只需要「判断」，社区把 Jev 形容为给软件装了一句「语义 if 语句」；实测例子包括 Browser Use 中一次请求同时决定做什么和点哪个元素、订机票从 9.5 秒缩到 7 秒，以及长程任务里充当模型路由中间件。（从生成到判断）",
+        "作者的结论：「Jev 取代大模型」是伪命题，正确做法是大模型帮你想清楚判断规则、Jev 在生产环境高频低价执行；它真正值钱的地方在于校准（把模棱两可的问题量化），最先落地的是高频、低成本、不出错的场景。（从生成到判断）",
+        "作者的猜想：当判断本身变得便宜，判断层会像数据库、缓存一样成为默认的基础设施，藏在每个应用最底层；微信插件只是一个开始。（从生成到判断）",
+        "文章最后列出局限：官方文档标注 CJK（中日韩）准确率偏低，中文适配较差；Jev 没有推理能力，Browser Use 创始人实测的长程浏览器交互结果为 1/20，落后于具备推理能力的 GPT-5.6 Luna（17/20）；社区反馈它难以应付真实复杂的非沙盒网页。（从生成到判断·末尾）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "这个只会做选择题的Jev，却是今年我看到的最特别的大模型。",
+        "Agent Harness 大战：Pi 最强，Claude Code 最快，DeepSeek 最省钱！"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "e859968a970c",
       "title": "为什么我们不被允许有gap year？——三吉吖523 关于世俗成功框架与主体性的回答",
@@ -2207,7 +2268,7 @@ export const publicWikiData = {
     "topics": [
       {
         "name": "Agent",
-        "count": 14
+        "count": 15
       },
       {
         "name": "旅行攻略",
@@ -2222,6 +2283,10 @@ export const publicWikiData = {
         "count": 8
       },
       {
+        "name": "AI系统设计",
+        "count": 7
+      },
+      {
         "name": "企业AI",
         "count": 6
       },
@@ -2230,7 +2295,7 @@ export const publicWikiData = {
         "count": 6
       },
       {
-        "name": "AI系统设计",
+        "name": "AI基础设施",
         "count": 6
       },
       {
@@ -2250,7 +2315,7 @@ export const publicWikiData = {
         "count": 5
       },
       {
-        "name": "AI基础设施",
+        "name": "AI模型",
         "count": 5
       },
       {
@@ -2259,10 +2324,6 @@ export const publicWikiData = {
       },
       {
         "name": "AI工具",
-        "count": 4
-      },
-      {
-        "name": "AI模型",
         "count": 4
       },
       {
@@ -2584,11 +2645,23 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "Daniel Kahneman",
+        "count": 2
+      },
+      {
         "name": "DeepSeek",
         "count": 2
       },
       {
+        "name": "Diogo Almeida",
+        "count": 2
+      },
+      {
         "name": "OpenAI",
+        "count": 2
+      },
+      {
+        "name": "William Stanley Jevons",
         "count": 2
       },
       {
@@ -2788,19 +2861,15 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "字母AI",
+        "count": 1
+      },
+      {
         "name": "APPSO",
         "count": 1
       },
       {
         "name": "AS visa签证-楠",
-        "count": 1
-      },
-      {
-        "name": "Daniel Kahneman",
-        "count": 1
-      },
-      {
-        "name": "Diogo Almeida",
         "count": 1
       },
       {
@@ -2853,10 +2922,6 @@ export const publicWikiData = {
       },
       {
         "name": "Soulflare",
-        "count": 1
-      },
-      {
-        "name": "William Stanley Jevons",
         "count": 1
       },
       {
@@ -2926,6 +2991,10 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "杰文斯悖论",
+        "count": 2
+      },
+      {
         "name": "可审计性",
         "count": 2
       },
@@ -2942,11 +3011,19 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "模型路由",
+        "count": 2
+      },
+      {
         "name": "魔幻现实主义",
         "count": 2
       },
       {
         "name": "目的地评级",
+        "count": 2
+      },
+      {
+        "name": "人工复核",
         "count": 2
       },
       {
@@ -2962,7 +3039,19 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "系统1",
+        "count": 2
+      },
+      {
+        "name": "系统2",
+        "count": 2
+      },
+      {
         "name": "意大利",
+        "count": 2
+      },
+      {
+        "name": "置信度校准",
         "count": 2
       },
       {
@@ -2982,7 +3071,23 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "Jev",
+        "count": 2
+      },
+      {
+        "name": "RLCD",
+        "count": 2
+      },
+      {
+        "name": "System One Model",
+        "count": 2
+      },
+      {
         "name": "Token定价",
+        "count": 2
+      },
+      {
+        "name": "TypeSafe AI",
         "count": 2
       },
       {
@@ -3342,10 +3447,6 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "杰文斯悖论",
-        "count": 1
-      },
-      {
         "name": "晶体管",
         "count": 1
       },
@@ -3502,10 +3603,6 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "模型路由",
-        "count": 1
-      },
-      {
         "name": "墨西哥",
         "count": 1
       },
@@ -3563,10 +3660,6 @@ export const publicWikiData = {
       },
       {
         "name": "权限控制",
-        "count": 1
-      },
-      {
-        "name": "人工复核",
         "count": 1
       },
       {
@@ -3762,14 +3855,6 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "系统1",
-        "count": 1
-      },
-      {
-        "name": "系统2",
-        "count": 1
-      },
-      {
         "name": "系统提示词",
         "count": 1
       },
@@ -3939,10 +4024,6 @@ export const publicWikiData = {
       },
       {
         "name": "智能调用成本",
-        "count": 1
-      },
-      {
-        "name": "置信度校准",
         "count": 1
       },
       {
@@ -4198,10 +4279,6 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "Jev",
-        "count": 1
-      },
-      {
         "name": "JTBD",
         "count": 1
       },
@@ -4314,10 +4391,6 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "RLCD",
-        "count": 1
-      },
-      {
         "name": "RLHF",
         "count": 1
       },
@@ -4350,10 +4423,6 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "System One Model",
-        "count": 1
-      },
-      {
         "name": "TBox",
         "count": 1
       },
@@ -4375,10 +4444,6 @@ export const publicWikiData = {
       },
       {
         "name": "Trajectory",
-        "count": 1
-      },
-      {
-        "name": "TypeSafe AI",
         "count": 1
       },
       {
@@ -4418,6 +4483,10 @@ export const publicWikiData = {
       {
         "name": "xiaohongshu",
         "count": 2
+      },
+      {
+        "name": "news",
+        "count": 1
       },
       {
         "name": "x",
