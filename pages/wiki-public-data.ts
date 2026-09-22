@@ -1,7 +1,63 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-09-22T09:15:59+08:00",
+  "updatedAt": "2026-09-22T09:51:10+08:00",
   "items": [
+    {
+      "id": "0c8e7a4be1ac",
+      "title": "万字长文｜Codex 从入门到精通",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/1ZhMHVN3XhucvLHRSMNy6Q",
+      "author": "Miles",
+      "published_at": "2026-08-23",
+      "captured_at": "2026-09-22T09:51:10+08:00",
+      "completeness": "full",
+      "topics": [
+        "开发者工具",
+        "Agent",
+        "AI工具",
+        "上下文工程"
+      ],
+      "people": [
+        "Miles"
+      ],
+      "concepts": [
+        "Codex",
+        "Skill",
+        "MCP",
+        "Agent",
+        "AGENTS.md",
+        "Worktree",
+        "Automation"
+      ],
+      "summary": "微信公众号「Miles的AI日记」的长篇教程，作者 Miles（自述从大厂转型 FDE 的 AI 算法专家）。文章不从做一个项目讲起，而是先把界面、按钮、工作区与常用能力讲清楚，再判断哪些扩展值得接入。内容包括：Codex 是什么（能实际读写文件、运行命令、查 Git 改动、操作应用的 Agent，基本循环是 Prompt→Plan→Execute→Verify，其中 Verify 最关键——模型说「完成了」不等于结果正确）；App 的三栏布局（左侧项目与任务、中间对话与执行、右侧 Diff 审查，含行内评论与 commit/push/PR）；工作区目录怎么选（用最小目录，CLI 可用 --cd 与 --add-dir）；新建任务时 Local、Worktree、Cloud 的取舍与各自适用场景；Plan 何时有用、何时只是形式，以及一份有用 Plan 至少要回答的四个问题；权限三档与审批弹窗该检查的四件事（对多数人 Workspace-write 够用，Full access 不该为少点确认而开，--yolo 不适合日常）；常被忽略的工具（集成终端、内置浏览器、Computer Use、图片输入与图像生成、Memory）；CLI 的子命令与输入框快捷键；用 AGENTS.md 写长期项目规则；Skill、Plugin、MCP 三者的区别与各自用法；Automation 定时任务的五步设置、Triage 收件箱与 Worktree 归档建议；/goal 与 Plan、Automation 的区别；以及从 0 到 1 的四阶段学习顺序。全文的核心主张是：能否熟练使用 Codex，不取决于装了多少插件或写得多么长的 Prompt，而在于能否给对材料与边界、能否在执行中及时纠偏、能否用 Diff、终端、测试和页面判断结果。",
+      "keyPoints": [
+        "Codex 是一个能实际操作的 Agent：除回答外还能读取文件、修改代码与文档、运行命令、查看 Git 改动、打开网页、操作应用并调用已接入的外部工具，因此最适合交给它「有材料、有边界、有结果」的工作。（一、先知道 Codex 到底是什么）",
+        "基本循环为 Prompt → Plan → Execute → Verify，其中最重要的是 Verify：模型说「完成了」只能说明它结束了当前执行，不能自动证明文件正确、页面能用或测试已通过。（一、先知道 Codex 到底是什么）",
+        "App 界面分三块：左侧管理项目（对应一个工作目录）与任务（一次独立对话，最好只负责一个明确结果），中间显示回复、计划、命令、审批与总结，右侧是 Diff 面板。（01 Codex App 的界面从左到右怎么看）",
+        "Diff 面板不只用于查看，还承担审查：可查看未提交修改、在具体代码行加 inline 评论、按文件或改动块暂存撤销、在 App 内完成 commit/push/创建 PR。（01 Codex App 的界面从左到右怎么看）",
+        "工作区选择的标准是「完成这件事所需的文件能否集中放在一个最小目录里」，不要为了省一次切换就把整个桌面、主目录或一堆无关项目交给 Codex；CLI 可用 --cd 指定目录、--add-dir 增加额外可写目录。（02 工作区怎么选，决定了 Codex 能看到什么）",
+        "Local 直接改当前目录、适合绝大多数日常任务但可能与你的改动互相干扰；Worktree 基于 Git worktree 为任务建独立目录，适合并行多任务或试改不想碰当前分支，完成后可建分支提交或 Handoff 回 Local；Cloud 在远端隔离环境克隆执行，适合边界清楚、可异步等待的任务。（03 新建任务时，Local、Worktree、Cloud 怎么选）",
+        "Plan 适合跨多文件、修改不可轻易回退、需要先调查原因或仍在比较方案的场景；改标题、查报错位置、执行确定命令没必要强行先列计划。一份有用的 Plan 至少要回答：真正要解决什么、准备看哪些材料、准备改哪些地方、最后怎么证明完成。（04 Plan 怎么设，什么时候不要设）",
+        "作者提出的原则是「接到任务先判断真正的问题和最短可靠路径」：能直接完成就不额外搭流程，能复用现有成果就不从头重做，能改局部就不推倒重来，能一条命令解决就不写脚本——Plan 的作用是帮助选择方法，不是给简单问题增加仪式感。（04 Plan 怎么设，什么时候不要设）",
+        "权限分三档，对多数人 Workspace-write 已足够，分析用 Read-only；Full access 不应为少点几次确认而打开、更不适合无人值守的定时任务；看审批请求要先看它执行什么命令、在哪个目录、是否需要网络、以及为什么这一步必要。--full-auto 不等于整机开放，--yolo 会跳过审批与沙盒，不宜作为日常默认。（05 权限怎么选，审批弹窗怎么看）",
+        "容易被忽略的基础工具：每个任务自带的集成终端（macOS 用 Cmd+J，且 Codex 能读取终端当前输出，报错时可直接让它「检查终端里的错误」）、可对页面元素留位置评论的内置浏览器（但不复用你已登录的 Chrome 会话，需登录态系统要用 Chrome 扩展）、可操作桌面应用的 Computer Use、图片输入与图像生成、以及用来保留长期偏好的 Memory。（06 几个最基础、也最容易被忽略的工具）",
+        "重要规则仍建议写进 AGENTS.md：它适合记录构建命令、目录结构、代码规范、验收方式和不能做的事，可用 /init 生成初稿；规则要来自真实问题、短而准，而不是一次写成几十页「公司宪法」。（08 AGENTS.md：把长期规则写给 Codex）",
+        "Skill、Plugin、MCP 的区别：Skill 教 Codex 怎么做一类事（核心是 SKILL.md，可显式 $skill-name 调用或按 description 隐式触发，破坏性操作建议关掉隐式触发）；Plugin 把一组 Skill、MCP 与连接器打包分发、可跨工作区使用；MCP 是统一接口，让 Codex 连接外部工具与数据。作者强调 Skill 越多不代表越好，只有确实会反复发生的工作才值得固化。（09 Skills、Plugins、MCP 到底有什么区别）",
+        "Automation 是 App 中的定时任务系统，设置可压缩为五步：选项目、写清到点执行的 Prompt、选时间或频率、选 Local 或 Worktree、检查权限后保存。运行结果进入 Triage 收件箱。对 Git 仓库用 Worktree 更稳；上线前先在普通任务手动跑一次同样的 Prompt，高频 Automation 还要定期归档不再使用的 Worktree。（10 Automations 定时任务怎么设）",
+        "/goal 与 Plan、Automation 不是一回事：它适合跨多次会话推进、有明确完成标准的长任务，可跨 /clear 与对话压缩保留状态；目标必须可验证（如「把所有测试迁移完成且现有测试全部通过」优于「持续优化这个项目」），太空的目标只会让 Agent 不断找新事做。作者把五者概括为：Skill 是操作手册，Plugin 是能力包，MCP 是外部接口，Automation 是闹钟，/goal 是长期任务状态。（11 goal 和 Plan、Automation 不是一回事）",
+        "从 0 到 1 的学习顺序分四阶段：第一阶段只练选对工作区、新建任务、控制 Read-only 与 Workspace-write、看懂 Diff；第二阶段加 Plan、终端与 /review；第三阶段才学 Worktree 与多任务并行；第四阶段按真实需求装扩展（Skill／MCP／Plugin／Automation 分别对应重复工作、外部系统、成套能力、定时或跨天运行）。（12 从 0 到 1 的实际学习顺序）",
+        "全文结论：能否熟练使用 Codex，不取决于装了多少插件、也不取决于 Prompt 写得多长；真正的分水岭是能否给它正确的材料与边界、能否在执行时及时纠偏、能否用 Diff、终端、测试和页面判断结果，而不是只看一句「已经完成」。（12 从 0 到 1 的实际学习顺序）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "万字长文｜GitHub 从入门到精通",
+        "Codex正式开放1M上下文！解除GPT-5.6 Sol封印，三行配置搞定",
+        "在 Codex 中用这 4 个 SKill，让你拍的照片变高级。"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "39f42cc38f6e",
       "title": "刚刚，Grok 4.7 发布！",
@@ -2503,7 +2559,7 @@ export const publicWikiData = {
     "topics": [
       {
         "name": "Agent",
-        "count": 15
+        "count": 16
       },
       {
         "name": "旅行攻略",
@@ -2518,6 +2574,10 @@ export const publicWikiData = {
         "count": 8
       },
       {
+        "name": "AI工具",
+        "count": 7
+      },
+      {
         "name": "AI基础设施",
         "count": 7
       },
@@ -2530,11 +2590,11 @@ export const publicWikiData = {
         "count": 6
       },
       {
-        "name": "知识工程",
+        "name": "上下文工程",
         "count": 6
       },
       {
-        "name": "AI工具",
+        "name": "知识工程",
         "count": 6
       },
       {
@@ -2542,11 +2602,11 @@ export const publicWikiData = {
         "count": 6
       },
       {
-        "name": "目的地选择",
+        "name": "开发者工具",
         "count": 5
       },
       {
-        "name": "上下文工程",
+        "name": "目的地选择",
         "count": 5
       },
       {
@@ -2556,10 +2616,6 @@ export const publicWikiData = {
       {
         "name": "阅读推荐",
         "count": 5
-      },
-      {
-        "name": "开发者工具",
-        "count": 4
       },
       {
         "name": "开源软件",
@@ -2916,6 +2972,10 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "Miles",
+        "count": 2
+      },
+      {
         "name": "OpenAI",
         "count": 2
       },
@@ -3168,10 +3228,6 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "Miles",
-        "count": 1
-      },
-      {
         "name": "Moonshot AI",
         "count": 1
       },
@@ -3207,10 +3263,14 @@ export const publicWikiData = {
     "concepts": [
       {
         "name": "Skill",
-        "count": 6
+        "count": 7
       },
       {
         "name": "Agent",
+        "count": 5
+      },
+      {
+        "name": "Codex",
         "count": 4
       },
       {
@@ -3226,7 +3286,7 @@ export const publicWikiData = {
         "count": 3
       },
       {
-        "name": "Codex",
+        "name": "MCP",
         "count": 3
       },
       {
@@ -3363,10 +3423,6 @@ export const publicWikiData = {
       },
       {
         "name": "Jev",
-        "count": 2
-      },
-      {
-        "name": "MCP",
         "count": 2
       },
       {
@@ -4462,6 +4518,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "AGENTS.md",
+        "count": 1
+      },
+      {
         "name": "Agents' Last Exam",
         "count": 1
       },
@@ -4503,6 +4563,10 @@ export const publicWikiData = {
       },
       {
         "name": "ARC-AGI-3",
+        "count": 1
+      },
+      {
+        "name": "Automation",
         "count": 1
       },
       {
@@ -4822,6 +4886,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "Worktree",
+        "count": 1
+      },
+      {
         "name": "xAI",
         "count": 1
       },
@@ -4833,7 +4901,7 @@ export const publicWikiData = {
     "platforms": [
       {
         "name": "wechat-article",
-        "count": 24
+        "count": 25
       },
       {
         "name": "web",
