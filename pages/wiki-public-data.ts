@@ -1,7 +1,62 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-09-21T15:27:34+08:00",
+  "updatedAt": "2026-09-22T09:15:59+08:00",
   "items": [
+    {
+      "id": "39f42cc38f6e",
+      "title": "刚刚，Grok 4.7 发布！",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/jyuZUCgVUrEPnPNSbs1bBQ",
+      "author": "尹John（AGI Hunt）",
+      "published_at": "2026-09-22",
+      "captured_at": "2026-09-22T09:15:59+08:00",
+      "completeness": "full",
+      "topics": [
+        "AI模型",
+        "AI基础设施",
+        "开发者工具"
+      ],
+      "people": [
+        "尹John（AGI Hunt）"
+      ],
+      "concepts": [
+        "Grok 4.7",
+        "xAI",
+        "CursorBench",
+        "Terminal-Bench 4.0",
+        "DeepSWE",
+        "Fable 5.1",
+        "API定价",
+        "自我验证"
+      ],
+      "summary": "微信公众号「AGI Hunt」的文章，署名作者「尹John」。报道 xAI 发布 Grok 4.7，官方定位为「最强编码与知识工作模型」，卖点概括为「同价同速，全面提升」。文章列出的跑分包括：CursorBench 4.0（xhigh 档）46.3%，高于 Grok 4.6 的 40.4% 与 GPT-5.6 Sol 的 41.7%，但仍低于 Fable 5.1 的 51.8%；Terminal-Bench 4.0 从 20.3% 升至 38.0%，反超 GPT-5.6 Sol 的 37.3%；DeepSWE v1.1 达 71.0%，超过 Fable 5.1 的 70.0%，仍低于 GPT-5.6 Sol 的 72.7%。垂直领域亮点是 Harvey 法律 Agent 基准 19.6%（GPT-5.6 Sol 仅 2.5%）、EEBench 电气工程 64.0%，以及多小时办公任务 AA Briefcase 得 1657 分（超过 GPT-6 Astra 的 1569，接近 Fable 5.1 的 1678）；HealthBench Professional 56.7% 属相对弱项。价格与 Grok 4.6 完全一致：输入每百万 token 2 美元、输出 6 美元，约为 Fable 5.1 的五分之一与八分之一，另有输出速度翻倍、价格翻倍的 fast 变体。底层改进包括全新更大的基座模型、更长的强化学习训练、偏向长程任务的训练难度、更强的自我验证与长上下文管理能力。此外还介绍了城市游戏对比 demo、Grok Build 提供的四档推理力度、终端更新方式与安全方面的官方说法。文章结论是 Grok 4.7 未在每个基准上登顶，但各维度均有显著提升且价格极低，xAI 走的是「性能追到前沿八九成、价格只有竞品零头」的路线。",
+      "keyPoints": [
+        "xAI 正式发布 Grok 4.7，官方定位为「最强编码与知识工作模型」；马斯克转发了团队成员 aksheyd 的推文，后者称花了大量时间打磨 harness，并提到 fast 模式 tps 很快。（开篇）",
+        "文章把卖点概括为一句话：同价同速，全面提升。（开篇）",
+        "CursorBench 4.0（xhigh 档位）上 Grok 4.7 得 46.3%，相比 Grok 4.6 的 40.4% 提升明显，也超过 GPT-5.6 Sol 的 41.7%，但 Fable 5.1 仍以 51.8% 领先。（01 编码能力）",
+        "Terminal-Bench 4.0 上从 20.3% 涨到 38.0%，接近翻倍并刚好反超 GPT-5.6 Sol 的 37.3%，而 Fable 5.1 的 57.9% 仍遥遥领先。（01 编码能力）",
+        "DeepSWE v1.1 上达到 71.0%（Grok 4.6 为 65.2%），超过 Fable 5.1 的 70.0%，但 GPT-5.6 Sol 以 72.7% 仍为最高。（01 编码能力）",
+        "垂直领域亮点：Harvey 法律 Agent 基准得 19.6%（GPT-5.6 Sol 为 2.5%、Fable 5.1 为 6.7%），是领先幅度最大的一项；EEBench 电气工程得 64.0%，大幅超过 Fable 5.1 的 56.4% 与 GPT-5.6 Sol 的 39.4%。（02 法律基准碾压）",
+        "多小时办公任务 AA Briefcase 得分 1657，超过 GPT-6 Astra 的 1569，接近 Fable 5.1 的 1678；HealthBench Professional 为相对弱项，56.7% 落后于 GPT-5.6 Sol 的 60.5% 与 Fable 5.1 的 62.1%。（02 多小时办公任务对比）",
+        "价格与 Grok 4.6 完全一样：输入 2 美元／百万 token、输出 6 美元／百万 token；对比 GPT-5.6 Sol 的 4/20 与 Fable 5.1 的 10/50，Grok 4.7 输入价是 Fable 5.1 的五分之一、输出价约为其八分之一。（03 五分之一的价格）",
+        "另提供 fast 变体：输出速度翻倍、价格也翻倍，但即便如此仍比竞品便宜得多——作者换算为「拿 Fable 5.1 一次调用的钱大约够 Grok 4.7 调用五到八次」。（03 五分之一的价格）",
+        "底层改进：使用全新且更大的基座模型、在强化学习训练上投入更长时间、训练任务难度更高并偏向需要数小时的长程任务；同时更擅长自我验证与管理长上下文，并对 Grok Bot harness 有了原生理解。（04 底层改进）",
+        "官方放出城市游戏对比 demo：让 Grok 4.7 与 4.6 搭建同一个开放世界城市游戏，4.7 的效果已有高楼、街道、汽车与 HUD 小地图，4.6 则是方块建筑与白模人物。（05 城市游戏对比）",
+        "Grok 4.7 已在 Grok Build 中上线，支持 Low、Medium、High、Extra High 四档推理力度，可按任务复杂度选择；终端执行 grok update 即可更新，Cursor 与 Grok API 也已同步更新可用。（06 四档推理）",
+        "安全方面 xAI 称这是他们校准最好的一版：LatchBio 生物安全基准 62.4%，网络安全任务中仅放行 3.3% 的高风险提示，同时保持对合法安全工作的支持，并称其在拒绝与越狱抵抗方面是测试过的最强模型。（07 安全护栏）",
+        "作者的结论：Grok 4.7 并非在每个 benchmark 上都登顶，但几乎所有维度都有显著提升且价格极低；Fable 5.1 仍在 CursorBench 与 Terminal-Bench 领先，而 Grok 4.7 已把差距大幅缩小、价格只有其零头。（08 前沿性价比）",
+        "作者认为 xAI 走的是一条「性能追到 frontier 八九成，价格只有竞品零头」的路线，并称重度 Coding 用户在 Claude Code 受限的情况下可以认真考虑 Grok 4.7。（08 前沿性价比）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "突发 ",
+        "刚刚，GPT-6正式发布！OpenAI：欢迎来到AGI时代",
+        "Kimi K3 开放模型权重与技术报告"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "19bf203b9910",
       "title": "从入门到精通，一篇文章带你入门产品经理！（2026 年最新版）",
@@ -2463,6 +2518,10 @@ export const publicWikiData = {
         "count": 8
       },
       {
+        "name": "AI基础设施",
+        "count": 7
+      },
+      {
         "name": "AI系统设计",
         "count": 7
       },
@@ -2479,7 +2538,7 @@ export const publicWikiData = {
         "count": 6
       },
       {
-        "name": "AI基础设施",
+        "name": "AI模型",
         "count": 6
       },
       {
@@ -2499,8 +2558,8 @@ export const publicWikiData = {
         "count": 5
       },
       {
-        "name": "AI模型",
-        "count": 5
+        "name": "开发者工具",
+        "count": 4
       },
       {
         "name": "开源软件",
@@ -2520,10 +2579,6 @@ export const publicWikiData = {
       },
       {
         "name": "产品管理",
-        "count": 3
-      },
-      {
-        "name": "开发者工具",
         "count": 3
       },
       {
@@ -3053,6 +3108,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "尹John（AGI Hunt）",
+        "count": 1
+      },
+      {
         "name": "应物兄",
         "count": 1
       },
@@ -3287,11 +3346,19 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "API定价",
+        "count": 2
+      },
+      {
         "name": "Claude Code",
         "count": 2
       },
       {
         "name": "DeepSeek Harness",
+        "count": 2
+      },
+      {
+        "name": "DeepSWE",
         "count": 2
       },
       {
@@ -3316,6 +3383,10 @@ export const publicWikiData = {
       },
       {
         "name": "System One Model",
+        "count": 2
+      },
+      {
+        "name": "Terminal-Bench 4.0",
         "count": 2
       },
       {
@@ -4343,6 +4414,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "自我验证",
+        "count": 1
+      },
+      {
         "name": "租金溢价",
         "count": 1
       },
@@ -4427,10 +4502,6 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "API定价",
-        "count": 1
-      },
-      {
         "name": "ARC-AGI-3",
         "count": 1
       },
@@ -4467,6 +4538,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "CursorBench",
+        "count": 1
+      },
+      {
         "name": "Cypher",
         "count": 1
       },
@@ -4483,10 +4558,6 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "DeepSWE",
-        "count": 1
-      },
-      {
         "name": "DHA",
         "count": 1
       },
@@ -4500,6 +4571,10 @@ export const publicWikiData = {
       },
       {
         "name": "ExploitGym",
+        "count": 1
+      },
+      {
+        "name": "Fable 5.1",
         "count": 1
       },
       {
@@ -4548,6 +4623,10 @@ export const publicWikiData = {
       },
       {
         "name": "GraphRAG",
+        "count": 1
+      },
+      {
+        "name": "Grok 4.7",
         "count": 1
       },
       {
@@ -4711,10 +4790,6 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "Terminal-Bench 4.0",
-        "count": 1
-      },
-      {
         "name": "Token",
         "count": 1
       },
@@ -4747,6 +4822,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "xAI",
+        "count": 1
+      },
+      {
         "name": "zine海报",
         "count": 1
       }
@@ -4754,7 +4833,7 @@ export const publicWikiData = {
     "platforms": [
       {
         "name": "wechat-article",
-        "count": 23
+        "count": 24
       },
       {
         "name": "web",
