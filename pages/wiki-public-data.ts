@@ -1,7 +1,69 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-09-22T09:51:10+08:00",
+  "updatedAt": "2026-09-22T11:35:48+08:00",
   "items": [
+    {
+      "id": "c71fcd1bafdf",
+      "title": "腾讯Octop正式发布，要做最懂你的本地 AI 助手",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/q6uhqyeAm5ye70cAxm1biw",
+      "author": "三哥（产品笔记）",
+      "published_at": "2026-09-16",
+      "captured_at": "2026-09-22T11:35:48+08:00",
+      "completeness": "full",
+      "topics": [
+        "AI工具",
+        "办公智能体",
+        "开发者工具",
+        "AI系统设计",
+        "开源软件"
+      ],
+      "people": [
+        "三哥（产品笔记）"
+      ],
+      "concepts": [
+        "Octop",
+        "Agent Client Protocol",
+        "连接器",
+        "定时任务",
+        "知识库检索",
+        "MBTI 人格",
+        "浏览器自动化",
+        "Agent",
+        "Skill",
+        "私有部署",
+        "工作区",
+        "子智能体"
+      ],
+      "summary": "微信公众号「产品笔记」的文章，作者三哥实测并介绍腾讯自研 AI 助手 Octop 的 1.0.0 正式版。Octop 被定位为开源、自托管、跑在本地机器上的 AI Agent，名字取自章鱼（Octopus），slogan 是「懂你、帮你、陪你成长的智能伙伴」；它提供一套 Web 页面、一个 CLI 与一套消息平台集成，全部在单个进程中运行，配置、对话、工作区与凭证都保存在本地。文章按 11 个部分逐项体验：①安装与配置（一键脚本 / pip / Docker 三种方式，初始化需输入启动密码、选数据存储位置、建管理员账户、配置模型，Web 端默认在 http://127.0.0.1:8088）；②和 AI 专家对话（「专家」是核心工作单元，内置 18 个专家并可从专家市场创建，每个专家有独立工作区目录、模型设置、技能、工具、插件、子智能体、人格、记忆、IM 渠道与对话历史；作者用「小办 · 办公自动化」专家经 96 次工具调用完成表格清洗与经营分析报告）；③给专家配置 MBTI 人格（内置 16 种人格模板，可给每个专家分配，也可用「测一测」由系统推荐）；④连接专家的 IM 通道（支持企业微信、飞书、钉钉、QQ、微信、Telegram、元宝、小艺、MQTT 等 9 个通道，可按专家配置一个或多个）；⑤定时任务（用自然语言自动化日报与提醒，每个专家下带常用示例）；⑥知识库（把文档放进知识库供对话引用，回复下方列出可点击来源文档；启用需选向量模型，可选本地 ONNX 或在线 Embedding，检索图片另需开启 OCR）；⑦对接编程智能体（借助 Agent Client Protocol 把编码任务委托给 OpenCode、CodeBuddy、Claude Code、Codex、Kimi Code、Cursor CLI、Pi 等外部 CLI）；⑧浏览器自动化与终端 AI 访问（工作台把远程浏览器与 AI 辅助终端合并在一个页面，可自然语言让专家浏览网页或截图，终端支持多会话标签与命令推荐、输出解释、报错排查）；⑨远程桌面与远程手机（在浏览器中操控服务器桌面或已连接手机）；⑩其他能力（Token 消耗可按天/专家/模型/用户统计；内置腾讯文档、腾讯会议、Notion、腾讯 IMA、邮箱等 23 个连接器；技能包可创建、挂载、从技能市场或 SkillHub 安装、支持 zip 导入；另有一只常驻桌面的八爪鱼悬浮宠物）；⑪使用体验感受。作者的总结是：Octop 以「专家 Agent」为核心单元，多 Agent 设计既覆盖个人、团队与家庭场景，也扩大了能力边界——通过 IM 通道对话、专家库创建角色、连接器接入外部服务、ACP 与 IDE／终端 AI 工具双向协作；而对话、工作区与凭据都留在用户自己的机器上，使「隐私不再是妥协」，因此它不只是 AI 工具，而是懂你、帮你、保护你隐私、陪你成长的智能伙伴。",
+      "keyPoints": [
+        "Octop 是腾讯自研的 AI 助手，经多个版本迭代后发布 1.0.0 正式版；定位为开源、自托管、跑在本地机器上的 AI Agent，提供 Web 页面、CLI 与消息平台集成三部分，全部在单个进程中运行。（开篇）",
+        "本地化是它的核心卖点：配置、对话、工作区和凭证均可本地保存，作者的表述是「让隐私不再是妥协」。（开篇）",
+        "安装支持一键脚本、pip 与 Docker 三种方式，文中给出 macOS/Linux 的一键安装命令；安装后需完成初始化配置——输入验证启动密码、选数据存储位置、创建管理员账户、配置模型（作者用 DeepSeek 测试联通性），Web 端默认通过 http://127.0.0.1:8088 访问。（1、安装和配置）",
+        "「专家」是 Octop 的核心工作单元，每个专家都是独立配置的 AI 助手：拥有自己的工作区目录、LLM 提供商设置、已启用技能、工具、插件、子智能体、人格、记忆、连接的 IM 渠道以及对话历史。内置 18 个专家可供选择，也可从专家市场创建。（2、和 AI 专家对话）",
+        "作者用「小办 · 办公自动化」专家处理 Excel/表格文件，经过 96 次工具调用和 51 次深度思考完成了数据清洗与经营分析报告，说明多步工具调用是这类 Agent 的实际工作方式。（2、和 AI 专家对话）",
+        "Octop 内置 16 种 MBTI 人格模板，可为每个已开启的专家分配一种人格来塑造其思考与沟通方式；不确定时可用右上角「测一测」回答问题，由系统推荐人格。（3、给专家配置MBTI 人格）",
+        "通道是专家与消息平台之间的桥梁，支持企业微信、飞书、钉钉、QQ、微信、Telegram、元宝、小艺、MQTT 等 9 个通道配置；一个专家可配置一个或多个通道，把各平台对话直接路由到专家。（4、连接专家的 IM 通道）",
+        "定时任务用自然语言创建，用于自动化每日报告与提醒；每个专家下都带多个常用示例，也可不用示例直接创建，触发后仍需人工检查自动化执行是否符合要求。（5、定时任务）",
+        "知识库是一组会被 Octop 检索的文件，对话时无需把全文贴进输入框，引用知识库后专家会找出相关段落并在回复下方列出可点击的来源文档；启用需选择向量模型（本地 ONNX 或在线 Embedding），要检索图片还需开启「图片与扫描件 OCR」。（6、知识库）",
+        "借助 Agent Client Protocol（ACP），Octop 专家可把编码任务委托给外部 AI 编程 CLI，文中列出 OpenCode、CodeBuddy、Claude Code、Codex、Kimi Code、Cursor CLI、Pi 等接入对象。（7、对接编程智能体）",
+        "工作台把远程浏览器与 AI 辅助终端合并在一个页面：浏览器侧可自然语言让专家浏览网页或截图，终端侧可开多会话标签、直接执行命令，也可让专家推荐命令、解释输出或排查报错，用户能实时查看并随时接管执行过程。（8、浏览器自动化与终端 AI 访问）",
+        "远程桌面与远程手机使用独立页面，可在浏览器中操控服务器桌面或已连接的手机。（9、远程桌面与远程手机）",
+        "其他能力包括：Token 消耗统计（可汇总，也可按天、按专家、按模型以及按用户查看）；内置腾讯文档、腾讯会议、Notion、腾讯 IMA、邮箱等 23 个连接器（授权一次即可在对话中调用）；技能包的创建、维护与挂载（可从技能市场或 SkillHub 安装、支持 zip 导入）；以及一只常驻桌面的八爪鱼悬浮宠物。（10、其他能力）",
+        "作者的总体感受：Octop 把专家 Agent 作为核心单元，所有技能、子智能体、工具、插件、人格、记忆与 IM 通道都基于它配置，每个专家相当于一个专用 AI 助手；这种多 Agent 设计既覆盖个人、团队、家庭场景，也扩大了能力边界。（11、使用体验感受）",
+        "全文结论：Octop 是开源、自托管、本地运行的 AI Agent，对话、工作区与凭据都留在用户自己的机器上，因此作者认为它不只是 AI 工具，而是「懂你、帮你、保护你隐私、陪你成长」的智能伙伴。（11、使用体验感受）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "腾讯WorkBuddy火了，字节和阿里急了",
+        "万字长文｜Codex 从入门到精通",
+        "Agent Harness 大战：Pi 最强，Claude Code 最快，DeepSeek 最省钱！",
+        "一文带你掌握 LLM、Token、Context、Prompt、RAG、MCP、Skill、Agent 等 AI 核心概念"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "0c8e7a4be1ac",
       "title": "万字长文｜Codex 从入门到精通",
@@ -2575,15 +2637,19 @@ export const publicWikiData = {
       },
       {
         "name": "AI工具",
-        "count": 7
+        "count": 8
+      },
+      {
+        "name": "AI系统设计",
+        "count": 8
       },
       {
         "name": "AI基础设施",
         "count": 7
       },
       {
-        "name": "AI系统设计",
-        "count": 7
+        "name": "开发者工具",
+        "count": 6
       },
       {
         "name": "企业AI",
@@ -2602,7 +2668,7 @@ export const publicWikiData = {
         "count": 6
       },
       {
-        "name": "开发者工具",
+        "name": "开源软件",
         "count": 5
       },
       {
@@ -2616,10 +2682,6 @@ export const publicWikiData = {
       {
         "name": "阅读推荐",
         "count": 5
-      },
-      {
-        "name": "开源软件",
-        "count": 4
       },
       {
         "name": "生命哲学",
@@ -2652,6 +2714,10 @@ export const publicWikiData = {
       {
         "name": "知识图谱",
         "count": 3
+      },
+      {
+        "name": "办公智能体",
+        "count": 2
       },
       {
         "name": "拉丁美洲文学",
@@ -2720,10 +2786,6 @@ export const publicWikiData = {
       {
         "name": "GPT-5.6",
         "count": 2
-      },
-      {
-        "name": "办公智能体",
-        "count": 1
       },
       {
         "name": "比较文学",
@@ -3124,6 +3186,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "三哥（产品笔记）",
+        "count": 1
+      },
+      {
         "name": "三吉吖523",
         "count": 1
       },
@@ -3263,11 +3329,11 @@ export const publicWikiData = {
     "concepts": [
       {
         "name": "Skill",
-        "count": 7
+        "count": 8
       },
       {
         "name": "Agent",
-        "count": 5
+        "count": 6
       },
       {
         "name": "Codex",
@@ -3283,6 +3349,10 @@ export const publicWikiData = {
       },
       {
         "name": "知识图谱",
+        "count": 3
+      },
+      {
+        "name": "子智能体",
         "count": 3
       },
       {
@@ -3315,6 +3385,10 @@ export const publicWikiData = {
       },
       {
         "name": "工具调用",
+        "count": 2
+      },
+      {
+        "name": "工作区",
         "count": 2
       },
       {
@@ -3382,6 +3456,10 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "私有部署",
+        "count": 2
+      },
+      {
         "name": "系统1",
         "count": 2
       },
@@ -3399,10 +3477,6 @@ export const publicWikiData = {
       },
       {
         "name": "中转查询",
-        "count": 2
-      },
-      {
-        "name": "子智能体",
         "count": 2
       },
       {
@@ -3650,6 +3724,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "定时任务",
+        "count": 1
+      },
+      {
         "name": "多模数据融合",
         "count": 1
       },
@@ -3723,10 +3801,6 @@ export const publicWikiData = {
       },
       {
         "name": "工作笔记",
-        "count": 1
-      },
-      {
-        "name": "工作区",
         "count": 1
       },
       {
@@ -3902,6 +3976,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "连接器",
+        "count": 1
+      },
+      {
         "name": "廉价机票",
         "count": 1
       },
@@ -3911,6 +3989,10 @@ export const publicWikiData = {
       },
       {
         "name": "零日漏洞",
+        "count": 1
+      },
+      {
+        "name": "浏览器自动化",
         "count": 1
       },
       {
@@ -4151,10 +4233,6 @@ export const publicWikiData = {
       },
       {
         "name": "数据脱敏",
-        "count": 1
-      },
-      {
-        "name": "私有部署",
         "count": 1
       },
       {
@@ -4422,6 +4500,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "知识库检索",
+        "count": 1
+      },
+      {
         "name": "知识权威",
         "count": 1
       },
@@ -4507,6 +4589,10 @@ export const publicWikiData = {
       },
       {
         "name": "AFlow",
+        "count": 1
+      },
+      {
+        "name": "Agent Client Protocol",
         "count": 1
       },
       {
@@ -4734,6 +4820,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "MBTI 人格",
+        "count": 1
+      },
+      {
         "name": "MCE",
         "count": 1
       },
@@ -4763,6 +4853,10 @@ export const publicWikiData = {
       },
       {
         "name": "Obsidian",
+        "count": 1
+      },
+      {
+        "name": "Octop",
         "count": 1
       },
       {
@@ -4901,7 +4995,7 @@ export const publicWikiData = {
     "platforms": [
       {
         "name": "wechat-article",
-        "count": 25
+        "count": 26
       },
       {
         "name": "web",
