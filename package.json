@@ -16,7 +16,7 @@
     "prepare:pages": "npm run sync:public && npm run build:pages",
     "publish:wiki": "node scripts/publish-wiki.mjs",
     "start": "WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext start",
-    "test": "npm run build && node --test tests/rendered-html.test.mjs",
+    "test": "npm run build && node --experimental-strip-types --test tests/wiki-search.test.ts tests/rendered-html.test.mjs",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
     "db:generate": "drizzle-kit generate"
   },

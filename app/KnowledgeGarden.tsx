@@ -2,6 +2,7 @@
 
 import { useMemo, useState, type CSSProperties } from "react";
 import ProductManagerWiki from "./ProductManagerWiki";
+import { matchesWikiQuery } from "./wiki-search";
 
 type WikiItem = {
   id: string;
@@ -92,24 +93,35 @@ export default function KnowledgeGarden({
       : productData.updated_at;
 
   const filtered = useMemo(() => {
-    const needle = query.trim().toLowerCase();
     return data.items.filter((item) => {
       const inPlatform = platform === "全部" || item.platform === platform;
       const inTopic = !activeTopic || item.topics.includes(activeTopic);
-      const haystack = [
-        item.title,
-        item.author,
-        item.summary,
-        ...item.topics,
-        ...item.people,
-        ...item.concepts,
-      ].join(" ").toLowerCase();
-      return inPlatform && inTopic && (!needle || haystack.includes(needle));
+      return inPlatform && inTopic && matchesWikiQuery(item, query, platformLabel(item.platform));
     });
   }, [activeTopic, data.items, platform, query]);
 
   const selected =
-    data.items.find((item) => item.id === selectedId) ?? filtered[0] ?? null;
+    filtered.find((item) => item.id === selectedId) ?? filtered[0] ?? null;
+
+  const handleSearchChange = (value: string) => {
+    setQuery(value);
+    if (value.trim()) {
+      setPlatform("全部");
+      setActiveTopic("");
+    }
+  };
+
+  const choosePlatform = (value: string) => {
+    setPlatform(value);
+    setActiveTopic("");
+    setQuery("");
+  };
+
+  const chooseTopic = (value: string) => {
+    setActiveTopic(value);
+    setPlatform("全部");
+    setQuery("");
+  };
 
   const resetFilters = () => {
     setQuery("");
@@ -155,7 +167,7 @@ export default function KnowledgeGarden({
           <p className="eyebrow">内容来源</p>
           <button
             className={platform === "全部" ? "filter-row selected" : "filter-row"}
-            onClick={() => setPlatform("全部")}
+            onClick={() => choosePlatform("全部")}
           >
             <span>全部内容</span><b>{data.items.length}</b>
           </button>
@@ -163,7 +175,7 @@ export default function KnowledgeGarden({
             <button
               key={item.name}
               className={platform === item.name ? "filter-row selected" : "filter-row"}
-              onClick={() => setPlatform(item.name)}
+              onClick={() => choosePlatform(item.name)}
             >
               <span>{platformLabel(item.name)}</span><b>{item.count}</b>
             </button>
@@ -214,8 +226,8 @@ export default function KnowledgeGarden({
             <span aria-hidden="true">⌕</span>
             <input
               value={query}
-              onChange={(event) => setQuery(event.target.value)}
-              placeholder={view === "product" ? "搜索产品、技术或市场知识" : "搜索标题、主题、人物或概念"}
+              onChange={(event) => handleSearchChange(event.target.value)}
+              placeholder={view === "product" ? "搜索产品、技术或市场知识" : "搜索标题、摘要、观点、主题、人物或概念"}
               aria-label="搜索知识库"
             />
             <kbd>⌘ K</kbd>
@@ -258,7 +270,7 @@ export default function KnowledgeGarden({
                     key={item.name}
                     className={activeTopic === item.name ? "topic-pill active" : "topic-pill"}
                     style={{ "--i": index } as CSSProperties}
-                    onClick={() => setActiveTopic(activeTopic === item.name ? "" : item.name)}
+                    onClick={() => chooseTopic(activeTopic === item.name ? "" : item.name)}
                   >
                     {item.name}<sup>{item.count}</sup>
                   </button>
@@ -271,7 +283,13 @@ export default function KnowledgeGarden({
                 <div className="section-heading">
                   <div>
                     <p className="eyebrow">KNOWLEDGE FEED</p>
-                    <h2>{activeTopic ? `主题：${activeTopic}` : "最近收录"}</h2>
+                    <h2>
+                      {query.trim()
+                        ? `搜索：“${query.trim()}”`
+                        : activeTopic
+                          ? `主题：${activeTopic}`
+                          : "最近收录"}
+                    </h2>
                   </div>
                   <span>{filtered.length} 条结果</span>
                 </div>
