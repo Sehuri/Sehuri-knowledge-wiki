@@ -1,7 +1,146 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-09-22T15:51:11+08:00",
+  "updatedAt": "2026-09-23T08:42:24+08:00",
   "items": [
+    {
+      "id": "764b86f7bd51",
+      "title": "一夜三连发，Claude Opus 5.5、GPT-6 Sol和Luna全部都来了。",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/EhyeRMFUv1KekZhzVyRm7g",
+      "author": "数字生命卡兹克",
+      "published_at": "2026-09-23",
+      "captured_at": "2026-09-23T08:42:24+08:00",
+      "completeness": "full",
+      "topics": [
+        "AI模型",
+        "AI工具",
+        "开发者工具",
+        "AI商业化"
+      ],
+      "people": [
+        "数字生命卡兹克"
+      ],
+      "concepts": [
+        "Claude Opus 5.5",
+        "Claude Opus 5",
+        "GPT-6 Sol",
+        "GPT-6 Luna",
+        "GPT-6 Astra",
+        "GPT-6 Pro",
+        "Fable 5.1",
+        "AutomationBench",
+        "Terminal-Bench 4.0",
+        "API定价",
+        "缓存命中率",
+        "帕累托前沿",
+        "Adaptive Thinking"
+      ],
+      "summary": "微信公众号「数字生命卡兹克」的文章，作者卡兹克逐一点评同一夜发布的三款模型——Anthropic 的 Claude Opus 5.5 与 OpenAI 的 GPT-6 Sol、GPT-6 Luna，并给出选购建议。开篇调侃「刚喊完模型要放慢，模型却跟不要钱一样往外扔」，并指出这一晚与当年 GPT-5.3 Codex 对轰 Claude Opus 4.6 的剧情几乎重演。第一部分 Claude Opus 5.5：作者称它是 Anthropic 全新 5.5 系列的第一个模型，很少一次性跨这么多版本号；自己临时体验（买次抛号）下来沟通感像回到了 Opus 4.6、活人感很强，虽然官方定位是 Claude 系列的性价比模型。他给出规格：模型名 claude-opus-5-5、上下文 1M Token、最大输出 128K、可靠知识截止 2026 年 6 月、Adaptive Thinking 始终开启、默认努力等级 medium、输入 $4/百万 token、输出 $20/百万 token、缓存读取 $0.2、5 分钟缓存写入 $5、1 小时缓存写入 $8；相比上一代 Opus 5 整体工作成本可降 40%、输出速度还快 30% 以上。非大型工作上已达 Fable 5.1 级别，大型高难工作仍需 Fable 级模型；Coding 基本是当前 SOTA（Terminal-Bench 4.0 刷新最高分 66.4%），但偏科研的 Terminal-Bench-Science 上 Opus 5.5 是 58.7% 而 Astra 更高达 64.6%，AutomationBench 上 Opus 5.5 40.0% 而 GPT-6 Astra 41.4%，Computer Use 则是 Astra 的绝对主场。作者由此观察两家的分化：Anthropic 更偏 Coding 且审美极强、相信 Coding 是通往 AGI 的基石，OpenAI 更专注全面的 Agent 能力（推理、软件操作、科研）。他也强调单看某一维度评测集无法评估模型真正质量，规划与架构设计这类能力上 Fable 才是「神」；在他看来 Opus 5.5 基本是 Fable 5.1 的官方蒸馏模型，垂直场景更强、参数更小更快更便宜，但代价是 Token 浪费——高难任务上非旗舰模型会疯狂思考却出不去，反而比旗舰更烧钱，Opus 5.5 每任务输出 Token 数爆炸、智力靠超长推理换来，一旦陷入困境就原地爆炸，所以 Anthropic 也提示「结果很重要时一定用最高级的模型」。第二部分 GPT-6 Sol 和 Luna：Codex 中已上线直接可用；Astra 仍是最强模型，Sol/Luna 的意义是把 Astra 这代训练方法的能力下放到更快更便宜的模型——与 Claude 同一天在讲同一件事，「谁能用更少的钱买到更多智能，这就是帕累托前沿」。价格上 Sol 和 Luna 比 GPT-5.6 同款便宜 50%，Luna 单看输入输出已比 DeepSeek 便宜，但缓存价格仍比 DeepSeek 高约三倍；作者认为 Luna 最适用的是应用背后的自动化任务（他自己的 AIHOT 挂着十几个大模型信息处理任务、每天上万次请求），这类场景缓存命中率综合能到 30% 已不错，Luna 优势明显。对 GPT-6 Sol 的评价是「能力上比预期差一些，成本降幅比预期强一些」：在 AA 榜上只比 GPT-5.6 Sol 强了一点，而 Opus 5.5 断崖式拿下第一；AutomationBench 上 Sol xhigh 得 33.2%、每任务平均成本 0.27 美元，Astra low 是 30.3% 但任务成本是 Sol 的 3.9 倍，Fable 5.1 加 Opus 5 fallback 是 31.4%、成本至少是 Sol 的 8.9 倍（对比用 Opus 5 而非 5.5，因为后者与 Sol 几乎同时发布、OpenAI 的图来不及放）。他特别肯定事实错误率的改进——「GPT 都快成为我的事实核查器」，这次已基本处于 GPT-6 Astra 级别，并提醒推理等级开轻或中容易犯事实错误，日常要开高、Luna 得开最高。但作者也实测到审美与细节明显降级：操控 Blender 建摩托车细节完成度差很远，Sol 画的「天坛」很多细节有问题、门直接出 bug，不过成本降了约 70% 尚可接受。他还指出一个不理解之处：Sol/Luna 已在 ChatGPT Work 与 Codex 推送，OpenAI 却说这些模型尚未在 Chat 提供、聊天模式仍是 GPT-5.6 Sol。最后是选择建议：①能订阅 Claude 且不被封号就订 Claude，复杂规划用 Fable 5.1、任务执行用 Opus 5.5；②被封号但能订海外模型就无脑订 ChatGPT——模型层面比 Claude 略差一小截，但有最好的 C 端体验、无限额度聊天模式与最好用的客户端 Codex，复杂规划用 GPT-6 Astra 或 GPT-6 Pro、执行用 Astra high 或 GPT-5.6 Sol xhigh、Luna 跑大规模批量自动化；③只能订国产模型则 Qwen、Kimi、GLM、MiMo、DeepSeek 没有断代区别，Kimi K3 与 Qwen 3.8 Max 适合规划、GLM-5.3 与 MiMo v2.6 Pro、DeepSeek V4.1 Flash 适合执行，但**只订 1 个月、最多季卡、千万别买年卡**。他认为格局已变：过去两家做高端、国产做性价比，现在前沿厂商供应链更成熟、像苹果一样全域通吃；对用户而言是好事——同等 AI 性能的成本几乎每季度下降 47%，智能或将像煤水电一样人人用得起，那时可能就是真正的大繁荣时代。",
+      "keyPoints": [
+        "开篇判断：同一夜三款模型齐发（OpenAI 的 GPT-6 Sol、GPT-6 Luna 与 Anthropic 的 Claude Opus 5.5），作者认为这与当年 GPT-5.3 Codex 对轰 Claude Opus 4.6 的剧情几乎重演，只是角色换成了 Claude Opus 5.5 对 GPT-6 Sol。（开篇）",
+        "Claude Opus 5.5 是 Anthropic 全新 5.5 系列的第一个模型，作者印象中很少见 Claude 一次性跨这么多版本号；他临时体验（买次抛号）后认为沟通上像回到 Opus 4.6、活人感很强，虽然官方把它定位为 Claude 系列的性价比模型。（一. Claude Opus 5.5）",
+        "Opus 5.5 规格与价格：模型名 claude-opus-5-5，上下文 1M Token，最大输出 128K Token，可靠知识截止 2026 年 6 月，Adaptive Thinking 始终开启，默认努力等级 medium，输入 $4/百万 token、输出 $20/百万 token、缓存读取 $0.2、5 分钟缓存写入 $5、1 小时缓存写入 $8；相比上一代 Opus 5 整体工作成本可下降 40%，输出速度还快 30% 以上。（一. Claude Opus 5.5）",
+        "能力定位：非大型工作上 Opus 5.5 已可做到 Fable 5.1 级别的表现，大型高难工作仍需 Fable 级模型上场；在 Coding 任务上「基本就是现在的 SOTA」，例如 Terminal-Bench 4.0 刷新最高分 66.4%。（一. Claude Opus 5.5）",
+        "但并非全面领先：偏科研的 Terminal-Bench-Science 上 Opus 5.5 为 58.7%、Astra 反而更高 64.6%；AutomationBench 上 Opus 5.5 是 40.0%、GPT-6 Astra 是 41.4%；Computer Use 虽未给 Astra 分数，但作者认为它是绝对的 SOTA。（一. Claude Opus 5.5）",
+        "两家分化：Anthropic 更偏向 Coding 能力且审美极强、相信 Coding 才是通往 AGI 之路的基石；OpenAI 更专注全面的 Agent 能力，包括推理、软件操作与科研。（一. Claude Opus 5.5）",
+        "作者的方法论提醒：单纯看某一个维度的评测集无法评估一个模型的真正质量；最前面的规划与架构设计能力上「Fable 就是神」，依赖大参数、世界知识与智能涌现。因此他不认同「整体 Opus 5.5 比 Fable 强」的说法。（一. Claude Opus 5.5）",
+        "他给出的定性判断是：Claude Opus 5.5 基本就是 Fable 5.1 自家的官方蒸馏模型——在很多垂直场景可能更强，参数量更小、速度更快、更便宜，但同时会带来 Token 浪费。**陷阱在于**：高难任务上一些非旗舰模型会持续疯狂思考、疯狂尝试却始终出不去，反而比旗舰模型更烧钱。（一. Claude Opus 5.5）",
+        "Opus 5.5 每任务输出 Token 数「直接爆炸」，作者认为它的很多智力是靠超长推理换来的，弊端是一旦陷入困境就原地爆炸；因此 Anthropic 也提示：结果很重要的时候一定要用最高级的模型。（一. Claude Opus 5.5）",
+        "Opus 5.5 强化了沟通：Anthropic 收到对 Opus 5 最多的反馈之一是「写得绕、术语多、不够直接」，5.5 会把最重要的信息放在前面、减少奇怪措辞与不必要的解释，创作上也有 Claude 4.6 的感觉。（一. Claude Opus 5.5）",
+        "Anthropic 官方成本指南的建议：日常盯着干的 Feature、Debug、Code Review 用 Opus 5.5；真正结果比 Token 价格更重要、长时间无人监督、或 Opus 5.5 连续失败时再切 Fable 5.1——作者概括为「Fable 越来越像专家级顾问，Opus 5.5 更像主力员工」。（一. Claude Opus 5.5）",
+        "GPT-6 Sol 与 Luna 已在 Codex 上线、可直接使用；Astra 依然是最强模型，最困难、最重要、不想做任何妥协的工作继续用 Astra，而 Sol 和 Luna 存在的意义是把 Astra 这代训练方法带来的能力下放到更快、更便宜的模型。（二. GPT-6 Sol和Luna）",
+        "作者点出两家的共同主题：与 Claude 几乎在同一天讲同一件事——**谁能用更少的钱买到更多智能，这就是帕累托前沿**。（二. GPT-6 Sol和Luna）",
+        "价格：Sol 和 Luna 比 GPT-5.6 的同款模型还要便宜 50%；单看输入与输出价格，Luna 已经比 DeepSeek 更便宜，但缓存价格仍比 DeepSeek 高约 3 倍。（二. GPT-6 Sol和Luna）",
+        "Luna 的适用场景判断：作者认为它最适合各种应用背后的自动化任务（他自己的 AIHOT 就挂着十几个需要大模型的信息处理任务、每天请求上万次）；这类场景缓存命中率往往不高、综合能到 30% 就不错，此时 Luna 的优势变得明显。此外三款模型的知识截止日期各不相同，Luna 最新、到 5 月 18 号。（二. GPT-6 Sol和Luna）",
+        "对 GPT-6 Sol 的评价：能力上比作者预期差一些，但成本降幅比预期强。在 AA 榜上它只比 GPT-5.6 Sol 强了一点，而 Claude Opus 5.5 直接断崖式拿下第一（他也承认 AA 基准常被诟病、细节不够准，但大方向不会差太多）。（二. GPT-6 Sol和Luna）",
+        "Sol 的定位是「基于新模型新架构，尽量保持比 GPT-5.6 Sol 好一点，然后大幅度降成本」。AutomationBench 数据：Sol xhigh 得 33.2%、每任务平均成本 0.27 美元；Astra low 是 30.3% 但任务成本是 Sol 的 3.9 倍；Fable 5.1 加 Opus 5 fallback 是 31.4%、成本至少是 Sol 的 8.9 倍（图中对比的是 Opus 5，因为 Opus 5.5 与 Sol 几乎同时发布，OpenAI 来不及放入）。（二. GPT-6 Sol和Luna）",
+        "作者高度肯定事实错误率的改进：他自称 GPT 快成为自己的事实核查器、几乎没什么幻觉，这次又大幅优化、基本已处于 GPT-6 Astra 级别。由此给出的实操建议是——推理等级开「轻」或「中」时很多时候会犯事实错误，所以日常推荐开「高」，如果用的是 Luna 得开最高。（二. GPT-6 Sol和Luna）",
+        "作者实测发现审美与细节有明显降级：操控 Blender 建摩托车时细节完成度差得很远；同样画「天坛」，GPT-6 Astra 的版本精细，而 GPT-6 Sol 的版本很多细节有问题、「门直接就出 bug」。不过成本大约降了 70%，他认为整体可以接受。（二. GPT-6 Sol和Luna）",
+        "推送现状与一个不解之处：写稿时 Sol 和 Luna 已在 ChatGPT Work 与 Codex 推送，但 OpenAI 表示这些模型尚未在 Chat 上提供，聊天模式仍提供 GPT-5.6 Sol——作者不理解成本已大幅下降为何聊天模式不换用更便宜的模型。（二. GPT-6 Sol和Luna）",
+        "选择建议一（能订阅 Claude 且不被封号）：推荐订阅 Claude。复杂规划和计划用 Claude Fable 5.1，任务执行用 Opus 5.5，这可能是目前最好的组合。作者同时坦言自己情感上很讨厌 Anthropic（因封号）。（写在最后）",
+        "选择建议二（被 Claude 封号但能订阅海外模型）：无脑订阅 ChatGPT。作者认为 GPT 在模型层面（创作、认知洞察、coding）仍比 Claude 差一小截，但有几乎最好的 C 端体验、无限额度的聊天模式与最好用的客户端 Codex，且 GPT-6 仍是 T0 级别。具体搭配：复杂规划用 GPT-6 Astra 或 GPT-6 Pro，执行用 GPT-6 Astra high 或 GPT-5.6 Sol xhigh，GPT-6 Luna 用来跑大规模的批量自动化任务。（写在最后）",
+        "选择建议三（只能订阅国产模型）：Qwen、Kimi、GLM、MiMo、DeepSeek 之间没有断代区别，用习惯哪家用哪家；梯度上 Kimi K3 和 Qwen 3.8 Max 更适合做规划与方案，GLM-5.3、MiMo v2.6 Pro、DeepSeek V4.1 Flash 更适合做执行。他强调**只订阅 1 个月就行、最多买季卡、千万不要买年卡**。（写在最后）",
+        "格局判断：过去是 OpenAI 与 Anthropic 做前沿与高端、国产做中端和性价比；但现在前沿厂商供应链更成熟，像苹果一样开始全域通吃，中端甚至超低端全都要。对用户而言这是好事——同等 AI 性能的成本几乎每季度下降 47%，再过几个月到半年，智能可能真的会像煤水电一样成为每个人用得起的资产，那时可能就是真正的大繁荣时代。（写在最后）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "GPT-6 Sol斩杀5.6全系！Astra的1/5价格，Luna比梁文谷还便宜，周二Codex重置",
+        "刚刚，GPT-6正式发布！OpenAI：欢迎来到AGI时代",
+        "突发 ",
+        "这个只会做选择题的Jev，却是今年我看到的最特别的大模型。"
+      ],
+      "extractionNotes": ""
+    },
+    {
+      "id": "1f5cea9312b1",
+      "title": "GPT-6 Sol斩杀5.6全系！Astra的1/5价格，Luna比梁文谷还便宜，周二Codex重置",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/5Iw9_q6DLws2vtwr2Qv46g",
+      "author": "关注前沿科技",
+      "published_at": "2026-09-23",
+      "captured_at": "2026-09-23T08:41:45+08:00",
+      "completeness": "full",
+      "topics": [
+        "AI模型",
+        "AI基础设施",
+        "开发者工具",
+        "AI商业化"
+      ],
+      "people": [
+        "关注前沿科技"
+      ],
+      "concepts": [
+        "GPT-6 Sol",
+        "GPT-6 Luna",
+        "GPT-6 Astra",
+        "GPT-5.6 Sol",
+        "Fable 5.1",
+        "Claude Opus 5",
+        "AutomationBench",
+        "Agents' Last Exam",
+        "Terminal-Bench 4.0",
+        "DeepSWE",
+        "FrontierCode",
+        "API定价",
+        "缓存命中率",
+        "提示词缓存"
+      ],
+      "summary": "量子位报道 OpenAI 深夜上线 GPT-6 Sol 与 GPT-6 Luna。核心是**降价**：与 5.6 系列相比，6 系列 API 定价直接砍掉 50%，其中 Luna 的输出降幅还超过 50%；Luna 的输入价格甚至比 DeepSeek-V4.1 Flash 的「梁文谷价格」（$0.15）还便宜一点，但作者提醒不确定缓存命中率是否可比。OpenAI 称降价来自缓存与推理环节的效率提升，成本让利给用户和开发者。系列定位也重新排了：Astra 顶替过去的 Sol，Sol 顶替过去的 Terra，Luna 位置不变——Terra 的生态位被挤没了。作者给的第一条实用建议是**用 GPT-6 Sol 别开 Max**：效果提升有限而价格提升很大，个别榜单 Max 档甚至比 xHigh 掉分，不如直接开 Astra。第二部分用榜单论证「用一成价格盯着 Fable 打」：AutomationBench（测 AI 在销售、营销、运营、客服、财务、人力资源六大领域 47 个工具上执行端到端业务流程）上，Sol 的 high/xhigh 已摸到 Astra 的 light/medium 水平；对比之下 Claude Opus 5 在 max effort 下得分与 Sol medium 相当，单任务成本却是 Sol 的 11.1 倍，Fable 5.1 成本至少是 Sol 的 8.9 倍（尚未计入约 40% 任务触发 Opus 5 回退的额外开销）。作者还让 Sol 把新发布的 Opus 5.5 成绩画进图表，直观显示 Opus 5.5 的 Max 档达到 Astra 水平、价格也达到 Astra 水平。Agents' Last Exam（长周期任务，覆盖 55 个子行业）上 Sol max effort 得 56.4%，超过 Claude Opus 5 的最高分而成本低 60%；DeepSWE v1.1 上 Sol 并未比 5.6 Sol 更好但便宜不少，Luna max effort 得 66.6%、与 Opus 5 和 Fable 5 在 medium effort 相当而成本分别低 93%、96%；Cognition 的 FrontierCode 上 Sol 相比 5.6 Sol 有明显提升并能以更低成本匹配 Fable 5.1 xhigh。作者也直说了短板：计算机操作这块 Sol 只是比 5.6 Sol 便宜、high 档以上并没超过 5.6 多少；编程方向 OpenAI 给出的内部数据是 Coding Agent 使用量指数增长，按 API 价格折算中位数研究员每天 token 消耗已超 600 美元、90 分位超 7000 美元。第三部分是基础设施与对齐：提示词缓存默认命中率提高、缓存命中的输入 token 享 90% 折扣，还上线了缓存监控面板与诊断工具，且调整推理 effort 或开关工具不再打断之前的缓存上下文（GitHub 已在用，称过去几个月让 Copilot 需重新处理的提示 token 比例下降超 50%）；对话风格把 Astra 的改进带到 Sol/Luna，更清晰、更少术语、更简短（OpenAI 用同一网页开发任务对比 5.6 与 6 的回复）；对齐测试中 Sol/Luna 优于 5.6 同级、编程任务里做出误导性声明的比率更低，但 OpenAI 强调测试场景是刻意挑选的。事实准确性方面，用真实 ChatGPT 对话中被用户标记过事实错误的案例测试，Sol 错误率约为上一代一半、接近 Astra，Luna 在较高 effort 下能匹配 5.6 Sol 的准确度而成本只有 1%。文末提到 Codex 额度重置「总之是周二，具体时间未定」。",
+      "keyPoints": [
+        "GPT-6 Sol 与 GPT-6 Luna 深夜上线，与 5.6 系列相比 **6 系列 API 定价直接砍 50%**，其中 Luna 的输出降幅还超过 50%；OpenAI 称降价源于缓存与推理环节的效率提升，把省下的成本让利给用户和开发者。（开篇 · GPT-6 Sol、Luna 深夜上线）",
+        "两款新模型都用上了 Astra 改进的训练方法，因此继承了 Astra 在计算机使用等方面的提升；作者由此判断「5.6 系列直接被斩杀」。（开篇 · GPT-6 Sol、Luna 深夜上线）",
+        "系列内部定位重排：**Astra 负责当以前的 Sol，Sol 负责当以前的 Terra，Luna 还是以前的 Luna**——Terra 的生态位被直接挤没。（开篇 · GPT-6 Sol、Luna 深夜上线）",
+        "Luna 的输入价格比 DeepSeek-V4.1 Flash 的「梁文谷价格」（$0.15）还便宜一点，但作者提醒不知道两者的缓存命中率是否可比。（开篇 · GPT-6 Sol、Luna 深夜上线）",
+        "实用建议：**用 GPT-6 Sol 最好别开 Max** —— 效果提升有限而价格提升很大，某些榜单上 Max 档跑分甚至低于 xHigh，不如直接开 Astra。作者顺带指出 Codex 里 Max 档默认是关闭的（设置里可选）。（用一成价格，盯着 Fable 打）",
+        "AutomationBench 测的是 AI 在销售、营销、运营、客服、财务和人力资源六大领域、47 个工具上执行端到端业务流程的能力；在该榜上 GPT-6 Sol 的 high 与 xhigh 两个档位已经摸到 Astra 的 light 与 medium 水平。（用一成价格，盯着 Fable 打）",
+        "成本对比：Claude Opus 5 在 max effort 下得分与 GPT-6 Sol 的 medium 差不多，但**单任务成本是 Sol 的 11.1 倍**；Claude Fable 5.1 成本是 Sol 的 8.9 倍以上，且这还没算上约 40% 任务触发 Opus 5 回退产生的额外开销。（用一成价格，盯着 Fable 打）",
+        "作者把新发布的 Claude Opus 5.5 成绩画进同一张图表做对照，直观看出 **Opus 5.5 的 Max 档达到了 GPT-6 Astra 的水平，价格也达到了 Astra 水平**。（用一成价格，盯着 Fable 打）",
+        "Agents' Last Exam（考长周期任务，覆盖 55 个子行业）上，GPT-6 Sol 在 max effort 下得 56.4%，超过 Claude Opus 5 在该测试中的最高分，且成本还低 60%。（用一成价格，盯着 Fable 打）",
+        "编程是本次重点展示方向。OpenAI 透露内部 Coding Agent 使用量呈指数级增长，按 API 价格折算**中位数研究员每天 token 消耗已超过 600 美元，90 分位研究员超过 7000 美元**——持续使用的成本因此变得关键，这正是 Sol 与 Luna 要解决的问题。（用一成价格，盯着 Fable 打）",
+        "DeepSWE v1.1（测 AI 在真实代码库解决复杂软件工程任务）上，GPT-6 Sol 其实并没有比 GPT-5.6 Sol 更好，但确实便宜不少；GPT-6 Luna 在 max effort 下得 66.6%，与 Claude Opus 5 和 Fable 5 在 medium effort 下水平相当，**成本分别低 93% 和 96%**。（用一成价格，盯着 Fable 打）",
+        "Cognition 的 FrontierCode（评估 AI 写的代码是否达到可合并进真实代码库的标准）上，GPT-6 Sol 相比 GPT-5.6 Sol 有明显提升，能以更低成本匹配 Claude Fable 5.1 在 xhigh 下的表现。（用一成价格，盯着 Fable 打）",
+        "短板也被点明：计算机操作这块「还是 Astra 比较权威」，GPT-6 Sol 仅仅是比 5.6 Sol 便宜，**high 档位以上的水平其实没超过 5.6 多少**；GPT-6 Luna 在 max effort 下超过 GPT-5.6 Sol 在 medium effort 下的表现，成本仅为后者的十分之一。（用一成价格，盯着 Fable 打）",
+        "事实准确性方面，OpenAI 用一组从真实 ChatGPT 对话中提取、用户曾标记过事实错误的案例测试：**GPT-6 Sol 的错误率大约是上一代的一半，接近 Astra 的水平**；GPT-6 Luna 在较高 effort 下能匹配 GPT-5.6 Sol 的准确度，而成本只有百分之一。（用一成价格，盯着 Fable 打）",
+        "提示词缓存改进：默认提供更高命中率，**缓存命中的输入 token 可享 90% 的价格折扣**；OpenAI 还上线了缓存监控面板与诊断工具，开发者可查看缓存使用情况、定位未命中原因并针对性优化。（缓存命中率提升，重置马上来）",
+        "另一个实用改动：**调整推理 effort 级别或开关工具时，不再打断之前的缓存上下文**，因此可以在任务中途灵活切换配置（作者提到已有人搭配 Jev 做到毫秒级切换）。（缓存命中率提升，重置马上来）",
+        "GitHub 已在用这套方案：据 OpenAI 披露，过去几个月这些优化让 **GitHub Copilot 需要重新处理的提示 token 比例下降超过 50%**，涉及数十亿次请求。（缓存命中率提升，重置马上来）",
+        "对话风格：Astra 上改进过的沟通方式被带到 Sol 和 Luna，在技术与编程对话中感知尤为明显——更清晰、更少术语、更少无效细节、整体更简短但不丢关键信息。OpenAI 博客对比同一网页开发任务：5.6 会主动复述用户已知信息并使用含糊措辞，6 则更直接，会说明自己检查了什么、没检查什么。（缓存命中率提升，重置马上来）",
+        "对齐方面 Sol 和 Luna 在测试中优于 GPT-5.6 同级模型，包括在编程任务中做出误导性声明的比率更低；OpenAI 强调这些测试专门挑选了容易诱发不诚实行为的场景，正常使用中出现此类问题的概率远低于测试数据。（缓存命中率提升，重置马上来）",
+        "文末提到额度重置：「总之是周二，具体时间未定」。（缓存命中率提升，重置马上来）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "刚刚，GPT-6正式发布！OpenAI：欢迎来到AGI时代",
+        "刚刚，Grok 4.7 发布！",
+        "Codex正式开放1M上下文！解除GPT-5.6 Sol封印，三行配置搞定",
+        "突发 "
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "fef3a667ec70",
       "title": "普通人环游世界，到底该怎么玩",
@@ -2735,6 +2874,10 @@ export const publicWikiData = {
         "count": 10
       },
       {
+        "name": "AI工具",
+        "count": 10
+      },
+      {
         "name": "出境旅行",
         "count": 9
       },
@@ -2743,20 +2886,20 @@ export const publicWikiData = {
         "count": 9
       },
       {
-        "name": "AI工具",
-        "count": 9
-      },
-      {
-        "name": "AI系统设计",
+        "name": "开发者工具",
         "count": 8
       },
       {
         "name": "AI基础设施",
-        "count": 7
+        "count": 8
       },
       {
-        "name": "开发者工具",
-        "count": 6
+        "name": "AI模型",
+        "count": 8
+      },
+      {
+        "name": "AI系统设计",
+        "count": 8
       },
       {
         "name": "目的地选择",
@@ -2772,10 +2915,6 @@ export const publicWikiData = {
       },
       {
         "name": "知识工程",
-        "count": 6
-      },
-      {
-        "name": "AI模型",
         "count": 6
       },
       {
@@ -2796,6 +2935,10 @@ export const publicWikiData = {
       },
       {
         "name": "需求管理",
+        "count": 4
+      },
+      {
+        "name": "AI商业化",
         "count": 4
       },
       {
@@ -2892,10 +3035,6 @@ export const publicWikiData = {
       },
       {
         "name": "AI评测",
-        "count": 2
-      },
-      {
-        "name": "AI商业化",
         "count": 2
       },
       {
@@ -3117,11 +3256,19 @@ export const publicWikiData = {
         "count": 3
       },
       {
+        "name": "关注前沿科技",
+        "count": 2
+      },
+      {
         "name": "加夫列尔·加西亚·马尔克斯",
         "count": 2
       },
       {
         "name": "量子位",
+        "count": 2
+      },
+      {
+        "name": "数字生命卡兹克",
         "count": 2
       },
       {
@@ -3202,10 +3349,6 @@ export const publicWikiData = {
       },
       {
         "name": "福楼拜",
-        "count": 1
-      },
-      {
-        "name": "关注前沿科技",
         "count": 1
       },
       {
@@ -3302,10 +3445,6 @@ export const publicWikiData = {
       },
       {
         "name": "申子辰",
-        "count": 1
-      },
-      {
-        "name": "数字生命卡兹克",
         "count": 1
       },
       {
@@ -3451,8 +3590,20 @@ export const publicWikiData = {
         "count": 6
       },
       {
+        "name": "API定价",
+        "count": 4
+      },
+      {
         "name": "Codex",
         "count": 4
+      },
+      {
+        "name": "Terminal-Bench 4.0",
+        "count": 4
+      },
+      {
+        "name": "缓存命中率",
+        "count": 3
       },
       {
         "name": "瑞士",
@@ -3472,6 +3623,22 @@ export const publicWikiData = {
       },
       {
         "name": "子智能体",
+        "count": 3
+      },
+      {
+        "name": "AutomationBench",
+        "count": 3
+      },
+      {
+        "name": "DeepSWE",
+        "count": 3
+      },
+      {
+        "name": "Fable 5.1",
+        "count": 3
+      },
+      {
+        "name": "GPT-6 Astra",
         "count": 3
       },
       {
@@ -3603,7 +3770,7 @@ export const publicWikiData = {
         "count": 2
       },
       {
-        "name": "API定价",
+        "name": "Agents' Last Exam",
         "count": 2
       },
       {
@@ -3611,11 +3778,23 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "Claude Opus 5",
+        "count": 2
+      },
+      {
         "name": "DeepSeek Harness",
         "count": 2
       },
       {
-        "name": "DeepSWE",
+        "name": "GPT-5.6 Sol",
+        "count": 2
+      },
+      {
+        "name": "GPT-6 Luna",
+        "count": 2
+      },
+      {
+        "name": "GPT-6 Sol",
         "count": 2
       },
       {
@@ -3636,10 +3815,6 @@ export const publicWikiData = {
       },
       {
         "name": "System One Model",
-        "count": 2
-      },
-      {
-        "name": "Terminal-Bench 4.0",
         "count": 2
       },
       {
@@ -3995,10 +4170,6 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "缓存命中率",
-        "count": 1
-      },
-      {
         "name": "荒诞",
         "count": 1
       },
@@ -4239,6 +4410,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "帕累托前沿",
+        "count": 1
+      },
+      {
         "name": "判断能力",
         "count": 1
       },
@@ -4396,6 +4571,10 @@ export const publicWikiData = {
       },
       {
         "name": "提词器",
+        "count": 1
+      },
+      {
+        "name": "提示词缓存",
         "count": 1
       },
       {
@@ -4731,6 +4910,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "Adaptive Thinking",
+        "count": 1
+      },
+      {
         "name": "ADAS",
         "count": 1
       },
@@ -4752,10 +4935,6 @@ export const publicWikiData = {
       },
       {
         "name": "AGENTS.md",
-        "count": 1
-      },
-      {
-        "name": "Agents' Last Exam",
         "count": 1
       },
       {
@@ -4803,10 +4982,6 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "AutomationBench",
-        "count": 1
-      },
-      {
         "name": "Browser Use",
         "count": 1
       },
@@ -4816,6 +4991,10 @@ export const publicWikiData = {
       },
       {
         "name": "ChatNotch",
+        "count": 1
+      },
+      {
+        "name": "Claude Opus 5.5",
         "count": 1
       },
       {
@@ -4879,15 +5058,15 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "Fable 5.1",
-        "count": 1
-      },
-      {
         "name": "FIM补全",
         "count": 1
       },
       {
         "name": "Fork",
+        "count": 1
+      },
+      {
+        "name": "FrontierCode",
         "count": 1
       },
       {
@@ -4911,15 +5090,11 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "GPT-5.6 Sol",
-        "count": 1
-      },
-      {
-        "name": "GPT-6 Astra",
-        "count": 1
-      },
-      {
         "name": "GPT-6 Astra Pro",
+        "count": 1
+      },
+      {
+        "name": "GPT-6 Pro",
         "count": 1
       },
       {
@@ -5154,7 +5329,7 @@ export const publicWikiData = {
     "platforms": [
       {
         "name": "wechat-article",
-        "count": 27
+        "count": 29
       },
       {
         "name": "web",
