@@ -1,7 +1,57 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-09-23T08:42:24+08:00",
+  "updatedAt": "2026-09-24T20:54:45+08:00",
   "items": [
+    {
+      "id": "8fad237db1bb",
+      "title": "本体系统升级：双爆火的Jev 与 Ontology 结合场景/作用/定位/边界/效果",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/8x4V27ueHblD7qHeD4-JKA",
+      "author": "图特摩斯科技",
+      "published_at": "",
+      "captured_at": "2026-09-24T20:54:45+08:00",
+      "completeness": "full",
+      "topics": [
+        "AI系统设计",
+        "本体论",
+        "Agent",
+        "知识工程"
+      ],
+      "people": [
+        "图特摩斯科技"
+      ],
+      "concepts": [
+        "Jev",
+        "Ontology",
+        "World State",
+        "Decision",
+        "OntoFlow",
+        "模型路由",
+        "人工复核",
+        "Workflow"
+      ],
+      "summary": "图特摩斯科技提出把 Jev 作为企业本体系统中的专用判断层：Ontology 整理对象、关系与当前状态，规则处理明确条件，Jev 对高频、答案有限的问题给出分类或风险分数，LLM 处理复杂开放式推理，再由 OntoFlow Runtime 按权限和人工确认执行动作。文章以供应商审核、生产质量、Agent 行动守门和模型路由说明这一分工，强调 Jev 只提供判断，不直接修改业务对象；作者同时承认 Jev 技术尚早，垂直领域准确率需要验证。",
+      "keyPoints": [
+        "作者建议把判断任务分层：确定性条件继续用代码规则；答案空间有限、调用频繁的业务判断可评估 Jev；复杂开放式推理仍交给 LLM。所谓更快、更省成本是文章的方案判断，落地前仍需验证。（结论先说；第三节）",
+        "文章把 Jev 定位为只输出 Choice、Score 或布尔/概率结果的判断器，适用于工单分派、风险分级、人工介入与工作流分支等有限选项问题。（第一节）",
+        "Ontology 把供应商订单、交付、质量、合同和历史事件组织成对象与状态，生成 World State，作为 Jev 判断的业务上下文。（第二节：供应商示例）",
+        "作者提出把 Decision 明确为可调用的软件层：Ontology 描述世界，Runtime 提供当前状态，Rule/Jev/LLM 分别完成不同类型的判断。（第三节）",
+        "在 OntoFlow Workflow 示例中，生产温度、压力、设备状态等状态输入 Jev，返回继续生产、调整参数、转人工或停机等建议，再由运行平台选择分支。（第四节：锻造质量场景）",
+        "Jev 的判断不等于执行：实际修改对象仍需经过条件、行动计划、权限策略和必要的人工确认，避免模型绕过业务控制。（第五节）",
+        "文章还设想用 Jev 作为 Agent 行动守门员及模型路由器，在规则、小模型、大模型和人工之间选择处理路径。（第六至七节）",
+        "作者最终把 Ontology → World State → Decision → Action → 状态更新视为完整闭环，并指出 Jev 与 Ontology 的结合仍处早期，准确率受垂直行业影响。（第八至九节；结语）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "这个只会做选择题的Jev，却是今年我看到的最特别的大模型。",
+        "最火哑巴模型Jev加上微信，直接治好了我的低情商",
+        "本体论 or 知识图谱，傻傻分不清楚？",
+        "本体论（Ontology）视角下的知识图谱实战拆解"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "764b86f7bd51",
       "title": "一夜三连发，Claude Opus 5.5、GPT-6 Sol和Luna全部都来了。",
@@ -2867,7 +2917,7 @@ export const publicWikiData = {
     "topics": [
       {
         "name": "Agent",
-        "count": 16
+        "count": 17
       },
       {
         "name": "旅行攻略",
@@ -2886,6 +2936,10 @@ export const publicWikiData = {
         "count": 9
       },
       {
+        "name": "AI系统设计",
+        "count": 9
+      },
+      {
         "name": "开发者工具",
         "count": 8
       },
@@ -2898,8 +2952,8 @@ export const publicWikiData = {
         "count": 8
       },
       {
-        "name": "AI系统设计",
-        "count": 8
+        "name": "知识工程",
+        "count": 7
       },
       {
         "name": "目的地选择",
@@ -2911,10 +2965,6 @@ export const publicWikiData = {
       },
       {
         "name": "上下文工程",
-        "count": 6
-      },
-      {
-        "name": "知识工程",
         "count": 6
       },
       {
@@ -2930,6 +2980,10 @@ export const publicWikiData = {
         "count": 5
       },
       {
+        "name": "本体论",
+        "count": 4
+      },
+      {
         "name": "生命哲学",
         "count": 4
       },
@@ -2940,10 +2994,6 @@ export const publicWikiData = {
       {
         "name": "AI商业化",
         "count": 4
-      },
-      {
-        "name": "本体论",
-        "count": 3
       },
       {
         "name": "产品管理",
@@ -3452,6 +3502,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "图特摩斯科技",
+        "count": 1
+      },
+      {
         "name": "陀思妥耶夫斯基",
         "count": 1
       },
@@ -3598,11 +3652,23 @@ export const publicWikiData = {
         "count": 4
       },
       {
+        "name": "Ontology",
+        "count": 4
+      },
+      {
         "name": "Terminal-Bench 4.0",
         "count": 4
       },
       {
         "name": "缓存命中率",
+        "count": 3
+      },
+      {
+        "name": "模型路由",
+        "count": 3
+      },
+      {
+        "name": "人工复核",
         "count": 3
       },
       {
@@ -3642,11 +3708,11 @@ export const publicWikiData = {
         "count": 3
       },
       {
-        "name": "MCP",
+        "name": "Jev",
         "count": 3
       },
       {
-        "name": "Ontology",
+        "name": "MCP",
         "count": 3
       },
       {
@@ -3722,19 +3788,11 @@ export const publicWikiData = {
         "count": 2
       },
       {
-        "name": "模型路由",
-        "count": 2
-      },
-      {
         "name": "魔幻现实主义",
         "count": 2
       },
       {
         "name": "目的地评级",
-        "count": 2
-      },
-      {
-        "name": "人工复核",
         "count": 2
       },
       {
@@ -3798,10 +3856,6 @@ export const publicWikiData = {
         "count": 2
       },
       {
-        "name": "Jev",
-        "count": 2
-      },
-      {
         "name": "MVP",
         "count": 2
       },
@@ -3823,6 +3877,10 @@ export const publicWikiData = {
       },
       {
         "name": "TypeSafe AI",
+        "count": 2
+      },
+      {
+        "name": "Workflow",
         "count": 2
       },
       {
@@ -5034,6 +5092,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "Decision",
+        "count": 1
+      },
+      {
         "name": "DeepSeek V4 Flash",
         "count": 1
       },
@@ -5194,6 +5256,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "OntoFlow",
+        "count": 1
+      },
+      {
         "name": "OpenCode",
         "count": 1
       },
@@ -5310,11 +5376,11 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "Workflow",
+        "name": "Worktree",
         "count": 1
       },
       {
-        "name": "Worktree",
+        "name": "World State",
         "count": 1
       },
       {
@@ -5329,7 +5395,7 @@ export const publicWikiData = {
     "platforms": [
       {
         "name": "wechat-article",
-        "count": 29
+        "count": 30
       },
       {
         "name": "web",
