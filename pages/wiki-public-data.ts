@@ -1,7 +1,60 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-09-28T09:18:07+08:00",
+  "updatedAt": "2026-09-29T12:51:09+08:00",
   "items": [
+    {
+      "id": "91e1a0e8303b",
+      "title": "智能体身份认证与权限管控平台同统一身份认证平台对接协同研究",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/eYIFDT1pqQtQscVytT1mcg",
+      "author": "H",
+      "published_at": "",
+      "captured_at": "2026-09-29T12:51:09+08:00",
+      "completeness": "full",
+      "topics": [
+        "AI安全",
+        "AI系统设计",
+        "Agent",
+        "企业AI"
+      ],
+      "people": [
+        "H"
+      ],
+      "concepts": [
+        "智能体身份",
+        "统一身份认证",
+        "委托令牌",
+        "工作负载身份",
+        "RFC 8693",
+        "SPIFFE",
+        "最小权限",
+        "三元归因",
+        "PDP",
+        "PEP",
+        "JIT授权"
+      ],
+      "summary": "报告主张以现有统一身份认证平台作为人员身份与策略的权威来源，在其上增加智能体注册、工作负载证明、委托换票、细粒度策略和审计能力。作者把智能体身份分为蓝图、实例和会话三层，建议按场景组合 OIDC 登录、代表用户的令牌交换、自治智能体的 SPIFFE 工作负载身份，以及外部 SaaS 的凭据金库；权限由用户权限、智能体授权、会话条件和数据密级共同收敛。报告进一步以六类业务场景和五阶段路线图说明落地方式，并强调逐跳降权、禁止令牌透传、三元责任归因及高风险动作人工确认。",
+      "keyPoints": [
+        "作者认为现有以人为中心的身份系统难以直接覆盖智能体的无人值守认证、短生命周期、代人执行和行为归因；提出沿用人员目录与条件访问，在其上增加智能体特化治理层。（摘要；第一章；第三章 3.1）",
+        "身份对象分为蓝图、实例、运行会话：蓝图定义用途和权限基线，实例可单独暂停或吊销，会话使用短期凭证并绑定任务上下文。敏感操作还应记录执行智能体、委托用户与业务责任人。（第二章 2.1—2.2）",
+        "对接遵循不重建人员身份源、不绕过原有策略锚点、不形成双轨审计三原则；作者将 IdP/IAM 视为权威层，智能体治理平台负责注册、凭证、委托和策略，网关等执行点落实裁决。（第三章 3.1—3.3）",
+        "四种模式各有用途：OIDC 解决用户登录入口；RFC 8693 令牌交换用于智能体代表用户访问内部资源；SPIFFE/SVID 用于自治工作负载；凭据金库和跨域授权用于外部 SaaS。模式可在同一链路组合。（第四章 4.1—4.5）",
+        "报告建议令牌绑定目标资源、任务范围和短时效，多智能体调用逐跳换票、权限只减不增；文章指出嵌套 act 中的早期行为者不足以单独证明授权链。（第四章 4.2、4.6；第六章 6.3；第七章 7.6）",
+        "有效权限被表达为用户既有权限、智能体被授权限、会话上下文和数据密级约束的交集；执行前还需按应用、工具、参数和数据粒度校验，并由 PDP/PEP 分离落实允许、拒绝、脱敏或转人工。（第五章 5.1—5.4）",
+        "报告列出注册、换票、策略评估、限时凭证租借和审计上报五类接口，审计事件包含智能体、委托者、责任人、资源、决策及会话链路，以便统一追踪。（第六章 6.1—6.4）",
+        "办公协同、研发编码、面客客服、运维运营、数据分析和多智能体协同六类场景分别组合委托、工作负载身份、JIT、数据过滤及人工确认；作者建议从影子智能体盘点开始，再逐步完成登记发证、试点、策略闭环和运营复核。（第七章；第八章）",
+        "作者明确列出多跳委托链、跨信任域授权、Agent Card 签名和异构环境运行时证明等尚未完全解决的风险；文中具体指标和合规映射属于报告建议，实施时应按适用标准与系统现状复核。（第九章 9.4；第十章）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "铁饭碗里的新机器",
+        "本体系统升级：双爆火的Jev 与 Ontology 结合场景/作用/定位/边界/效果",
+        "万字长文｜Codex 从入门到精通"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "0fc5a88baa23",
       "title": "我整理了GPT-Image 2.5的12种玩法，希望能承包你的整个假期朋友圈。",
@@ -3036,7 +3089,7 @@ export const publicWikiData = {
     "topics": [
       {
         "name": "Agent",
-        "count": 18
+        "count": 19
       },
       {
         "name": "AI工具",
@@ -3047,15 +3100,15 @@ export const publicWikiData = {
         "count": 11
       },
       {
+        "name": "AI系统设计",
+        "count": 10
+      },
+      {
         "name": "出境旅行",
         "count": 9
       },
       {
         "name": "文学",
-        "count": 9
-      },
-      {
-        "name": "AI系统设计",
         "count": 9
       },
       {
@@ -3071,15 +3124,15 @@ export const publicWikiData = {
         "count": 8
       },
       {
+        "name": "企业AI",
+        "count": 7
+      },
+      {
         "name": "知识工程",
         "count": 7
       },
       {
         "name": "目的地选择",
-        "count": 6
-      },
-      {
-        "name": "企业AI",
         "count": 6
       },
       {
@@ -3196,6 +3249,10 @@ export const publicWikiData = {
       },
       {
         "name": "自我改进",
+        "count": 2
+      },
+      {
+        "name": "AI安全",
         "count": 2
       },
       {
@@ -3380,10 +3437,6 @@ export const publicWikiData = {
       },
       {
         "name": "组织权力",
-        "count": 1
-      },
-      {
-        "name": "AI安全",
         "count": 1
       },
       {
@@ -3698,6 +3751,10 @@ export const publicWikiData = {
       },
       {
         "name": "Greg Brockman",
+        "count": 1
+      },
+      {
+        "name": "H",
         "count": 1
       },
       {
@@ -4311,6 +4368,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "工作负载身份",
+        "count": 1
+      },
+      {
         "name": "公理",
         "count": 1
       },
@@ -4667,6 +4728,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "三元归因",
+        "count": 1
+      },
+      {
         "name": "商业动线",
         "count": 1
       },
@@ -4779,6 +4844,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "统一身份认证",
+        "count": 1
+      },
+      {
         "name": "突尼斯",
         "count": 1
       },
@@ -4800,6 +4869,10 @@ export const publicWikiData = {
       },
       {
         "name": "网络安全",
+        "count": 1
+      },
+      {
+        "name": "委托令牌",
         "count": 1
       },
       {
@@ -5055,6 +5128,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "智能体身份",
+        "count": 1
+      },
+      {
         "name": "中转停留",
         "count": 1
       },
@@ -5092,6 +5169,10 @@ export const publicWikiData = {
       },
       {
         "name": "组织知识",
+        "count": 1
+      },
+      {
+        "name": "最小权限",
         "count": 1
       },
       {
@@ -5355,6 +5436,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "JIT授权",
+        "count": 1
+      },
+      {
         "name": "JTBD",
         "count": 1
       },
@@ -5443,6 +5528,14 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "PDP",
+        "count": 1
+      },
+      {
+        "name": "PEP",
+        "count": 1
+      },
+      {
         "name": "Personal AI Agent",
         "count": 1
       },
@@ -5479,6 +5572,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "RFC 8693",
+        "count": 1
+      },
+      {
         "name": "RLHF",
         "count": 1
       },
@@ -5504,6 +5601,10 @@ export const publicWikiData = {
       },
       {
         "name": "SPARQL",
+        "count": 1
+      },
+      {
+        "name": "SPIFFE",
         "count": 1
       },
       {
@@ -5570,7 +5671,7 @@ export const publicWikiData = {
     "platforms": [
       {
         "name": "wechat-article",
-        "count": 32
+        "count": 33
       },
       {
         "name": "web",
