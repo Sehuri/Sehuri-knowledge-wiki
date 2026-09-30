@@ -1,7 +1,7 @@
 // Generated from product-manager/_meta/index.json. Do not edit manually.
 export const productManagerWikiData = {
   "version": 1,
-  "updated_at": "2026-09-21T00:00:00+08:00",
+  "updated_at": "2026-09-30T00:00:00+08:00",
   "collections": [
     {
       "id": "product",
@@ -64,6 +64,56 @@ export const productManagerWikiData = {
   ],
   "items": [
     {
+      "id": "pm-product-red-packet-rules",
+      "title": "微信红包案例：用规则与交互塑造用户行为",
+      "short_title": "规则设计",
+      "collection": "product",
+      "level": "案例",
+      "updated_at": "2026-09-30",
+      "reading_minutes": 7,
+      "tags": [
+        "产品管理",
+        "产品设计",
+        "用户研究",
+        "行为引导",
+        "社交体验"
+      ],
+      "summary": "文章把微信红包的 200 元上限解读为社交体验选择：小额红包借隐藏金额与打开即领取创造惊喜，大额往来则转向金额透明、需要确认的转账。节日临时提高上限体现规则对语境的适应；超限后增加选择与操作步骤，则引导用户重新判断行为。对产品经理的启发是同时设计数值边界、信息可见性、确认时机与例外条件。历史数据和政策解释均为文章转述，未独立核验。",
+      "mental_model": "规则塑造场景：数值、信息展示和操作步骤共同决定用户怎样理解并完成一件事。",
+      "key_points": [
+        "来源观点：作者认为 200 元上限帮助红包维持轻松、低压力的社交体验；这是文章的产品解读，不代表所有用户都认可同一阈值。",
+        "来源观点：红包隐藏金额、打开后领取；转账先展示金额并由接收者确认。信息出现的时机影响惊喜、压力和自主判断。",
+        "来源观点：节日特定数字具有共同语境，因此临时提额可以服务情感表达，日常规则与节日例外承担不同作用。",
+        "来源观点：单笔上限可通过拆分或换入口绕过，其主要作用是增加一次选择，而非彻底阻断大额行为。",
+        "AI 整理：评审规则时应共同讨论用户场景、边界、超限路径、例外期限与验证指标，而不只确定一个数字。"
+      ],
+      "decision_questions": [
+        "这条限额、默认值或操作限制希望保护什么体验，影响谁的成本和压力？",
+        "关键信息在操作前还是操作后出现，用户何时可以确认、拒绝或撤回？",
+        "用户超出边界后如何继续完成任务，提示和替代入口是否清楚？",
+        "哪些场景需要例外，适用对象、开始结束时间和恢复规则如何定义？",
+        "怎样通过任务完成率、放弃率、改用其他入口、投诉与反馈验证规则效果？"
+      ],
+      "common_traps": [
+        "把案例中的 200 元直接当成其他产品的通用最佳阈值。",
+        "只统计发送或领取次数，忽略接收者的压力、误操作和拒绝成本。",
+        "把可拆分、可换入口的单笔限额当成完整风控措施。",
+        "开放临时例外，却没有明确期限、恢复方式与边界提示。"
+      ],
+      "related_ids": [
+        "pm-product-foundations",
+        "pm-tech-frontend-basics",
+        "pm-tech-gateway"
+      ],
+      "path": "product/red-packet-product-rules.md",
+      "sources": [
+        {
+          "name": "顶流企业拆解记：微信红包为什么上限是200元？多出1元，会改变什么？（2026-09-11）",
+          "url": "https://mp.weixin.qq.com/s/kUUiDuooB-dE7DPXWX7Xdw"
+        }
+      ]
+    },
+    {
       "id": "pm-product-foundations",
       "title": "产品经理入门：从问题发现到结果验证",
       "short_title": "产品闭环",
@@ -101,6 +151,7 @@ export const productManagerWikiData = {
         "追逐 AI 热点或漂亮 Demo，却没有确认新能力能否进入真实工作流程。"
       ],
       "related_ids": [
+        "pm-product-red-packet-rules",
         "pm-tech-frontend-basics",
         "pm-tech-gateway",
         "pm-tech-database"
