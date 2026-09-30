@@ -1,7 +1,79 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-09-30T14:02:39+08:00",
+  "updatedAt": "2026-09-30T17:03:50+08:00",
   "items": [
+    {
+      "id": "e6df69d521e0",
+      "title": "该用GPT-6.1 Sol还是Astra？",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/mcFMRtTcK_fpbMiciubQDA",
+      "author": "Codexx",
+      "published_at": "2026-09-30",
+      "captured_at": "2026-09-30T17:03:50+08:00",
+      "completeness": "full",
+      "topics": [
+        "AI模型",
+        "AI基础设施",
+        "开发者工具",
+        "AI商业化"
+      ],
+      "people": [
+        "Codexx"
+      ],
+      "concepts": [
+        "GPT-6.1 Sol",
+        "GPT-6 Sol",
+        "GPT-6 Astra",
+        "Claude Opus 5.5",
+        "Terminal-Bench 4.0",
+        "DeepSWE",
+        "AutomationBench",
+        "OSWorld",
+        "LiveBench",
+        "Artificial Analysis",
+        "推理档位",
+        "SWE-bench",
+        "HLE",
+        "ARC-AGI-3",
+        "Harness评测",
+        "API定价",
+        "缓存命中率"
+      ],
+      "summary": "微信公众号「Codexx」的文章，接着其上一篇《GPT-6.1 Sol发布：接近Astra，价格只有五分之一》回答模型选择问题：省下来的钱对应多少分差、哪些任务值得多花钱。作者先给出结论式建议——**日常工作先用 GPT-6.1 Sol 的 high 档，复杂代码任务可以用 xhigh，最难的科研和疑难工程任务再考虑 Astra**；所有数据截于北京时间 2026 年 9 月 30 日上午。**价格部分**：Standard API、输入不超过 27.2 万 token 时（美元/百万 token），6.1 Sol 的普通输入 2.00、缓存读取 0.10、缓存写入 2.50、输出 10.00，Astra 分别为 10.00、1.00、12.50、50.00——普通输入与输出相差五倍、缓存读取相差十倍；按一次请求 10 万普通输入加 2 万计费输出估算，6.1 Sol 是 0.40 美元、Astra 是 2.00 美元，而模型实际生成多少推理 token、调用多少次工具会继续影响账单。输入超过 27.2 万 token 时整次请求的输入与缓存费率变为 2 倍、输出变为 1.5 倍；Fast 的适用费率是 Standard 的 2 倍，Batch、Flex 为 Standard 的一半；API 费率与 Codex 订阅的用量限制分别计算。**AA（Artificial Analysis）max 测评**给出另一组数字：6.1 Sol 综合分 51.83、Astra 52.67，加权平均任务成本 0.72 与 3.26 美元，即新 Sol 成本约为 Astra 的 22%、总分相差 0.84 分；AA 模型页在当时的 221 个可比模型配置中把新 Sol 列为第 10、Astra 列为第 7（名次包含具体推理设置，页面筛选范围变化会影响排名）。**同样开 max 的分项差距**（AA 当前综合指数 v4.3.2 由 10 项评测组成，作者另补入科研终端与视觉推理）：Terminal-Bench 4.0 为 56.1% 对 59.1%、Terminal-Bench-Science 0.1 为 58.1% 对 63.3%、AutomationBench-AA 为 64.9% 对 68.5%、GDP.pdf 双方都是 31.0%、GDPval-AA 为 1575 对 1542、AA-Briefcase 为 1564 对 1569、HLE 为 52.9% 对 54.7%、AA-LCR 为 83.0% 对 80.7%、AA-Omniscience 为 62.1% 对 62.6%、SciCode 为 54.2% 对 56.5%、CritPt 双方都是 31.7%、MMMU-Pro 为 86.0% 对 86.9%。作者的解读是：Astra 的优势更集中在**连续操作**（终端、科研、软件工作流），而 6.1 Sol 在 GDPval-AA（1575 高于 1542）与 AA-LCR（83.0% 高于 80.7%）上领先，需要整理文档、理解长材料时新 Sol 有很充分的试用理由。以 Terminal-Bench 4.0 为例，AA 用同一个 mini-swe-agent 环境、66 个任务各跑三次、报告平均单次通过率，新 Sol 56.1%、Astra 59.1%，平均每题费用 1.82 与 8.50 美元——这个差价足以让常规开发任务优先试新 Sol，再用本项目测试结果决定是否升级。**LiveBench**（当前下载表用 2026-06-25 题集版本，已加入新 Sol）按网站七个类别均值再平均复算：Astra max 82.16 分第 4、6.1 Sol max 81.62 分第 6；类别对比为推理 92.63/92.65、普通代码双方都是 80.36、Agentic Coding 54.55/57.32、数学 96.83/96.81、数据分析 82.66/82.97、语言 90.13/89.43、指令遵循 74.15/75.58——两者普通代码成绩相同，Agentic Coding 则是 54.55 对 57.32，结合 AA 的终端测试说明 Astra 在需要持续行动的代码任务上仍有优势、只看补全与生成差距小很多；此外 LiveBench 收录的 6.1 Sol xhigh 综合分 81.11 低于 max 的 81.62，但 Agentic Coding 反而是 xhigh 更高（56.77 对 54.55）。**其他榜单的收录进度**：作者逐张说明多张榜尚无 6.1 Sol 行——Arena WebDev（9/29）Astra max 第 2、1792 分；Arena 文本榜（9/25）Astra max 第 26、1478 分（两张榜测的是不同任务，所以第 2 与第 26 并不矛盾）；Vals Index v2.1（9/29）Astra 第 5、63.13%（需认清版本，榜里的 GPT-6 Sol 是上一代）；DeepSWE 独立榜（9/22）Astra xhigh 74%±3%（独立榜与 OpenAI 发布图要分开读，后者称新 Sol 最佳成绩比旧 Sol 高 6.4 个百分点）；Terminal-Bench 4.0 官方榜 Astra max 第一、58.2%±2.8%（与 AA 的 59.1% 属两套运行记录）；ARC-AGI 验证榜有 Astra 与旧 Sol，其中 ARC-AGI-3 更能说明运行环境的影响——Astra 在 Standard harness 下的最佳观测成绩是 62.7%（max），换成保留推理状态、支持长对话压缩的 Provider Adapter 后最佳值为 99.9%（high），因此**引用该榜必须带上运行框架**；OSWorld 公开榜（9/17）无可供两者直接比较的新 Sol 结果，而 OpenAI 发布文用 v2026.08.08 离线集、部分得分口径称新 Sol max 距 Astra 还有 2.1 个百分点，该数字不能与公开榜的完整任务通过率直接相减；SWE-bench Verified / Pro 本次未取得可核对的新 Sol 对比成绩。**推理档位部分**：官方 API 支持 low、medium、high、xhigh、max，默认 medium，不支持 none 或 minimal；AA 同一版本指数下，五档的综合分／每任务费用／终端 4.0 通过率依次为 low 42.08／0.13 美元／30.8%、medium 47.78／0.21／48.0%、high 50.24／0.32／51.5%、xhigh 51.04／0.39／54.0%、max 51.83／0.72／56.1%。作者据此给出的用法是：**high 适合作为日常工作起点**——相比 medium 综合分增加约 2.45 分、平均任务成本增加约 49%，对需要理解项目、修改代码、检查文档的任务可以接受这个预算，而单纯改格式、改文案或提取明确字段可以先用 medium、特别简单的才降到 low；**复杂代码任务可以从 xhigh 开始**——high 到 xhigh 终端通过率由 51.5% 升到 54.0%、平均任务成本增加约 23%，涉及多文件、疑难排错或多步骤工具操作时值得先试；xhigh 升到 max 综合分只增加约 0.80 分、平均任务成本却增加约 84%，两次升档增量接近而后者贵得多，max 更适合已经遇到明确难点、愿意继续投入计算预算的任务。时间成本也要一起算：AA 按输出 token 与生成速度估算，high、xhigh、max 的加权每任务生成时间约为 3.45、4.67、9.11 分钟，且该指标排除了首 token 等待与工具开销。最后的排查建议是：如果 Sol xhigh 已经连续卡在同一处，下一步应先看失败原因——缺文件、权限或测试环境时先补齐条件，题目明确、材料齐全却推不下去，再比较 Sol max 与 Astra（AA 科研终端测评中 Astra max 领先新 Sol 约 5.2 个百分点，涉及困难科研流程时作者会更早切到 Astra）；同时提醒**推理档位与速度模式是两个设置**——选 high 或 xhigh 决定模型投入的推理预算，而 Standard、Fast、Ultrafast 是速度与计费模式，官方发布时新 Sol 的 Ultrafast 仍安排在随后开放。",
+      "keyPoints": [
+        "全文结论式建议：**日常工作先用 GPT-6.1 Sol 的 high 档，复杂代码任务可以用 xhigh，最难的科研和疑难工程任务再考虑 Astra**；所有数据截于北京时间 2026 年 9 月 30 日上午，两款模型都有多个推理档位，比较能力时先统一看 max，再单独拆解新 Sol 的五档表现。（开篇）",
+        "价格（Standard API、输入不超过 27.2 万 token，美元／百万 token）：6.1 Sol 的普通输入 2.00、缓存读取 0.10、缓存写入 2.50、输出 10.00；Astra 分别为 10.00、1.00、12.50、50.00——**普通输入与输出相差五倍，缓存读取相差十倍**。（价格相差五倍，实际任务成本也有证据）",
+        "单次请求的成本估算：假设一次请求有 10 万普通输入与 2 万计费输出，6.1 Sol 是 0.40 美元、Astra 是 2.00 美元；作者提醒模型实际生成多少推理 token、调用多少次工具，会继续影响最终账单。（价格相差五倍，实际任务成本也有证据）",
+        "长与快慢的费率规则：当输入超过 27.2 万 token，**整次请求**的输入和缓存费率变为 2 倍、输出变为 1.5 倍；Fast 的适用费率是 Standard 的 2 倍，Batch、Flex 为 Standard 的一半；API 的这些费率与 Codex 订阅的用量限制**分别计算**，订阅里还能做多少任务要看实际任务与产品显示的额度。（价格相差五倍，实际任务成本也有证据）",
+        "AA（Artificial Analysis）max 测评：6.1 Sol 综合分 51.83、Astra 52.67；加权平均任务成本分别为 0.72 美元与 3.26 美元——即这组任务里新 Sol 成本约为 Astra 的 **22%**，总分相差 **0.84 分**。AA 模型页在当时的 221 个可比模型配置中把新 Sol 列为第 10、Astra 列为第 7（名次包含具体推理设置，页面筛选范围变化也会影响排名）。（价格相差五倍，实际任务成本也有证据）",
+        "AA 分项对比（均开 max，AA 当前综合指数 v4.3.2 由 10 项评测组成，作者另补入科研终端与视觉推理）：Terminal-Bench 4.0 为 56.1% 对 59.1%；Terminal-Bench-Science 0.1 为 58.1% 对 63.3%；AutomationBench-AA 为 64.9% 对 68.5%；GDP.pdf 双方都是 31.0%；GDPval-AA 为 **1575 对 1542**；AA-Briefcase 为 1564 对 1569；HLE 为 52.9% 对 54.7%；AA-LCR 为 **83.0% 对 80.7%**；AA-Omniscience 为 62.1% 对 62.6%；SciCode 为 54.2% 对 56.5%；CritPt 双方都是 31.7%；MMMU-Pro 为 86.0% 对 86.9%。（同样开 max，哪些项目拉开了差距）",
+        "对分项结果的解读：**Astra 的优势更集中在连续操作**——终端、科研和软件工作流；而 6.1 Sol 在 GDPval-AA（1575 高于 Astra 的 1542）与 AA-LCR（83.0% 高于 80.7%）上领先，因此**需要整理文档、理解长材料时，新 Sol 有很充分的试用理由**。（同样开 max，哪些项目拉开了差距）",
+        "以 Terminal-Bench 4.0 为例的实测口径与成本：AA 使用同一个 mini-swe-agent 环境、66 个任务各跑三次、报告平均单次通过率；新 Sol 56.1%、Astra 59.1%，平均每题费用分别是 **1.82 美元与 8.50 美元**。作者认为这个差价足够让常规开发任务优先试新 Sol，再用本项目的测试结果决定是否升级模型。（同样开 max，哪些项目拉开了差距）",
+        "LiveBench（当前下载表用 2026-06-25 题集版本，已加入新 Sol）按网站七个类别均值再平均复算：**Astra max 82.16 分第 4、6.1 Sol max 81.62 分第 6**；类别对比为推理 92.63／92.65、普通代码**双方都是 80.36**、Agentic Coding 54.55／57.32、数学 96.83／96.81、数据分析 82.66／82.97、语言 90.13／89.43、指令遵循 74.15／75.58。（LiveBench也测到了新Sol）",
+        "LiveBench 结果的解读：两者普通代码成绩相同，Agentic Coding 则是 54.55 对 57.32，结合 AA 的终端测试说明 **Astra 在需要持续行动的代码任务上仍有优势，只看补全和生成代码差距会小很多**；此外该榜收录的 6.1 Sol xhigh 综合分 81.11 低于 max 的 81.62，但 **Agentic Coding 反而是 xhigh 更高**（56.77 对 54.55）。（LiveBench也测到了新Sol）",
+        "其他榜单的收录进度（多数尚无 6.1 Sol 行）：Arena WebDev（9/29）Astra max 第 2、1792 分；Arena 文本榜（9/25）Astra max 第 26、1478 分；Vals Index v2.1（9/29）Astra 第 5、63.13%；DeepSWE 独立榜（9/22）Astra xhigh 74%±3%；Terminal-Bench 4.0 官方榜 Astra max 第一、58.2%±2.8%；ARC-AGI 验证榜有 Astra 与旧 Sol；OSWorld 公开榜（9/17）无可供两者直接比较的结果；SWE-bench Verified／Pro 本次未取得可核对的新 Sol 成绩。（Arena、Vals、ARC等榜单怎么看）",
+        "读榜单的方法论（作者反复强调的坑）：Arena 的 WebDev 与文本偏好测的是不同任务，所以 Astra 的第 2 与第 26 并不矛盾；Vals 要认清版本（当前 v2.1 的 Astra 是 63.13%，榜里的 GPT-6 Sol 是上一代）；DeepSWE 的独立榜与 OpenAI 发布图要分开读（独立榜 9/22 还没有新 Sol，而 OpenAI 发布文称新 Sol 在 DeepSWE 1.1 的最佳成绩比旧 Sol 高 6.4 个百分点，后者是发布方测评）。（Arena、Vals、ARC等榜单怎么看）",
+        "对 ARC-AGI-3 的特别提醒：这张榜更能说明**运行环境的影响**——Astra 在 Standard harness 下的最佳观测成绩是 62.7%（max），换成保留推理状态、支持长对话压缩的 Provider Adapter 后最佳值为 **99.9%（high）**，因此引用这张榜必须带上运行框架，而它目前没有新 Sol 的同条件结果。（Arena、Vals、ARC等榜单怎么看）",
+        "两处不能直接相减的数字：OSWorld 方面 OpenAI 发布文使用 v2026.08.08 离线集、部分得分口径，称新 Sol max 距 Astra 还有 2.1 个百分点，这个数字不能与公开榜的完整任务通过率直接相减；Terminal-Bench 官方榜的 Astra 58.2% 与 AA 测得的 59.1%，也分别属于两套运行记录。此外 SciCode 和 CritPt 在 AA 页面标注「复核中」，暂时只作补充；Briefcase 的 1564 与 1569 也很接近、两者 95% 置信区间重叠，**几分的 Elo 差距不足以单独决定模型选择**。（Arena、Vals、ARC等榜单怎么看）",
+        "6.1 Sol 的官方推理档位：API 支持 low、medium、high、xhigh、max，默认 medium，**不支持 none 或 minimal**。AA 同一版本指数下五档表现（综合分／每任务费用／终端 4.0 通过率）：low 42.08／0.13 美元／30.8%；medium 47.78／0.21／48.0%；high 50.24／0.32／51.5%；xhigh 51.04／0.39／54.0%；max 51.83／0.72／56.1%。（6.1 Sol究竟用哪档推理）",
+        "档位选择的第一条建议：**high 适合作为日常工作起点**——相比 medium，它在 AA 综合分上增加约 2.45 分、平均任务成本增加约 49%；对需要理解项目、修改代码、检查文档的任务可以接受这个预算，而**单纯改格式、改文案或提取明确字段可以先用 medium，特别简单的才降到 low**。（6.1 Sol究竟用哪档推理）",
+        "档位选择的第二条建议：**复杂代码任务可以从 xhigh 开始**——high 到 xhigh，Terminal-Bench 通过率由 51.5% 升到 54.0%、平均任务成本增加约 23%；涉及多个文件、疑难排错或多步骤工具操作时，这个档位值得先试。（6.1 Sol究竟用哪档推理）",
+        "档位选择的边际收益提醒：xhigh 升到 max，综合分只增加约 0.80 分、平均任务成本却增加约 84%——两次升档带来的综合分增量接近，但后一次贵得多，因此 **max 更适合已经遇到明确难点、愿意继续投入计算预算的任务**。（6.1 Sol究竟用哪档推理）",
+        "时间成本也要一起算：AA 按输出 token 与生成速度估算，high、xhigh、max 的加权每任务生成时间约为 **3.45、4.67、9.11 分钟**；作者提醒这项指标排除了首 token 等待与工具开销，日常任务的总等待时间会另有差异。（6.1 Sol究竟用哪档推理）",
+        "卡住时的排查顺序：如果 Sol xhigh 已经连续卡在同一处，下一步应先看失败原因——缺文件、权限或测试环境时先补齐条件；题目明确、材料齐全却推不下去，再比较 Sol max 与 Astra（AA 的科研终端测评中 Astra max 领先新 Sol 约 5.2 个百分点，涉及困难科研流程时作者会更早切到 Astra）。（6.1 Sol究竟用哪档推理）",
+        "一个容易混淆的点：**推理档位与速度模式是两个设置**——选 high 或 xhigh 决定模型投入的推理预算；Standard、Fast、Ultrafast 则是速度与计费模式。官方发布时，新 Sol 的 Ultrafast 仍安排在随后开放，当前可见入口以产品为准。（6.1 Sol究竟用哪档推理）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "帮大家总结了一下凌晨的OpenAI 2026开发者大会。",
+        "GPT-6 Sol斩杀5.6全系！Astra的1/5价格，Luna比梁文谷还便宜，周二Codex重置",
+        "一夜三连发，Claude Opus 5.5、GPT-6 Sol和Luna全部都来了。",
+        "刚刚，GPT-6正式发布！OpenAI：欢迎来到AGI时代"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "ff8f1ab9b7f4",
       "title": "微信红包为什么上限是200元？多出1元，会改变什么？",
@@ -3232,6 +3304,14 @@ export const publicWikiData = {
         "count": 11
       },
       {
+        "name": "开发者工具",
+        "count": 10
+      },
+      {
+        "name": "AI模型",
+        "count": 10
+      },
+      {
         "name": "AI系统设计",
         "count": 10
       },
@@ -3240,20 +3320,12 @@ export const publicWikiData = {
         "count": 9
       },
       {
-        "name": "开发者工具",
-        "count": 9
-      },
-      {
         "name": "文学",
         "count": 9
       },
       {
-        "name": "AI模型",
-        "count": 9
-      },
-      {
         "name": "AI基础设施",
-        "count": 8
+        "count": 9
       },
       {
         "name": "企业AI",
@@ -3264,15 +3336,15 @@ export const publicWikiData = {
         "count": 7
       },
       {
+        "name": "AI商业化",
+        "count": 7
+      },
+      {
         "name": "目的地选择",
         "count": 6
       },
       {
         "name": "上下文工程",
-        "count": 6
-      },
-      {
-        "name": "AI商业化",
         "count": 6
       },
       {
@@ -3882,6 +3954,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "Codexx",
+        "count": 1
+      },
+      {
         "name": "Gateau",
         "count": 1
       },
@@ -3961,10 +4037,26 @@ export const publicWikiData = {
       },
       {
         "name": "缓存命中率",
-        "count": 4
+        "count": 5
       },
       {
         "name": "API定价",
+        "count": 5
+      },
+      {
+        "name": "DeepSWE",
+        "count": 5
+      },
+      {
+        "name": "GPT-6 Astra",
+        "count": 5
+      },
+      {
+        "name": "Terminal-Bench 4.0",
+        "count": 5
+      },
+      {
+        "name": "AutomationBench",
         "count": 4
       },
       {
@@ -3972,11 +4064,7 @@ export const publicWikiData = {
         "count": 4
       },
       {
-        "name": "DeepSWE",
-        "count": 4
-      },
-      {
-        "name": "GPT-6 Astra",
+        "name": "GPT-6 Sol",
         "count": 4
       },
       {
@@ -3985,10 +4073,6 @@ export const publicWikiData = {
       },
       {
         "name": "Ontology",
-        "count": 4
-      },
-      {
-        "name": "Terminal-Bench 4.0",
         "count": 4
       },
       {
@@ -4024,7 +4108,7 @@ export const publicWikiData = {
         "count": 3
       },
       {
-        "name": "AutomationBench",
+        "name": "Claude Opus 5.5",
         "count": 3
       },
       {
@@ -4037,10 +4121,6 @@ export const publicWikiData = {
       },
       {
         "name": "GPT-6 Luna",
-        "count": 3
-      },
-      {
-        "name": "GPT-6 Sol",
         "count": 3
       },
       {
@@ -4172,15 +4252,15 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "ARC-AGI-3",
+        "count": 2
+      },
+      {
         "name": "Claude Code",
         "count": 2
       },
       {
         "name": "Claude Opus 5",
-        "count": 2
-      },
-      {
-        "name": "Claude Opus 5.5",
         "count": 2
       },
       {
@@ -4192,7 +4272,15 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "GPT-6.1 Sol",
+        "count": 2
+      },
+      {
         "name": "Grok Bot",
+        "count": 2
+      },
+      {
+        "name": "Harness评测",
         "count": 2
       },
       {
@@ -5040,6 +5128,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "推理档位",
+        "count": 1
+      },
+      {
         "name": "推理基础设施",
         "count": 1
       },
@@ -5444,7 +5536,7 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "ARC-AGI-3",
+        "name": "Artificial Analysis",
         "count": 1
       },
       {
@@ -5596,10 +5688,6 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "GPT-6.1 Sol",
-        "count": 1
-      },
-      {
         "name": "GPT-Image 2.5",
         "count": 1
       },
@@ -5620,11 +5708,11 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "Harness评测",
+        "name": "HBM",
         "count": 1
       },
       {
-        "name": "HBM",
+        "name": "HLE",
         "count": 1
       },
       {
@@ -5645,6 +5733,10 @@ export const publicWikiData = {
       },
       {
         "name": "LG楼层",
+        "count": 1
+      },
+      {
+        "name": "LiveBench",
         "count": 1
       },
       {
@@ -5709,6 +5801,10 @@ export const publicWikiData = {
       },
       {
         "name": "OpenCode",
+        "count": 1
+      },
+      {
+        "name": "OSWorld",
         "count": 1
       },
       {
@@ -5808,6 +5904,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "SWE-bench",
+        "count": 1
+      },
+      {
         "name": "TBox",
         "count": 1
       },
@@ -5863,7 +5963,7 @@ export const publicWikiData = {
     "platforms": [
       {
         "name": "wechat-article",
-        "count": 35
+        "count": 36
       },
       {
         "name": "web",
