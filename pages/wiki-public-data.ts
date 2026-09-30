@@ -1,7 +1,86 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-09-29T12:51:09+08:00",
+  "updatedAt": "2026-09-30T09:39:51+08:00",
   "items": [
+    {
+      "id": "0e8a26111c9b",
+      "title": "帮大家总结了一下凌晨的OpenAI 2026开发者大会。",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/h9NZURE7dASUvwJaFcjbRg",
+      "author": "数字生命卡兹克",
+      "published_at": "2026-09-30",
+      "captured_at": "2026-09-30T09:39:51+08:00",
+      "completeness": "full",
+      "topics": [
+        "AI模型",
+        "AI工具",
+        "开发者工具",
+        "AI商业化",
+        "Agent"
+      ],
+      "people": [
+        "数字生命卡兹克"
+      ],
+      "concepts": [
+        "Dots",
+        "ChatGPT Space",
+        "GPT-6.1 Sol",
+        "Decisions API",
+        "Codex Cloud",
+        "Codex Security",
+        "OpenAI Marketplace",
+        "Specialist Dots",
+        "GPT-6 Sol",
+        "GPT-6 Luna",
+        "GPT-6 Astra",
+        "Claude Opus 5.5",
+        "DeepSWE",
+        "Computer Use",
+        "OpenClaw",
+        "Personal AI Agent",
+        "Grok Bot",
+        "Muse",
+        "Agent Harness",
+        "Jev",
+        "缓存命中率",
+        "定时任务"
+      ],
+      "summary": "微信公众号「数字生命卡兹克」的文章（署名卡兹克、Chiyo、AIZ小朱），连夜整理 OpenAI DevDay 2026 开发者大会的全部发布内容并逐项点评。**一、Dots（OpenAI 的个人 Agent）**：24 小时在线、知道你在干什么、还能主动替你做事的个人 Agent，直接对标 Grok Bot 与近期登顶 App Store 的 Muse；作者形容它就是「部署在云端的小龙虾（OpenClaw）」，并提到 Muse 团队称灵感来自 OpenClaw、OpenClaw 作者 Peter 今年 2 月已入职 OpenAI。与 OpenClaw 最大的区别是每个 Dot 都有自己的云电脑、浏览器与执行环境，可用代码工具、操作网页，也能继承你在 ChatGPT 里已连接的插件与应用（官方称生态里已有超过 4000 个应用可协作），还可授权它连接你自己的设备；Dots 会学习你怎么工作、什么值得打扰你、哪些决定可以自己拿。入口是 ChatGPT 内的文字与语音，官方预告将支持短信和电话；今天起向 ChatGPT Pro、Business Premium 与 Enterprise 推出，每用户先有一个含在套餐内的 Dot 且对话不吃普通额度，未来可按月付费增加数量或提高速度与工作量；企业端还在预览 Specialist Dots（公司可配置财务、营销、法务等组织级 Agent，共享目标与上下文）。作者特别记下一个尴尬：dot.com 被马斯克买走，现在打开是 GrokBot。随后发布的 **ChatGPT Space** 与 Dots 联动，是从第一天就同时为人和 Agent 设计的工作空间——可写文档、做计划、研究、生成图片、分析数据、做动态图表与原型，页面与文件放在一起，既能 @同事也能 @Dot（例如让 Dot 把用户反馈改成柱状图、或每天检查某 Slack 频道并把新发现更新进页面），现场还演示了让 Dot 维护一张每小时更新的动态图表；后续 Presentation 会做进 Space 并让 Slides 更易被 Agent 读取修改。作者由此提出：过去几十年软件是 Human-first，接下来会越来越多变成 Human + Agent Native。**二、GPT-6.1 Sol**：以五分之一的价格实现接近 Astra 的水平；作者指出 GPT-6 Sol 发布才 7 天、OpenAI 历史上从未迭代这么快，认为 Claude Opus 5.5 给的压力太大；本次把对 Agent 最核心的缓存价格又降了一半并小幅提升能力——DeepSWE v1.1 上比 6 Sol 提高 6.4 个百分点，OSWorld 2.0 上提高 7 个百分点、与 Astra 只差 2.1 个百分点而任务成本约为 Astra 的七分之一，已成为 Codex 里替代 GPT-6 Sol 的最具性价比选择、目前已经上线；但作者仍认为与 Claude Opus 5.5 差距偏大。**三、500 刀 Pro 会员**：传言中的 500 美元订阅正式推出，200 美元 Pro 重新开放但倍数从 20x 砍到 10x，500 美元档只有 25x；作者以自身消耗对比——Claude 100 美元账号刚用到极限，而 Codex 200 美元账号直接用一个、另一个也搭进去约百分之十几，结论是 Codex 额度耐用度远不如 Claude，还要再砍一半让他觉得「没得玩」。500 美元档独占 Ultra Fast：Fast 约 2 倍速度 2 倍价格，Ultra Fast 最高约 8 倍速度约 6 倍价格。**四、Decisions API**：底层直接用 GPT-6 Luna，逻辑是提前给一组候选项、不让模型生成完整答案、只负责从里面做决定，因为任务被限制为有限选项，响应可做到亚秒级，且 Luna 原本的图像理解、多语言与安全能力都还在。作者认为这直接对标两周前（9 月 16 日）TypeSafeAI 发布的 Jev，并感慨 Jev 的护城河确实太低——「Jev 刚刚教育完市场『很多自动化不需要 LLM 写答案，只需要它快速做决定』，两周后 OpenAI 就顺手给 Luna 加了一个」，而且这甚至不是发布会主角，只是 Sam 讲模型时顺带几分钟。**五、Codex 更新**：①Codex 全面上云——云端 Codex 其实是 2025 年 5 月就推出的最初形态，但当时是一次性虚拟机、最多缓存 12 小时、用完即销毁，这次 Codex Cloud 核心多了一层 Reusable Environment（可复用开发环境），可提前配好代码仓库、依赖、工具与环境变量，后续任务直接基于这套环境启动；每个任务仍有独立 Workspace，按最新文档已有任务的文件、未 commit 的修改与临时安装的工具也能保留、任务状态最长可恢复 7 天，机器配置随订阅档位不同，本地电脑可以关机，且云端 Codex 现在也能用 Plugins 与 Computer Use；②Codex Security Cloud——该能力今年 3 月已预览上线并开源给其他 agents 用，已扫描 3000 多万个 Commit、3 万多个代码库，本次新增自动去重、Scheduled Scan 定时扫描与新管理界面，从一次性审查变成常驻的安全 Agent；③其他——Agents API（9 月 10 日上线，本质是把 Codex 背后的 Harness 开放给开发者）这次把 Computer Use 装了进去，Codex CLI 也开放了双向语音对话。**六、ChatGPT 生态**：①使用 ChatGPT 登录时订阅打通——9 月 10 日已与 Airtable、GitLab、HubSpot、Notion、Supabase、Vercel 试点，本次更新 Bring your ChatGPT subscription，用户在第三方产品登录 ChatGPT 后可直接使用套餐内的 Token/额度，第三方开发者不必再自付 API 成本；②插件更像 APP——允许开发者把编辑器、Dashboard、表单乃至整个 Workspace 直接嵌进 ChatGPT 与 Codex，现场展示了 Figma 与 Adobe（可在 ChatGPT 里打开设计、看评论、继续修改），插件还能在对话中被自动发现并按需推荐连接，审核流程也变得像正常开发平台（可看进度、查看问题、申请人工 Review，更新工具无需每次从零提审）；③企业采购市场 OpenAI Marketplace——仍为 Beta、首发 30 多个合作伙伴，玩法是企业可把已承诺给 OpenAI 的一部分采购额度用于购买合作伙伴的软件，作者指出这本质上是 Claude 先发了 Marketplace 模式、OpenAI 复刻跟进，但 OpenAI 手里有 ChatGPT 的日活优势。**最后的彩蛋**：奥特曼宣布再次发放重置卡，并吐槽这一年送的卡太多、Tibo 甚至游说公司改名「Reset Company」；现场还有一个实体按钮仪式，全场倒数后 Tibo 让旁边的人拍下按钮，于是大家得到一张重置卡。**写在最后**：作者整体感受是东西很多、基础设施搭得也不错，但看起来像「苹果发布会」——OpenAI 好像不再是 2023 年那个意气风发、拼命引领时代的 OpenAI；他强调不是说 OpenAI 不强（依然是行业里工程、产品、分发能力最恐怖的公司之一），但今天更多是跟随：Dots 是跟随、模型是跟随、Marketplace 是跟随、Decisions API 是跟随；这从商业逻辑上是最正确的决策、商业上甚至可能比以前更成功，只是大家怀念乔布斯时代的苹果，就像 2023 年的那个 OpenAI。文末祝读者国庆假期愉快。",
+      "keyPoints": [
+        "Dots 是 OpenAI 本次摆在最前面的产品，定位为**24 小时在线、知道你在干什么、还能主动替你做事的个人 Agent**，直接对标 Grok Bot 与近期登顶 App Store 的 Muse；作者形容它就是「部署在云端的小龙虾（OpenClaw）」，并提到 Muse 团队称灵感来自 OpenClaw、而 OpenClaw 作者 Peter 今年 2 月已入职 OpenAI，因此 OpenAI 在血统上才是最正统的继任者、却推出得偏慢。（一. Dots：OpenAI的个人Agent）",
+        "Dots 与 OpenClaw 最大的区别：每个 Dot 都有自己的云电脑、浏览器与执行环境，可以用代码工具、操作网页，也能继承你在 ChatGPT 里已连接好的插件和应用——官方称 ChatGPT 生态里已有**超过 4000 个应用**可与 Dots 协作；你也可以授权 Dot 连接并使用自己的设备（例如笔记本电脑），让它在你的工作环境中协作。Dots 会学习你怎么工作、什么事情值得打扰你、哪些决定你愿意让它自己做。（一. Dots：OpenAI的个人Agent）",
+        "Dots 的入口与商业设计：目前可在 ChatGPT 里用文字和语音沟通，官方预告还将支持**短信与电话**两个入口；今天起向 ChatGPT Pro、Business Premium 和 Enterprise 用户推出，每个用户先有一个包含在套餐内的 Dot，且**与 Dot 的对话不吃普通 ChatGPT 对话额度**；未来可按月支付固定费用添加更多 Dot 或提高其工作速度与可承担的工作量。企业端还在预览 Specialist Dots，即公司可配置财务、营销、法务之类的组织级 Agent，共享公司给定的目标、上下文与反馈。（一. Dots：OpenAI的个人Agent）",
+        "作者记下的一个尴尬细节：**dot.com 已被马斯克买走**，现在访问该网址直接看到的是 GrokBot。（一. Dots：OpenAI的个人Agent）",
+        "与 Dots 联动的 ChatGPT Space 被定义为一个「从第一天就同时为人和 Agent 设计的工作空间」：可以在里面写文档、做计划、研究、生成图片、分析数据、做动态图表和原型，页面、文件与工作内容都放在一起，既能 @同事也能 @Dot（如让 Dot 把用户反馈改成柱状图，或每天检查某个 Slack 频道并把新发现自动更新到该页面）；发布会现场甚至让 Dot 维护了一张每小时更新的动态 Chart。后续 OpenAI 还会把 Presentation 直接做进 Space，并从底层让 Slides 更容易被 Agent 读取和修改。（一. Dots：OpenAI的个人Agent）",
+        "作者由此提出的判断：过去几十年的软件一直是 Human-first，**接下来会越来越多变成 Human + Agent Native**。（一. Dots：OpenAI的个人Agent）",
+        "新模型 GPT-6.1 Sol 的定位是「以五分之一的价格实现接近 Astra 的水平」。作者指出 GPT-6 Sol 才发布 7 天，OpenAI 历史上从未迭代得如此之快，并认为 Claude Opus 5.5 给的压力太大；他的解读是：能力上追不到 Opus 5.5 那种审美，那就继续降价。（二. GPT-6.1 Sol）",
+        "GPT-6.1 Sol 的具体提升：**对 Agent 最核心的缓存价格又便宜了一半**，同时能力小幅提升——DeepSWE v1.1 上相比 GPT-6 Sol 提高 6.4 个百分点；OSWorld 2.0 上提高 7 个百分点，与 Astra 只差 2.1 个百分点，但任务成本大约只有 Astra 的七分之一。作者认为它已成为 Codex 里直接替代 GPT-6 Sol 的最具性价比的「甜品」模型，目前已经上线；但他仍认为与 Claude Opus 5.5 相比差距有点太大。（二. GPT-6.1 Sol）",
+        "会员与额度：传言中的 500 美元订阅正式推出，200 美元 Pro 也重新开放，但**200 美元的额度倍数从 20x 砍到 10x**，500 美元档也只有 25x。作者以自身消耗作对比——他此前要开两个 200 美元 Pro 才能勉强维持每周工作；近期他 100 美元的 Claude 账号刚好用到极限，而 Codex 是 200 美元账号却直接被用空一个，另一个号还有约百分之十几额度搭在同一件事上，认为两者耐用度与消耗量差距太大。（三. 500刀Pro会员）",
+        "500 美元会员的独占权益 Ultra Fast：与 Fast 相比没有本质区别、只是更快也更烧钱——**Fast 约 2 倍速度 2 倍价格，Ultra Fast 最高约 8 倍速度、约 6 倍价格**。作者吐槽自己的 20x 额度一周都不够用、一天一个 200 美元账号，如今降到 25x 还给 8 倍速度 6 倍价格，「是想让我两个小时烧空一个账号吗」。（三. 500刀Pro会员）",
+        "Decisions API：底层直接用 **GPT-6 Luna**，逻辑是提前给模型一组候选项、让它不生成完整答案、只负责从里面做决定；因为任务被限制成有限选项，响应可以做到**亚秒级**，而且 Luna 原本的图像理解、多语言和安全能力都还在。（四. Decisions API）",
+        "作者认为 Decisions API 直接打在 Jev 身上：两周前（9 月 16 日）TypeSafeAI 刚发布 Jev 并掀起一波浪潮，其核心逻辑就是「不聊天、不写作文，只负责做决定」——把输入变成结构化的选择、评分、Yes/No 判断并给出概率与置信度；当时圈内就讨论过它的护城河太低、大厂是否随手就能撵过去，结果 OpenAI 今天「随手掏了一下」。作者感慨：Jev 刚教育完市场「很多自动化根本不需要 LLM 写答案，只需要它快速做决定」，两周后 OpenAI 就给 Luna 加了一个，而**这甚至不是发布会主角**，只是 Sam 讲模型时顺手带了几分钟。（四. Decisions API）",
+        "Codex 更新之一「全面上云」：云端 Codex 其实是最初形态（2025 年 5 月推出），但当时发送的是一次性虚拟机、最多缓存 12 小时、用完即销毁，下次使用要重新拉代码装依赖；这次 Codex Cloud 核心多了一层 **Reusable Environment（可复用开发环境）**，可以提前把一个项目需要的代码仓库、依赖、工具、环境变量全部配好，后续任务直接基于这套环境启动。（五. Codex更新 · 1. Codex全面上云）",
+        "Codex Cloud 的其余细节：每个任务依然有自己的独立 Workspace；按最新 Cloud 文档，单个已有任务自己的文件、未 Commit 的修改、临时安装的工具也能继续保留，**任务状态最长可以恢复 7 天**；根据订阅会员不同拿到的机器配置也不同。这样云端托管开发效率高很多、本地电脑可以关机，且现在的云端 Codex 也能用 Plugins 和 Computer Use。（五. Codex更新 · 1. Codex全面上云）",
+        "Codex 更新之二「Codex Security Cloud」：该能力并非首次发布（今年 3 月已预览上线，后来还开源给其他 agents 用），目前已扫过 **3000 多万个 Commit、3 万多个代码库**；本次真正新增的是自动去重、Scheduled Scan 定时扫描以及新的管理界面。作者形容它从「来，帮我审一下这个仓库」变成「你一直盯着这个仓库，有新的安全问题就自己扫、自己验证、准备修复」——**从一次性审查变成了常驻的安全 Agent**。（五. Codex更新 · 2. Codex Security Cloud）",
+        "Codex 的其他更新：Agents API 本身 9 月 10 日就已上线，本质是把 Codex 背后那套 Harness 开放给开发者，这次做了小更新——把 Computer Use 也装了进去；同时给 Codex CLI 开放了双向语音对话。（五. Codex更新 · 3.其他更新）",
+        "ChatGPT 生态之一「用 ChatGPT 登录时订阅打通」：9 月 10 日 OpenAI 已与 Airtable、GitLab、HubSpot、Notion、Supabase、Vercel 等伙伴试点使用 ChatGPT 登录；本次更新 Bring your ChatGPT subscription——用户以后在第三方产品里登录 ChatGPT，可以直接使用自己 ChatGPT 套餐里已包含的 Token／额度。作者认为这对三方开发者非常友好：过去 API 成本常由开发者自掏，而用户本来就已经给 OpenAI 付过钱，等于把用户的订阅带过去。（六. ChatGPT生态 · 1. 使用ChatGPT登录时订阅打通）",
+        "ChatGPT 生态之二「插件更像 APP 了」：过去插件更像字面意义的插件（需要时后台调一下接口），现在 OpenAI 允许开发者把编辑器、Dashboard、表单乃至整个 Workspace 直接嵌进 ChatGPT 和 Codex，发布会现场展示了 Figma 和 Adobe——可以在 ChatGPT 里直接打开设计、看评论、继续修改；插件也能在对话中被自动发现（用户问一个问题，ChatGPT 发现某个插件能帮忙就直接在当前对话里推荐连接）；审核流程也改得更像正常开发平台（可看审核进度、查看问题、申请人工 Review，更新工具时无需每次从零重新提审）。作者评论：OpenAI 关于 App Store 的野心一直都在。（六. ChatGPT生态 · 2.插件更像APP了）",
+        "ChatGPT 生态之三「企业采购市场 OpenAI Marketplace」：目前仍是 Beta、首发 30 多个合作伙伴，玩法与 App Store 完全不同——企业客户可以把已经承诺给 OpenAI 的一部分采购额度，用来购买合作伙伴的软件（例如企业已与 OpenAI 签了 1000 万合同额，以前这钱只能买 OpenAI 的东西，以后其中一部分可流向 Marketplace 里的第三方产品）。作者认为这本质上是 Claude 先发了 Marketplace 模式、OpenAI 完整复刻跟进，但 OpenAI 手里有 ChatGPT 的日活优势。（六. ChatGPT生态 · 3. 企业采购市场OpenAI Marketplace）",
+        "最后的彩蛋：奥特曼在台上宣布又给大家准备了一张重置卡，并吐槽这一年送的重置卡实在太多、Tibo 甚至一直在游说「要不咱们公司干脆改名叫 Reset Company 算了」，据说连周边都做了；现场镜头切到台下的 Tibo，他面前放着一个实体按钮（发布会定制玩具版，象征性仪式），全场倒数 3、2、1 后 Tibo 让旁边的女孩一巴掌拍下去，于是大家得到了一张重置卡。（最后的彩蛋）",
+        "作者的总体观感：东西很多、基础设施搭得也不错，但看起来像「苹果发布会」——OpenAI 好像不再是 2023 年那个意气风发、拼命引领时代的 OpenAI；他强调不是说 OpenAI 不强（它依然是这个行业在工程、产品、分发能力上最恐怖的公司之一），只是不一样了：曾经定义了 ChatGPT 这个形态、用 GPT-4 告诉世界模型可以领先到什么程度，而**今天更多的是跟随——Dots 是跟随、模型是跟随、Marketplace 是跟随、Decisions API 是跟随**。（写在最后）",
+        "作者对这一「跟随」的判断：这没有什么不对，反而是最正确的决策——从商业逻辑上就是大厂在商业博弈上的最优解，甚至在商业上可能比以前更成功；但他写道，大家如今都在怀念乔布斯时代的苹果，那段时间的苹果永远会给你惊喜，就像 2023 年的那个 OpenAI 一样。（写在最后）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "Grok Bot、Muse刚火，ChatGPT就坐不住了",
+        "这个只会做选择题的Jev，却是今年我看到的最特别的大模型。",
+        "一夜三连发，Claude Opus 5.5、GPT-6 Sol和Luna全部都来了。",
+        "GPT-6 Sol斩杀5.6全系！Astra的1/5价格，Luna比梁文谷还便宜，周二Codex重置"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "91e1a0e8303b",
       "title": "智能体身份认证与权限管控平台同统一身份认证平台对接协同研究",
@@ -3089,11 +3168,11 @@ export const publicWikiData = {
     "topics": [
       {
         "name": "Agent",
-        "count": 19
+        "count": 20
       },
       {
         "name": "AI工具",
-        "count": 12
+        "count": 13
       },
       {
         "name": "旅行攻略",
@@ -3108,19 +3187,19 @@ export const publicWikiData = {
         "count": 9
       },
       {
+        "name": "开发者工具",
+        "count": 9
+      },
+      {
         "name": "文学",
         "count": 9
       },
       {
-        "name": "开发者工具",
-        "count": 8
+        "name": "AI模型",
+        "count": 9
       },
       {
         "name": "AI基础设施",
-        "count": 8
-      },
-      {
-        "name": "AI模型",
         "count": 8
       },
       {
@@ -3140,6 +3219,10 @@ export const publicWikiData = {
         "count": 6
       },
       {
+        "name": "AI商业化",
+        "count": 6
+      },
+      {
         "name": "开源软件",
         "count": 5
       },
@@ -3149,10 +3232,6 @@ export const publicWikiData = {
       },
       {
         "name": "阅读推荐",
-        "count": 5
-      },
-      {
-        "name": "AI商业化",
         "count": 5
       },
       {
@@ -3470,11 +3549,11 @@ export const publicWikiData = {
     ],
     "people": [
       {
-        "name": "村上春树",
-        "count": 3
+        "name": "数字生命卡兹克",
+        "count": 4
       },
       {
-        "name": "数字生命卡兹克",
+        "name": "村上春树",
         "count": 3
       },
       {
@@ -3824,11 +3903,27 @@ export const publicWikiData = {
         "count": 7
       },
       {
+        "name": "缓存命中率",
+        "count": 4
+      },
+      {
         "name": "API定价",
         "count": 4
       },
       {
         "name": "Codex",
+        "count": 4
+      },
+      {
+        "name": "DeepSWE",
+        "count": 4
+      },
+      {
+        "name": "GPT-6 Astra",
+        "count": 4
+      },
+      {
+        "name": "Jev",
         "count": 4
       },
       {
@@ -3840,7 +3935,7 @@ export const publicWikiData = {
         "count": 4
       },
       {
-        "name": "缓存命中率",
+        "name": "定时任务",
         "count": 3
       },
       {
@@ -3876,7 +3971,7 @@ export const publicWikiData = {
         "count": 3
       },
       {
-        "name": "DeepSWE",
+        "name": "Computer Use",
         "count": 3
       },
       {
@@ -3884,11 +3979,11 @@ export const publicWikiData = {
         "count": 3
       },
       {
-        "name": "GPT-6 Astra",
+        "name": "GPT-6 Luna",
         "count": 3
       },
       {
-        "name": "Jev",
+        "name": "GPT-6 Sol",
         "count": 3
       },
       {
@@ -3909,10 +4004,6 @@ export const publicWikiData = {
       },
       {
         "name": "12306",
-        "count": 2
-      },
-      {
-        "name": "定时任务",
         "count": 2
       },
       {
@@ -4016,6 +4107,10 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "Agent Harness",
+        "count": 2
+      },
+      {
         "name": "Agents' Last Exam",
         "count": 2
       },
@@ -4028,7 +4123,7 @@ export const publicWikiData = {
         "count": 2
       },
       {
-        "name": "Computer Use",
+        "name": "Claude Opus 5.5",
         "count": 2
       },
       {
@@ -4040,11 +4135,7 @@ export const publicWikiData = {
         "count": 2
       },
       {
-        "name": "GPT-6 Luna",
-        "count": 2
-      },
-      {
-        "name": "GPT-6 Sol",
+        "name": "Grok Bot",
         "count": 2
       },
       {
@@ -4052,7 +4143,19 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "Muse",
+        "count": 2
+      },
+      {
         "name": "MVP",
+        "count": 2
+      },
+      {
+        "name": "OpenClaw",
+        "count": 2
+      },
+      {
+        "name": "Personal AI Agent",
         "count": 2
       },
       {
@@ -5208,10 +5311,6 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "Agent Harness",
-        "count": 1
-      },
-      {
         "name": "Agent预设",
         "count": 1
       },
@@ -5284,6 +5383,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "ChatGPT Space",
+        "count": 1
+      },
+      {
         "name": "ChatGPT Work",
         "count": 1
       },
@@ -5296,11 +5399,15 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "Claude Opus 5.5",
+        "name": "Code Mode",
         "count": 1
       },
       {
-        "name": "Code Mode",
+        "name": "Codex Cloud",
+        "count": 1
+      },
+      {
+        "name": "Codex Security",
         "count": 1
       },
       {
@@ -5336,6 +5443,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "Decisions API",
+        "count": 1
+      },
+      {
         "name": "DeepSeek V4 Flash",
         "count": 1
       },
@@ -5345,6 +5456,10 @@ export const publicWikiData = {
       },
       {
         "name": "DHA",
+        "count": 1
+      },
+      {
+        "name": "Dots",
         "count": 1
       },
       {
@@ -5400,6 +5515,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "GPT-6.1 Sol",
+        "count": 1
+      },
+      {
         "name": "GPT-Image 2.5",
         "count": 1
       },
@@ -5413,10 +5532,6 @@ export const publicWikiData = {
       },
       {
         "name": "Grok 4.7",
-        "count": 1
-      },
-      {
-        "name": "Grok Bot",
         "count": 1
       },
       {
@@ -5488,10 +5603,6 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "Muse",
-        "count": 1
-      },
-      {
         "name": "NebulaGraph",
         "count": 1
       },
@@ -5512,7 +5623,7 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "OpenClaw",
+        "name": "OpenAI Marketplace",
         "count": 1
       },
       {
@@ -5533,10 +5644,6 @@ export const publicWikiData = {
       },
       {
         "name": "PEP",
-        "count": 1
-      },
-      {
-        "name": "Personal AI Agent",
         "count": 1
       },
       {
@@ -5601,6 +5708,10 @@ export const publicWikiData = {
       },
       {
         "name": "SPARQL",
+        "count": 1
+      },
+      {
+        "name": "Specialist Dots",
         "count": 1
       },
       {
@@ -5671,7 +5782,7 @@ export const publicWikiData = {
     "platforms": [
       {
         "name": "wechat-article",
-        "count": 33
+        "count": 34
       },
       {
         "name": "web",
