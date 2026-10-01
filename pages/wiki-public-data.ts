@@ -1,7 +1,54 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-09-30T17:03:50+08:00",
+  "updatedAt": "2026-10-01T10:23:30+08:00",
   "items": [
+    {
+      "id": "4fef7dbedf4b",
+      "title": "辞职一年，疯游33国，我的变化",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/bPrpUWP70zTi1iNjrG07-g",
+      "author": "朱继荣",
+      "published_at": "",
+      "captured_at": "2026-10-01T10:23:30+08:00",
+      "completeness": "full",
+      "topics": [
+        "出境旅行",
+        "旅行体验",
+        "人生选择",
+        "职场文化"
+      ],
+      "people": [
+        "朱继荣"
+      ],
+      "concepts": [
+        "环球旅行",
+        "gap year",
+        "事业第二曲线",
+        "主体性",
+        "旅行预算",
+        "现金流",
+        "中年转型",
+        "旅行体力"
+      ],
+      "summary": "朱继荣复盘辞职后约十个月的环球旅行：据其自述，她在职场冲突后于2025年10月末辞职、12月初出发，走访33国，在密集的自然与文化体验中拓宽眼界、缓解旧有愤怒并更认可自己；与此同时，旅行已耗尽现金流并带来负债，事业第二曲线仍待探索。她希望把45—55岁作为主动安排生活的十年，以自身及家人的状态衡量选择，并在继续旅行的同时寻找新的事业和社会关系。",
+      "keyPoints": [
+        "作者把离职起点归于职场冲突与情绪消耗，随后将原先的南美旅行扩展成十个月、33国的高密度行程，覆盖南美、中亚、亚欧、非洲和美国西部；累计到访65国亦为个人自述。（第一节）",
+        "独自长途旅行、冰原和沙漠徒步、野生动物观察等大量新体验，使作者感到眼界拓宽、内心饱满；离开原有环境也让她对旧有职场冲突的执念减弱，对不同生活方式更包容。（第二节）",
+        "作者将时间、身体状态和生活体验纳入人生评价，希望45—55岁过得充实自主，而不只等待退休后再开始探索。（第二节）",
+        "旅行的财务代价没有被掩盖：作者称现金流耗尽且欠款数十万元，考虑变现房产，并对被动收入能否覆盖支出和通胀存有疑问；文中提及的4%复利设想尚未形成可验证方案。（第三节）",
+        "旅行依然延续了作者重效率、高强度投入的做事方式，调研、规划、行走、记录和分享成为持续工作；但这些投入尚未明确转化为事业第二曲线。（第三节）",
+        "作者以自己及父母、孩子的生活状态评价这次选择，并计划继续旅行、结识契合的人、探索新的事业机会；这是个人阶段性复盘，后续事业和经济结果仍未确定。（第四、第五节）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "旅游是不是要趁年轻玩才有意思？——Jensen W 的旅行叙事",
+        "为什么我们不被允许有gap year？——三吉吖523 关于世俗成功框架与主体性的回答",
+        "祝你和加缪一样，拥有一个不可战胜的夏天"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "e6df69d521e0",
       "title": "该用GPT-6.1 Sol还是Astra？",
@@ -3304,6 +3351,10 @@ export const publicWikiData = {
         "count": 11
       },
       {
+        "name": "出境旅行",
+        "count": 10
+      },
+      {
         "name": "开发者工具",
         "count": 10
       },
@@ -3314,10 +3365,6 @@ export const publicWikiData = {
       {
         "name": "AI系统设计",
         "count": 10
-      },
-      {
-        "name": "出境旅行",
-        "count": 9
       },
       {
         "name": "文学",
@@ -3404,6 +3451,10 @@ export const publicWikiData = {
         "count": 3
       },
       {
+        "name": "职场文化",
+        "count": 3
+      },
+      {
         "name": "互联网大厂",
         "count": 2
       },
@@ -3416,11 +3467,19 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "旅行体验",
+        "count": 2
+      },
+      {
         "name": "签证准备",
         "count": 2
       },
       {
         "name": "人机协作",
+        "count": 2
+      },
+      {
+        "name": "人生选择",
         "count": 2
       },
       {
@@ -3449,10 +3508,6 @@ export const publicWikiData = {
       },
       {
         "name": "侦探文学",
-        "count": 2
-      },
-      {
-        "name": "职场文化",
         "count": 2
       },
       {
@@ -3548,10 +3603,6 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "旅行体验",
-        "count": 1
-      },
-      {
         "name": "旅行预算",
         "count": 1
       },
@@ -3573,10 +3624,6 @@ export const publicWikiData = {
       },
       {
         "name": "亲密关系",
-        "count": 1
-      },
-      {
-        "name": "人生选择",
         "count": 1
       },
       {
@@ -3942,6 +3989,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "朱继荣",
+        "count": 1
+      },
+      {
         "name": "字母AI",
         "count": 1
       },
@@ -4184,7 +4235,15 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "旅行体力",
+        "count": 2
+      },
+      {
         "name": "旅行体验",
+        "count": 2
+      },
+      {
+        "name": "旅行预算",
         "count": 2
       },
       {
@@ -4244,6 +4303,10 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "主体性",
+        "count": 2
+      },
+      {
         "name": "Agent Harness",
         "count": 2
       },
@@ -4265,6 +4328,10 @@ export const publicWikiData = {
       },
       {
         "name": "DeepSeek Harness",
+        "count": 2
+      },
+      {
+        "name": "gap year",
         "count": 2
       },
       {
@@ -4684,6 +4751,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "环球旅行",
+        "count": 1
+      },
+      {
         "name": "缓存命中",
         "count": 1
       },
@@ -4849,14 +4920,6 @@ export const publicWikiData = {
       },
       {
         "name": "旅行节奏",
-        "count": 1
-      },
-      {
-        "name": "旅行体力",
-        "count": 1
-      },
-      {
-        "name": "旅行预算",
         "count": 1
       },
       {
@@ -5068,6 +5131,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "事业第二曲线",
+        "count": 1
+      },
+      {
         "name": "数据分级",
         "count": 1
       },
@@ -5197,6 +5264,10 @@ export const publicWikiData = {
       },
       {
         "name": "系统提示词",
+        "count": 1
+      },
+      {
+        "name": "现金流",
         "count": 1
       },
       {
@@ -5408,11 +5479,11 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "中转停留",
+        "name": "中年转型",
         "count": 1
       },
       {
-        "name": "主体性",
+        "name": "中转停留",
         "count": 1
       },
       {
@@ -5661,10 +5732,6 @@ export const publicWikiData = {
       },
       {
         "name": "FrontierMath Tier 4",
-        "count": 1
-      },
-      {
-        "name": "gap year",
         "count": 1
       },
       {
@@ -5963,7 +6030,7 @@ export const publicWikiData = {
     "platforms": [
       {
         "name": "wechat-article",
-        "count": 36
+        "count": 37
       },
       {
         "name": "web",
