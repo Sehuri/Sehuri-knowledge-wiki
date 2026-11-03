@@ -1,7 +1,59 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-11-03T13:47:44+08:00",
+  "updatedAt": "2026-11-03T15:53:31+08:00",
   "items": [
+    {
+      "id": "7f403566918f",
+      "title": "DeepSeek Harness养鱼教程来了，一文送你的肥鱼当上主播。",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/-LcRUPe5OYBRjiTEzYXKog",
+      "author": "卡兹克、tashi（数字生命卡兹克）",
+      "published_at": "",
+      "captured_at": "2026-11-03T15:53:31+08:00",
+      "completeness": "full",
+      "topics": [
+        "Agent",
+        "AI工具",
+        "AI安全",
+        "AI系统设计"
+      ],
+      "people": [
+        "卡兹克",
+        "tashi"
+      ],
+      "concepts": [
+        "DeepSeek Harness",
+        "AI宠物",
+        "Agent人设",
+        "QQ机器人",
+        "跨平台记忆",
+        "提示注入",
+        "最小权限",
+        "API Key",
+        "Token成本",
+        "直播自动化"
+      ],
+      "summary": "数字生命卡兹克的作者演示如何以 DeepSeek Harness 驱动拟人化的蓝色小鲸鱼，在 QQ、微信和飞书等聊天渠道对话，并尝试让它在 B 站互动及抖音发布视频、直播。文章介绍官方 QQ 机器人和非官方账号接入的不同思路、人设与跨平台记忆、API 调用和语音，以及对私密信息、外部指令和公开互动设置边界；作者也展示了直播效果不理想后继续调试的过程。",
+      "keyPoints": [
+        "作者先安装并配置 DeepSeek Harness，确认能对话，再按需充值和配置 API；持续对话、工具使用与生成会产生相应服务费用，具体规则应以官方为准。（一、QQ养鱼：安装与 API）",
+        "QQ 官方机器人插件用于私聊和群聊，作者称不能以独立 QQ 账号发布空间动态；另一种使用个人小号和非官方插件，作者提及 NapCat、AstrBot 及其他插件。两类方式的权限、平台支持和账号风险不同。（一、QQ养鱼：两种接入方式）",
+        "示例人设定义鲸鱼的性格、称呼、短消息风格、表情包频率、主人识别和隐私底线；作者提议只接受预设主人的身份，并区分提醒已设置与尚未设置。（一、QQ养鱼：人设示例）",
+        "作者描述接入微信、飞书，并通过记忆插件共享角色设定和短期记忆；实际共享范围和权限取决于所用插件与配置。（一、QQ养鱼：微信、飞书与记忆）",
+        "B站示例包括浏览视频、点赞、弹幕、评论和私信分享。作者提醒约束外部链接、保护个人信息、不要将其他人的内容当成主人的指令。（二、B站放鱼）",
+        "抖音示例从自我介绍视频到直播彩排、确认开播及迭代画面和配音。作者最初遇到画面单调、动作文字被念出和弹幕响应慢等问题，后续继续调整。（三、抖音运营、直播）",
+        "作者展示了隐私提问的拒答测试，但单次演示不证明系统能抵御所有诱导；使用第三方插件、跨平台记忆或公开自动互动时，仍需核查权限、平台规则和人工确认机制。（二、B站放鱼；三、抖音运营、直播；整理提示）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "Agent Harness 大战：Pi 最强，Claude Code 最快，DeepSeek 最省钱！",
+        "深度体验DeepSeek Harness，我原谅它涨价了",
+        "智能体身份认证与权限管控平台同统一身份认证平台对接协同研究",
+        "腾讯Octop正式发布，要做最懂你的本地 AI 助手"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "32730cd57d22",
       "title": "穷鬼出国玩？周末700+往返，能去溜达的地方还不少",
@@ -3436,18 +3488,22 @@ export const publicWikiData = {
     "topics": [
       {
         "name": "Agent",
-        "count": 20
+        "count": 21
+      },
+      {
+        "name": "AI工具",
+        "count": 14
       },
       {
         "name": "旅行攻略",
         "count": 13
       },
       {
-        "name": "AI工具",
-        "count": 13
+        "name": "出境旅行",
+        "count": 11
       },
       {
-        "name": "出境旅行",
+        "name": "AI系统设计",
         "count": 11
       },
       {
@@ -3456,10 +3512,6 @@ export const publicWikiData = {
       },
       {
         "name": "AI模型",
-        "count": 10
-      },
-      {
-        "name": "AI系统设计",
         "count": 10
       },
       {
@@ -3555,6 +3607,10 @@ export const publicWikiData = {
         "count": 3
       },
       {
+        "name": "AI安全",
+        "count": 3
+      },
+      {
         "name": "互联网大厂",
         "count": 2
       },
@@ -3616,10 +3672,6 @@ export const publicWikiData = {
       },
       {
         "name": "自我改进",
-        "count": 2
-      },
-      {
-        "name": "AI安全",
         "count": 2
       },
       {
@@ -3945,6 +3997,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "卡兹克",
+        "count": 1
+      },
+      {
         "name": "琨哥216",
         "count": 1
       },
@@ -4169,6 +4225,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "tashi",
+        "count": 1
+      },
+      {
         "name": "Yiyan",
         "count": 1
       },
@@ -4276,6 +4336,10 @@ export const publicWikiData = {
       },
       {
         "name": "Computer Use",
+        "count": 3
+      },
+      {
+        "name": "DeepSeek Harness",
         "count": 3
       },
       {
@@ -4423,6 +4487,10 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "最小权限",
+        "count": 2
+      },
+      {
         "name": "Agent Harness",
         "count": 2
       },
@@ -4440,10 +4508,6 @@ export const publicWikiData = {
       },
       {
         "name": "Claude Opus 5",
-        "count": 2
-      },
-      {
-        "name": "DeepSeek Harness",
         "count": 2
       },
       {
@@ -4991,6 +5055,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "跨平台记忆",
+        "count": 1
+      },
+      {
         "name": "跨上下文记忆",
         "count": 1
       },
@@ -5304,6 +5372,10 @@ export const publicWikiData = {
       },
       {
         "name": "提示词缓存",
+        "count": 1
+      },
+      {
+        "name": "提示注入",
         "count": 1
       },
       {
@@ -5623,6 +5695,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "直播自动化",
+        "count": 1
+      },
+      {
         "name": "职场礼貌",
         "count": 1
       },
@@ -5683,10 +5759,6 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "最小权限",
-        "count": 1
-      },
-      {
         "name": "尊重",
         "count": 1
       },
@@ -5719,6 +5791,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "Agent人设",
+        "count": 1
+      },
+      {
         "name": "Agent预设",
         "count": 1
       },
@@ -5747,6 +5823,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "AI宠物",
+        "count": 1
+      },
+      {
         "name": "AI辅助编程",
         "count": 1
       },
@@ -5768,6 +5848,10 @@ export const publicWikiData = {
       },
       {
         "name": "Anthropic API",
+        "count": 1
+      },
+      {
+        "name": "API Key",
         "count": 1
       },
       {
@@ -6067,6 +6151,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "QQ机器人",
+        "count": 1
+      },
+      {
         "name": "RDFS",
         "count": 1
       },
@@ -6151,6 +6239,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "Token成本",
+        "count": 1
+      },
+      {
         "name": "Tool Calls",
         "count": 1
       },
@@ -6194,7 +6286,7 @@ export const publicWikiData = {
     "platforms": [
       {
         "name": "wechat-article",
-        "count": 39
+        "count": 40
       },
       {
         "name": "web",
