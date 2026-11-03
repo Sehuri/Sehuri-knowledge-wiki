@@ -1,7 +1,52 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-11-03T11:27:30+08:00",
+  "updatedAt": "2026-11-03T13:47:44+08:00",
   "items": [
+    {
+      "id": "32730cd57d22",
+      "title": "穷鬼出国玩？周末700+往返，能去溜达的地方还不少",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/iQ1TOb6XCfXCzmoQYMKl8g",
+      "author": "四蛋",
+      "published_at": "",
+      "captured_at": "2026-11-03T13:47:44+08:00",
+      "completeness": "partial",
+      "topics": [
+        "出境旅行",
+        "旅行攻略",
+        "目的地选择"
+      ],
+      "people": [
+        "四蛋"
+      ],
+      "concepts": [
+        "廉价机票",
+        "假期规划",
+        "旅行预算",
+        "机票行李额",
+        "清州",
+        "济州岛",
+        "岘港",
+        "海参崴",
+        "亚庇"
+      ],
+      "summary": "公众号 Stan淘机票 的作者四蛋整理了江浙沪、大湾区和北京出发的周末或拼假国际航线示例：上海至清州、杭州及南京至济州、香港至岘港、北京至海参崴和亚庇。文章的思路是关注淡季跨周末航班，将低票价与请假时间、行李和机场选择一起比较。文中票价属于发布时的示例，截图细则和实时可订情况未核实。",
+      "keyPoints": [
+        "作者以约千元往返机票预算为线索，建议关注淡季周末和跨周末搭配请假的出境航线；文章没有提供统一适用的预算保证。（开头）",
+        "江浙沪方向举例包括上海往返清州约700多元、杭州往返济州约800多元、南京往返济州约1000元；部分行程日期、税费与舱位细则在未识别的图片中。（上海、杭州、南京出发段落）",
+        "大湾区方向举例为香港往返岘港，作者称周五出发、周一返回约800多元，并提及离境税退税；退税资格和金额需依据个人行程与官方规则核验。（香港往返岘港段落）",
+        "北京方向列出海参崴和亚庇。作者举例海参崴有需请一天假的低价票，并提醒部分票价不含托运行李；亚庇则包括跨周末和非常紧凑的纯周末行程。（北京出发段落）",
+        "实用比较维度包括实际总价、出发机场、航班时刻、请假天数、行李额和入境要求。文中免签、退税和促销信息具有时效性，不能当作当前政策或现价。（全文；整理归纳）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "我是如何一边打工一边环游世界：抖音博主关于假期与中转机票的分享",
+        "出过国的top1大家推荐哪里呀？（可见评论整理）"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "117196ff5acf",
       "title": "11-12月最值得去的7个治愈小城，趁还没冷透，心累了就去逛几天~",
@@ -3394,16 +3439,16 @@ export const publicWikiData = {
         "count": 20
       },
       {
+        "name": "旅行攻略",
+        "count": 13
+      },
+      {
         "name": "AI工具",
         "count": 13
       },
       {
-        "name": "旅行攻略",
-        "count": 12
-      },
-      {
         "name": "出境旅行",
-        "count": 10
+        "count": 11
       },
       {
         "name": "开发者工具",
@@ -3427,7 +3472,7 @@ export const publicWikiData = {
       },
       {
         "name": "目的地选择",
-        "count": 7
+        "count": 8
       },
       {
         "name": "企业AI",
@@ -3988,6 +4033,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "四蛋",
+        "count": 1
+      },
+      {
         "name": "图特摩斯科技",
         "count": 1
       },
@@ -4186,6 +4235,10 @@ export const publicWikiData = {
         "count": 3
       },
       {
+        "name": "旅行预算",
+        "count": 3
+      },
+      {
         "name": "慢旅行",
         "count": 3
       },
@@ -4278,6 +4331,10 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "假期规划",
+        "count": 2
+      },
+      {
         "name": "杰文斯悖论",
         "count": 2
       },
@@ -4287,6 +4344,10 @@ export const publicWikiData = {
       },
       {
         "name": "可审计性",
+        "count": 2
+      },
+      {
+        "name": "廉价机票",
         "count": 2
       },
       {
@@ -4303,10 +4364,6 @@ export const publicWikiData = {
       },
       {
         "name": "旅行体验",
-        "count": 2
-      },
-      {
-        "name": "旅行预算",
         "count": 2
       },
       {
@@ -4786,6 +4843,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "海参崴",
+        "count": 1
+      },
+      {
         "name": "海岛度假",
         "count": 1
       },
@@ -4834,6 +4895,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "机票行李额",
+        "count": 1
+      },
+      {
         "name": "技术保守主义",
         "count": 1
       },
@@ -4846,6 +4911,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "济州岛",
+        "count": 1
+      },
+      {
         "name": "加拿大",
         "count": 1
       },
@@ -4855,10 +4924,6 @@ export const publicWikiData = {
       },
       {
         "name": "甲方权力",
-        "count": 1
-      },
-      {
-        "name": "假期规划",
         "count": 1
       },
       {
@@ -4951,10 +5016,6 @@ export const publicWikiData = {
       },
       {
         "name": "连接器",
-        "count": 1
-      },
-      {
-        "name": "廉价机票",
         "count": 1
       },
       {
@@ -5079,6 +5140,10 @@ export const publicWikiData = {
       },
       {
         "name": "前额叶",
+        "count": 1
+      },
+      {
+        "name": "清州",
         "count": 1
       },
       {
@@ -5350,6 +5415,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "岘港",
+        "count": 1
+      },
+      {
         "name": "现金流",
         "count": 1
       },
@@ -5407,6 +5476,10 @@ export const publicWikiData = {
       },
       {
         "name": "雪",
+        "count": 1
+      },
+      {
+        "name": "亚庇",
         "count": 1
       },
       {
@@ -6121,7 +6194,7 @@ export const publicWikiData = {
     "platforms": [
       {
         "name": "wechat-article",
-        "count": 38
+        "count": 39
       },
       {
         "name": "web",
