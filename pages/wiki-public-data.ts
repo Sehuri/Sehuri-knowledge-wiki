@@ -1,7 +1,57 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-11-03T15:53:31+08:00",
+  "updatedAt": "2026-11-03T16:13:19+08:00",
   "items": [
+    {
+      "id": "acbe3cecfe1f",
+      "title": "更新！中国护照出境签证一览表：新增免签、落地签、电子签一次看清（2026年11月）",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/ti2omT9mKjWSqqxxxYAOTg",
+      "author": "移民就找👉（佳达海外移民留学）",
+      "published_at": "",
+      "captured_at": "2026-11-03T16:13:19+08:00",
+      "completeness": "partial",
+      "topics": [
+        "出境旅行",
+        "旅行攻略",
+        "旅行安全",
+        "目的地选择"
+      ],
+      "people": [
+        "移民就找👉"
+      ],
+      "concepts": [
+        "中国普通护照",
+        "免签",
+        "落地签",
+        "电子签证",
+        "电子旅行授权",
+        "入境申报",
+        "申根签证",
+        "济州岛",
+        "富国岛"
+      ],
+      "summary": "公众号佳达海外移民留学按亚洲、欧洲、非洲、美洲、大洋洲和专项安排，汇总中国普通护照持有人出境时需要关注的免签、落地签、电子签与旅行授权线索。文章文字涉及部分目的地的停留期限、电子申报、保险和特殊口岸或团体条件；完整图表未提取，具体规则及所谓新增情况未逐项核验。此条作为2026年11月的来源记录和查证线索，实际出行应以目的地官方最新规定及个人行程为准。",
+      "keyPoints": [
+        "作者称按普通护照整理，按五大洲及专项政策分类，配套图表覆盖更多目的地、落地签与电子签细则；本文仅取得文字，图表未识别，不能当作完整清单。（开头及各分洲图表）",
+        "亚洲部分举出新加坡、泰国、马来西亚等，提醒留意电子入境卡及申报时间；具体申报平台、时间和准入条件应向目的地官方确认。（01 亚洲）",
+        "欧洲部分涉及塞尔维亚、白俄罗斯、波黑、俄罗斯等，也提示前往安道尔或圣马力诺可能需要满足经由申根地区的入境与过境要求。（02 欧洲）",
+        "非洲部分涉及毛里求斯、摩洛哥、塞舌尔、肯尼亚等；作者区分免签与提前申请电子旅行授权、保险或缴费等附加手续。具体要求须逐项查证。（03 非洲）",
+        "美洲和大洋洲部分列举加勒比地区、巴西、斐济等例子；部分属于作者描述的临时安排或入境许可，期限与条件可能变化。（04 美洲；05 大洋洲）",
+        "专项章节举出济州岛、富国岛、特定团体旅行、年龄及指定口岸等条件，说明某一地区的便利安排不一定适用于该国全境或所有行程。（06 专项政策）",
+        "作者称资料以2026年11月2日为核对时点，建议出发前检查护照、离境交通、住宿、申报及保险等；不同目的地与护照情况要求不同，不能将文中示例视为统一规则。（资料来源及文末提示）",
+        "独立查证入口：中国领事服务网中外互免签证协定一览表 https://cs.mfa.gov.cn/zggmcgx/cgqzapecswlxk/ylb/202607/t20260716_11984014.html （该页标注更新至2026-05-29）；签证信息查询入口 https://cs.mfa.gov.cn/zggmcg/cgqz/sbcgqz/sqysqz_660469/ 。还应核对目的地移民部门或驻华使领馆的最新要求。（延伸查证；2026-11-03查询）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "对中国免签的国家有哪些，这些国家值得去吗：Gateau 的免签落地签清单与逐国点评",
+        "穷鬼出国玩？周末700+往返，能去溜达的地方还不少",
+        "出过国的top1大家推荐哪里呀？（可见评论整理）"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "7f403566918f",
       "title": "DeepSeek Harness养鱼教程来了，一文送你的肥鱼当上主播。",
@@ -3491,16 +3541,16 @@ export const publicWikiData = {
         "count": 21
       },
       {
+        "name": "旅行攻略",
+        "count": 14
+      },
+      {
         "name": "AI工具",
         "count": 14
       },
       {
-        "name": "旅行攻略",
-        "count": 13
-      },
-      {
         "name": "出境旅行",
-        "count": 11
+        "count": 12
       },
       {
         "name": "AI系统设计",
@@ -3515,16 +3565,16 @@ export const publicWikiData = {
         "count": 10
       },
       {
+        "name": "目的地选择",
+        "count": 9
+      },
+      {
         "name": "文学",
         "count": 9
       },
       {
         "name": "AI基础设施",
         "count": 9
-      },
-      {
-        "name": "目的地选择",
-        "count": 8
       },
       {
         "name": "企业AI",
@@ -3563,6 +3613,10 @@ export const publicWikiData = {
         "count": 4
       },
       {
+        "name": "旅行安全",
+        "count": 4
+      },
+      {
         "name": "生命哲学",
         "count": 4
       },
@@ -3576,10 +3630,6 @@ export const publicWikiData = {
       },
       {
         "name": "类型文学",
-        "count": 3
-      },
-      {
-        "name": "旅行安全",
         "count": 3
       },
       {
@@ -4125,6 +4175,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "移民就找👉",
+        "count": 1
+      },
+      {
         "name": "尹John（AGI Hunt）",
         "count": 1
       },
@@ -4271,6 +4325,10 @@ export const publicWikiData = {
         "count": 5
       },
       {
+        "name": "申根签证",
+        "count": 4
+      },
+      {
         "name": "AutomationBench",
         "count": 4
       },
@@ -4299,7 +4357,15 @@ export const publicWikiData = {
         "count": 3
       },
       {
+        "name": "落地签",
+        "count": 3
+      },
+      {
         "name": "慢旅行",
+        "count": 3
+      },
+      {
+        "name": "免签",
         "count": 3
       },
       {
@@ -4312,10 +4378,6 @@ export const publicWikiData = {
       },
       {
         "name": "瑞士",
-        "count": 3
-      },
-      {
-        "name": "申根签证",
         "count": 3
       },
       {
@@ -4395,6 +4457,10 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "济州岛",
+        "count": 2
+      },
+      {
         "name": "假期规划",
         "count": 2
       },
@@ -4431,15 +4497,7 @@ export const publicWikiData = {
         "count": 2
       },
       {
-        "name": "落地签",
-        "count": 2
-      },
-      {
         "name": "美国",
-        "count": 2
-      },
-      {
-        "name": "免签",
         "count": 2
       },
       {
@@ -4795,6 +4853,14 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "电子旅行授权",
+        "count": 1
+      },
+      {
+        "name": "电子签证",
+        "count": 1
+      },
+      {
         "name": "多模数据融合",
         "count": 1
       },
@@ -4840,6 +4906,10 @@ export const publicWikiData = {
       },
       {
         "name": "冯诺依曼架构",
+        "count": 1
+      },
+      {
+        "name": "富国岛",
         "count": 1
       },
       {
@@ -4972,10 +5042,6 @@ export const publicWikiData = {
       },
       {
         "name": "技术泡沫",
-        "count": 1
-      },
-      {
-        "name": "济州岛",
         "count": 1
       },
       {
@@ -5252,6 +5318,10 @@ export const publicWikiData = {
       },
       {
         "name": "日本",
+        "count": 1
+      },
+      {
+        "name": "入境申报",
         "count": 1
       },
       {
@@ -5716,6 +5786,10 @@ export const publicWikiData = {
       },
       {
         "name": "智能体身份",
+        "count": 1
+      },
+      {
+        "name": "中国普通护照",
         "count": 1
       },
       {
@@ -6286,7 +6360,7 @@ export const publicWikiData = {
     "platforms": [
       {
         "name": "wechat-article",
-        "count": 40
+        "count": 41
       },
       {
         "name": "web",
