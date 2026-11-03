@@ -1,7 +1,58 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-10-01T10:23:30+08:00",
+  "updatedAt": "2026-11-03T11:27:30+08:00",
   "items": [
+    {
+      "id": "117196ff5acf",
+      "title": "11-12月最值得去的7个治愈小城，趁还没冷透，心累了就去逛几天~",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/wpgM-q_qCi3rUyLmha8Zzg",
+      "author": "琨哥216",
+      "published_at": "",
+      "captured_at": "2026-11-03T11:27:30+08:00",
+      "completeness": "full",
+      "topics": [
+        "旅行攻略",
+        "目的地选择",
+        "中国旅游",
+        "云南旅游"
+      ],
+      "people": [
+        "琨哥216"
+      ],
+      "concepts": [
+        "慢旅行",
+        "旅行季节",
+        "崇左",
+        "兴义",
+        "西昌",
+        "腾冲",
+        "万宁",
+        "泉州",
+        "景德镇",
+        "银杏观赏",
+        "秋冬旅行"
+      ],
+      "summary": "公众号作者琨哥216推荐11—12月可慢游的七个国内目的地：广西崇左的田园瀑布、贵州兴义的峰林、四川西昌的邛海阳光、云南腾冲的银杏温泉、海南万宁的海湾、福建泉州的古城小吃和江西景德镇的陶瓷市集，并提供各地游玩、美食及交通线索。这是一份主观目的地灵感清单，季节景色、交通和实际消费需要出发前核实。",
+      "keyPoints": [
+        "崇左：作者推荐在大新县体验明仕田园骑行、竹筏和德天瀑布，品尝越南卷粉、春卷及壮家菜。（01 广西·崇左）",
+        "兴义：推荐万峰林田间骑行、纳灰村用餐及万峰湖日落，品尝羊肉粉和糯米饭；文中所列车站及接驳方式应另行核实。（02 贵州·兴义）",
+        "西昌：围绕邛海骑行、月色风情小镇及老城烧烤安排慢游，文章提及西昌西站作为交通线索。（03 四川·西昌）",
+        "腾冲：推荐银杏村、热海温泉和和顺古镇，尝试大救驾、土锅子；作者建议11月中至12月初赏银杏，叶色受当年天气影响。（04 云南·腾冲）",
+        "万宁：推荐石梅湾、日月湾观冲浪及海边休闲，品尝后安粉、和乐蟹、清补凉；出行前仍需关注当地天气、海况及气象预警。（05 海南·万宁）",
+        "泉州：以西街、开元寺、关岳庙及老巷小吃为线索，文中提及面线糊、姜母鸭和四果汤。（06 福建·泉州）",
+        "景德镇：推荐陶溪川市集、三宝国际瓷谷和御窑博物馆，体验陶瓷与小吃；夜市时间及场馆开放安排需提前确认。（07 江西·景德镇）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "云南旅游攻略（大理+丽江）",
+        "出过国的top1大家推荐哪里呀？（可见评论整理）",
+        "旅游是不是要趁年轻玩才有意思？——Jensen W 的旅行叙事"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "4fef7dbedf4b",
       "title": "辞职一年，疯游33国，我的变化",
@@ -3348,7 +3399,7 @@ export const publicWikiData = {
       },
       {
         "name": "旅行攻略",
-        "count": 11
+        "count": 12
       },
       {
         "name": "出境旅行",
@@ -3375,6 +3426,10 @@ export const publicWikiData = {
         "count": 9
       },
       {
+        "name": "目的地选择",
+        "count": 7
+      },
+      {
         "name": "企业AI",
         "count": 7
       },
@@ -3385,10 +3440,6 @@ export const publicWikiData = {
       {
         "name": "AI商业化",
         "count": 7
-      },
-      {
-        "name": "目的地选择",
-        "count": 6
       },
       {
         "name": "上下文工程",
@@ -3455,6 +3506,10 @@ export const publicWikiData = {
         "count": 3
       },
       {
+        "name": "中国旅游",
+        "count": 3
+      },
+      {
         "name": "互联网大厂",
         "count": 2
       },
@@ -3507,11 +3562,11 @@ export const publicWikiData = {
         "count": 2
       },
       {
-        "name": "侦探文学",
+        "name": "云南旅游",
         "count": 2
       },
       {
-        "name": "中国旅游",
+        "name": "侦探文学",
         "count": 2
       },
       {
@@ -3672,10 +3727,6 @@ export const publicWikiData = {
       },
       {
         "name": "玉龙雪山",
-        "count": 1
-      },
-      {
-        "name": "云南旅游",
         "count": 1
       },
       {
@@ -3846,6 +3897,10 @@ export const publicWikiData = {
       },
       {
         "name": "幻镜止水",
+        "count": 1
+      },
+      {
+        "name": "琨哥216",
         "count": 1
       },
       {
@@ -4131,6 +4186,10 @@ export const publicWikiData = {
         "count": 3
       },
       {
+        "name": "慢旅行",
+        "count": 3
+      },
+      {
         "name": "模型路由",
         "count": 3
       },
@@ -4231,6 +4290,10 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "旅行季节",
+        "count": 2
+      },
+      {
         "name": "旅行摄影",
         "count": 2
       },
@@ -4248,10 +4311,6 @@ export const publicWikiData = {
       },
       {
         "name": "落地签",
-        "count": 2
-      },
-      {
-        "name": "慢旅行",
         "count": 2
       },
       {
@@ -4555,6 +4614,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "崇左",
+        "count": 1
+      },
+      {
         "name": "抽象编辑排版",
         "count": 1
       },
@@ -4827,6 +4890,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "景德镇",
+        "count": 1
+      },
+      {
         "name": "警察程序小说",
         "count": 1
       },
@@ -4912,10 +4979,6 @@ export const publicWikiData = {
       },
       {
         "name": "旅行风险",
-        "count": 1
-      },
-      {
-        "name": "旅行季节",
         "count": 1
       },
       {
@@ -5019,6 +5082,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "秋冬旅行",
+        "count": 1
+      },
+      {
         "name": "全历史",
         "count": 1
       },
@@ -5028,6 +5095,10 @@ export const publicWikiData = {
       },
       {
         "name": "权限控制",
+        "count": 1
+      },
+      {
+        "name": "泉州",
         "count": 1
       },
       {
@@ -5159,6 +5230,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "腾冲",
+        "count": 1
+      },
+      {
         "name": "提词器",
         "count": 1
       },
@@ -5200,6 +5275,10 @@ export const publicWikiData = {
       },
       {
         "name": "推理基础设施",
+        "count": 1
+      },
+      {
+        "name": "万宁",
         "count": 1
       },
       {
@@ -5259,6 +5338,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "西昌",
+        "count": 1
+      },
+      {
         "name": "希腊",
         "count": 1
       },
@@ -5300,6 +5383,10 @@ export const publicWikiData = {
       },
       {
         "name": "行程强度",
+        "count": 1
+      },
+      {
+        "name": "兴义",
         "count": 1
       },
       {
@@ -5364,6 +5451,10 @@ export const publicWikiData = {
       },
       {
         "name": "银行流水",
+        "count": 1
+      },
+      {
+        "name": "银杏观赏",
         "count": 1
       },
       {
@@ -6030,7 +6121,7 @@ export const publicWikiData = {
     "platforms": [
       {
         "name": "wechat-article",
-        "count": 37
+        "count": 38
       },
       {
         "name": "web",
