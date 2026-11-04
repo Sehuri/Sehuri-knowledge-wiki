@@ -1,7 +1,56 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-11-04T09:51:20+08:00",
+  "updatedAt": "2026-11-04T15:51:56+08:00",
   "items": [
+    {
+      "id": "09de4e33d7bb",
+      "title": "分享30个大大增加旅行体验感的Tips（建议收藏）",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/oUAuKmcAhC_dedYmasuK4Q",
+      "author": "蔓草（一棵蔓草）",
+      "published_at": "",
+      "captured_at": "2026-11-04T15:51:56+08:00",
+      "completeness": "full",
+      "topics": [
+        "旅行攻略",
+        "旅行体验",
+        "中国旅游"
+      ],
+      "people": [
+        "蔓草"
+      ],
+      "concepts": [
+        "慢旅行",
+        "旅行节奏",
+        "行程规划",
+        "离线地图",
+        "旅行记录",
+        "旅行日记",
+        "旅行摄影",
+        "AI日记",
+        "旅行心态"
+      ],
+      "summary": "作者蔓草根据个人旅行经历总结30条建议：行前查看天气、准备离线地图和舒适鞋履并预订首晚住宿；旅途中留白，接触市集、公共交通、当地饮食与文化；用日记、照片、短视频和歌单记录体验；最后接受天气、行程和拍照中的遗憾，让注意力回到当下感受。",
+      "keyPoints": [
+        "行前降低不确定性：留意天气、下载离线地图、准备舒适鞋和分装袋，尤其在假期提前安排首晚住宿。（一、行前准备，第1—5条）",
+        "放慢并留出弹性：尝试早起，安排不排景点的空白时间；作者举例七天中安排五天、留两天自由活动，这只是个人节奏。（二、出行与游玩，第6、9条）",
+        "从日常进入城市：逛菜市场、搭公共交通、体验地方节庆和美食，与当地人交谈，也可走访安全开放的小路。（二、出行与游玩，第7—8、12—13、15—16条）",
+        "寻找不同观看角度：参观博物馆、书店、美术馆和允许进入的校园，登高看城市，留意当地植物；纪念品可帮助唤起回忆，自然物采集须遵守当地与出入境规定。（二、出行与游玩，第10—11、14、17—20条）",
+        "每天记录有触动的三件事，结合照片、文字、短视频和旅行歌单保存记忆，并在当天适当整理照片。（三、旅行记录，第21—22、24—27条）",
+        "遇到不了解的事及时查询或询问 AI；作者也用日记助手整理当天见闻。AI 输出仍需核实，涉及个人信息时应自行判断分享范围。（三、旅行记录，第23—24条）",
+        "作者建议接纳天气、错过景点等不可控因素，拍照时兼顾真实体验，允许旅行留下遗憾。（四、心态与情绪，第28—30条）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "旅游是不是要趁年轻玩才有意思？——Jensen W 的旅行叙事",
+        "出境目的地主观评级——知乎用户的九地旅行体验",
+        "11-12月最值得去的7个治愈小城，趁还没冷透，心累了就去逛几天~",
+        "辞职一年，疯游33国，我的变化"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "02cf568bb7e0",
       "title": "产品经理最重要的能力，是判断力和决策力。",
@@ -3588,7 +3637,7 @@ export const publicWikiData = {
       },
       {
         "name": "旅行攻略",
-        "count": 14
+        "count": 15
       },
       {
         "name": "AI工具",
@@ -3671,11 +3720,19 @@ export const publicWikiData = {
         "count": 4
       },
       {
+        "name": "中国旅游",
+        "count": 4
+      },
+      {
         "name": "办公智能体",
         "count": 3
       },
       {
         "name": "类型文学",
+        "count": 3
+      },
+      {
+        "name": "旅行体验",
         "count": 3
       },
       {
@@ -3703,10 +3760,6 @@ export const publicWikiData = {
         "count": 3
       },
       {
-        "name": "中国旅游",
-        "count": 3
-      },
-      {
         "name": "AI安全",
         "count": 3
       },
@@ -3720,10 +3773,6 @@ export const publicWikiData = {
       },
       {
         "name": "旅行工具",
-        "count": 2
-      },
-      {
-        "name": "旅行体验",
         "count": 2
       },
       {
@@ -4149,6 +4198,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "蔓草",
+        "count": 1
+      },
+      {
         "name": "木易",
         "count": 1
       },
@@ -4379,6 +4432,10 @@ export const publicWikiData = {
         "count": 5
       },
       {
+        "name": "慢旅行",
+        "count": 4
+      },
+      {
         "name": "申根签证",
         "count": 4
       },
@@ -4407,15 +4464,15 @@ export const publicWikiData = {
         "count": 3
       },
       {
+        "name": "旅行摄影",
+        "count": 3
+      },
+      {
         "name": "旅行预算",
         "count": 3
       },
       {
         "name": "落地签",
-        "count": 3
-      },
-      {
-        "name": "慢旅行",
         "count": 3
       },
       {
@@ -4539,7 +4596,7 @@ export const publicWikiData = {
         "count": 2
       },
       {
-        "name": "旅行摄影",
+        "name": "旅行节奏",
         "count": 2
       },
       {
@@ -4580,6 +4637,10 @@ export const publicWikiData = {
       },
       {
         "name": "系统2",
+        "count": 2
+      },
+      {
+        "name": "行程规划",
         "count": 2
       },
       {
@@ -5203,6 +5264,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "离线地图",
+        "count": 1
+      },
+      {
         "name": "历史轮回",
         "count": 1
       },
@@ -5235,7 +5300,15 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "旅行节奏",
+        "name": "旅行记录",
+        "count": 1
+      },
+      {
+        "name": "旅行日记",
+        "count": 1
+      },
+      {
+        "name": "旅行心态",
         "count": 1
       },
       {
@@ -5663,10 +5736,6 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "行程规划",
-        "count": 1
-      },
-      {
         "name": "行程强度",
         "count": 1
       },
@@ -5988,6 +6057,10 @@ export const publicWikiData = {
       },
       {
         "name": "AI辅助编程",
+        "count": 1
+      },
+      {
+        "name": "AI日记",
         "count": 1
       },
       {
@@ -6446,7 +6519,7 @@ export const publicWikiData = {
     "platforms": [
       {
         "name": "wechat-article",
-        "count": 42
+        "count": 43
       },
       {
         "name": "web",
