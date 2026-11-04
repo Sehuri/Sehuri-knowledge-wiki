@@ -1,7 +1,53 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-11-03T16:13:19+08:00",
+  "updatedAt": "2026-11-04T09:51:20+08:00",
   "items": [
+    {
+      "id": "02cf568bb7e0",
+      "title": "产品经理最重要的能力，是判断力和决策力。",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/_ARpZfZVnpTHl4fdq9eIYg",
+      "author": "santa",
+      "published_at": "",
+      "captured_at": "2026-11-04T09:51:20+08:00",
+      "completeness": "full",
+      "topics": [
+        "产品管理",
+        "需求管理",
+        "用户研究",
+        "商业化"
+      ],
+      "people": [
+        "santa"
+      ],
+      "concepts": [
+        "需求判断",
+        "用户场景",
+        "用户旅程",
+        "付费意愿",
+        "替代方案",
+        "迁移成本",
+        "使用成本",
+        "维护成本"
+      ],
+      "summary": "作者结合独立开发产品的经历，提出从用户、商业化、用户旅程和解决方式四个视角判断需求是否值得做。用户视角要识别特定人群、场景、痛点、现有替代办法和需求频率，并区分口头认可与真实使用、付费；商业化视角要分清使用者、决策者和付费者；环节视角要还原从需求产生到任务完成的链路；解决方式视角要比较现有土办法，并评估迁移、使用和维护成本。作者反思自己开发产品经理工作台和保险 CRM 时要求用户搬迁数据，认为问题可能存在，所选解决方案却未充分适应原有工作环境。文章强调需求真实性与方案有效性需要分别判断。",
+      "keyPoints": [
+        "用户视角：明确谁在何种场景遇到什么困难、发生频率、现有办法及真实投入；认可不等同使用或付费。（第一视角：用户视角）",
+        "商业化视角：区分使用者、决策者与付费者，理解付费能力及场景。（第二视角：商业化视角）",
+        "环节视角：拆解用户完成目标的上下游过程，寻找价值与障碍。（第三视角：环节视角）",
+        "解决方式：比较用户当前的替代办法，评估学习、迁移与维护成本。（第四视角：解决方式）",
+        "作者的产品经理工作台和保险 CRM 经历显示，真实需求与方案适配是两个需要分别检验的问题。（第四视角：解决方式）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "从入门到精通，一篇文章带你入门产品经理！（2026 年最新版）",
+        "用AI辅助写出高质量PRD的正确打开方式",
+        "销售签单，客户提需求，实施开始干：狗屁不通"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "acbe3cecfe1f",
       "title": "更新！中国护照出境签证一览表：新增免签、落地签、电子签一次看清（2026年11月）",
@@ -3593,7 +3639,15 @@ export const publicWikiData = {
         "count": 6
       },
       {
+        "name": "产品管理",
+        "count": 5
+      },
+      {
         "name": "开源软件",
+        "count": 5
+      },
+      {
+        "name": "需求管理",
         "count": 5
       },
       {
@@ -3609,19 +3663,11 @@ export const publicWikiData = {
         "count": 4
       },
       {
-        "name": "产品管理",
-        "count": 4
-      },
-      {
         "name": "旅行安全",
         "count": 4
       },
       {
         "name": "生命哲学",
-        "count": 4
-      },
-      {
-        "name": "需求管理",
         "count": 4
       },
       {
@@ -3642,6 +3688,10 @@ export const publicWikiData = {
       },
       {
         "name": "数字创作",
+        "count": 3
+      },
+      {
+        "name": "用户研究",
         "count": 3
       },
       {
@@ -3706,10 +3756,6 @@ export const publicWikiData = {
       },
       {
         "name": "消费行为",
-        "count": 2
-      },
-      {
-        "name": "用户研究",
         "count": 2
       },
       {
@@ -3838,6 +3884,10 @@ export const publicWikiData = {
       },
       {
         "name": "商业地产",
+        "count": 1
+      },
+      {
+        "name": "商业化",
         "count": 1
       },
       {
@@ -4256,6 +4306,10 @@ export const publicWikiData = {
       },
       {
         "name": "Moonshot AI",
+        "count": 1
+      },
+      {
+        "name": "santa",
         "count": 1
       },
       {
@@ -4909,6 +4963,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "付费意愿",
+        "count": 1
+      },
+      {
         "name": "富国岛",
         "count": 1
       },
@@ -5269,6 +5327,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "迁移成本",
+        "count": 1
+      },
+      {
         "name": "签证阶梯",
         "count": 1
       },
@@ -5397,6 +5459,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "使用成本",
+        "count": 1
+      },
+      {
         "name": "世俗成功框架",
         "count": 1
       },
@@ -5449,6 +5515,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "替代方案",
+        "count": 1
+      },
+      {
         "name": "停留时间",
         "count": 1
       },
@@ -5498,6 +5568,10 @@ export const publicWikiData = {
       },
       {
         "name": "微信支付",
+        "count": 1
+      },
+      {
+        "name": "维护成本",
         "count": 1
       },
       {
@@ -5609,6 +5683,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "需求判断",
+        "count": 1
+      },
+      {
         "name": "叙事",
         "count": 1
       },
@@ -5685,11 +5763,19 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "用户场景",
+        "count": 1
+      },
+      {
         "name": "用户价值",
         "count": 1
       },
       {
         "name": "用户流程图",
+        "count": 1
+      },
+      {
+        "name": "用户旅程",
         "count": 1
       },
       {
@@ -6360,7 +6446,7 @@ export const publicWikiData = {
     "platforms": [
       {
         "name": "wechat-article",
-        "count": 41
+        "count": 42
       },
       {
         "name": "web",

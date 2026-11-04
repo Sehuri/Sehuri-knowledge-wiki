@@ -1,7 +1,7 @@
 // Generated from product-manager/_meta/index.json. Do not edit manually.
 export const productManagerWikiData = {
   "version": 1,
-  "updated_at": "2026-09-30T00:00:00+08:00",
+  "updated_at": "2026-11-04T00:00:00+08:00",
   "collections": [
     {
       "id": "product",
@@ -63,6 +63,58 @@ export const productManagerWikiData = {
     }
   ],
   "items": [
+    {
+      "id": "pm-product-demand-judgment",
+      "title": "需求判断：用四个视角区分问题与方案",
+      "short_title": "需求判断",
+      "collection": "product",
+      "level": "基础",
+      "updated_at": "2026-11-04",
+      "reading_minutes": 8,
+      "tags": [
+        "产品管理",
+        "需求管理",
+        "用户研究",
+        "商业化",
+        "迁移成本"
+      ],
+      "summary": "作者提出从用户、商业化、用户旅程和解决方式四个视角判断需求。先辨别特定人群在真实场景中的问题，再区分使用、决策和付费角色，拆解任务链路，并与现有替代方式比较。需求存在并不自动证明某个方案有效；迁移、学习与维护成本可能决定能否持续使用。",
+      "mental_model": "先验证问题，再验证方案：看人、看钱、看链路、看替代与迁移成本。",
+      "key_points": [
+        "用户视角：明确谁、在什么场景遇到什么问题，了解频率、现有办法和真实行为；口头赞同不等于使用或付费。",
+        "商业化视角：分别识别使用者、决策者和付费者，并验证支付意愿、预算与成本。",
+        "环节视角：还原用户从需求产生到目标完成的完整过程，定位关键障碍及上下游依赖。",
+        "解决方式：比较竞品和用户已经习惯的土办法，考虑迁移、学习、使用和维护成本。",
+        "作者反思产品经理工作台与保险 CRM 的迁移负担；这是个人经验，是否适用于其他场景需要验证。"
+      ],
+      "decision_questions": [
+        "具体是谁在什么情境下遇到什么问题？频率、严重程度与证据是什么？",
+        "用户现在怎么解决？是否已经投入时间、金钱或精力？",
+        "谁使用、谁决策、谁付费？如何验证付费意愿而非只听口头反馈？",
+        "任务上下游分别是什么，哪个环节值得优先改善？",
+        "新方案相对现有办法的收益是否足以覆盖迁移、学习和持续维护成本？",
+        "怎样用小规模真实任务测试需求和方案，并记录放弃或不采用的原因？"
+      ],
+      "common_traps": [
+        "把用户说‘不错’直接当成使用和付费证据。",
+        "只分析竞品，忽略用户正在使用的表格、聊天和人工流程。",
+        "仅看使用者反馈，忽略实际决策者、付费者及采购流程。",
+        "因真实需求存在，就认定独立新平台一定是合适方案。",
+        "把作者对单个行业或企业软件的判断当成普遍事实；使用者体验仍可能影响实施、续费与口碑。"
+      ],
+      "related_ids": [
+        "pm-product-foundations",
+        "pm-product-red-packet-rules",
+        "pm-tech-frontend-basics"
+      ],
+      "path": "product/demand-judgment.md",
+      "sources": [
+        {
+          "name": "santa：产品经理最重要的能力，是判断力和决策力。",
+          "url": "https://mp.weixin.qq.com/s/_ARpZfZVnpTHl4fdq9eIYg"
+        }
+      ]
+    },
     {
       "id": "pm-product-red-packet-rules",
       "title": "微信红包案例：用规则与交互塑造用户行为",
