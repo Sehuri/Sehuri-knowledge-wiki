@@ -1,7 +1,62 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-11-05T10:59:33+08:00",
+  "updatedAt": "2026-11-05T12:09:18+08:00",
   "items": [
+    {
+      "id": "96b2d9f69285",
+      "title": "2027《孤独星球》全球50个最佳目的地点评...",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/YDcLJ4sptXSxGwe0iiLaoQ",
+      "author": "熊猫旅行吧",
+      "published_at": "",
+      "captured_at": "2026-11-05T12:09:18+08:00",
+      "completeness": "full",
+      "topics": [
+        "旅行攻略",
+        "目的地选择",
+        "出境旅行",
+        "旅行体验"
+      ],
+      "people": [
+        "熊猫旅行吧",
+        "Lonely Planet"
+      ],
+      "concepts": [
+        "孤独星球",
+        "Best in Travel 2027",
+        "慢旅行",
+        "旅行季节",
+        "生态旅行",
+        "旅行安全",
+        "成都",
+        "冲绳",
+        "阿曼",
+        "察沃",
+        "巴当艾",
+        "南极半岛",
+        "红土中心"
+      ],
+      "summary": "公众号熊猫旅行吧围绕《孤独星球》Best in Travel 2027 整理50个目的地或体验，按亚洲、中东非洲、欧洲、美洲及南极、澳新和南太平洋分组，给出作者自己的看点、适合人群与行程提醒；内容覆盖城市美食、文化建筑、海岛、徒步、生态观察和极地探险。文章强调按时间、兴趣、预算和出行强度选线；具体路线、季节与开放条件仍需独立核实。",
+      "keyPoints": [
+        "文章称榜单不按名次排列，而是混合地点与体验；作者从慢旅行、自然和较少人关注的目的地切入。官网搜索摘要可确认2027年度50项推荐，但此处未逐项核对公众号列举的全部内容。官方入口：https://www.lonelyplanet.com/best-in-travel（开头；官方年度页面检索，2026-11-05）",
+        "亚洲10项：成都、台湾美食线、哈萨克斯坦阿斯塔纳、日本冲绳、日本东北陆奥潮风步道、越南岘港、马尔代夫富利杜、印度古吉拉特邦、大吉岭铁路，以及马来西亚砂拉越巴当艾。文章分别侧重茶馆饮食、建筑、海岛、徒步、铁路与雨林。（一、亚洲，1—10）",
+        "中东与非洲6项：阿曼、阿布扎比、摩洛哥拉巴特、肯尼亚察沃国家公园、坦桑尼亚贡贝、圣多美和普林西比；作者以文化建筑、沙漠山海、野生动物观察与海岛生态为线索。（二、中东与非洲，11—16）",
+        "欧洲10项：意大利威内托、德国德绍、瑞典斯堪诺-法尔斯特布、克罗地亚希贝尼克、西班牙莱昂、法国拿破仑之路、意大利埃奥利群岛、英国圣卡斯伯特之路、爱尔兰基拉里峡湾及希腊爱琴海潜水。（三、欧洲，17—26）",
+        "美洲与南极18项：美国新墨西哥、加拿大爱德华王子岛及魁北克、加州红杉海岸、马里兰、迈阿密、明尼苏达东北慢路、罗德岛玫瑰岛灯塔、阿拉斯加观光飞行、墨西哥瓜达卢佩山谷、蒙塞拉特、阿根廷巴里洛切湖区、尼加拉瓜格拉纳达、巴拿马博卡斯、厄瓜多尔加拉帕戈斯、布宜诺斯艾利斯探戈、哥斯达黎加蒙特韦尔德及南极半岛。（四、美洲及南极，27—44）",
+        "澳新与南太6项：澳大利亚红土中心、特威德、新西兰达尼丁与怀塔基、新喀里多尼亚、萨摩亚和法属波利尼西亚；作者以原住民文化、海岸雨林、企鹅与海洋体验为线索。（五、澳新与南太平洋，45—50）",
+        "作者将选线分为初次出行、小众探索、挑战体验和亲子慢游，并按月份粗分；这些安排是主观灵感，交通距离、成本、自然风险、季节、保护区开放和通行规则需要针对个人行程重新确认。（六、怎么抄这张50单）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "干货篇！亚洲海岛旅行时间表！24个海岛淡旺季！！",
+        "赴国外旅行，您认为最好的三个国家是哪三个？——zfz0126 的旅行资源评级",
+        "出过国的top1大家推荐哪里呀？（可见评论整理）",
+        "分享30个大大增加旅行体验感的Tips（建议收藏）"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "dbc247b36fd2",
       "title": "干货篇！亚洲海岛旅行时间表！24个海岛淡旺季！！",
@@ -3707,15 +3762,19 @@ export const publicWikiData = {
       },
       {
         "name": "旅行攻略",
-        "count": 16
+        "count": 17
+      },
+      {
+        "name": "出境旅行",
+        "count": 14
       },
       {
         "name": "AI工具",
         "count": 14
       },
       {
-        "name": "出境旅行",
-        "count": 13
+        "name": "目的地选择",
+        "count": 11
       },
       {
         "name": "AI系统设计",
@@ -3723,10 +3782,6 @@ export const publicWikiData = {
       },
       {
         "name": "开发者工具",
-        "count": 10
-      },
-      {
-        "name": "目的地选择",
         "count": 10
       },
       {
@@ -3786,6 +3841,10 @@ export const publicWikiData = {
         "count": 4
       },
       {
+        "name": "旅行体验",
+        "count": 4
+      },
+      {
         "name": "生命哲学",
         "count": 4
       },
@@ -3799,10 +3858,6 @@ export const publicWikiData = {
       },
       {
         "name": "类型文学",
-        "count": 3
-      },
-      {
-        "name": "旅行体验",
         "count": 3
       },
       {
@@ -4336,6 +4391,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "熊猫旅行吧",
+        "count": 1
+      },
+      {
         "name": "晏君",
         "count": 1
       },
@@ -4424,6 +4483,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "Lonely Planet",
+        "count": 1
+      },
+      {
         "name": "Mario Zechner",
         "count": 1
       },
@@ -4490,6 +4553,10 @@ export const publicWikiData = {
         "count": 5
       },
       {
+        "name": "慢旅行",
+        "count": 5
+      },
+      {
         "name": "API定价",
         "count": 5
       },
@@ -4506,7 +4573,7 @@ export const publicWikiData = {
         "count": 5
       },
       {
-        "name": "慢旅行",
+        "name": "旅行季节",
         "count": 4
       },
       {
@@ -4535,10 +4602,6 @@ export const publicWikiData = {
       },
       {
         "name": "定时任务",
-        "count": 3
-      },
-      {
-        "name": "旅行季节",
         "count": 3
       },
       {
@@ -4898,7 +4961,15 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "阿曼",
+        "count": 1
+      },
+      {
         "name": "安达曼群岛",
+        "count": 1
+      },
+      {
+        "name": "巴当艾",
         "count": 1
       },
       {
@@ -4954,6 +5025,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "察沃",
+        "count": 1
+      },
+      {
         "name": "差异审查",
         "count": 1
       },
@@ -4994,6 +5069,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "成都",
+        "count": 1
+      },
+      {
         "name": "成长",
         "count": 1
       },
@@ -5003,6 +5082,10 @@ export const publicWikiData = {
       },
       {
         "name": "冲动消费",
+        "count": 1
+      },
+      {
+        "name": "冲绳",
         "count": 1
       },
       {
@@ -5170,6 +5253,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "孤独星球",
+        "count": 1
+      },
+      {
         "name": "古文明遗址",
         "count": 1
       },
@@ -5223,6 +5310,10 @@ export const publicWikiData = {
       },
       {
         "name": "红包与转账的语气差异",
+        "count": 1
+      },
+      {
+        "name": "红土中心",
         "count": 1
       },
       {
@@ -5430,6 +5521,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "旅行安全",
+        "count": 1
+      },
+      {
         "name": "旅行费用",
         "count": 1
       },
@@ -5487,6 +5582,10 @@ export const publicWikiData = {
       },
       {
         "name": "墨西哥",
+        "count": 1
+      },
+      {
+        "name": "南极半岛",
         "count": 1
       },
       {
@@ -5651,6 +5750,10 @@ export const publicWikiData = {
       },
       {
         "name": "生命力",
+        "count": 1
+      },
+      {
+        "name": "生态旅行",
         "count": 1
       },
       {
@@ -6262,6 +6365,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "Best in Travel 2027",
+        "count": 1
+      },
+      {
         "name": "Bot Mode",
         "count": 1
       },
@@ -6685,7 +6792,7 @@ export const publicWikiData = {
     "platforms": [
       {
         "name": "wechat-article",
-        "count": 44
+        "count": 45
       },
       {
         "name": "web",
