@@ -1,7 +1,77 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-11-04T15:51:56+08:00",
+  "updatedAt": "2026-11-05T10:59:33+08:00",
   "items": [
+    {
+      "id": "dbc247b36fd2",
+      "title": "干货篇！亚洲海岛旅行时间表！24个海岛淡旺季！！",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/gqHUpjKXrD-j_gedZx8i5Q",
+      "author": "sally的旅行日记",
+      "published_at": "",
+      "captured_at": "2026-11-05T10:59:33+08:00",
+      "completeness": "full",
+      "topics": [
+        "出境旅行",
+        "旅行攻略",
+        "目的地选择",
+        "海岛度假",
+        "旅行安全"
+      ],
+      "people": [
+        "sally的旅行日记"
+      ],
+      "concepts": [
+        "旅行季节",
+        "海岛雨季",
+        "海况",
+        "船班",
+        "普吉岛",
+        "甲米",
+        "皮皮岛",
+        "苏梅岛",
+        "涛岛",
+        "丽贝岛",
+        "兰卡威",
+        "停泊岛",
+        "热浪岛",
+        "仙本那",
+        "长滩岛",
+        "巴拉望",
+        "薄荷岛",
+        "宿务",
+        "锡亚高岛",
+        "巴厘岛",
+        "龙目岛",
+        "吉利群岛",
+        "科莫多",
+        "富国岛",
+        "昆岛",
+        "高龙岛",
+        "安达曼群岛",
+        "马尔代夫"
+      ],
+      "summary": "作者用三张彩色月度表比较24个亚洲海岛及海滨目的地的推荐期、旺季或炎热期、特色活动和雨季风浪，并提醒从目标月份或目的地反查；普吉、长滩与巴厘、龙目等地的季节节奏并不相同。文章还提供装备清单和出海、游泳、环保提示。表格是作者的旅行规划参考，具体天气、船班和安全情况必须临行前核实。",
+      "keyPoints": [
+        "读表方法：绿色代表推荐，橙色代表旺季或较热，黄色代表可以前往或有特定活动，灰色表示雨季、风浪或较不稳定；可从月份反查目的地，也可先选目的地再看全年变化。（正文及图3—5图例）",
+        "马尔代夫及泰国一组包括马尔代夫、普吉、甲米、皮皮、苏梅、涛岛和丽贝；图3还列入兰卡威。作者将普吉、甲米、皮皮的年末年初列为旺季，约5—10月标为雨或风浪；苏梅和涛岛的雨季时段与前者不同。（图3：马尔代夫与泰国海岛）",
+        "马来西亚与菲律宾一组包括停泊岛、热浪岛、仙本那、长滩、巴拉望、薄荷、宿务和锡亚高。图4把停泊岛与热浪岛年初和年末标为风浪或闭岛，把年中标为旺季；长滩和巴拉望的年末年初为旺季，年中多雨。实际停航或开放仍须核实。（图4：马来西亚与菲律宾海岛）",
+        "印尼与越南等一组包括巴厘、龙目、吉利群岛、科莫多、富国、昆岛、高龙和安达曼群岛。图5将巴厘、龙目、吉利及科莫多约4—6月标推荐、7—8月标旺季；富国与高龙的年中则标为雨季。（图5：印尼与越南等海岛）",
+        "正文举例：12—2月可考虑普吉或长滩，7—8月可参考仙本那或龙目；这些是作者的粗略建议而非天气保证。具体海况、天气、台风和船班在出发前仍需查当地预报。（正文举例；图3—5）",
+        "装备图提到泳衣、帽子、毛巾、太阳镜、数据线、充电宝、驱蚊用品、拖鞋、防水袋、泳镜、饮水与急救用品；按旅行安排和航空携带规定选择即可。（图9：物品清单）",
+        "作者建议查看海况与警报、选择正规船只和活动、遵守救生与禁止游泳标识、不单独下海，保护珊瑚和海洋生物并保管贵重物品。图10—12还讨论潮汐、离岸流、海浪及饮食防晒；遇到实际危险应遵循当地救生员与官方指引。（正文安全提醒；图10—12）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "出过国的top1大家推荐哪里呀？（可见评论整理）",
+        "赴国外旅行，您认为最好的三个国家是哪三个？——zfz0126 的旅行资源评级",
+        "分享30个大大增加旅行体验感的Tips（建议收藏）",
+        "穷鬼出国玩？周末700+往返，能去溜达的地方还不少"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "09de4e33d7bb",
       "title": "分享30个大大增加旅行体验感的Tips（建议收藏）",
@@ -3637,7 +3707,7 @@ export const publicWikiData = {
       },
       {
         "name": "旅行攻略",
-        "count": 15
+        "count": 16
       },
       {
         "name": "AI工具",
@@ -3645,7 +3715,7 @@ export const publicWikiData = {
       },
       {
         "name": "出境旅行",
-        "count": 12
+        "count": 13
       },
       {
         "name": "AI系统设计",
@@ -3656,12 +3726,12 @@ export const publicWikiData = {
         "count": 10
       },
       {
-        "name": "AI模型",
+        "name": "目的地选择",
         "count": 10
       },
       {
-        "name": "目的地选择",
-        "count": 9
+        "name": "AI模型",
+        "count": 10
       },
       {
         "name": "文学",
@@ -3696,6 +3766,10 @@ export const publicWikiData = {
         "count": 5
       },
       {
+        "name": "旅行安全",
+        "count": 5
+      },
+      {
         "name": "需求管理",
         "count": 5
       },
@@ -3709,10 +3783,6 @@ export const publicWikiData = {
       },
       {
         "name": "本体论",
-        "count": 4
-      },
-      {
-        "name": "旅行安全",
         "count": 4
       },
       {
@@ -3762,6 +3832,10 @@ export const publicWikiData = {
       {
         "name": "AI安全",
         "count": 3
+      },
+      {
+        "name": "海岛度假",
+        "count": 2
       },
       {
         "name": "互联网大厂",
@@ -3869,10 +3943,6 @@ export const publicWikiData = {
       },
       {
         "name": "工程能力",
-        "count": 1
-      },
-      {
-        "name": "海岛度假",
         "count": 1
       },
       {
@@ -4362,6 +4432,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "sally的旅行日记",
+        "count": 1
+      },
+      {
         "name": "santa",
         "count": 1
       },
@@ -4464,6 +4538,10 @@ export const publicWikiData = {
         "count": 3
       },
       {
+        "name": "旅行季节",
+        "count": 3
+      },
+      {
         "name": "旅行摄影",
         "count": 3
       },
@@ -4544,7 +4622,15 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "巴厘岛",
+        "count": 2
+      },
+      {
         "name": "法国",
+        "count": 2
+      },
+      {
+        "name": "富国岛",
         "count": 2
       },
       {
@@ -4592,10 +4678,6 @@ export const publicWikiData = {
         "count": 2
       },
       {
-        "name": "旅行季节",
-        "count": 2
-      },
-      {
         "name": "旅行节奏",
         "count": 2
       },
@@ -4608,6 +4690,10 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "马尔代夫",
+        "count": 2
+      },
+      {
         "name": "美国",
         "count": 2
       },
@@ -4617,6 +4703,10 @@ export const publicWikiData = {
       },
       {
         "name": "目的地评级",
+        "count": 2
+      },
+      {
+        "name": "普吉岛",
         "count": 2
       },
       {
@@ -4808,11 +4898,19 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "巴厘岛",
+        "name": "安达曼群岛",
+        "count": 1
+      },
+      {
+        "name": "巴拉望",
         "count": 1
       },
       {
         "name": "版本控制",
+        "count": 1
+      },
+      {
+        "name": "薄荷岛",
         "count": 1
       },
       {
@@ -4917,6 +5015,10 @@ export const publicWikiData = {
       },
       {
         "name": "出入境记录",
+        "count": 1
+      },
+      {
+        "name": "船班",
         "count": 1
       },
       {
@@ -5028,11 +5130,11 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "富国岛",
+        "name": "改造",
         "count": 1
       },
       {
-        "name": "改造",
+        "name": "高龙岛",
         "count": 1
       },
       {
@@ -5104,6 +5206,14 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "海岛雨季",
+        "count": 1
+      },
+      {
+        "name": "海况",
+        "count": 1
+      },
+      {
         "name": "合并冲突",
         "count": 1
       },
@@ -5152,6 +5262,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "吉利群岛",
+        "count": 1
+      },
+      {
         "name": "技术保守主义",
         "count": 1
       },
@@ -5173,6 +5287,10 @@ export const publicWikiData = {
       },
       {
         "name": "甲方权力",
+        "count": 1
+      },
+      {
+        "name": "甲米",
         "count": 1
       },
       {
@@ -5232,6 +5350,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "科莫多",
+        "count": 1
+      },
+      {
         "name": "客户沟通",
         "count": 1
       },
@@ -5248,7 +5370,15 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "昆岛",
+        "count": 1
+      },
+      {
         "name": "莱特镇",
+        "count": 1
+      },
+      {
+        "name": "兰卡威",
         "count": 1
       },
       {
@@ -5272,6 +5402,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "丽贝岛",
+        "count": 1
+      },
+      {
         "name": "连接器",
         "count": 1
       },
@@ -5285,6 +5419,10 @@ export const publicWikiData = {
       },
       {
         "name": "浏览器自动化",
+        "count": 1
+      },
+      {
+        "name": "龙目岛",
         "count": 1
       },
       {
@@ -5321,10 +5459,6 @@ export const publicWikiData = {
       },
       {
         "name": "逻辑推理",
-        "count": 1
-      },
-      {
-        "name": "马尔代夫",
         "count": 1
       },
       {
@@ -5388,11 +5522,11 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "评论区观点",
+        "name": "皮皮岛",
         "count": 1
       },
       {
-        "name": "普吉岛",
+        "name": "评论区观点",
         "count": 1
       },
       {
@@ -5433,6 +5567,10 @@ export const publicWikiData = {
       },
       {
         "name": "泉州",
+        "count": 1
+      },
+      {
+        "name": "热浪岛",
         "count": 1
       },
       {
@@ -5564,11 +5702,23 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "苏梅岛",
+        "count": 1
+      },
+      {
         "name": "宿命",
         "count": 1
       },
       {
+        "name": "宿务",
+        "count": 1
+      },
+      {
         "name": "泰国",
+        "count": 1
+      },
+      {
+        "name": "涛岛",
         "count": 1
       },
       {
@@ -5593,6 +5743,10 @@ export const publicWikiData = {
       },
       {
         "name": "停留时间",
+        "count": 1
+      },
+      {
+        "name": "停泊岛",
         "count": 1
       },
       {
@@ -5700,7 +5854,15 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "锡亚高岛",
+        "count": 1
+      },
+      {
         "name": "系统提示词",
+        "count": 1
+      },
+      {
+        "name": "仙本那",
         "count": 1
       },
       {
@@ -5905,6 +6067,10 @@ export const publicWikiData = {
       },
       {
         "name": "长期风险",
+        "count": 1
+      },
+      {
+        "name": "长滩岛",
         "count": 1
       },
       {
@@ -6519,7 +6685,7 @@ export const publicWikiData = {
     "platforms": [
       {
         "name": "wechat-article",
-        "count": 43
+        "count": 44
       },
       {
         "name": "web",
