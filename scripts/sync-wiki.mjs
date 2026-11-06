@@ -11,7 +11,7 @@ const outputPath = path.join(webRoot, "app", "wiki-data.ts");
 function section(markdown, heading) {
   const escaped = heading.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   const match = markdown.match(
-    new RegExp(`^## ${escaped}\\s*\\n([\\s\\S]*?)(?=^## |\\Z)`, "m"),
+    new RegExp(`^## ${escaped}\\s*\\n([\\s\\S]*?)(?=^## |(?![\\s\\S]))`, "m"),
   );
   return match?.[1]?.trim() ?? "";
 }

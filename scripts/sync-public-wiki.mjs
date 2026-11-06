@@ -13,7 +13,7 @@ const outputPath = path.join(webRoot, "pages", "wiki-public-data.ts");
 function section(markdown, heading) {
   const escaped = heading.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   const match = markdown.match(
-    new RegExp(`^## ${escaped}\\s*\\n([\\s\\S]*?)(?=^## |\\Z)`, "m"),
+    new RegExp(`^## ${escaped}\\s*\\n([\\s\\S]*?)(?=^## |(?![\\s\\S]))`, "m"),
   );
   return match?.[1]?.trim() ?? "";
 }
@@ -73,7 +73,9 @@ async function syncPublicWiki() {
         concepts: item.concepts ?? [],
         summary: item.summary,
         keyPoints: bullets(section(markdown, "核心观点")),
-        structure: "",
+        structure: cleanWikiLinks(section(markdown, "内容结构")),
+        updated_at: item.updated_at ?? "",
+        domainIds: item.domainIds,
         thoughts: "",
         related: relatedTitles(markdown),
         extractionNotes: "",

@@ -5,8 +5,10 @@ import "../app/globals.css";
 import { productManagerWikiData } from "./product-manager-wiki-data";
 import { publicWikiData } from "./wiki-public-data";
 
+declare global { interface Window { __wikiRoot?: ReturnType<typeof ReactDOM.createRoot> } }
+
 if (typeof document !== "undefined") {
-  ReactDOM.createRoot(document.getElementById("root")!).render(
+  (window.__wikiRoot ??= ReactDOM.createRoot(document.getElementById("root")!)).render(
     <React.StrictMode>
       <KnowledgeGarden data={publicWikiData} productData={productManagerWikiData} />
     </React.StrictMode>,

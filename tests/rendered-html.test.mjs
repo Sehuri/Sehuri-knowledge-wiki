@@ -30,11 +30,11 @@ test("server-renders the personal knowledge portal", async () => {
 
   const html = await response.text();
   assert.match(html, /<title>Knowledge Wiki · 产品经理 Wiki<\/title>/i);
-  assert.match(html, /把零散信息，长成知识。/);
+  assert.match(html, /全部知识/);
   assert.match(html, /产品经理 Wiki/);
   assert.match(html, /GPT-5\.6来了，而许多人还停留在石器时代/);
   assert.match(html, /关系图谱/);
-  assert.match(html, /本地 Wiki 已同步/);
+  assert.match(html, /更新于/);
   assert.doesNotMatch(html, /Your site is taking shape|react-loading-skeleton/);
 });
 

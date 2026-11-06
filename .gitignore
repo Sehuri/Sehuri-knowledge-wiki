@@ -44,3 +44,6 @@ next-env.d.ts
 
 # Generated local-only Wiki data may include private notes or extraction details.
 /app/wiki-data.ts
+
+# Local snapshots of pre-existing edits
+/.local-backup/
