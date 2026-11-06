@@ -1,7 +1,58 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-11-05T12:09:18+08:00",
+  "updatedAt": "2026-11-06T13:02:21+08:00",
   "items": [
+    {
+      "id": "727d3ac46750",
+      "title": "一文讲透AI产品经理：六大方向与转型指南（建议收藏）",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/rgtNew8RO0Pyl5l9IxqHwg",
+      "author": "怪哥",
+      "published_at": "",
+      "captured_at": "2026-11-06T13:02:21+08:00",
+      "completeness": "full",
+      "topics": [
+        "产品管理",
+        "AI产品经理",
+        "Agent",
+        "AI评测",
+        "职业发展"
+      ],
+      "people": [
+        "怪哥"
+      ],
+      "concepts": [
+        "AI原生应用",
+        "AI+",
+        "企业级Agent",
+        "AI平台",
+        "大模型评测",
+        "策略算法",
+        "FDE",
+        "RAG",
+        "工具调用",
+        "评测集",
+        "ROI",
+        "90天行动计划"
+      ],
+      "summary": "文章将 AI 产品经理划分为 AI 原生应用、AI+、企业级 AI/Agent、AI 平台与开发者工具、大模型、策略算法六个方向，并比较它们关注的用户、业务和技术能力。作者提出三层能力：传统产品能力、模型边界与 Agent 设计及评测等 AI 专属能力、面向业务结果的价值交付能力。C 端和 B 端转型建议分别强调延续既有用户及行业经验；FDE 与企业级 AI 产品经理有交集，但现场部署通常需要工程能力。文章建议用 90 天依次学习和动手、解决真实问题并建立评测集、整理项目成果和对照岗位要求。招聘增长率与薪资数据属于文中引用，不能视为已核实的市场平均水平。",
+      "keyPoints": [
+        "六类方向分别是 AI 原生应用、AI+、企业级 AI/Agent、AI 平台与开发者工具、大模型、策略算法；岗位内容与技术门槛不同。（01 六大阵营）",
+        "AI 产品能力包括传统产品基本功、模型与 Agent 技术边界和评测、以及可衡量的价值交付。（03 能力模型）",
+        "评测应按实际业务风险设计测试集、分析错误案例，并同时关注成本、延迟、人工兜底和效果。（03 AI 专属能力）",
+        "作者建议 C 端和 B 端产品经理寻找与原有经验相近的 AI 场景；FDE 岗位与产品经理有交集但侧重工程部署。（04—05 转型路线）",
+        "90 天路线依次为动手学习、解决真实问题并做评测、整理项目结果并对照目标岗位。（06 行动方案）"
+      ],
+      "structure": "",
+      "thoughts": "",
+      "related": [
+        "从入门到精通，一篇文章带你入门产品经理！（2026 年最新版）",
+        "产品经理最重要的能力，是判断力和决策力。",
+        "用AI辅助写出高质量PRD的正确打开方式"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "96b2d9f69285",
       "title": "2027《孤独星球》全球50个最佳目的地点评...",
@@ -3758,7 +3809,7 @@ export const publicWikiData = {
     "topics": [
       {
         "name": "Agent",
-        "count": 21
+        "count": 22
       },
       {
         "name": "旅行攻略",
@@ -3809,12 +3860,12 @@ export const publicWikiData = {
         "count": 7
       },
       {
-        "name": "上下文工程",
+        "name": "产品管理",
         "count": 6
       },
       {
-        "name": "产品管理",
-        "count": 5
+        "name": "上下文工程",
+        "count": 6
       },
       {
         "name": "开源软件",
@@ -3889,6 +3940,14 @@ export const publicWikiData = {
         "count": 3
       },
       {
+        "name": "AI产品经理",
+        "count": 3
+      },
+      {
+        "name": "AI评测",
+        "count": 3
+      },
+      {
         "name": "海岛度假",
         "count": 2
       },
@@ -3950,14 +4009,6 @@ export const publicWikiData = {
       },
       {
         "name": "AI采用",
-        "count": 2
-      },
-      {
-        "name": "AI产品经理",
-        "count": 2
-      },
-      {
-        "name": "AI评测",
         "count": 2
       },
       {
@@ -4105,6 +4156,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "职业发展",
+        "count": 1
+      },
+      {
         "name": "自然风光",
         "count": 1
       },
@@ -4248,6 +4303,10 @@ export const publicWikiData = {
       },
       {
         "name": "福楼拜",
+        "count": 1
+      },
+      {
+        "name": "怪哥",
         "count": 1
       },
       {
@@ -4601,7 +4660,15 @@ export const publicWikiData = {
         "count": 4
       },
       {
+        "name": "RAG",
+        "count": 4
+      },
+      {
         "name": "定时任务",
+        "count": 3
+      },
+      {
+        "name": "工具调用",
         "count": 3
       },
       {
@@ -4669,10 +4736,6 @@ export const publicWikiData = {
         "count": 3
       },
       {
-        "name": "RAG",
-        "count": 3
-      },
-      {
         "name": "《百年孤独》",
         "count": 2
       },
@@ -4694,10 +4757,6 @@ export const publicWikiData = {
       },
       {
         "name": "富国岛",
-        "count": 2
-      },
-      {
-        "name": "工具调用",
         "count": 2
       },
       {
@@ -4961,6 +5020,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "90天行动计划",
+        "count": 1
+      },
+      {
         "name": "阿曼",
         "count": 1
       },
@@ -5014,6 +5077,10 @@ export const publicWikiData = {
       },
       {
         "name": "不可战胜的夏天",
+        "count": 1
+      },
+      {
+        "name": "策略算法",
         "count": 1
       },
       {
@@ -5110,6 +5177,10 @@ export const publicWikiData = {
       },
       {
         "name": "错峰旅行",
+        "count": 1
+      },
+      {
+        "name": "大模型评测",
         "count": 1
       },
       {
@@ -5625,7 +5696,15 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "评测集",
+        "count": 1
+      },
+      {
         "name": "评论区观点",
+        "count": 1
+      },
+      {
+        "name": "企业级Agent",
         "count": 1
       },
       {
@@ -6309,6 +6388,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "AI+",
+        "count": 1
+      },
+      {
         "name": "AI安全",
         "count": 1
       },
@@ -6329,11 +6412,19 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "AI平台",
+        "count": 1
+      },
+      {
         "name": "AI日记",
         "count": 1
       },
       {
         "name": "AI替代焦虑",
+        "count": 1
+      },
+      {
+        "name": "AI原生应用",
         "count": 1
       },
       {
@@ -6470,6 +6561,10 @@ export const publicWikiData = {
       },
       {
         "name": "ExploitGym",
+        "count": 1
+      },
+      {
+        "name": "FDE",
         "count": 1
       },
       {
@@ -6693,6 +6788,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "ROI",
+        "count": 1
+      },
+      {
         "name": "RSI",
         "count": 1
       },
@@ -6792,7 +6891,7 @@ export const publicWikiData = {
     "platforms": [
       {
         "name": "wechat-article",
-        "count": 45
+        "count": 46
       },
       {
         "name": "web",

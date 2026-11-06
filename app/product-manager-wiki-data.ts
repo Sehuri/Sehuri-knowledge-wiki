@@ -1,7 +1,7 @@
 // Generated from product-manager/_meta/index.json. Do not edit manually.
 export const productManagerWikiData = {
   "version": 1,
-  "updated_at": "2026-11-04T00:00:00+08:00",
+  "updated_at": "2026-11-06T00:00:00+08:00",
   "collections": [
     {
       "id": "product",
@@ -63,6 +63,60 @@ export const productManagerWikiData = {
     }
   ],
   "items": [
+    {
+      "id": "pm-product-ai-career-paths",
+      "title": "AI 产品经理：六大方向与 90 天实践路线",
+      "short_title": "AI 产品经理",
+      "collection": "product",
+      "level": "进阶",
+      "updated_at": "2026-11-06",
+      "reading_minutes": 12,
+      "tags": [
+        "AI产品经理",
+        "产品管理",
+        "Agent",
+        "AI评测",
+        "职业发展"
+      ],
+      "summary": "文章按产品层次和服务对象，将 AI 产品经理划分为 AI 原生应用、AI+、企业级 AI/Agent、AI 平台与开发者工具、大模型及策略算法六类。作者建议结合已有业务经验选择方向，重点补足模型边界、工具调用、评测、成本与风险控制，再以真实项目和可衡量结果验证能力。文中薪资与招聘增长数据尚未独立核验。",
+      "mental_model": "业务经验 × AI 能力 × 可验证的业务结果：按岗位解决的问题选择学习重点。",
+      "key_points": [
+        "AI 原生应用：核心体验依赖模型，关注用户任务、交互、留存、效果和推理成本。",
+        "AI+：在已有产品场景中加入 AI，关注意图理解、原有服务调用、用户确认和风险边界。",
+        "企业级 AI/Agent：围绕业务流程落地，关注系统集成、知识与权限、人工审批、验收和 ROI；FDE 更侧重现场工程部署。",
+        "AI 平台与开发者工具：服务开发者，关注 API、工作流、工具连接、稳定性、延迟和成本。",
+        "大模型产品：关注模型能力、评测集、效果回归和与算法数据团队协作；策略算法产品：关注搜索、推荐、广告及实验。",
+        "能力分为传统产品基本功、AI 专属技术与评测、价值交付；作者建议以三个月真实项目形成可核验的成果。"
+      ],
+      "decision_questions": [
+        "目标岗位服务谁、解决什么问题？现有行业、用户和流程经验能迁移哪些？",
+        "规则或传统方案能否解决问题？引入 AI 后效果、成本和延迟如何比较？",
+        "如何构建覆盖常见与高风险场景的评测集，判断错误严重程度与上线标准？",
+        "哪些操作需要人工确认？发生错误或数据权限不足时如何兜底？",
+        "如何测量任务完成率、处理时间、人工工作量、调用成本和业务收益？",
+        "目标岗位要求产品设计、模型评测还是编程部署，应补哪些能力？"
+      ],
+      "common_traps": [
+        "只按 AI 岗位头衔或单个高薪招聘样本选择方向。",
+        "把 Agent Demo 跑通等同于真实业务上线和价值交付。",
+        "只关注效果，忽略成本、延迟、权限、错误处理与人工审核。",
+        "把企业级 Agent 产品经理与 FDE 视为同一岗位，忽略工程能力差异。",
+        "将文章中的招聘增长和薪资样本当作未经限定的市场平均值。"
+      ],
+      "related_ids": [
+        "pm-product-foundations",
+        "pm-product-demand-judgment",
+        "pm-tech-gateway",
+        "pm-tech-database"
+      ],
+      "path": "product/ai-product-manager-careers.md",
+      "sources": [
+        {
+          "name": "怪哥：一文讲透AI产品经理：六大方向与转型指南",
+          "url": "https://mp.weixin.qq.com/s/rgtNew8RO0Pyl5l9IxqHwg"
+        }
+      ]
+    },
     {
       "id": "pm-product-demand-judgment",
       "title": "需求判断：用四个视角区分问题与方案",
