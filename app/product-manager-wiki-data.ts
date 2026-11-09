@@ -1,7 +1,7 @@
 // Generated from product-manager/_meta/index.json. Do not edit manually.
 export const productManagerWikiData = {
   "version": 1,
-  "updated_at": "2026-11-06T00:00:00+08:00",
+  "updated_at": "2026-11-09T00:00:00+08:00",
   "collections": [
     {
       "id": "product",
@@ -63,6 +63,59 @@ export const productManagerWikiData = {
     }
   ],
   "items": [
+    {
+      "id": "pm-product-evidence-based-review",
+      "title": "需求评审：用证据表达判断与协商边界",
+      "short_title": "评审沟通",
+      "collection": "product",
+      "level": "实践",
+      "updated_at": "2026-11-09",
+      "reading_minutes": 8,
+      "tags": [
+        "产品管理",
+        "需求评审",
+        "跨团队协作",
+        "职场沟通",
+        "决策复盘"
+      ],
+      "summary": "文章建议产品经理在评审中清楚表达结论、提供用户反馈和数据等依据，提前区分必须守住的目标与可协商范围，并在受限时说明原因、讨论替代方案。判断记录可以帮助团队在结果出现后复盘。明确立场应同时保留礼貌、同理心、真实的不确定性和接受质疑的空间。",
+      "mental_model": "结论与证据 → 约束与选择 → 共同决定 → 记录与复盘。",
+      "key_points": [
+        "清楚说明问题、建议方案、依据和需要的决策；将尚未验证的假设标为假设。",
+        "准备可核对的数据、客户反馈和研发共同评估的成本，说明来源、范围及局限。",
+        "提前区分不可妥协的安全或合同约束、可协商的范围和排期，以及次要事项。",
+        "遇到模糊异议时追问具体风险；排期、范围和资源应由相关方共同评估取舍。",
+        "无法承诺时说明原因并讨论替代路径；记录当时依据、决策者、结果与后续修正。",
+        "作者的评审案例和见效周期是观点与举例，不构成普遍规律；更好的证据应能改变结论。"
+      ],
+      "decision_questions": [
+        "需要解决什么问题，本次评审要做什么决定，谁有最终决策权？",
+        "有哪些用户证据、数据和成本估算？哪些假设仍待验证？",
+        "研发、设计和业务各自有哪些约束、风险与不同意见？",
+        "如果时间或资源不足，可以调整哪些范围，代价与责任是什么？",
+        "有哪些安全、合规或合同底线？何时需要升级决策？",
+        "谁负责后续行动、何时复盘、用什么结果判断方案有效？"
+      ],
+      "common_traps": [
+        "把礼貌、同理心或承认不确定性误认为软弱。",
+        "把立场坚定理解为预设结论，压制合理质疑或忽视专业分工。",
+        "把客户原话和数字视为无偏事实，忽略样本、上下文与解释。",
+        "未经研发确认就将工期估算当作承诺。",
+        "把每次协作都当交易，或用强硬语气替代可执行的共同决策。"
+      ],
+      "related_ids": [
+        "pm-product-demand-judgment",
+        "pm-product-foundations",
+        "pm-product-red-packet-rules"
+      ],
+      "path": "product/evidence-based-review.md",
+      "sources": [
+        {
+          "name": "我要成为产品经理：产品经理，请戒掉你身上的弱者气息",
+          "url": "https://mp.weixin.qq.com/s/zcyhNUYWj5pRVDS1aL1C9Q"
+        }
+      ]
+    },
     {
       "id": "pm-product-ai-career-paths",
       "title": "AI 产品经理：六大方向与 90 天实践路线",

@@ -1,7 +1,52 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-11-06T16:00:13+08:00",
+  "updatedAt": "2026-11-09T17:12:40+08:00",
   "items": [
+    {
+      "id": "fe2af44df141",
+      "title": "产品经理，请戒掉你身上的弱者气息",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/zcyhNUYWj5pRVDS1aL1C9Q",
+      "author": "我要成为产品经理",
+      "published_at": "",
+      "captured_at": "2026-11-09T17:12:40+08:00",
+      "completeness": "full",
+      "topics": [
+        "产品管理",
+        "需求管理",
+        "职场沟通",
+        "团队协作"
+      ],
+      "people": [
+        "我要成为产品经理"
+      ],
+      "concepts": [
+        "需求评审",
+        "证据",
+        "跨团队协作",
+        "协商边界",
+        "判断记录",
+        "冲突沟通"
+      ],
+      "summary": "文章讨论产品经理在需求评审和跨团队协作中如何表达判断与维护边界。作者建议清楚表达结论、准备数据与客户反馈等依据、区分不可妥协事项与可协商范围、拒绝时说明理由和替代方案，并记录判断依据与后续结果。文章区分坚定与固执，鼓励根据新证据修正结论。其‘弱者气息’是作者对某些沟通习惯的评价，不是人格或能力诊断；关于表达必然导致何种结果及见效时间的说法属于作者观点。",
+      "keyPoints": [
+        "评审先表达方案和理由，明确需要的协作与下一步；开篇的会议案例是作者举例。（开篇及第三节：改语言）",
+        "带数据、客户原话和成本测算讨论，核对来源及样本限制。（第三节：带依据）",
+        "提前区分不可妥协项、可协商项和次要事项，将模糊异议转化为具体问题。（第三节：有立场）",
+        "无法接受请求时，说明原因并讨论可行替代；记录判断与结果，以便复盘。（第三节：敢说不、判断记录）",
+        "坚定不等于攻击或固执，应允许更好的证据改变结论。（第四节：不是让你变成刺头）"
+      ],
+      "structure": "### 评审场景与岗位结构\n\n用两种沟通方式举例，并讨论产品经理的跨团队协调处境。\n\n### 五个台阶\n\n表达、证据、立场、拒绝与复盘。\n\n### 坚定与协作\n\n区分坚定和固执，提出新证据可改变判断。\n\n### 新人练习与自查\n\n在工作与复盘中练习说明依据和表达不同意见。",
+      "updated_at": "",
+      "thoughts": "",
+      "related": [
+        "产品经理最重要的能力，是判断力和决策力。",
+        "从入门到精通，一篇文章带你入门产品经理！（2026 年最新版）",
+        "满城皆师"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "1d685b2d1fd0",
       "title": "22岁开始的全球打工/旅居思路",
@@ -4034,6 +4079,10 @@ export const publicWikiData = {
         "count": 9
       },
       {
+        "name": "产品管理",
+        "count": 7
+      },
+      {
         "name": "企业AI",
         "count": 7
       },
@@ -4046,11 +4095,11 @@ export const publicWikiData = {
         "count": 7
       },
       {
-        "name": "产品管理",
+        "name": "上下文工程",
         "count": 6
       },
       {
-        "name": "上下文工程",
+        "name": "需求管理",
         "count": 6
       },
       {
@@ -4063,10 +4112,6 @@ export const publicWikiData = {
       },
       {
         "name": "旅行体验",
-        "count": 5
-      },
-      {
-        "name": "需求管理",
         "count": 5
       },
       {
@@ -4194,6 +4239,10 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "职场沟通",
+        "count": 2
+      },
+      {
         "name": "自我改进",
         "count": 2
       },
@@ -4306,6 +4355,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "团队协作",
+        "count": 1
+      },
+      {
         "name": "网站推荐",
         "count": 1
       },
@@ -4335,10 +4388,6 @@ export const publicWikiData = {
       },
       {
         "name": "玉龙雪山",
-        "count": 1
-      },
-      {
-        "name": "职场沟通",
         "count": 1
       },
       {
@@ -4633,6 +4682,10 @@ export const publicWikiData = {
       },
       {
         "name": "我的情绪孤岛",
+        "count": 1
+      },
+      {
+        "name": "我要成为产品经理",
         "count": 1
       },
       {
@@ -5358,6 +5411,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "冲突沟通",
+        "count": 1
+      },
+      {
         "name": "崇左",
         "count": 1
       },
@@ -5750,6 +5807,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "跨团队协作",
+        "count": 1
+      },
+      {
         "name": "昆岛",
         "count": 1
       },
@@ -5919,6 +5980,10 @@ export const publicWikiData = {
       },
       {
         "name": "帕累托前沿",
+        "count": 1
+      },
+      {
+        "name": "判断记录",
         "count": 1
       },
       {
@@ -6302,6 +6367,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "协商边界",
+        "count": 1
+      },
+      {
         "name": "心理边界",
         "count": 1
       },
@@ -6343,6 +6412,10 @@ export const publicWikiData = {
       },
       {
         "name": "需求判断",
+        "count": 1
+      },
+      {
+        "name": "需求评审",
         "count": 1
       },
       {
@@ -6515,6 +6588,10 @@ export const publicWikiData = {
       },
       {
         "name": "长滩岛",
+        "count": 1
+      },
+      {
+        "name": "证据",
         "count": 1
       },
       {
@@ -7157,7 +7234,7 @@ export const publicWikiData = {
     "platforms": [
       {
         "name": "wechat-article",
-        "count": 46
+        "count": 47
       },
       {
         "name": "web",
