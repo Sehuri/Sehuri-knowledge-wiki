@@ -1,7 +1,50 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-11-10T15:07:31+08:00",
+  "updatedAt": "2026-11-10T16:20:12+08:00",
   "items": [
+    {
+      "id": "ddc1015bb862",
+      "title": "产品战略和产品规划：产品经理方法论",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/W65_m1lXwwCR31rI_OIcnw",
+      "author": "邓小亮",
+      "published_at": "",
+      "captured_at": "2026-11-10T16:20:12+08:00",
+      "completeness": "full",
+      "topics": [
+        "产品管理",
+        "产品战略",
+        "产品规划",
+        "竞争策略"
+      ],
+      "people": [
+        "邓小亮"
+      ],
+      "concepts": [
+        "产品战略",
+        "产品规划",
+        "成本领先",
+        "差异化",
+        "战略控制点",
+        "竞争壁垒",
+        "三代规划"
+      ],
+      "summary": "文章区分产品战略与产品规划：产品战略在企业战略指导下决定做什么、不做什么以及先后顺序；产品规划协调战略、市场需求与研发能力以推动目标落地。作者以成本领先与差异化讨论竞争优势，并提出通过难以构建或模仿的战略控制点维护优势。对于长期发展，文章用第一代探索生存、第二代改进追赶、第三代创新超越的示例说明三代规划，即关注当前产品的同时思考未来两代。作者对差异化优于成本领先、控制点保护等级和三代发展路径的判断应作为观点或示意，需结合实际市场和证据检验。",
+      "keyPoints": [
+        "产品战略规定做与不做及优先级，产品规划协调市场和研发资源以落实企业目标。（第 1 节）",
+        "文章讨论成本领先和差异化两种竞争方式，以及构建难以模仿的战略控制点。（第 2 节）",
+        "三代规划示例把第一代描述为探索生存、第二代为改进追赶、第三代为创新超越。（第 3 节）"
+      ],
+      "structure": "### 产品战略和产品规划\n\n区分方向取舍与跨职能落实。\n\n### 创建和维持竞争优势\n\n讨论成本、差异化与战略控制点。\n\n### 持续优化和迭代\n\n以三代规划示例讨论长期布局。",
+      "updated_at": "",
+      "thoughts": "",
+      "related": [
+        "产品经理最重要的能力，是判断力和决策力。",
+        "从入门到精通，一篇文章带你入门产品经理！（2026 年最新版）"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "8867cb5f6f4f",
       "title": "Fable 5.2屠榜：官方13项第一，4个第三方榜登顶",
@@ -4140,12 +4183,12 @@ export const publicWikiData = {
         "count": 9
       },
       {
-        "name": "AI商业化",
+        "name": "产品管理",
         "count": 8
       },
       {
-        "name": "产品管理",
-        "count": 7
+        "name": "AI商业化",
+        "count": 8
       },
       {
         "name": "企业AI",
@@ -4324,7 +4367,15 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "产品规划",
+        "count": 1
+      },
+      {
         "name": "产品入门",
+        "count": 1
+      },
+      {
+        "name": "产品战略",
         "count": 1
       },
       {
@@ -4357,6 +4408,10 @@ export const publicWikiData = {
       },
       {
         "name": "技术变革",
+        "count": 1
+      },
+      {
+        "name": "竞争策略",
         "count": 1
       },
       {
@@ -4587,6 +4642,10 @@ export const publicWikiData = {
       },
       {
         "name": "带薪拉屎摸鱼鱼",
+        "count": 1
+      },
+      {
+        "name": "邓小亮",
         "count": 1
       },
       {
@@ -5424,6 +5483,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "差异化",
+        "count": 1
+      },
+      {
         "name": "差异审查",
         "count": 1
       },
@@ -5440,11 +5503,19 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "产品规划",
+        "count": 1
+      },
+      {
         "name": "产品规则的软性引导",
         "count": 1
       },
       {
         "name": "产品化",
+        "count": 1
+      },
+      {
+        "name": "产品战略",
         "count": 1
       },
       {
@@ -5461,6 +5532,10 @@ export const publicWikiData = {
       },
       {
         "name": "成本/成功任务",
+        "count": 1
+      },
+      {
+        "name": "成本领先",
         "count": 1
       },
       {
@@ -5844,6 +5919,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "竞争壁垒",
+        "count": 1
+      },
+      {
         "name": "镜头感",
         "count": 1
       },
@@ -6169,6 +6248,10 @@ export const publicWikiData = {
       },
       {
         "name": "塞舌尔",
+        "count": 1
+      },
+      {
+        "name": "三代规划",
         "count": 1
       },
       {
@@ -6657,6 +6740,10 @@ export const publicWikiData = {
       },
       {
         "name": "暂存区",
+        "count": 1
+      },
+      {
+        "name": "战略控制点",
         "count": 1
       },
       {
@@ -7327,7 +7414,7 @@ export const publicWikiData = {
     "platforms": [
       {
         "name": "wechat-article",
-        "count": 48
+        "count": 49
       },
       {
         "name": "web",

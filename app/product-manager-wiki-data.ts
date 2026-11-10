@@ -1,7 +1,7 @@
 // Generated from product-manager/_meta/index.json. Do not edit manually.
 export const productManagerWikiData = {
   "version": 1,
-  "updated_at": "2026-11-09T00:00:00+08:00",
+  "updated_at": "2026-11-10T00:00:00+08:00",
   "collections": [
     {
       "id": "product",
@@ -63,6 +63,58 @@ export const productManagerWikiData = {
     }
   ],
   "items": [
+    {
+      "id": "pm-product-strategy-planning",
+      "title": "产品战略与规划：竞争优势和三代布局",
+      "short_title": "产品战略",
+      "collection": "product",
+      "level": "进阶",
+      "updated_at": "2026-11-10",
+      "reading_minutes": 8,
+      "tags": [
+        "产品战略",
+        "产品规划",
+        "竞争优势",
+        "差异化",
+        "长期布局"
+      ],
+      "summary": "文章将产品战略理解为围绕企业目标决定做什么、不做什么及优先顺序；产品规划则协调市场需求、研发能力和资源以推动战略落地。作者用成本领先、差异化和战略控制点讨论竞争优势，并通过探索、追赶、超越三代示例说明长期布局。这些阶段及策略优劣是作者的框架，应结合实际证据调整。",
+      "mental_model": "企业目标 → 产品取舍 → 竞争优势 → 分阶段投入与验证。",
+      "key_points": [
+        "战略回答服务谁、提供什么价值、做与不做及先后顺序；规划把选择转化为目标、资源和可执行安排。",
+        "作者讨论成本领先与差异化两种竞争方式；应依据客户价值、成本结构和竞争环境判断，而非预设某种策略一定更好。",
+        "战略控制点指作者所称难以构建、模仿或超越的优势，需要检验其持续性以及替代风险。",
+        "三代规划示例依次描述探索生存、改进追赶和创新超越，可作为思考不同时间尺度的工具，不是必然的发展顺序。",
+        "通过用户反馈与市场表现修正假设，并在战略、市场、研发与能力之间协调。"
+      ],
+      "decision_questions": [
+        "企业目标是什么，目标用户及主要场景有哪些？",
+        "明确做什么、不做什么，优先顺序与选择依据是什么？",
+        "客户认可的差异化价值或成本优势是什么，有哪些证据？",
+        "优势依赖哪些能力，是否容易被替代或复制？",
+        "近期交付与中长期探索如何分配资源，关键假设怎样验证？",
+        "哪些指标、时间点和市场变化将触发战略复盘？"
+      ],
+      "common_traps": [
+        "把产品规划当成功能清单，没有目标、取舍或资源约束。",
+        "认定差异化永远优于低成本，忽略客户需求及单位经济。",
+        "将作者列出的控制点排序当作普遍规律，忽略具体市场和可复制性。",
+        "把三代示例当成必经的线性成功路径或固定发布时间表。",
+        "只预测未来，不定义验证依据与调整条件。"
+      ],
+      "related_ids": [
+        "pm-product-demand-judgment",
+        "pm-product-foundations",
+        "pm-product-evidence-based-review"
+      ],
+      "path": "product/product-strategy-planning.md",
+      "sources": [
+        {
+          "name": "邓小亮：产品战略和产品规划：产品经理方法论",
+          "url": "https://mp.weixin.qq.com/s/W65_m1lXwwCR31rI_OIcnw"
+        }
+      ]
+    },
     {
       "id": "pm-product-evidence-based-review",
       "title": "需求评审：用证据表达判断与协商边界",
