@@ -1,7 +1,68 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-11-09T17:12:40+08:00",
+  "updatedAt": "2026-11-10T15:07:31+08:00",
   "items": [
+    {
+      "id": "8867cb5f6f4f",
+      "title": "Fable 5.2屠榜：官方13项第一，4个第三方榜登顶",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/9kROrfdRpiY0BYFM8PmWtg",
+      "author": "鸡猫AI江湖",
+      "published_at": "",
+      "captured_at": "2026-11-10T15:07:31+08:00",
+      "completeness": "partial",
+      "topics": [
+        "AI模型",
+        "AI工具",
+        "开发者工具",
+        "Agent",
+        "AI商业化"
+      ],
+      "people": [
+        "鸡猫AI江湖"
+      ],
+      "concepts": [
+        "Claude Fable 5.2",
+        "Claude Mythos 5.2",
+        "Claude Opus 5.5",
+        "Anthropic",
+        "FrontierCode",
+        "模型评测",
+        "多智能体",
+        "Lean形式化证明",
+        "API定价",
+        "推理档位",
+        "模型安全"
+      ],
+      "summary": "公众号文章整理 Anthropic 发布 Claude Fable 5.2 和 Mythos 5.2 的产品定位、评测、案例、价格及第三方反馈。两者共享底座但开放范围和安全护栏不同；文章转述官方在编程、科研、硬件、机器人等方面的结果，也列出第三方榜单和专项任务成本较高的反例。按文章和官方发布页的建议，日常编程与知识工作可先考虑 Opus 5.5，复杂任务再评估 Fable 或 Mythos；评测排名及费用取决于任务、配置与时间。",
+      "keyPoints": [
+        "产品定位：文章称 Fable 5.2 与 Mythos 5.2 使用同一底层模型；前者面向所有用户并配备网络安全与生物安全护栏，后者面向通过相应安全或生命科学审核的机构。官方发布页确认了这一定位。（一、核心特色）",
+        "官方评测：文章统计官方表格的 15 个指标中 13 项第一；其中 FrontierCode 2.0 达 49.1%、FrontierSWE v2 为 69.9%、OSWorld 2.1 为 89.3%、RoboDojo Sim 为 64.9%。AutomationBench 和 AA-Briefcase Elo 并非第一；具体设置、护栏及任务口径会影响比较。（二、官方跑分）",
+        "成本与档位：据 Anthropic，FrontierCode 上 Fable 5.2 的 High 档为 45.3%，接近 Opus 5.5 Max 的 45.5%，单任务成本约一半；Xhigh 达 49.1%。这不意味着所有任务都更省钱。（二、FrontierCode）",
+        "运行参数与价格：文章称上下文窗口 100 万 token、最大输出 12.8 万 token；标准 API 每百万输入 8 美元、输出 40 美元，fast mode 分别为 16 和 80 美元，Batch 分别为 4 和 20 美元。官方发布页确认标准及 fast 价格，使用前应重新核对。（四、价格和上下文）",
+        "性能与防护：文章转述官方称相比上一代输出速度最高快 30%，fast mode 最高 2.5 倍；护栏误拦约减少 55%，并加强对模型蒸馏攻击的防护。不同模式的速度、成本与误拦改善是有条件的测试结果。（一、核心特色）",
+        "多智能体数学演示：文章转述官方称约 1000 个 Fable 5.2 agent 用 30 小时将已有的费马大定理证明形式化为 Lean 证明；对比组 Opus 5.5 到 30 小时完成 27%。形式化是将已有证明转成机器可检验形式，并不是首次证明定理。（三、官方演示 1）",
+        "硬件与机器人：文章称与 Diode 合作完成三种电子设备设计，并展示真实机器人拼魔方、拧瓶盖和绘画；BenchCAD 2.1 的 Max 档得 83.5 分。实物展示与仿真跑分是不同证据。（二、硬件工程；三、官方演示 2—3）",
+        "软件工程：文章称一名工程师让模型协调 1000 多个子 agent，8 天产出可在笔记本启动的操作系统原型；另一组 agent 将生产服务从 Python 迁移到 Rust，启动速度约提高 26 倍。这些均为 Anthropic 报告的特定实验，不代表一般项目的必然结果。（三、官方演示 4—5）",
+        "科研与优化：文章转述黑洞物理、数学优化、化学合成与病毒衣壳结构预测案例；其中 MIPLIB 203 个未解问题里 72 个改进已知最好解、45 个证明最优，衣壳结构案例报告 34 个中准确建出 28 个。实际适用范围及科研结论须查看原始研究。（三、官方演示 6）",
+        "客户反馈：文章列出 iGent 的虚拟机管理器、Discovered Materials 声子计算提速、Uber 多 agent 安全审计、Mozilla Firefox 加固和 Snowflake 数据工程测试，均为报道中的早期使用案例，缺少统一独立对照。（三、早期客户怎么说）",
+        "第三方评测：文章称 Artificial Analysis 智能指数 v5 的 max 档为 65，AA-3D 为 1271 Elo；Arena WebDev 为 1832，Epoch ECI 为 174。各自衡量目标与测试条件不同，文章也注明 Epoch 预发布结果后续可能调整；上述第三方原始结果未逐项独立核实。（五、第三方榜单）",
+        "反例与选型：文章称 Artificial Analysis 测得 Fable 5.2 Max 平均每任务 26.5 美元，高于 Opus 5.5 Max 的 10 美元；Kilnframe 的白板视频测试中也更慢、更贵。价格低于上一代不等于复杂任务的总花费更低。（四、价格和上下文；五、也有反例）",
+        "部署和编排：文章提到可通过 Claude 应用、Claude Code、API 和云平台使用，并可作为 Advisor 为其他模型提供建议或作为 Orchestrator 将简单任务分派给小模型；具体渠道和权限以当时官方信息为准。（一、核心特色；四、价格和上下文）",
+        "网友案例：文章汇总 X 上 3D 场景、小游戏、视频等演示，属于个案展示而非可复现基准；该篇内嵌视频未提取或独立核验。（六、网友实测）"
+      ],
+      "structure": "### 一、核心特色\n\n介绍两个模型的定位、编程能力、速度、安全护栏、多模型协作及推荐使用场景。\n\n### 二、官方跑分\n\n比较 15 个评测指标，解释 FrontierCode、WANDR、BenchCAD 与网络安全结果及不领先的项目。\n\n### 三、官方演示\n\n按数学形式化、电子硬件、机器人、操作系统、代码迁移、科研和客户案例展开。\n\n### 四、价格和上下文\n\n整理标准、快速及批处理价格，缓存、上下文和访问渠道，并提醒单任务成本可能更高。\n\n### 五、第三方榜单\n\n列出 Artificial Analysis、Arena、Epoch、Ramp 的报道结果，同时给出专项测试的反例。\n\n### 六、网友实测与参考\n\n汇总公开网友演示，并列出厂商、第三方机构与社交媒体参考链接。",
+      "updated_at": "",
+      "thoughts": "",
+      "related": [
+        "一夜三连发，Claude Opus 5.5、GPT-6 Sol和Luna全部都来了。",
+        "该用GPT-6.1 Sol还是Astra？",
+        "一文带你掌握 LLM、Token、Context、Prompt、RAG、MCP、Skill、Agent 等 AI 核心概念",
+        "万字长文｜Codex 从入门到精通"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "fe2af44df141",
       "title": "产品经理，请戒掉你身上的弱者气息",
@@ -4040,7 +4101,7 @@ export const publicWikiData = {
     "topics": [
       {
         "name": "Agent",
-        "count": 22
+        "count": 23
       },
       {
         "name": "旅行攻略",
@@ -4052,23 +4113,23 @@ export const publicWikiData = {
       },
       {
         "name": "AI工具",
-        "count": 14
+        "count": 15
       },
       {
         "name": "目的地选择",
         "count": 12
       },
       {
-        "name": "AI系统设计",
+        "name": "开发者工具",
         "count": 11
       },
       {
-        "name": "开发者工具",
-        "count": 10
+        "name": "AI模型",
+        "count": 11
       },
       {
-        "name": "AI模型",
-        "count": 10
+        "name": "AI系统设计",
+        "count": 11
       },
       {
         "name": "文学",
@@ -4077,6 +4138,10 @@ export const publicWikiData = {
       {
         "name": "AI基础设施",
         "count": 9
+      },
+      {
+        "name": "AI商业化",
+        "count": 8
       },
       {
         "name": "产品管理",
@@ -4088,10 +4153,6 @@ export const publicWikiData = {
       },
       {
         "name": "知识工程",
-        "count": 7
-      },
-      {
-        "name": "AI商业化",
         "count": 7
       },
       {
@@ -4565,6 +4626,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "鸡猫AI江湖",
+        "count": 1
+      },
+      {
         "name": "卡兹克",
         "count": 1
       },
@@ -4855,15 +4920,15 @@ export const publicWikiData = {
         "count": 7
       },
       {
+        "name": "API定价",
+        "count": 6
+      },
+      {
         "name": "缓存命中率",
         "count": 5
       },
       {
         "name": "慢旅行",
-        "count": 5
-      },
-      {
-        "name": "API定价",
         "count": 5
       },
       {
@@ -4892,6 +4957,10 @@ export const publicWikiData = {
       },
       {
         "name": "AutomationBench",
+        "count": 4
+      },
+      {
+        "name": "Claude Opus 5.5",
         "count": 4
       },
       {
@@ -4964,10 +5033,6 @@ export const publicWikiData = {
       },
       {
         "name": "子智能体",
-        "count": 3
-      },
-      {
-        "name": "Claude Opus 5.5",
         "count": 3
       },
       {
@@ -5091,6 +5156,10 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "推理档位",
+        "count": 2
+      },
+      {
         "name": "系统1",
         "count": 2
       },
@@ -5140,6 +5209,10 @@ export const publicWikiData = {
       },
       {
         "name": "Claude Opus 5",
+        "count": 2
+      },
+      {
+        "name": "FrontierCode",
         "count": 2
       },
       {
@@ -5500,6 +5573,10 @@ export const publicWikiData = {
       },
       {
         "name": "多模型",
+        "count": 1
+      },
+      {
+        "name": "多智能体",
         "count": 1
       },
       {
@@ -5947,6 +6024,14 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "模型安全",
+        "count": 1
+      },
+      {
+        "name": "模型评测",
+        "count": 1
+      },
+      {
         "name": "墨西哥",
         "count": 1
       },
@@ -6264,10 +6349,6 @@ export const publicWikiData = {
       },
       {
         "name": "推理边界",
-        "count": 1
-      },
-      {
-        "name": "推理档位",
         "count": 1
       },
       {
@@ -6783,6 +6864,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "Anthropic",
+        "count": 1
+      },
+      {
         "name": "Anthropic API",
         "count": 1
       },
@@ -6828,6 +6913,14 @@ export const publicWikiData = {
       },
       {
         "name": "Claude Cowork",
+        "count": 1
+      },
+      {
+        "name": "Claude Fable 5.2",
+        "count": 1
+      },
+      {
+        "name": "Claude Mythos 5.2",
         "count": 1
       },
       {
@@ -6919,10 +7012,6 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "FrontierCode",
-        "count": 1
-      },
-      {
         "name": "FrontierMath Tier 4",
         "count": 1
       },
@@ -6988,6 +7077,10 @@ export const publicWikiData = {
       },
       {
         "name": "Kimi K3",
+        "count": 1
+      },
+      {
+        "name": "Lean形式化证明",
         "count": 1
       },
       {
@@ -7234,7 +7327,7 @@ export const publicWikiData = {
     "platforms": [
       {
         "name": "wechat-article",
-        "count": 47
+        "count": 48
       },
       {
         "name": "web",
