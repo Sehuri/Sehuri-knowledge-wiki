@@ -1,7 +1,63 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-11-10T16:20:12+08:00",
+  "updatedAt": "2026-11-13T09:23:22+08:00",
   "items": [
+    {
+      "id": "98355f689829",
+      "title": "Coze 下线，死的不冤",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/cnPYWwpy9AzVy_7OodXacg",
+      "author": "叶小钗",
+      "published_at": "",
+      "captured_at": "2026-11-13T09:23:22+08:00",
+      "completeness": "partial",
+      "topics": [
+        "企业AI",
+        "AI工具",
+        "Agent",
+        "产品管理",
+        "知识工程"
+      ],
+      "people": [
+        "叶小钗"
+      ],
+      "concepts": [
+        "Coze",
+        "Dify",
+        "低代码",
+        "AI表格",
+        "工作流",
+        "SOP",
+        "Agent",
+        "Skill",
+        "私有化部署",
+        "FDE"
+      ],
+      "summary": "叶小钗以扣子企业版套餐下线为切入点，批评 AI 低代码平台的用户门槛、复杂编排维护和企业私有化迁移问题，比较固定工作流与 Agent 运行时决策，并结合自己的企业项目经验提出 AI 表格可作为多人录入、汇总与查询的工作流载体。作者主张先理清业务 SOP，再按实际问题选工具；关于市场份额、岗位能力和成本等判断属于作者个人观察，不能视作普遍结论。官方公告说明现售企业套餐分阶段下线，而非宣布整个平台下线。",
+      "keyPoints": [
+        "官方公告：因产品整合，企业标准版和旗舰版自 2026 年 11 月 30 日起停止接受新客户购买；火山引擎旧个人进阶版、旧企业版、旧团队版 2026 年 12 月 31 日下线，新版企业套餐 2027 年 12 月 31 日全面下线。现有新版用户仍可续费或增购，但服务期限不得超过该日期。该公告不等于整个 Coze 平台或所有个人版下线。（开篇；火山引擎官方公告）",
+        "作者回顾培训和客户接触，认为低代码产品同时面临非技术人员学习门槛和研发人员偏好其他工具的问题；认为流量推广和企业对 AI 转型、工作流容器的需求推动平台流行。这是作者观察，不是用户结构统计。（Coze 死的不冤：一、谁在用；二、为什么会火）",
+        "作者声称接触过的部分企业偏好 Dify，并引述客户反馈讨论 HiAgent、公开产品与私有化版本差异；还提出定制和升级可能伴随迁移、兼容与业务回归成本。具体产品关系、费用和研发动机未提供充分证据，不应概括所有项目。（三、企业端情况）",
+        "作者把 Workflow 与 Agent 的差异描述为：部分原先由开发者预设的控制流，在 Agent 中交由模型运行时进行路由、选工具、规划、重试与结果检查；这是一种概括，并非所有 Agent 都可靠或所有工作流都缺乏灵活性。（被淘汰的编排）",
+        "文章将 Skill 视为承载可复用流程的一种方式，认为工作流编排并未消失；作者称复杂节点增加后维护会困难，并以 50 个节点作为个人经验示例，不是通用技术阈值。Skill 不必然等同于固定工作流，仍需结合具体实现判断。（被淘汰的编排）",
+        "作者自述两年接触 40 多家企业、深度服务 10 多家，25 个项目中 15 个是标准工作流项目；另称约 70% 需求属于工作流。两组数字口径不同，且是个人样本与估计，不能视为行业普遍比例。（Workflow 承载容器）",
+        "对于企业落地，作者认为难点常在梳理 SOP、业务知识和协作规则；模型只参与流程中的部分环节，但可能补足过去难以自动化的步骤。文中 AI 占比不足 20% 是作者经验判断，不是通用测量。（Workflow 承载容器）",
+        "作者归纳的轻系统需求是多人分散录入、集中汇总、统一分析和按权限查询，认为 AI 表格更贴近部分 HR、财务人员熟悉的表格工作台；同时可为管理者提供聊天入口，具体方案需看实际用户与治理要求。（Workflow 承载容器）",
+        "作者建议按业务问题选择 AI 表格、低代码或 Agent，并通过真实任务检验效果；其关于平台缺乏竞争力、私有化必然是坑、人员能力等尖锐表述属于观点和推测，不作为已证实事实。（结语）",
+        "官方公告称资源导出与备份的具体安排将在后续公告明确；旧版套餐超过下线日期的未使用部分将自动退款至火山引擎账户。已使用企业套餐的团队应核对自己的合同与后续官方通知。（官方公告：客户服务与资源导出）"
+      ],
+      "structure": "### 开篇：企业版下线背景\n\n介绍套餐调整，并区分文章标题与正文所说的企业版范围。\n\n### Coze 死的不冤\n\n从培训、用户和客户经验讨论低代码平台受众、流行原因及企业部署问题。\n\n### 被淘汰的编排？\n\n比较固定流程、Skill 与 Agent 的规划和运行时控制，并提出维护复杂度问题。\n\n### Workflow 承载容器\n\n介绍作者参与的企业项目、SOP 梳理以及 AI 表格在业务协作中的作用。\n\n### 结语\n\n提出根据业务问题选择工具，并以实际落地效果检验。",
+      "updated_at": "",
+      "thoughts": "",
+      "related": [
+        "一文讲透AI产品经理：六大方向与转型指南（建议收藏）",
+        "一文带你掌握 LLM、Token、Context、Prompt、RAG、MCP、Skill、Agent 等 AI 核心概念",
+        "Harness 是什么？它和 Agent 有什么不同？",
+        "用AI辅助写出高质量PRD的正确打开方式"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "ddc1015bb862",
       "title": "产品战略和产品规划：产品经理方法论",
@@ -4144,7 +4200,7 @@ export const publicWikiData = {
     "topics": [
       {
         "name": "Agent",
-        "count": 23
+        "count": 24
       },
       {
         "name": "旅行攻略",
@@ -4156,7 +4212,7 @@ export const publicWikiData = {
       },
       {
         "name": "AI工具",
-        "count": 15
+        "count": 16
       },
       {
         "name": "目的地选择",
@@ -4175,6 +4231,10 @@ export const publicWikiData = {
         "count": 11
       },
       {
+        "name": "产品管理",
+        "count": 9
+      },
+      {
         "name": "文学",
         "count": 9
       },
@@ -4183,20 +4243,16 @@ export const publicWikiData = {
         "count": 9
       },
       {
-        "name": "产品管理",
+        "name": "企业AI",
+        "count": 8
+      },
+      {
+        "name": "知识工程",
         "count": 8
       },
       {
         "name": "AI商业化",
         "count": 8
-      },
-      {
-        "name": "企业AI",
-        "count": 7
-      },
-      {
-        "name": "知识工程",
-        "count": 7
       },
       {
         "name": "上下文工程",
@@ -4573,6 +4629,10 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "叶小钗",
+        "count": 2
+      },
+      {
         "name": "Daniel Kahneman",
         "count": 2
       },
@@ -4825,10 +4885,6 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "叶小钗",
-        "count": 1
-      },
-      {
         "name": "移民就找👉",
         "count": 1
       },
@@ -4972,11 +5028,11 @@ export const publicWikiData = {
     "concepts": [
       {
         "name": "Skill",
-        "count": 8
+        "count": 9
       },
       {
         "name": "Agent",
-        "count": 7
+        "count": 8
       },
       {
         "name": "API定价",
@@ -5268,6 +5324,10 @@ export const publicWikiData = {
       },
       {
         "name": "Claude Opus 5",
+        "count": 2
+      },
+      {
+        "name": "FDE",
         "count": 2
       },
       {
@@ -5627,6 +5687,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "低代码",
+        "count": 1
+      },
+      {
         "name": "低功耗模式",
         "count": 1
       },
@@ -5740,6 +5804,10 @@ export const publicWikiData = {
       },
       {
         "name": "工作负载身份",
+        "count": 1
+      },
+      {
+        "name": "工作流",
         "count": 1
       },
       {
@@ -6355,6 +6423,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "私有化部署",
+        "count": 1
+      },
+      {
         "name": "思考模式",
         "count": 1
       },
@@ -6911,6 +6983,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "AI表格",
+        "count": 1
+      },
+      {
         "name": "AI采用",
         "count": 1
       },
@@ -7039,6 +7115,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "Coze",
+        "count": 1
+      },
+      {
         "name": "CursorBench",
         "count": 1
       },
@@ -7071,6 +7151,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "Dify",
+        "count": 1
+      },
+      {
         "name": "Dots",
         "count": 1
       },
@@ -7084,10 +7168,6 @@ export const publicWikiData = {
       },
       {
         "name": "ExploitGym",
-        "count": 1
-      },
-      {
-        "name": "FDE",
         "count": 1
       },
       {
@@ -7331,6 +7411,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "SOP",
+        "count": 1
+      },
+      {
         "name": "SPARQL",
         "count": 1
       },
@@ -7414,7 +7498,7 @@ export const publicWikiData = {
     "platforms": [
       {
         "name": "wechat-article",
-        "count": 49
+        "count": 50
       },
       {
         "name": "web",
