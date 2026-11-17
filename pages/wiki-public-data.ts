@@ -1,7 +1,49 @@
 // Generated public summary data. Do not edit manually.
 export const publicWikiData = {
-  "updatedAt": "2026-11-13T09:23:22+08:00",
+  "updatedAt": "2026-11-17T09:11:41+08:00",
   "items": [
+    {
+      "id": "1dc163b2b917",
+      "title": "建议所有产品经理，都去培养“淡淡的牛逼感”",
+      "platform": "wechat-article",
+      "content_type": "article",
+      "source_url": "https://mp.weixin.qq.com/s/YtW9UAV1RGPFWGVBdCUQjA",
+      "author": "伴你考证的小P",
+      "published_at": "",
+      "captured_at": "2026-11-17T09:11:41+08:00",
+      "completeness": "full",
+      "topics": [
+        "产品管理",
+        "需求管理",
+        "职场沟通",
+        "团队协作"
+      ],
+      "people": [
+        "伴你考证的小P"
+      ],
+      "concepts": [
+        "业务理解",
+        "需求变更",
+        "优先级",
+        "跨团队协作",
+        "可靠交付"
+      ],
+      "summary": "作者把产品经理的从容与底气归结为业务能力、需求变更规则、压力下拆解问题以及可靠履约：熟悉业务链路与各方边界；对需求澄清用户问题、价值、替代方案和优先级，并与团队明确变更规则；面对异议先理解具体问题、边界和代价，事后复盘；对承诺持续跟进，不能做到时如实沟通。文章认为长期可靠有助于建立信任，其职场晋升判断是作者观点。文末包含考试培训和备考资料推广。",
+      "keyPoints": [
+        "熟悉用户需求、业务链路，以及技术、运营和市场的边界，帮助判断需求。（第二节：业务能力）",
+        "明确需求解决的问题、价值、替代方案与优先级，并制定公开的变更规则。（第二节：需求变更规则）",
+        "面对异议，先听完并拆解问题、边界、方案和代价，事后复盘。（第二节：心态）",
+        "按承诺交付、持续同步进展，无法完成或不清楚时及时说明。（第二节：靠谱）"
+      ],
+      "structure": "### 从容与底气\n\n作者解释其所说的职业状态。\n\n### 四项实践\n\n业务能力、变更规则、压力沟通与可靠交付。\n\n### 结尾与推广\n\n作者总结信任的重要性，文末推广 NPDP 考试相关服务。",
+      "updated_at": "",
+      "thoughts": "",
+      "related": [
+        "产品经理，请戒掉你身上的弱者气息",
+        "产品经理最重要的能力，是判断力和决策力。"
+      ],
+      "extractionNotes": ""
+    },
     {
       "id": "98355f689829",
       "title": "Coze 下线，死的不冤",
@@ -4232,7 +4274,7 @@ export const publicWikiData = {
       },
       {
         "name": "产品管理",
-        "count": 9
+        "count": 10
       },
       {
         "name": "文学",
@@ -4255,11 +4297,11 @@ export const publicWikiData = {
         "count": 8
       },
       {
-        "name": "上下文工程",
-        "count": 6
+        "name": "需求管理",
+        "count": 7
       },
       {
-        "name": "需求管理",
+        "name": "上下文工程",
         "count": 6
       },
       {
@@ -4331,6 +4373,10 @@ export const publicWikiData = {
         "count": 3
       },
       {
+        "name": "职场沟通",
+        "count": 3
+      },
+      {
         "name": "职场文化",
         "count": 3
       },
@@ -4383,6 +4429,10 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "团队协作",
+        "count": 2
+      },
+      {
         "name": "推理小说",
         "count": 2
       },
@@ -4396,10 +4446,6 @@ export const publicWikiData = {
       },
       {
         "name": "侦探文学",
-        "count": 2
-      },
-      {
-        "name": "职场沟通",
         "count": 2
       },
       {
@@ -4524,10 +4570,6 @@ export const publicWikiData = {
       },
       {
         "name": "书单",
-        "count": 1
-      },
-      {
-        "name": "团队协作",
         "count": 1
       },
       {
@@ -4682,6 +4724,10 @@ export const publicWikiData = {
       },
       {
         "name": "庵溪",
+        "count": 1
+      },
+      {
+        "name": "伴你考证的小P",
         "count": 1
       },
       {
@@ -5231,6 +5277,10 @@ export const publicWikiData = {
         "count": 2
       },
       {
+        "name": "跨团队协作",
+        "count": 2
+      },
+      {
         "name": "廉价机票",
         "count": 2
       },
@@ -5284,6 +5334,10 @@ export const publicWikiData = {
       },
       {
         "name": "行程规划",
+        "count": 2
+      },
+      {
+        "name": "需求变更",
         "count": 2
       },
       {
@@ -6015,6 +6069,10 @@ export const publicWikiData = {
         "count": 1
       },
       {
+        "name": "可靠交付",
+        "count": 1
+      },
+      {
         "name": "客户沟通",
         "count": 1
       },
@@ -6028,10 +6086,6 @@ export const publicWikiData = {
       },
       {
         "name": "跨上下文记忆",
-        "count": 1
-      },
-      {
-        "name": "跨团队协作",
         "count": 1
       },
       {
@@ -6643,10 +6697,6 @@ export const publicWikiData = {
         "count": 1
       },
       {
-        "name": "需求变更",
-        "count": 1
-      },
-      {
         "name": "需求判断",
         "count": 1
       },
@@ -6684,6 +6734,10 @@ export const publicWikiData = {
       },
       {
         "name": "业务价值",
+        "count": 1
+      },
+      {
+        "name": "业务理解",
         "count": 1
       },
       {
@@ -6752,6 +6806,10 @@ export const publicWikiData = {
       },
       {
         "name": "用户旅程",
+        "count": 1
+      },
+      {
+        "name": "优先级",
         "count": 1
       },
       {
@@ -7498,7 +7556,7 @@ export const publicWikiData = {
     "platforms": [
       {
         "name": "wechat-article",
-        "count": 50
+        "count": 51
       },
       {
         "name": "web",

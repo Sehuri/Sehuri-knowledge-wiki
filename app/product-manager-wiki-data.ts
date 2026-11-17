@@ -1,7 +1,7 @@
 // Generated from product-manager/_meta/index.json. Do not edit manually.
 export const productManagerWikiData = {
   "version": 1,
-  "updated_at": "2026-11-10T00:00:00+08:00",
+  "updated_at": "2026-11-17T00:00:00+08:00",
   "collections": [
     {
       "id": "product",
@@ -63,6 +63,55 @@ export const productManagerWikiData = {
     }
   ],
   "items": [
+    {
+      "id": "pm-product-reliable-delivery",
+      "title": "产品经理的可靠交付：业务理解、变更与协作",
+      "short_title": "可靠交付",
+      "collection": "product",
+      "level": "实践",
+      "updated_at": "2026-11-17",
+      "reading_minutes": 6,
+      "tags": [
+        "产品管理",
+        "需求变更",
+        "跨团队协作",
+        "可靠交付"
+      ],
+      "summary": "文章把产品经理的职业底气归结为四项实践：理解业务链路和角色边界；明确需求变更规则；面对分歧时先听取并拆解问题与代价；持续履行承诺并同步进度。文章对晋升效果的描述属于作者观点，文末包含培训推广。",
+      "mental_model": "理解问题 → 明确规则 → 协商取舍 → 可靠交付与复盘。",
+      "key_points": [
+        "理解用户、业务全链路及研发、运营和市场的职责与约束。",
+        "评估需求变更时明确问题、收益、不做的影响、替代方案和优先级，并与团队共同约定变更流程。",
+        "面对异议，先听取对方观点，讨论具体问题、约束、解决方案及代价。",
+        "对承诺设置负责人和时间，持续同步进展；做不到时及时说明并协商调整。",
+        "复盘变化与结果，积累可复用的判断依据。"
+      ],
+      "decision_questions": [
+        "需求为谁解决什么问题，不做会怎样，有没有更简单的替代？",
+        "此次变更影响范围、排期、成本、质量和其他优先事项吗？",
+        "谁提出、评估和批准变更，团队如何记录结论并通知相关方？",
+        "异议背后的具体事实、限制与风险是什么？",
+        "负责人、交付时间、进度同步和风险升级方式是否明确？"
+      ],
+      "common_traps": [
+        "把态度从容等同于拒绝质疑或必须独自承担压力。",
+        "只口头接受变更，没有同步范围、排期与负责人。",
+        "为显得可靠而作出未经确认或无法兑现的承诺。",
+        "把作者关于晋升的判断或文末培训推广视为已验证结论。"
+      ],
+      "related_ids": [
+        "pm-product-evidence-based-review",
+        "pm-product-demand-judgment",
+        "pm-product-foundations"
+      ],
+      "path": "product/reliable-delivery-change-control.md",
+      "sources": [
+        {
+          "name": "伴你考证的小P：建议所有产品经理，都去培养“淡淡的牛逼感”",
+          "url": "https://mp.weixin.qq.com/s/YtW9UAV1RGPFWGVBdCUQjA"
+        }
+      ]
+    },
     {
       "id": "pm-product-strategy-planning",
       "title": "产品战略与规划：竞争优势和三代布局",
